@@ -1,0 +1,1 @@
+nikola[extras] >=7.8.14<8
