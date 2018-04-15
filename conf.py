@@ -138,6 +138,7 @@ NAVIGATION_LINKS = {
         ("/comunidades/", "La comunidad"),
         ("/eventos/", "Eventos"),
         ("/reglas/", "Reglas"),
+        ("/quiero-ayudar/", "Quiero ayudar"),
         ("/quienes-somos/", "Quiénes somos"),
     ),
 }
