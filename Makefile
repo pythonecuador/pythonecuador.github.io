@@ -2,7 +2,6 @@ clean:
 	rm -rf cache output 
 
 serve:
-	nikola build
-	nikola serve
+	nikola auto
 
 .PHONY: clean serve
