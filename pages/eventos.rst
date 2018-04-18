@@ -7,5 +7,7 @@
 .. type: text
 .. template: ayuda.tmpl
 
-Lista de eventos futuros y pasados.
+Esta página debe tener una lista de eventos futuros
+organizados por la comunidad.
+Podría estar un enlace a los eventos pasados.
 Posiblemente integrado con meetup.com.

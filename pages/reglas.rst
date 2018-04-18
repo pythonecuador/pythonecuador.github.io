@@ -7,5 +7,6 @@
 .. type: text
 .. template: ayuda.tmpl
 
-Esta página debe contener las relgas de la comunidad
-(enlazar a nuestro código de conducta).
+Esta página debe contener las relgas de la comunidad.
+Como publicar avisos de trabajo, dónde hacer preguntas, etc
+(enlazar a nuestro `código de conducta </coc>`_ o mezclar ambas secciones).

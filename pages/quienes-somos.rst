@@ -7,4 +7,5 @@
 .. type: text
 .. template: ayuda.tmpl
 
-Breve descripción de lo que hacemos.
+Esta página debe contener una breve descripción de lo que hacemos
+por qué lo hacemos, etc.
