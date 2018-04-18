@@ -1,0 +1,14 @@
+## -*- coding: utf-8 -*-
+<%page args="contenido"/>
+
+<div class="container padding-top margin-bottom">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      % if callable(content):
+        ${contenido()}
+      % else:
+        ${contenido}
+      % endif
+    </div>
+  </div>
+</div>
