@@ -3,6 +3,41 @@
 <%inherit file="pagina-base.tmpl"/>
 
 <%block name="contenido">
-  <h2>¡Necesitamos de tu ayuda!</h2>
-  ${post.text()}
+  <div class="alert alert-warning" role="alert">
+    Sección no implementada
+  </div>
+
+  <h2>¡Esta sección necesita de tu ayuda!</h2>
+  <p>
+    Actualmente esta sección no está implementada en el sitio,
+    pero ya que estás interesada/o en esta sección creemos que podrías darnos una mano.
+    Debajo se encuentra una breve descripción de lo que deberías implementar.
+  </p>
+
+  <div class="panel panel-info">
+    <div class="panel-heading">¿Qué debe ir en esta página?</div>
+    <div class="panel-body">
+      ${post.text()}
+    </div>
+  </div>
+
+  <h3>¡Quiero ayudar! ¿Cómo lo hago?</h3>
+  <p>
+    ¡Muchas gracias por el interés en ayudar!
+    El desarrollo de nuestro sitio se lleva a cabo en GitHub sobre este repositorio
+    <a href="https://github.com/PythonEcuador/PythonEcuador.github.io">pythonecuador/pythonecuador.github.io</a>.
+  </p>
+  <p>
+    El sitio es un sitio estático construído con html, css y javascript, y alojado en GitHub Pages.
+    Pero no necesitas saber nada de esto para empezar a colaborar,
+    cualquier tipo de ayuda es muy importatante.
+    Desde corregir una falta ortográfica, agregar documentación, revisiones, etc.
+  </p>
+  <p>
+    Hemos redactado una guía con el paso a paso para que puedas iniciar a colaborar,
+    la puedes leer <a href="/guias/colaborar">aquí</a>.
+    Si te quedas atascada/o en un paso no dudes en preguntar en nuestro
+    <a href="https://t.me/pythonecuador">canal de telegram</a>
+    o en algún otro de nuestros <a href="/comunidades">canales de comunicación</a>.
+  </p>
 </%block>
