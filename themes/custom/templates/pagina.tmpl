@@ -1,13 +1,8 @@
 ## -*- coding: utf-8 -*-
 ## Template usado para nuestras paginas
-<%inherit file="base.tmpl"/>
+<%inherit file="pagina-base.tmpl"/>
 
-<%block name="extra_head">
-  ${parent.extra_head()}
-  <%include file="includes/encabezado.tmpl"/>
-</%block>
-
-<%block name="content">
+<%block name="contenido">
   ## Insertar el contido de nuestros archivos
-  <%include file="includes/contenido.tmpl" args="contenido=post.text()"/>
+  ${post.text()}
 </%block>

@@ -1,0 +1,21 @@
+## -*- coding: utf-8 -*-
+## Template usado para nuestras paginas
+<%inherit file="base.tmpl"/>
+
+<%block name="extra_head">
+  ${parent.extra_head()}
+  <%include file="includes/encabezado.tmpl"/>
+</%block>
+
+<%block name="content">
+  ## Insertar el contido de nuestros archivos
+  <div class="container padding-top margin-bottom">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        <%block name="contenido">
+          ## Contenido
+        </%block>
+      </div>
+    </div>
+  </div>
+</%block>
