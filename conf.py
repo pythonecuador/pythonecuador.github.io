@@ -141,6 +141,7 @@ NAVIGATION_LINKS = {
         ("/quiero-ayudar/", "Quiero ayudar"),
         ("/quienes-somos/", "Quiénes somos"),
         ("/primeros-pasos/", "Primeros pasos"),
+        ("/enlaces-interes/", "Enlaces de Interes"),
     ),
     
 }
