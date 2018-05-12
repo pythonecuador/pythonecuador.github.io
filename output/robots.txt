@@ -1,0 +1,4 @@
+Sitemap: https://pythonecuador.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: pythonecuador.github.io

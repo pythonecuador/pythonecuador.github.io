@@ -140,7 +140,10 @@ NAVIGATION_LINKS = {
         ("/reglas/", "Reglas"),
         ("/quiero-ayudar/", "Quiero ayudar"),
         ("/quienes-somos/", "Quiénes somos"),
+        ("/primeros-pasos/", "Primeros pasos"),
+        ("/enlaces-interes/", "Enlaces de Interes"),
     ),
+    
 }
 
 # Name of the theme to use.
