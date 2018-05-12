@@ -1,0 +1,20 @@
+/* Barra de navegación */
+
+.navbar {
+  background: #4584b6;
+  border-color: #2d618c; 
+}
+
+.navbar .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar .navbar-nav > li > a {
+  color: #f2f2f2;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: #2d618c; 
+}
