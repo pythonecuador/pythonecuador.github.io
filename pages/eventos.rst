@@ -28,7 +28,7 @@ Y por supuesto, comemos pizza para llenarnos de las energías suficientes para a
 O encebollado, eso ya lo deciden en el grupo que se reune en cada ciudad.
 
 ¿Dónde hay PyPizza?
-##################
+###################
 
 En el pasado se han realizado eventos en Loja, Quito y Cuenca, pero se pueden reunir desde cualquier parte
 a la hora indicada en meetup y nos comunicamos por nuestro canal de telegram https://t.me/pythonecuador.
