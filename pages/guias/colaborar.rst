@@ -157,3 +157,45 @@ si son necesarios más cambios, los puedes hacer en la misma rama
 y repetir el proceso de agregar más commits y subiendo tus cambios con ``git push``,
 tus cambios serán actualizados en el PR que ya abriste inicialmente.
 Si no hay más cambios y tu PR es aprobada, sólo debes esperar a que un miembro de la comunidad haga un merge.
+
+Estructura del proyecto
+-----------------------
+
+files/
+  Archivos generales del sitio
+galleries/
+  Colección de imágenes
+pages/
+  Aquí están todas las páginas del sitio
+posts/
+  Posts del sitio
+themes/custom/
+  Tema personalizado del sitio
+themes/custom/assets/
+  Javascript, css, etc
+themes/custom/templates/
+  Aquí están los templates; son archivos parecidos a html reutilizables
+conf.py
+  En este archivo están las configurariones del sitio
+
+Editar una página incompleta
+----------------------------
+
+Si te topaste con una página con el título *¡Esta sección necesita de tu ayuda!*,
+para empezar a editarla debes localizar esta página (se encuentran en el directorio ``pages/``)
+cada archivo corresponde a la URL de la página, estos archivos son del formato reStructuredText.
+
+¡Pero ahí no está toda la página que vi en el navegador! Ya vamos a esa parte.
+
+Como podrás notar, al principio del archivo, se encutran metadatos. Como:
+
+- ``title``: El título de la página
+- ``slug``: El path del URL
+- ``template``: El template a ser usado para la página
+
+Existen otros, pero esos son los más relevantes, sobre todo el de template.
+Por defecto estará en ``ayuda.tmpl``, tu primer paso será cambiarlo por ``pagina.tmpl``.
+Estos templates contienen el contenido base de la página (se encuentran en ``themes/custom/templates/``).
+Y los archivos ``.rst`` sólo contienen el texto principal.
+
+Ahora sólo necesitas editar el archivos ``.rst`` ¡y listo!
