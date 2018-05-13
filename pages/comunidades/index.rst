@@ -44,8 +44,7 @@ Sigue todos nuestros eventos en:
 
 **Comunidades Locales:**
 
-`Cuenca
-<https://www.facebook.com/pythoncuenca/>`_
+* `Cuenca <https://www.facebook.com/pythoncuenca/>`_
 
 `Inicia una comunidad en tu ciudad!
 <https://t.me/pythonecuador/>`_ (Nosotros te ayudamos)
