@@ -1,5 +1,5 @@
 .. title: La comunidad
-.. slug: index
+.. slug: indexasd
 .. tags:
 .. category:
 .. link:
