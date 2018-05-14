@@ -7,4 +7,16 @@
 .. type: text
 .. template: pagina.tmpl
 
-guia para iniciar una comunidad
+Para iniciar una comunidad en tu ciudad, hace falta eventos que atraigan personas interesadas en ser miembros.
+
+La motivacion principal de Python Ecuador es ayudar lo maximo posible an la creacion de estos grupos locales, solo hace falta que entres en contacto!
+
+.. image:: /images/telegram_logo.png
+  :height: 80px
+  :width: 80 px
+  :scale: 50 %
+  :alt: alternate text
+  :align: left
+
+`t.me/pythonecuador
+<https://t.me/pythonecuador/>`_
