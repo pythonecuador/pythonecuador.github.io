@@ -8,7 +8,7 @@
 .. template: pagina.tmpl
 
 .. image:: /images/telegram_logo.png
-  :height: 80px
+  :height: 80 px
   :width: 80 px
   :scale: 50 %
   :alt: alternate text
@@ -22,7 +22,7 @@ Para una comunicacion directa, eres bienvenido en:
 |
 
 .. image:: /images/meetup_logo.png
-  :height: 90px
+  :height: 90 px
   :width: 90 px
   :scale: 50 %
   :alt: alternate text
@@ -36,7 +36,7 @@ Sigue todos nuestros eventos en:
 |
 
 .. image:: /images/facebook_logo.png
-  :height: 80px
+  :height: 80 px
   :width: 80 px
   :scale: 50 %
   :alt: alternate text
@@ -48,5 +48,5 @@ Sigue todos nuestros eventos en:
 
 .. _inicia-tu-comunidad.rst:
 
-`Inicia una comunidad en tu ciudad!
+`¡Inicia una comunidad en tu ciudad!
 <inicia-tu-comunidad>`_ (Nosotros te ayudamos)
