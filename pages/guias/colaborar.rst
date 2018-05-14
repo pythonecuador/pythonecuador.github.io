@@ -163,8 +163,6 @@ Estructura del proyecto
 
 files/
   Archivos generales del sitio
-galleries/
-  Colección de imágenes
 pages/
   Aquí están todas las páginas del sitio
 posts/
