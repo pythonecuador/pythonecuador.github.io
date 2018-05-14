@@ -8,9 +8,9 @@
 .. template: pagina.tmpl
 
 .. image:: /images/telegram_logo.png
-  :height: 80 px
-  :width: 80 px
-  :scale: 50 %
+  :height: 80px
+  :width: 80px
+  :scale: 50%
   :alt: alternate text
   :align: left
 
@@ -22,9 +22,9 @@ Para una comunicacion directa, eres bienvenido en:
 |
 
 .. image:: /images/meetup_logo.png
-  :height: 90 px
-  :width: 90 px
-  :scale: 50 %
+  :height: 90px
+  :width: 90px
+  :scale: 50%
   :alt: alternate text
   :align: left
 
@@ -36,9 +36,9 @@ Sigue todos nuestros eventos en:
 |
 
 .. image:: /images/facebook_logo.png
-  :height: 80 px
-  :width: 80 px
-  :scale: 50 %
+  :height: 80px
+  :width: 80px
+  :scale: 50%
   :alt: alternate text
   :align: left
 
