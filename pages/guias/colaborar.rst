@@ -7,9 +7,6 @@
 .. type: text
 .. template: pagina.tmpl
 
-Colaborar
----------
-
 ¡Pull requests son bienvenidos! Recién estamos empezando,
 así que hay mucho por hacer.
 

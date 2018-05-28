@@ -3,6 +3,10 @@
 <%inherit file="pagina-base.tmpl"/>
 
 <%block name="contenido">
-  ## Insertar el contido de nuestros archivos
+  <h1>
+    <a href="${post.permalink()}">${post.title()|h}</a>
+  </h1>
+
+  ## Insertar el contenido de nuestros archivos
   ${post.text()}
 </%block>
