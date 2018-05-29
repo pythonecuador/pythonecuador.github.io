@@ -134,7 +134,7 @@ Reportando errores (bugs)
 GitHub usa ``issues`` para dar seguimiento a tareas y reportar bugs.
 Si encuentras un error o tienes una idea para mejorar el sitio,
 `crea un nuevo issue <https://github.com/PythonEcuador/PythonEcuador.github.io/issues/new>`_
-describiéndo el bug/mejora.
+describiendo el bug/mejora.
 
 .. note::
 
@@ -152,7 +152,7 @@ para clasificarlos por complejidad y/o tipo.
 `Good First Issue`_
   Tareas de complejidad fácil que te ayudarán a familiarizarte con el proyecto.
 `Bug`_, `Enhancement`_
-  Si ya resolvistes suficientes tareas fáciles y quieres pasar al siguiente nivel.
+  Si ya resolviste suficientes tareas fáciles y quieres pasar al siguiente nivel.
 `Design`_
   Si lo tuyo es el diseño gráfico o web.
 
@@ -221,11 +221,11 @@ posts/
 themes/custom/
   Tema personalizado del sitio
 themes/custom/assets/
-  Javascript, css, etc
+  JavaScript, CSS, etc
 themes/custom/templates/
   Aquí están los templates; son archivos parecidos a html reutilizables
 conf.py
-  En este archivo están las configurariones del sitio
+  En este archivo están las configuraciones del sitio
 
 Editar una página incompleta
 ############################
