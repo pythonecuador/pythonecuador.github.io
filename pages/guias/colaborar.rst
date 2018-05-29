@@ -7,39 +7,35 @@
 .. type: text
 .. template: pagina.tmpl
 
-¡Pull requests son bienvenidos! Recién estamos empezando,
-así que hay mucho por hacer.
+Recién estamos empezando, así que **hay mucho por hacer**.
 
-Puedes mirar en los `issues abiertos <https://github.com/PythonEcuador/PythonEcuador.github.io/issues>`_
-para buscar tareas por hacer
-(siempre asegúrate que alguien más no esté haciendo ya la tarea, así no gastamos esfuerzos).
+  No sé programar o no tengo idea por dónde empezar
 
-También puedes ayudar `revisando pull requests <https://github.com/PythonEcuador/PythonEcuador.github.io/pulls>`_
-(la opinión de todos es bienvenida, pero siempre haciéndolo con respeto).
-
-**No sé programar o no me siento con mucha confianza para empezar**
 No todas las tareas involucran código,
-simples correcciones ortográficas también aportan al proyecto.
+correcciones ortográficas también aportan al proyecto.
 Y si no te atreves a hacer la corrección por ti misma/o,
-puedes al menos `crear un issue <https://github.com/PythonEcuador/PythonEcuador.github.io/issues/new>`_ indicando el problema.
+puedes al menos :ref:`reportar el problema <Reportando errores (bugs)>`.
+A continuación hemos redactado una guía para que puedas iniciar.
 
-Ejecutar el proyecto localmente
--------------------------------
+.. contents:: Contenidos
+   :depth: 2
 
 Si tienes dudas y/o problemas mientras sigues los pasos,
 no dudes en preguntar en `nuestro canal de Telegram <https://t.me/pythonecuador>`_.
 
+Ejecutar el proyecto localmente
+-------------------------------
+
 Python
 ######
 
-Este proyecto usa Python 3, así que asegúrate de tenerlo instalado en tu sistema.
-Puedes descargarlo desde https://www.python.org/downloads/.
+Este proyecto usa Python 3, puedes descargarlo desde https://www.python.org/downloads/.
 Para verificar que tienes Python 3 en tu sistema ejecuta el siguiente comando en una terminal
-(ventana de comandos).
+(ventana de comandos):
 
-.. code:: bash
+.. code:: console
 
-   python --version
+   $ python --version
    Python 3.6.5
 
 Si la salida del comando es diferente, no te preocupes, sólo debes asegurarte que el primer número sea un ``3``.
@@ -57,13 +53,18 @@ asegúrate que Python esté en tu ``PATH`` o instala la versión adecuada.
 Obteniendo el proyecto
 ######################
 
-El proyecto está bajo el sistema de control de versiones git y alojado en GitHub,
-puedes descargar git desde https://git-scm.com/download.
+El proyecto está bajo el sistema de control de versiones Git y alojado en GitHub,
+puedes descargar Git desde https://git-scm.com/download.
 
-Haz un fork del proyecto desde GitHub (presionando el botón ``Fork`` en la parte superior del proyecto).
+Debes tener una cuenta en `GitHub <https://github.com/>`_, inicia sesión,
+dirígete al `proyecto de Python Ecuador <https://github.com/PythonEcuador/PythonEcuador.github.io>`_
+y presiona el botón ``Fork`` para hacer un fork del proyecto en tu cuenta.
 
-Ejecuta el siguiente comando en una terminal (ventana de comandos)
-para obtener el código. Donde ``{tu-usuario}`` es tu usuario de GitHub.
+.. image:: /images/guias/colaborar/fork.png
+   :align: center
+
+Ejecuta el siguiente comando en una terminal para obtener el código.
+Donde ``{tu-usuario}`` es tu usuario de GitHub.
 
 .. code:: bash
 
@@ -75,21 +76,34 @@ Entra al directorio que contiene el código fuente con
    
    cd PythonEcuador.github.io
 
+.. note::
+
+   El desarrollo se lleva a cabo sobre la rama ``src``.
+   Por defecto tu repositorio debe estar en esta rama.
+   Si tienes dudas ejecuta:
+
+   .. code:: bash
+      
+      git checkout src
+
 Ejecutando el proyecto
 ######################
 
-El sitio está construido usando `Nikola <https://getnikola.com>`_.
-(no es necesario que sepas usarlo o que te leas toda la documentación para empezar a colaborar en el proyecto).
+El sitio está construido usando `Nikola <https://getnikola.com>`_
+(no es necesario que sepas usarlo para empezar a colaborar en el proyecto).
 
-Antes de instalar Nikola, es recomendable que crees un entorno virtual para Python
-(este paso debes hacerlo sólo una vez).
+Crea un entorno virtual para instalar las dependencias de Python
+(este paso debes hacerlo sólo una vez):
 
 .. code:: bash
 
    python -m venv venv
 
+Con ese comando acabamos de crear un entorno virtual llamado ``venv``.
+Puedes leer más sobre los entornos virtuales de Python en https://docs.python.org/3/library/venv.html.
+
 Ahora necesitamos activar el entorno virtual
-(este paso debes hacerlo cada vez que abras un nuevo terminal/ventana de comandos)
+(este paso debes hacerlo cada vez que abras una nuevo terminal):
 
 .. code:: bash
 
@@ -99,7 +113,7 @@ Ahora necesitamos activar el entorno virtual
    # Para sistemas Windows
    venv\Scripts\activate
 
-Ahora ya podemos instalar Nikola y otras dependencias
+Ahora ya podemos instalar Nikola y otras dependencias:
 
 .. code:: bash
 
@@ -112,12 +126,53 @@ Finalmente, para ejecutar el sitio con Nikola
    nikola build
    nikola serve
 
-Si abres un navegador e ingresas a http://127.0.0.1:8000/ podrás ver el sitio.
+Si abres tu navegador e ingresas a http://127.0.0.1:8000/ podrás ver el sitio.
 
-Realizando cambios en el proyecto
-#################################
+Reportando errores (bugs)
+-------------------------
 
-Una vez que tengas un `issue <https://github.com/PythonEcuador/PythonEcuador.github.io/issues>`_ con cual trabajar.
+GitHub usa ``issues`` para dar seguimiento a tareas y reportar bugs.
+Si encuentras un error o tienes una idea para mejorar el sitio,
+`crea un nuevo issue <https://github.com/PythonEcuador/PythonEcuador.github.io/issues/new>`_
+describiéndo el bug/mejora.
+
+.. note::
+
+  Asegúrate que el bug no haya sido reportado antes o que ya exista una idea similar.
+  Busca en los `issues ya creados <https://github.com/PythonEcuador/PythonEcuador.github.io/issues>`_.
+
+Buscando tareas
+---------------
+
+Puedes mirar en los `issues abiertos <https://github.com/PythonEcuador/PythonEcuador.github.io/issues>`_
+para buscar tareas por hacer.
+Los issues contienen etiquetas (`labels <https://github.com/PythonEcuador/PythonEcuador.github.io/labels>`_)
+para clasificarlos por complejidad y/o tipo.
+
+`Good First Issue`_
+  Tareas de complejidad fácil que te ayudarán a familiarizarte con el proyecto.
+`Bug`_, `Enhancement`_
+  Si ya resolvistes suficientes tareas fáciles y quieres pasar al siguiente nivel.
+`Design`_
+  Si lo tuyo es el diseño gráfico o web.
+
+.. _Good First Issue: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue
+.. _Bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
+.. _Enhancement: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement
+.. _Help Wanted: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/help%20wanted
+.. _Design: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design
+
+También puedes ayudar `revisando pull requests <https://github.com/PythonEcuador/PythonEcuador.github.io/pulls>`_.
+
+.. note::
+
+  Siempre asegúrate que alguien más ya no esté haciendo la tarea, así no gastamos esfuerzos.
+
+
+Realizando cambios
+------------------
+
+Una vez que tengas un issue con cual trabajar.
 Crea una nueva rama con un nombre relacionado al issue que estás resolviendo.
 `arregla-issue-13` es el nombre de la rama usada en este ejemplo.
 
@@ -125,7 +180,7 @@ Crea una nueva rama con un nombre relacionado al issue que estás resolviendo.
 
    git checkout -b arregla-issue-13
 
-Haz los cambios que sean pertinentes para arreglar el issue.
+Haz los cambios que sean pertinentes para resolver el issue.
 Puedes ver los cambios en tu navegador mientras editas los archivos con el siguiente comando
 
 .. code:: bash
@@ -145,7 +200,7 @@ Una vez que hayas hechos todos los cambios necesarios, súbelos a tu fork
 
    git push -u origin
 
-Dirígete a la página del proyecto https://github.com/PythonEcuador/PythonEcuador.github.io
+Dirígete a la `página del proyecto <https://github.com/PythonEcuador/PythonEcuador.github.io>`_
 y verás un mensaje sugiriéndote hacer un pull request (PR).
 En la descripción del PR describe brevemente los cambios que hiciste.
 
@@ -156,7 +211,7 @@ tus cambios serán actualizados en el PR que ya abriste inicialmente.
 Si no hay más cambios y tu PR es aprobada, sólo debes esperar a que un miembro de la comunidad haga un merge.
 
 Estructura del proyecto
------------------------
+#######################
 
 files/
   Archivos generales del sitio
@@ -174,15 +229,19 @@ conf.py
   En este archivo están las configurariones del sitio
 
 Editar una página incompleta
-----------------------------
+############################
 
 Si te topaste con una página con el título *¡Esta sección necesita de tu ayuda!*,
-para empezar a editarla debes localizar esta página (se encuentran en el directorio ``pages/``)
-cada archivo corresponde a la URL de la página, estos archivos son del formato reStructuredText.
+para empezar a editarla debes localizar la página (se encuentran en el directorio ``pages/``)
+cada archivo corresponde a la URL de la página, por ejemplo si la página es ``www.python.ec/eventos``
+el archivo a editar se encontrará en ``pages/eventos.rst``.
+Los archivos están escritos en `reStructuredText <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`.
 
-¡Pero ahí no está toda la página que vi en el navegador! Ya vamos a esa parte.
+  ¡Pero ahí no está toda la página que vi en el navegador!
 
-Como podrás notar, al principio del archivo, se encutran metadatos. Como:
+Ya vamos a esa parte.
+
+Como podrás notar, al principio del archivo, se encuentran metadatos. Como:
 
 - ``title``: El título de la página
 - ``slug``: El path del URL
@@ -193,4 +252,4 @@ Por defecto estará en ``ayuda.tmpl``, tu primer paso será cambiarlo por ``pagi
 Estos templates contienen el contenido base de la página (se encuentran en ``themes/custom/templates/``).
 Y los archivos ``.rst`` sólo contienen el texto principal.
 
-Ahora sólo necesitas editar el archivos ``.rst`` ¡y listo!
+Ahora sólo necesitas editar el archivo ``.rst`` ¡y listo!
