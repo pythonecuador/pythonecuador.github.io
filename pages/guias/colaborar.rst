@@ -159,7 +159,6 @@ para clasificarlos por complejidad y/o tipo.
 .. _Good First Issue: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue
 .. _Bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
 .. _Enhancement: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement
-.. _Help Wanted: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/help%20wanted
 .. _Design: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design
 
 También puedes ayudar `revisando pull requests <https://github.com/PythonEcuador/PythonEcuador.github.io/pulls>`_.
