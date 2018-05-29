@@ -72,30 +72,45 @@
   </h1>
 
   <div>
-<p>¡Pull requests son bienvenidos! Recién estamos empezando,
-así que hay mucho por hacer.</p>
-<p>Puedes mirar en los <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/issues">issues abiertos</a>
-para buscar tareas por hacer
-(siempre asegúrate que alguien más no esté haciendo ya la tarea, así no gastamos esfuerzos).</p>
-<p>También puedes ayudar <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/pulls">revisando pull requests</a>
-(la opinión de todos es bienvenida, pero siempre haciéndolo con respeto).</p>
-<p><strong>No sé programar o no me siento con mucha confianza para empezar</strong>
-No todas las tareas involucran código,
-simples correcciones ortográficas también aportan al proyecto.
+<p>Recién estamos empezando, así que <strong>hay mucho por hacer</strong>.</p>
+<blockquote>
+No sé programar o no tengo idea por dónde empezar</blockquote>
+<p>No todas las tareas involucran código,
+correcciones ortográficas también aportan al proyecto.
 Y si no te atreves a hacer la corrección por ti misma/o,
-puedes al menos <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/issues/new">crear un issue</a> indicando el problema.</p>
-<div class="section" id="ejecutar-el-proyecto-localmente">
-<h2>Ejecutar el proyecto localmente</h2>
+puedes al menos <a class="reference external" href="#Reportando%20errores%20(bugs)">reportar el problema</a>.
+A continuación hemos redactado una guía para que puedas iniciar.</p>
+<div class="contents topic" id="contenidos">
+<p class="topic-title first">Contenidos</p>
+<ul class="simple">
+<li>
+<a class="reference internal" href="#ejecutar-el-proyecto-localmente" id="id1">Ejecutar el proyecto localmente</a><ul>
+<li><a class="reference internal" href="#python" id="id2">Python</a></li>
+<li><a class="reference internal" href="#obteniendo-el-proyecto" id="id3">Obteniendo el proyecto</a></li>
+<li><a class="reference internal" href="#ejecutando-el-proyecto" id="id4">Ejecutando el proyecto</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#reportando-errores-bugs" id="id5">Reportando errores (bugs)</a></li>
+<li><a class="reference internal" href="#buscando-tareas" id="id6">Buscando tareas</a></li>
+<li>
+<a class="reference internal" href="#realizando-cambios" id="id7">Realizando cambios</a><ul>
+<li><a class="reference internal" href="#estructura-del-proyecto" id="id8">Estructura del proyecto</a></li>
+<li><a class="reference internal" href="#editar-una-pagina-incompleta" id="id9">Editar una página incompleta</a></li>
+</ul>
+</li>
+</ul>
+</div>
 <p>Si tienes dudas y/o problemas mientras sigues los pasos,
 no dudes en preguntar en <a class="reference external" href="https://t.me/pythonecuador">nuestro canal de Telegram</a>.</p>
+<div class="section" id="ejecutar-el-proyecto-localmente">
+<h2><a class="toc-backref" href="#id1">Ejecutar el proyecto localmente</a></h2>
 <div class="section" id="python">
-<h3>Python</h3>
-<p>Este proyecto usa Python 3, así que asegúrate de tenerlo instalado en tu sistema.
-Puedes descargarlo desde <a class="reference external" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>.
+<h3><a class="toc-backref" href="#id2">Python</a></h3>
+<p>Este proyecto usa Python 3, puedes descargarlo desde <a class="reference external" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>.
 Para verificar que tienes Python 3 en tu sistema ejecuta el siguiente comando en una terminal
-(ventana de comandos).</p>
-<pre class="code bash"><a name="rest_code_276983e841924232b600df566688725c-1"></a>python --version
-<a name="rest_code_276983e841924232b600df566688725c-2"></a>Python <span class="m">3</span>.6.5
+(ventana de comandos):</p>
+<pre class="code console"><a name="rest_code_1a22c457cb60455c90bc85f939a66d58-1"></a><span class="gp">$</span> python --version
+<a name="rest_code_1a22c457cb60455c90bc85f939a66d58-2"></a><span class="go">Python 3.6.5</span>
 </pre>
 <p>Si la salida del comando es diferente, no te preocupes, sólo debes asegurarte que el primer número sea un <tt class="docutils literal">3</tt>.
 En caso que la salida haya sido algo como <tt class="docutils literal">2.7.14</tt>, intenta con el comando <tt class="docutils literal">python3 <span class="pre">--version</span></tt>.</p>
@@ -109,62 +124,109 @@ debes usar ese comando.</p>
 </div>
 </div>
 <div class="section" id="obteniendo-el-proyecto">
-<h3>Obteniendo el proyecto</h3>
-<p>El proyecto está bajo el sistema de control de versiones git y alojado en GitHub,
-puedes descargar git desde <a class="reference external" href="https://git-scm.com/download">https://git-scm.com/download</a>.</p>
-<p>Haz un fork del proyecto desde GitHub (presionando el botón <tt class="docutils literal">Fork</tt> en la parte superior del proyecto).</p>
-<p>Ejecuta el siguiente comando en una terminal (ventana de comandos)
-para obtener el código. Donde <tt class="docutils literal"><span class="pre">{tu-usuario}</span></tt> es tu usuario de GitHub.</p>
-<pre class="code bash"><a name="rest_code_173082f105ad4382b30f3e5021cfd83b-1"></a>git clone https://github.com/<span class="o">{</span>tu-usuario<span class="o">}</span>/PythonEcuador.github.io.git
+<h3><a class="toc-backref" href="#id3">Obteniendo el proyecto</a></h3>
+<p>El proyecto está bajo el sistema de control de versiones Git y alojado en GitHub,
+puedes descargar Git desde <a class="reference external" href="https://git-scm.com/download">https://git-scm.com/download</a>.</p>
+<p>Debes tener una cuenta en <a class="reference external" href="https://github.com/">GitHub</a>, inicia sesión,
+dirígete al <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io">proyecto de Python Ecuador</a>
+y presiona el botón <tt class="docutils literal">Fork</tt> para hacer un fork del proyecto en tu cuenta.</p>
+<img alt="/images/guias/colaborar/fork.png" class="align-center" src="../../images/guias/colaborar/fork.png"><p>Ejecuta el siguiente comando en una terminal para obtener el código.
+Donde <tt class="docutils literal"><span class="pre">{tu-usuario}</span></tt> es tu usuario de GitHub.</p>
+<pre class="code bash"><a name="rest_code_27bca7898a8b448fb2143320c2527793-1"></a>git clone https://github.com/<span class="o">{</span>tu-usuario<span class="o">}</span>/PythonEcuador.github.io.git
 </pre>
 <p>Entra al directorio que contiene el código fuente con</p>
-<pre class="code bash"><a name="rest_code_66cb82a3a66e466098f5058c8184b02d-1"></a><span class="nb">cd</span> PythonEcuador.github.io
+<pre class="code bash"><a name="rest_code_675f993f29d14d2aac3162bfc2686213-1"></a><span class="nb">cd</span> PythonEcuador.github.io
 </pre>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p>El desarrollo se lleva a cabo sobre la rama <tt class="docutils literal">src</tt>.
+Por defecto tu repositorio debe estar en esta rama.
+Si tienes dudas ejecuta:</p>
+<div class="last"><pre class="code bash"><a name="rest_code_3ef12f0cad5649d682d3f5134764e3a7-1"></a>git checkout src
+</pre></div>
+</div>
 </div>
 <div class="section" id="ejecutando-el-proyecto">
-<h3>Ejecutando el proyecto</h3>
-<p>El sitio está construido usando <a class="reference external" href="https://getnikola.com">Nikola</a>.
-(no es necesario que sepas usarlo o que te leas toda la documentación para empezar a colaborar en el proyecto).</p>
-<p>Antes de instalar Nikola, es recomendable que crees un entorno virtual para Python
-(este paso debes hacerlo sólo una vez).</p>
-<pre class="code bash"><a name="rest_code_f4bac96b35da4901bf5f0ec30226dffc-1"></a>python -m venv venv
+<h3><a class="toc-backref" href="#id4">Ejecutando el proyecto</a></h3>
+<p>El sitio está construido usando <a class="reference external" href="https://getnikola.com">Nikola</a>
+(no es necesario que sepas usarlo para empezar a colaborar en el proyecto).</p>
+<p>Crea un entorno virtual para instalar las dependencias de Python
+(este paso debes hacerlo sólo una vez):</p>
+<pre class="code bash"><a name="rest_code_5dbd0e5f9bfd48b0bf4d119de9569c96-1"></a>python -m venv venv
 </pre>
+<p>Con ese comando acabamos de crear un entorno virtual llamado <tt class="docutils literal">venv</tt>.
+Puedes leer más sobre los entornos virtuales de Python en <a class="reference external" href="https://docs.python.org/3/library/venv.html">https://docs.python.org/3/library/venv.html</a>.</p>
 <p>Ahora necesitamos activar el entorno virtual
-(este paso debes hacerlo cada vez que abras un nuevo terminal/ventana de comandos)</p>
-<pre class="code bash"><a name="rest_code_55b25f7449d54830bce8c8e5486709b1-1"></a><span class="c1"># Para sistemas Linux y Mac</span>
-<a name="rest_code_55b25f7449d54830bce8c8e5486709b1-2"></a><span class="nb">source</span> venv/bin/activate
-<a name="rest_code_55b25f7449d54830bce8c8e5486709b1-3"></a>
-<a name="rest_code_55b25f7449d54830bce8c8e5486709b1-4"></a><span class="c1"># Para sistemas Windows</span>
-<a name="rest_code_55b25f7449d54830bce8c8e5486709b1-5"></a>venv<span class="se">\S</span>cripts<span class="se">\a</span>ctivate
+(este paso debes hacerlo cada vez que abras una nuevo terminal):</p>
+<pre class="code bash"><a name="rest_code_5ba50e46bdfa413897cbd115e8f915a6-1"></a><span class="c1"># Para sistemas Linux y Mac</span>
+<a name="rest_code_5ba50e46bdfa413897cbd115e8f915a6-2"></a><span class="nb">source</span> venv/bin/activate
+<a name="rest_code_5ba50e46bdfa413897cbd115e8f915a6-3"></a>
+<a name="rest_code_5ba50e46bdfa413897cbd115e8f915a6-4"></a><span class="c1"># Para sistemas Windows</span>
+<a name="rest_code_5ba50e46bdfa413897cbd115e8f915a6-5"></a>venv<span class="se">\S</span>cripts<span class="se">\a</span>ctivate
 </pre>
-<p>Ahora ya podemos instalar Nikola y otras dependencias</p>
-<pre class="code bash"><a name="rest_code_fa70bfd7fd4840b39ea7f9d016e95ebb-1"></a>pip install -r requirements.txt
+<p>Ahora ya podemos instalar Nikola y otras dependencias:</p>
+<pre class="code bash"><a name="rest_code_79f5c6a1d7bc4192bd1f056aad8c0729-1"></a>pip install -r requirements.txt
 </pre>
 <p>Finalmente, para ejecutar el sitio con Nikola</p>
-<pre class="code bash"><a name="rest_code_7653ac63c57244758e28e2f03f49932b-1"></a>nikola build
-<a name="rest_code_7653ac63c57244758e28e2f03f49932b-2"></a>nikola serve
+<pre class="code bash"><a name="rest_code_e4a7716854e146af824a84f39c6e85ac-1"></a>nikola build
+<a name="rest_code_e4a7716854e146af824a84f39c6e85ac-2"></a>nikola serve
 </pre>
-<p>Si abres un navegador e ingresas a <a class="reference external" href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> podrás ver el sitio.</p>
+<p>Si abres tu navegador e ingresas a <a class="reference external" href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> podrás ver el sitio.</p>
 </div>
-<div class="section" id="realizando-cambios-en-el-proyecto">
-<h3>Realizando cambios en el proyecto</h3>
-<p>Una vez que tengas un <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/issues">issue</a> con cual trabajar.
+</div>
+<div class="section" id="reportando-errores-bugs">
+<h2><a class="toc-backref" href="#id5">Reportando errores (bugs)</a></h2>
+<p>GitHub usa <tt class="docutils literal">issues</tt> para dar seguimiento a tareas y reportar bugs.
+Si encuentras un error o tienes una idea para mejorar el sitio,
+<a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/issues/new">crea un nuevo issue</a>
+describiendo el bug/mejora.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Asegúrate que el bug no haya sido reportado antes o que ya exista una idea similar.
+Busca en los <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/issues">issues ya creados</a>.</p>
+</div>
+</div>
+<div class="section" id="buscando-tareas">
+<h2><a class="toc-backref" href="#id6">Buscando tareas</a></h2>
+<p>Puedes mirar en los <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/issues">issues abiertos</a>
+para buscar tareas por hacer.
+Los issues contienen etiquetas (<a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels">labels</a>)
+para clasificarlos por complejidad y/o tipo.</p>
+<dl class="docutils">
+<dt><a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue">Good First Issue</a></dt>
+<dd>Tareas de complejidad fácil que te ayudarán a familiarizarte con el proyecto.</dd>
+<dt>
+<a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug">Bug</a>, <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement">Enhancement</a>
+</dt>
+<dd>Si ya resolviste suficientes tareas fáciles y quieres pasar al siguiente nivel.</dd>
+<dt><a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design">Design</a></dt>
+<dd>Si lo tuyo es el diseño gráfico o web.</dd>
+</dl>
+<p>También puedes ayudar <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/pulls">revisando pull requests</a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Siempre asegúrate que alguien más ya no esté haciendo la tarea, así no gastamos esfuerzos.</p>
+</div>
+</div>
+<div class="section" id="realizando-cambios">
+<h2><a class="toc-backref" href="#id7">Realizando cambios</a></h2>
+<p>Una vez que tengas un issue con cual trabajar.
 Crea una nueva rama con un nombre relacionado al issue que estás resolviendo.
 <cite>arregla-issue-13</cite> es el nombre de la rama usada en este ejemplo.</p>
-<pre class="code bash"><a name="rest_code_7e528c27cdba457d95070cf1c857bfe0-1"></a>git checkout -b arregla-issue-13
+<pre class="code bash"><a name="rest_code_50285b8fbaf24ef4b8e36a0a7dcd5b86-1"></a>git checkout -b arregla-issue-13
 </pre>
-<p>Haz los cambios que sean pertinentes para arreglar el issue.
+<p>Haz los cambios que sean pertinentes para resolver el issue.
 Puedes ver los cambios en tu navegador mientras editas los archivos con el siguiente comando</p>
-<pre class="code bash"><a name="rest_code_0326e707be7e410daf34022c9495e523-1"></a>nikola auto
+<pre class="code bash"><a name="rest_code_cb534b07a1d048709de46ebe9a8d3ed1-1"></a>nikola auto
 </pre>
 <p>Trata de hacer un commit por cada bloque de cambios relacionados que hagas</p>
-<pre class="code bash"><a name="rest_code_dc6327ee25fb4c87b0dc91443211189a-1"></a>git add archivo-editado.rst
-<a name="rest_code_dc6327ee25fb4c87b0dc91443211189a-2"></a>git commit -m <span class="s2">"Arreglada falta ortográfica"</span>
+<pre class="code bash"><a name="rest_code_6b1edd075881425cba29d06a3bd19ba2-1"></a>git add archivo-editado.rst
+<a name="rest_code_6b1edd075881425cba29d06a3bd19ba2-2"></a>git commit -m <span class="s2">"Arreglada falta ortográfica"</span>
 </pre>
 <p>Una vez que hayas hechos todos los cambios necesarios, súbelos a tu fork</p>
-<pre class="code bash"><a name="rest_code_24962fb2a9d74c6184c616bb5c94a72a-1"></a>git push -u origin
+<pre class="code bash"><a name="rest_code_9d78294568c54784b5364a00d5e86911-1"></a>git push -u origin
 </pre>
-<p>Dirígete a la página del proyecto <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io">https://github.com/PythonEcuador/PythonEcuador.github.io</a>
+<p>Dirígete a la <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io">página del proyecto</a>
 y verás un mensaje sugiriéndote hacer un pull request (PR).
 En la descripción del PR describe brevemente los cambios que hiciste.</p>
 <p>Espera a que un miembro de la comunidad revise tu PR,
@@ -172,10 +234,8 @@ si son necesarios más cambios, los puedes hacer en la misma rama
 y repetir el proceso de agregar más commits y subiendo tus cambios con <tt class="docutils literal">git push</tt>,
 tus cambios serán actualizados en el PR que ya abriste inicialmente.
 Si no hay más cambios y tu PR es aprobada, sólo debes esperar a que un miembro de la comunidad haga un merge.</p>
-</div>
-</div>
 <div class="section" id="estructura-del-proyecto">
-<h2>Estructura del proyecto</h2>
+<h3><a class="toc-backref" href="#id8">Estructura del proyecto</a></h3>
 <dl class="docutils">
 <dt>files/</dt>
 <dd>Archivos generales del sitio</dd>
@@ -186,20 +246,24 @@ Si no hay más cambios y tu PR es aprobada, sólo debes esperar a que un miembro
 <dt>themes/custom/</dt>
 <dd>Tema personalizado del sitio</dd>
 <dt>themes/custom/assets/</dt>
-<dd>Javascript, css, etc</dd>
+<dd>JavaScript, CSS, etc</dd>
 <dt>themes/custom/templates/</dt>
 <dd>Aquí están los templates; son archivos parecidos a html reutilizables</dd>
 <dt>conf.py</dt>
-<dd>En este archivo están las configurariones del sitio</dd>
+<dd>En este archivo están las configuraciones del sitio</dd>
 </dl>
 </div>
 <div class="section" id="editar-una-pagina-incompleta">
-<h2>Editar una página incompleta</h2>
+<h3><a class="toc-backref" href="#id9">Editar una página incompleta</a></h3>
 <p>Si te topaste con una página con el título <em>¡Esta sección necesita de tu ayuda!</em>,
-para empezar a editarla debes localizar esta página (se encuentran en el directorio <tt class="docutils literal">pages/</tt>)
-cada archivo corresponde a la URL de la página, estos archivos son del formato reStructuredText.</p>
-<p>¡Pero ahí no está toda la página que vi en el navegador! Ya vamos a esa parte.</p>
-<p>Como podrás notar, al principio del archivo, se encutran metadatos. Como:</p>
+para empezar a editarla debes localizar la página (se encuentran en el directorio <tt class="docutils literal">pages/</tt>)
+cada archivo corresponde a la URL de la página, por ejemplo si la página es <tt class="docutils literal">www.python.ec/eventos</tt>
+el archivo a editar se encontrará en <tt class="docutils literal">pages/eventos.rst</tt>.
+Los archivos están escritos en <cite>reStructuredText &lt;http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html&gt;</cite>.</p>
+<blockquote>
+¡Pero ahí no está toda la página que vi en el navegador!</blockquote>
+<p>Ya vamos a esa parte.</p>
+<p>Como podrás notar, al principio del archivo, se encuentran metadatos. Como:</p>
 <ul class="simple">
 <li>
 <tt class="docutils literal">title</tt>: El título de la página</li>
@@ -212,7 +276,8 @@ cada archivo corresponde a la URL de la página, estos archivos son del formato 
 Por defecto estará en <tt class="docutils literal">ayuda.tmpl</tt>, tu primer paso será cambiarlo por <tt class="docutils literal">pagina.tmpl</tt>.
 Estos templates contienen el contenido base de la página (se encuentran en <tt class="docutils literal">themes/custom/templates/</tt>).
 Y los archivos <tt class="docutils literal">.rst</tt> sólo contienen el texto principal.</p>
-<p>Ahora sólo necesitas editar el archivos <tt class="docutils literal">.rst</tt> ¡y listo!</p>
+<p>Ahora sólo necesitas editar el archivo <tt class="docutils literal">.rst</tt> ¡y listo!</p>
+</div>
 </div>
 </div>
 
