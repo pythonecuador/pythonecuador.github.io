@@ -11,7 +11,7 @@
   :height: 80px
   :width: 80px
   :scale: 50%
-  :alt: alternate text
+  :alt: logo de telegram
   :align: left
 
 Para una comunicación directa, eres bienvenido en:
@@ -25,7 +25,7 @@ Para una comunicación directa, eres bienvenido en:
   :height: 90px
   :width: 90px
   :scale: 50%
-  :alt: alternate text
+  :alt: logo de meetup
   :align: left
 
 Sigue todos nuestros eventos en:
@@ -39,7 +39,7 @@ Sigue todos nuestros eventos en:
   :height: 80px
   :width: 80px
   :scale: 50%
-  :alt: alternate text
+  :alt: logo de facebook
   :align: left
 
 Fanpage:
