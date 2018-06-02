@@ -162,14 +162,14 @@ para clasificarlos por complejidad y/o tipo.
 `invalid`_
   Indica  que el issue o pull request no es relevante
 `question`_
-  Indica que issues similares o pull request necesita más información
+  Indica que issues similares o pull request necesitan más información
 `ready`_
-  Indica que que el issue esta listo
+  Indica que el issue esta listo
 `wip`_
-    Indica que el issue esta en progreso (Work in progress)
+    Indica que el issue está en progreso (Work in progress)
 `wontfix`_
     Indica que el trabajo no va a continuar en un issue o pull request
-    
+
 .. _Good First Issue: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue
 .. _Bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
 .. _Enhancement: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement
