@@ -44,7 +44,7 @@ Sigue todos nuestros eventos en:
 
 Fanpage:
 
-* `facebook.com/pyecuador <https://www.facebook.com/pyecuador/>`_
+`facebook.com/pyecuador <https://www.facebook.com/pyecuador/>`_
 
 :doc:`¡Inicia una comunidad en tu ciudad!
 <inicia-tu-comunidad>`_ (Nosotros te ayudamos)
