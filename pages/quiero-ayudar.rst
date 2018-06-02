@@ -13,15 +13,15 @@ del lenguaje Python en el país.
 Esto permite que personas con conocimientos técnicos y no técnicos aporten
 desde sus diferentes habilidades.
 
-De manera general las maneras de apoyar a la comunidad será:
+De manera general las formas de apoyar a la comunidad son:
 
 * Difundiendo entre tus amigos los eventos y actividades que se realizan periódicamente
 
-* Participar en los diferentes acontecimientos que se publican en redes sociales oficiales
+* Participando en los diferentes acontecimientos que se publican en redes sociales oficiales
 
-* Ayude en la organización de eventos
+* Ayudando en la organización de eventos
 
-* Reporte fallos en la pagina web
+* Reportando fallos en la pagina web y proyectos
 
 * Haga sugerencias de mejoras
 
@@ -42,4 +42,4 @@ Si posee conocimientos técnicos:
 
 * Diseña afiches, banners, logos del proyecto o eventos
 
-* Realiza aportes económicos en los diferentes eventos, para mejorar la logística.
+* Apoya con refrigerios o materiales de comunicación impresos
