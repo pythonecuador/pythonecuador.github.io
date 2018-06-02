@@ -182,10 +182,6 @@ para clasificarlos por complejidad y/o tipo.
 .. _wip: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/wip
 .. _wontfix: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/wontfix
 
-
-
-
-
 También puedes ayudar `revisando pull requests <https://github.com/PythonEcuador/PythonEcuador.github.io/pulls>`_.
 
 .. note::
