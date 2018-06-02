@@ -160,7 +160,7 @@ para clasificarlos por complejidad y/o tipo.
 `help wanted`_
   Indica que uno de los administradores busca ayuda en un issue o pull request
 `invalid`_
-  Indica  que el issue o pull reques no es relevante
+  Indica  que el issue o pull request no es relevante
 `question`_
   Indica que issues similares o pull request necesita más información
 `ready`_
