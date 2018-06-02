@@ -25,18 +25,18 @@ De manera general las formas de apoyar a la comunidad son:
 
 * Haga sugerencias de mejoras
 
-* Ayude a nuevas personas a integrarse a la comunidad
+* Ayudando a nuevas personas a integrarse a la comunidad
 
-* Participa en los grupos con tus comentarios en las redes sociales
+* Participando en los grupos con tus comentarios en las redes sociales
 
-Si posee conocimientos técnicos:
+Si posees conocimientos técnicos:
 
 * Haga un fork de cualquiera de los proyectos de la comunidad y
   envíenos sus pull requests en los diferentes issues que poseemos
   en `GitHub PythonEcuador <https://github.com/PythonEcuador>`_
 
-* Proponga y dicte charlas/talleres que se puedan realizar para fomentar el conocimiento
-  de python en la comunidad
+* Propon y dicta charlas/talleres que se puedan realizar para fomentar el conocimiento
+  de Python en la comunidad
 
 * Realiza documentación sobre algún tema que conozcas
 
