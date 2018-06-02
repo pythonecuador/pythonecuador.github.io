@@ -14,7 +14,7 @@
   :alt: logo de telegram
   :align: left
 
-Para una comunicación directa, eres bienvenido en:
+Para una comunicación directa, eres bienvenido/a en:
 
 `t.me/pythonecuador
 <https://t.me/pythonecuador/>`_
