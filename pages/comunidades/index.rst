@@ -46,5 +46,4 @@ Fanpage:
 
 `facebook.com/pyecuador <https://www.facebook.com/pyecuador/>`_
 
-:doc:`¡Inicia una comunidad en tu ciudad!
-<inicia-tu-comunidad>`_ (Nosotros te ayudamos)
+:doc:`¡Inicia una comunidad en tu ciudad!<inicia-tu-comunidad>` (Nosotros te ayudamos)
