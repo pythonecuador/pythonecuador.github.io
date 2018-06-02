@@ -9,7 +9,7 @@
 
 Para iniciar una comunidad en tu ciudad, hace falta eventos que atraigan personas interesadas en ser miembros.
 
-La motivacion principal de Python Ecuador es ayudar lo máximo posible a la creacion de estos grupos locales,
+La motivación principal de Python Ecuador es ayudar lo máximo posible a la creación de estos grupos locales,
 ¡solo hace falta que entres en contacto!
 
 .. image:: /images/telegram_logo.png
