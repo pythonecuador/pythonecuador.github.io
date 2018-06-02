@@ -46,7 +46,5 @@ Fanpage:
 
 * `facebook.com/pyecuador <https://www.facebook.com/pyecuador/>`_
 
-.. _inicia-tu-comunidad.rst:
-
-`¡Inicia una comunidad en tu ciudad!
+:doc:`¡Inicia una comunidad en tu ciudad!
 <inicia-tu-comunidad>`_ (Nosotros te ayudamos)
