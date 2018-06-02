@@ -140,6 +140,7 @@ NAVIGATION_LINKS = {
         ("/reglas/", "Reglas"),
         ("/quiero-ayudar/", "Quiero ayudar"),
         ("/quienes-somos/", "Quiénes somos"),
+        ("/herramientas/", "Herramientas"),
     ),
 }
 
