@@ -7,7 +7,7 @@
 .. type: text
 .. template: pagina.tmpl
 
-Colaborar con el desarrollo de la comunidad de Python Ecuador, fomenta el uso y conocimiento
+Colaborar con el desarrollo de la comunidad de Python Ecuador fomenta el uso y conocimiento
 del lenguaje Python en el país.
 
 Esto permite que personas con conocimientos técnicos y no técnicos aporten
