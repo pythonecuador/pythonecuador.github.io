@@ -16,7 +16,7 @@ La motivacion principal de Python Ecuador es ayudar lo máximo posible a la crea
   :height: 80px
   :width: 80px
   :scale: 50%
-  :alt: alternate text
+  :alt: logo de telegram
   :align: left
 
 `t.me/pythonecuador
