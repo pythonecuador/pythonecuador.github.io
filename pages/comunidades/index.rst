@@ -14,7 +14,7 @@
   :alt: alternate text
   :align: left
 
-Para una comunicacion directa, eres bienvenido en:
+Para una comunicación directa, eres bienvenido en:
 
 `t.me/pythonecuador
 <https://t.me/pythonecuador/>`_
@@ -42,9 +42,9 @@ Sigue todos nuestros eventos en:
   :alt: alternate text
   :align: left
 
-**Comunidades Locales:**
+Fanpage:
 
-* `Cuenca <https://www.facebook.com/pythoncuenca/>`_
+* `facebook.com/pyecuador <https://www.facebook.com/pyecuador/>`_
 
 .. _inicia-tu-comunidad.rst:
 
