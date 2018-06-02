@@ -3,7 +3,7 @@
 .. tags:
 .. category:
 .. link:
-.. description: 
+.. description:
 .. type: text
 .. template: ayuda.tmpl
 
