@@ -23,7 +23,7 @@ De manera general las formas de apoyar a la comunidad son:
 
 * Reportando fallos en la pagina web y proyectos
 
-* Haga sugerencias de mejoras
+* Haciendo sugerencias de mejoras
 
 * Ayudando a nuevas personas a integrarse a la comunidad
 
