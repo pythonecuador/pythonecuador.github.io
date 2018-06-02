@@ -1,9 +1,9 @@
 .. title: Quiénes somos
 .. slug: quienes-somos
-.. tags:
-.. category:
+.. tags: 
+.. category: 
 .. link: 
-.. description:
+.. description: 
 .. type: text
 .. template: ayuda.tmpl
 
