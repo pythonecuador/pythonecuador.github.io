@@ -155,11 +155,36 @@ para clasificarlos por complejidad y/o tipo.
   Si ya resolviste suficientes tareas fáciles y quieres pasar al siguiente nivel.
 `Design`_
   Si lo tuyo es el diseño gráfico o web.
-
+`duplicate`_
+  Indica issues similares o pull requests
+`help wanted`_
+  Indica que uno de los administradores busca ayuda en un issue o pull request
+`invalid`_
+  Indica  que el issue o pull reques no es relevante
+`question`_
+  Indica que issues similares o pull request necesita más información
+`ready`_
+  Indica que que el issue esta listo
+`wip`_
+    Indica que el issue esta en progreso (Work in progress)
+`wontfix`_
+    Indica que el trabajo no va a continuar en un issue o pull request
+    
 .. _Good First Issue: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue
 .. _Bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
 .. _Enhancement: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement
 .. _Design: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design
+.. _duplicate: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/duplicate
+.. _help wanted: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/help%20wanted
+.. _invalid: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/invalid
+.. _question: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/question
+.. _ready: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/ready
+.. _wip: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/wip
+.. _wontfix: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/wontfix
+
+
+
+
 
 También puedes ayudar `revisando pull requests <https://github.com/PythonEcuador/PythonEcuador.github.io/pulls>`_.
 
