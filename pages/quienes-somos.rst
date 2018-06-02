@@ -3,9 +3,9 @@
 .. tags:
 .. category:
 .. link:
-.. description:
+.. description: 
 .. type: text
-.. template: pagina.tmpl
+.. template: ayuda.tmpl
 
 Esta página debe contener una breve descripción de lo que hacemos
 por qué lo hacemos, etc.
