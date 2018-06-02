@@ -166,7 +166,7 @@ para clasificarlos por complejidad y/o tipo.
 `ready`_
   Indica que el issue esta listo
 `wip`_
-    Indica que el issue está en progreso (Work in progress)
+    Indica que el issue está en progreso (Work in Progress)
 `wontfix`_
     Indica que el trabajo no va a continuar en un issue o pull request
 
