@@ -2,7 +2,7 @@
 .. slug: quienes-somos
 .. tags:
 .. category:
-.. link:
+.. link: 
 .. description:
 .. type: text
 .. template: ayuda.tmpl
