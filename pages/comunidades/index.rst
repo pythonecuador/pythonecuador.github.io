@@ -1,18 +1,49 @@
 .. title: La comunidad
 .. slug: index
-.. tags: 
-.. category: 
-.. link: 
-.. description: 
+.. tags:
+.. category:
+.. link:
+.. description:
 .. type: text
-.. template: ayuda.tmpl
+.. template: pagina.tmpl
 
-Esta página debe tener una lista de los canales de comunicación de Python Ecuador.
-Y dentro de este directorio (``pages/comunidades/``) debe existir una página por cada ciudad.
-Sólo se necesaría crear páginas con un contenido parecido a esta página,
-incentivando a las personas que sean de esa ciudad a colaborar o
-a organizar un grupo en su ciudad.
+.. image:: /images/telegram_logo.png
+  :height: 80px
+  :width: 80px
+  :scale: 50%
+  :alt: logo de telegram
+  :align: left
 
-Las página de cada ciudad deben contener información general acerca de
-la comunidad, como: dónde se está organizando eventos,
-o con quién se pueden comunicar para organizar uno esa ciudad.
+Para una comunicación directa, eres bienvenido/a en:
+
+`t.me/pythonecuador
+<https://t.me/pythonecuador/>`_
+
+|
+
+.. image:: /images/meetup_logo.png
+  :height: 90px
+  :width: 90px
+  :scale: 50%
+  :alt: logo de meetup
+  :align: left
+
+Sigue todos nuestros eventos en:
+
+`meetup.com/python-ecuador
+<https://www.meetup.com/es-ES/python-ecuador/>`_
+
+|
+
+.. image:: /images/facebook_logo.png
+  :height: 80px
+  :width: 80px
+  :scale: 50%
+  :alt: logo de facebook
+  :align: left
+
+Fanpage:
+
+`facebook.com/pyecuador <https://www.facebook.com/pyecuador/>`_
+
+:doc:`¡Inicia una comunidad en tu ciudad!<inicia-tu-comunidad>` (Nosotros te ayudamos)
