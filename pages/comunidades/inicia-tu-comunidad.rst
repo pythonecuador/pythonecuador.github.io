@@ -24,6 +24,6 @@ La motivacion principal de Python Ecuador es ayudar lo máximo posible a la crea
 
 |
 
-Estamos en la lista de comunidades de python:
+Estamos en la lista de comunidades de Python:
 
 https://wiki.python.org/moin/LocalUserGroups#Ecuador
