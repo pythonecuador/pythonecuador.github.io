@@ -218,7 +218,7 @@ Una vez que hayas hechos todos los cambios necesarios, súbelos a tu fork
 
 .. code:: bash
 
-   git push -u origin
+   git push -u origin arregla-issue-13
 
 Dirígete a la `página del proyecto <https://github.com/PythonEcuador/PythonEcuador.github.io>`_
 y verás un mensaje sugiriéndote hacer un pull request (PR).
