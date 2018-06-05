@@ -6,4 +6,4 @@ Código fuente del sitio de Python Ecuador
 
 # Colaborar
 
-Puedes ver nuestra guía en <https://pythonecuador.github.io/guias/colaborar/>.
+Puedes ver nuestra guía en <https://pythonecuador.org/guias/colaborar/>.
