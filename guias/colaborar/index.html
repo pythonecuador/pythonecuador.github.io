@@ -96,7 +96,17 @@ A continuación hemos redactado una guía para que puedas iniciar.</p>
 <a class="reference internal" href="#realizando-cambios" id="id7">Realizando cambios</a><ul>
 <li><a class="reference internal" href="#estructura-del-proyecto" id="id8">Estructura del proyecto</a></li>
 <li><a class="reference internal" href="#editar-una-pagina-incompleta" id="id9">Editar una página incompleta</a></li>
-<li><a class="reference internal" href="#mi-segundo-pull-request" id="id10">Mi segundo Pull Request</a></li>
+<li><a class="reference internal" href="#crear-una-nueva-pagina" id="id10">Crear una nueva página</a></li>
+<li><a class="reference internal" href="#creando-una-nueva-seccion" id="id11">Creando una nueva sección</a></li>
+<li><a class="reference internal" href="#mi-segundo-pull-request" id="id12">Mi segundo Pull Request</a></li>
+</ul>
+</li>
+<li>
+<a class="reference internal" href="#faq" id="id13">FAQ</a><ul>
+<li><a class="reference internal" href="#que-es-un-sitio-estatico" id="id14">¿Qué es un sitio estático?</a></li>
+<li><a class="reference internal" href="#por-que-no-se-hizo-un-sitio-dinamico-usando-un-framework-como-django" id="id15">¿Por qué no se hizo un sitio dinámico usando un framework como Django?</a></li>
+<li><a class="reference internal" href="#por-que-se-uso-nikola" id="id16">¿Por qué se usó Nikola?</a></li>
+<li><a class="reference internal" href="#por-que-no-usamos-las-rama-master" id="id17">¿Por qué no usamos las rama <tt class="docutils literal">master</tt>?</a></li>
 </ul>
 </li>
 </ul>
@@ -110,8 +120,8 @@ no dudes en preguntar en <a class="reference external" href="https://t.me/python
 <p>Este proyecto usa Python 3, puedes descargarlo desde <a class="reference external" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>.
 Para verificar que tienes Python 3 en tu sistema ejecuta el siguiente comando en una terminal
 (ventana de comandos):</p>
-<pre class="code console"><a name="rest_code_e42b2e6cbbd64e26b8f0bc9e77f7fec6-1"></a><span class="gp">$</span> python --version
-<a name="rest_code_e42b2e6cbbd64e26b8f0bc9e77f7fec6-2"></a><span class="go">Python 3.6.5</span>
+<pre class="code console"><a name="rest_code_763854269e144643a04f09e6c13afb82-1"></a><span class="gp">$</span> python --version
+<a name="rest_code_763854269e144643a04f09e6c13afb82-2"></a><span class="go">Python 3.6.5</span>
 </pre>
 <p>Si la salida del comando es diferente, no te preocupes, sólo debes asegurarte que el primer número sea un <tt class="docutils literal">3</tt>.
 En caso que la salida haya sido algo como <tt class="docutils literal">2.7.14</tt>, intenta con el comando <tt class="docutils literal">python3 <span class="pre">--version</span></tt>.</p>
@@ -133,17 +143,17 @@ dirígete al <a class="reference external" href="https://github.com/PythonEcuado
 y presiona el botón <tt class="docutils literal">Fork</tt> para hacer un fork del proyecto en tu cuenta.</p>
 <img alt="/images/guias/colaborar/fork.png" class="align-center" src="../../images/guias/colaborar/fork.png"><p>Ejecuta el siguiente comando en una terminal para obtener el código.
 Donde <tt class="docutils literal"><span class="pre">{tu-usuario}</span></tt> es tu usuario de GitHub.</p>
-<pre class="code bash"><a name="rest_code_a9ecfc00d76e475ea3a1e40f7263a1d1-1"></a>git clone https://github.com/<span class="o">{</span>tu-usuario<span class="o">}</span>/PythonEcuador.github.io.git
+<pre class="code bash"><a name="rest_code_e437764aeaa144a9b906a38cb37fd032-1"></a>git clone https://github.com/<span class="o">{</span>tu-usuario<span class="o">}</span>/PythonEcuador.github.io.git
 </pre>
 <p>Entra al directorio que contiene el código fuente con</p>
-<pre class="code bash"><a name="rest_code_873a385cffaf44e2a2d5d687d135d53f-1"></a><span class="nb">cd</span> PythonEcuador.github.io
+<pre class="code bash"><a name="rest_code_4d9f4b585a124f11920ff6ae879b40c8-1"></a><span class="nb">cd</span> PythonEcuador.github.io
 </pre>
 <div class="admonition note">
 <p class="first admonition-title">Nota</p>
 <p>El desarrollo se lleva a cabo sobre la rama <tt class="docutils literal">src</tt>.
 Por defecto tu repositorio debe estar en esta rama.
 Si tienes dudas ejecuta:</p>
-<div class="last"><pre class="code bash"><a name="rest_code_102eab6aad874be2bb0089de336a0616-1"></a>git checkout src
+<div class="last"><pre class="code bash"><a name="rest_code_a09654e5cf2248c2a3b7da19af7ad8f5-1"></a>git checkout src
 </pre></div>
 </div>
 </div>
@@ -153,24 +163,24 @@ Si tienes dudas ejecuta:</p>
 (no es necesario que sepas usarlo para empezar a colaborar en el proyecto).</p>
 <p>Crea un entorno virtual para instalar las dependencias de Python
 (este paso debes hacerlo sólo una vez):</p>
-<pre class="code bash"><a name="rest_code_a77e8236a13a44ca824bc0a38b49628d-1"></a>python -m venv venv
+<pre class="code bash"><a name="rest_code_b65ad44d3d7b43f9952f3bb410f70428-1"></a>python -m venv venv
 </pre>
 <p>Con ese comando acabamos de crear un entorno virtual llamado <tt class="docutils literal">venv</tt>.
 Puedes leer más sobre los entornos virtuales de Python en <a class="reference external" href="https://docs.python.org/3/library/venv.html">https://docs.python.org/3/library/venv.html</a>.</p>
 <p>Ahora necesitamos activar el entorno virtual
 (este paso debes hacerlo cada vez que abras una nuevo terminal):</p>
-<pre class="code bash"><a name="rest_code_a102d2939e1b4480bb629f22f263e39a-1"></a><span class="c1"># Para sistemas Linux y Mac</span>
-<a name="rest_code_a102d2939e1b4480bb629f22f263e39a-2"></a><span class="nb">source</span> venv/bin/activate
-<a name="rest_code_a102d2939e1b4480bb629f22f263e39a-3"></a>
-<a name="rest_code_a102d2939e1b4480bb629f22f263e39a-4"></a><span class="c1"># Para sistemas Windows</span>
-<a name="rest_code_a102d2939e1b4480bb629f22f263e39a-5"></a>venv<span class="se">\S</span>cripts<span class="se">\a</span>ctivate
+<pre class="code bash"><a name="rest_code_3cf48e8929104a8d929d91a329c6b4d2-1"></a><span class="c1"># Para sistemas Linux y Mac</span>
+<a name="rest_code_3cf48e8929104a8d929d91a329c6b4d2-2"></a><span class="nb">source</span> venv/bin/activate
+<a name="rest_code_3cf48e8929104a8d929d91a329c6b4d2-3"></a>
+<a name="rest_code_3cf48e8929104a8d929d91a329c6b4d2-4"></a><span class="c1"># Para sistemas Windows</span>
+<a name="rest_code_3cf48e8929104a8d929d91a329c6b4d2-5"></a>venv<span class="se">\S</span>cripts<span class="se">\a</span>ctivate
 </pre>
 <p>Ahora ya podemos instalar Nikola y otras dependencias:</p>
-<pre class="code bash"><a name="rest_code_dd17e8c1a6d94af3bb6a9bf14fbb3862-1"></a>pip install -r requirements.txt
+<pre class="code bash"><a name="rest_code_6b3a7c5ecf0e49e7b7268fe21021d440-1"></a>pip install -r requirements.txt
 </pre>
 <p>Finalmente, para ejecutar el sitio con Nikola</p>
-<pre class="code bash"><a name="rest_code_17a18f2792244f59975db948f50264fb-1"></a>nikola build
-<a name="rest_code_17a18f2792244f59975db948f50264fb-2"></a>nikola serve
+<pre class="code bash"><a name="rest_code_789c78950c2b4013803a4e57742cc068-1"></a>nikola build
+<a name="rest_code_789c78950c2b4013803a4e57742cc068-2"></a>nikola serve
 </pre>
 <p>Si abres tu navegador e ingresas a <a class="reference external" href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> podrás ver el sitio.</p>
 </div>
@@ -228,18 +238,18 @@ para clasificarlos por complejidad y/o tipo.</p>
 <p>Una vez que tengas un issue con cual trabajar.
 Crea una nueva rama con un nombre relacionado al issue que estás resolviendo.
 <cite>arregla-issue-13</cite> es el nombre de la rama usada en este ejemplo.</p>
-<pre class="code bash"><a name="rest_code_d5e46be03c464d6da9e2e9a6042cc8bd-1"></a>git checkout -b arregla-issue-13
+<pre class="code bash"><a name="rest_code_eab662ef04e14121b8941e9506074fb5-1"></a>git checkout -b arregla-issue-13
 </pre>
 <p>Haz los cambios que sean pertinentes para resolver el issue.
 Puedes ver los cambios en tu navegador mientras editas los archivos con el siguiente comando</p>
-<pre class="code bash"><a name="rest_code_24ef9d92d0e945b4b8da4b1f6b6511a7-1"></a>nikola auto
+<pre class="code bash"><a name="rest_code_51d8d8655ed349c8942f03fc8990d604-1"></a>nikola auto
 </pre>
 <p>Trata de hacer un commit por cada bloque de cambios relacionados que hagas</p>
-<pre class="code bash"><a name="rest_code_ad15f61545c84628a78a0ce97587cc2c-1"></a>git add archivo-editado.rst
-<a name="rest_code_ad15f61545c84628a78a0ce97587cc2c-2"></a>git commit -m <span class="s2">"Arreglada falta ortográfica"</span>
+<pre class="code bash"><a name="rest_code_e70bf972473847caa9eae181978c1009-1"></a>git add archivo-editado.rst
+<a name="rest_code_e70bf972473847caa9eae181978c1009-2"></a>git commit -m <span class="s2">"Arreglada falta ortográfica"</span>
 </pre>
 <p>Una vez que hayas hechos todos los cambios necesarios, súbelos a tu fork</p>
-<pre class="code bash"><a name="rest_code_db160c976bf04387ba888b599be320d0-1"></a>git push -u origin arregla-issue-13
+<pre class="code bash"><a name="rest_code_e3bca09e0e874e43aea0c3504f9c9281-1"></a>git push -u origin arregla-issue-13
 </pre>
 <p>Dirígete a la <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io">página del proyecto</a>
 y verás un mensaje sugiriéndote hacer un pull request (PR).
@@ -247,11 +257,11 @@ En la descripción del PR describe brevemente los cambios que hiciste.</p>
 <p>Espera a que un miembro de la comunidad revise tu PR,
 si son necesarios más cambios, los puedes hacer en la misma rama
 y repetir el proceso de agregar más commits.</p>
-<pre class="code bash"><a name="rest_code_a9d72eb344ea488a9ccd0cb95050a63a-1"></a>git add archivo-editado.rst
-<a name="rest_code_a9d72eb344ea488a9ccd0cb95050a63a-2"></a>git commit -m <span class="s2">"Más cambios"</span>
+<pre class="code bash"><a name="rest_code_5d2ea039c3dd4a1b9d240f7f0c8f74d4-1"></a>git add archivo-editado.rst
+<a name="rest_code_5d2ea039c3dd4a1b9d240f7f0c8f74d4-2"></a>git commit -m <span class="s2">"Más cambios"</span>
 </pre>
 <p>Una vez que ya los tengas listos, vuelve a subirlos</p>
-<pre class="code bash"><a name="rest_code_291ac1decb66445880a8477a2d0e6760-1"></a>git push
+<pre class="code bash"><a name="rest_code_2ecce30ddcca46e49ebde04049ab8c7e-1"></a>git push
 </pre>
 <div class="admonition note">
 <p class="first admonition-title">Nota</p>
@@ -285,7 +295,7 @@ sólo debes esperar a que un miembro de la comunidad haga un merge.</p>
 para empezar a editarla debes localizar la página (se encuentran en el directorio <tt class="docutils literal">pages/</tt>)
 cada archivo corresponde a la URL de la página, por ejemplo si la página es <tt class="docutils literal">www.python.ec/eventos</tt>
 el archivo a editar se encontrará en <tt class="docutils literal">pages/eventos.rst</tt>.
-Los archivos están escritos en <cite>reStructuredText &lt;http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html&gt;</cite>.</p>
+Los archivos están escritos en <a class="reference external" href="http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html">reStructuredText</a>.</p>
 <blockquote>
 ¡Pero ahí no está toda la página que vi en el navegador!</blockquote>
 <p>Ya vamos a esa parte.</p>
@@ -304,8 +314,16 @@ Estos templates contienen el contenido base de la página (se encuentran en <tt 
 Y los archivos <tt class="docutils literal">.rst</tt> sólo contienen el texto principal.</p>
 <p>Ahora sólo necesitas editar el archivo <tt class="docutils literal">.rst</tt> ¡y listo!</p>
 </div>
+<div class="section" id="crear-una-nueva-pagina">
+<h3><a class="toc-backref" href="#id10">Crear una nueva página</a></h3>
+<p>Pronto</p>
+</div>
+<div class="section" id="creando-una-nueva-seccion">
+<h3><a class="toc-backref" href="#id11">Creando una nueva sección</a></h3>
+<p>Pronto</p>
+</div>
 <div class="section" id="mi-segundo-pull-request">
-<h3><a class="toc-backref" href="#id10">Mi segundo Pull Request</a></h3>
+<h3><a class="toc-backref" href="#id12">Mi segundo Pull Request</a></h3>
 <p>¿Ya por el segundo? ¡Felicitaciones!
 Antes de enviar tu segundo pull request,
 debes hacer un par de pasos para igualar tu fork con los últimos cambios del repositorio.</p>
@@ -314,22 +332,49 @@ debes hacer un par de pasos para igualar tu fork con los últimos cambios del re
 <p class="last">Asegúrate de repetir este proceso antes de tomar una nueva tarea.</p>
 </div>
 <p>Primero debemos cambiarnos nuevamente a la rama principal (<tt class="docutils literal">src</tt>).</p>
-<pre class="code bash"><a name="rest_code_b6034134c5e640058bd992a77b936276-1"></a>git checkout src
+<pre class="code bash"><a name="rest_code_8c7f06eab409434495e584ddd95ad77b-1"></a>git checkout src
 </pre>
 <p>Asegúrate que no tengas cambios residuales de tu anterior PR
 antes de proceder con los siguientes pasos
 (puedes usar <tt class="docutils literal">git status</tt> para comprobarlo).</p>
 <p>Necesitaremos hacerle saber a git del repo principal con el siguiente comando.</p>
-<pre class="code bash"><a name="rest_code_427ef02669b2482cb36875761609658e-1"></a>git remote add upstream https://github.com/PythonEcuador/PythonEcuador.github.io.git
+<pre class="code bash"><a name="rest_code_b449d10894694bf78145e2a79acb7965-1"></a>git remote add upstream https://github.com/PythonEcuador/PythonEcuador.github.io.git
 </pre>
 <p>Ahora ya podemos bajarnos los últimos cambios del repo principal.</p>
-<pre class="code bash"><a name="rest_code_f4523d36e8044cdeac8d7e19a1f6185d-1"></a>git pull upstream src
+<pre class="code bash"><a name="rest_code_68c4ce30052f48bf81853afabfa45ccd-1"></a>git pull upstream src
 </pre>
 <p>Y los subimos a nuestro fork</p>
-<pre class="code bash"><a name="rest_code_e25ed7a4f06f471a9ae5fd936910490a-1"></a>git push origin src
+<pre class="code bash"><a name="rest_code_91f6b4819a664b498ee625ca4ea160b3-1"></a>git push origin src
 </pre>
 <p>Ahora si, puedes seguir los pasos indicados <a class="reference external" href="#realizando-cambios">arriba</a>
 para continuar con tu próximo pull request.</p>
+</div>
+</div>
+<div class="section" id="faq">
+<h2><a class="toc-backref" href="#id13">FAQ</a></h2>
+<div class="section" id="que-es-un-sitio-estatico">
+<h3><a class="toc-backref" href="#id14">¿Qué es un sitio estático?</a></h3>
+<p>Es un sitio con contenido que nunca cambia,
+a diferencia de un sitio dinámico dónde el contenido cambia con interacciones de los usuarios.</p>
+</div>
+<div class="section" id="por-que-no-se-hizo-un-sitio-dinamico-usando-un-framework-como-django">
+<h3><a class="toc-backref" href="#id15">¿Por qué no se hizo un sitio dinámico usando un framework como Django?</a></h3>
+<p>Un sitio estático no requiere de un servidor ni de mucho esfuerzo para desplegar.
+Puede ser alojado en GitHub Pages sin ningún costo.
+Es totalmente escalable y configurable.</p>
+</div>
+<div class="section" id="por-que-se-uso-nikola">
+<h3><a class="toc-backref" href="#id16">¿Por qué se usó Nikola?</a></h3>
+<p>Se hizo una pequeña votación antes de empezar con el desarrollo del sitio en
+<a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/issues/2">#2</a>.</p>
+</div>
+<div class="section" id="por-que-no-usamos-las-rama-master">
+<h3><a class="toc-backref" href="#id17">¿Por qué no usamos las rama <tt class="docutils literal">master</tt>?</a></h3>
+<p>El sitio está alojado en GitHub Pages,
+por lo que se requiere que en la rama <tt class="docutils literal">master</tt>
+estén los archivos finales a ser servidos (los archivos <tt class="docutils literal">html</tt> resultado de hacer <tt class="docutils literal">nikola build</tt>).
+Por ello el desarrollo con los archivos <tt class="docutils literal">rst</tt> se lleva a cabo en la rama <tt class="docutils literal">src</tt>,
+y los archivos <em>compilados</em> se encuentran en <tt class="docutils literal">master</tt>.</p>
 </div>
 </div>
 </div>
