@@ -226,9 +226,26 @@ En la descripción del PR describe brevemente los cambios que hiciste.
 
 Espera a que un miembro de la comunidad revise tu PR,
 si son necesarios más cambios, los puedes hacer en la misma rama
-y repetir el proceso de agregar más commits y subiendo tus cambios con ``git push``,
-tus cambios serán actualizados en el PR que ya abriste inicialmente.
-Si no hay más cambios y tu PR es aprobada, sólo debes esperar a que un miembro de la comunidad haga un merge.
+y repetir el proceso de agregar más commits.
+
+.. code:: bash
+
+   git add archivo-editado.rst
+   git commit -m "Más cambios"
+
+Una vez que ya los tengas listos, vuelve a subirlos
+
+.. code:: bash
+   
+   git push
+
+.. note::
+
+   Tus cambios serán actualizados en el PR que ya abriste inicialmente.
+   Así que no es necesario que vuelvas a abrir otro.
+
+Si no son necesarios más cambios y tu PR es aprobada,
+sólo debes esperar a que un miembro de la comunidad haga un merge.
 
 Estructura del proyecto
 #######################
