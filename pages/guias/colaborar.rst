@@ -272,7 +272,7 @@ Si te topaste con una página con el título *¡Esta sección necesita de tu ayu
 para empezar a editarla debes localizar la página (se encuentran en el directorio ``pages/``)
 cada archivo corresponde a la URL de la página, por ejemplo si la página es ``www.python.ec/eventos``
 el archivo a editar se encontrará en ``pages/eventos.rst``.
-Los archivos están escritos en `reStructuredText <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`.
+Los archivos están escritos en `reStructuredText <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_.
 
   ¡Pero ahí no está toda la página que vi en el navegador!
 
@@ -290,6 +290,16 @@ Estos templates contienen el contenido base de la página (se encuentran en ``th
 Y los archivos ``.rst`` sólo contienen el texto principal.
 
 Ahora sólo necesitas editar el archivo ``.rst`` ¡y listo!
+
+Crear una nueva página
+######################
+
+Pronto
+
+Creando una nueva sección
+#########################
+
+Pronto
 
 Mi segundo Pull Request
 #######################
@@ -333,3 +343,34 @@ Y los subimos a nuestro fork
 
 Ahora si, puedes seguir los pasos indicados :ref:`arriba <realizando-cambios>`
 para continuar con tu próximo pull request.
+
+FAQ
+---
+
+¿Qué es un sitio estático?
+##########################
+
+Es un sitio con contenido que nunca cambia,
+a diferencia de un sitio dinámico dónde el contenido cambia con interacciones de los usuarios.
+
+¿Por qué no se hizo un sitio dinámico usando un framework como Django?
+######################################################################
+
+Un sitio estático no requiere de un servidor ni de mucho esfuerzo para desplegar.
+Puede ser alojado en GitHub Pages sin ningún costo.
+Es totalmente escalable y configurable.
+
+¿Por qué se usó Nikola?
+#######################
+
+Se hizo una pequeña votación antes de empezar con el desarrollo del sitio en
+`#2 <https://github.com/PythonEcuador/PythonEcuador.github.io/issues/2>`__.
+
+¿Por qué no usamos las rama ``master``?
+#######################################
+
+El sitio está alojado en GitHub Pages,
+por lo que se requiere que en la rama ``master``
+estén los archivos finales a ser servidos (los archivos ``html`` resultado de hacer ``nikola build``).
+Por ello el desarrollo con los archivos ``rst`` se lleva a cabo en la rama ``src``,
+y los archivos *compilados* se encuentran en ``master``.

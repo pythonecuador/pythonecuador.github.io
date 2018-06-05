@@ -11,6 +11,9 @@
 a un proyecto de software libre o a un proyecto de la comunidad de Python Ecuador.
 Y por supuesto, comemos pizza para llenarnos de las energías suficientes para aprender, compartir y programar.
 
+.. contents:: Contenidos
+   :depth: 2
+
 ¿Quién puede participar?
 ------------------------
 
@@ -23,8 +26,8 @@ Requisitos
 - Ganas de compartir y aprender
 - Tu computador
 
-¿Dónde y cuándo hay #PyPizza?
------------------------------
+¿Dónde y cuándo?
+----------------
 
 En el pasado se han realizado eventos en Loja, Quito y Cuenca.
 Pero se pueden reunir desde cualquier parte.
@@ -50,7 +53,7 @@ Llegada una hora ordenamos una pizza (la pagamos entre todos) y seguimos program
 --------------------
 
 Si, te puedes sumar a cualquier hora.
-El evento no es líneal, pero estaría bueno empezar todos al mismo tiempo.
+El evento no es lineal, pero estaría bueno empezar todos al mismo tiempo.
 
 .. note::
    
