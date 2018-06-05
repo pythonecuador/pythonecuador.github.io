@@ -961,7 +961,7 @@ CONTENT_FOOTER = '''
     </div>
     <div class="row">
         <div class="col-xs-14 col-sm-14 col-md-14 mt-2 mt-sm-2 text-center">
-            <p id="oneLineFooter">Comunidad Python Ecuador</p>
+            <p>Comunidad Python Ecuador</p>
             <small>© {date} Todos los derechos reservados.</small>
         </div>
         </hr>
