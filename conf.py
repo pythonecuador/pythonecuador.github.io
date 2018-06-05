@@ -944,8 +944,30 @@ LICENSE = "GNU v3.0"
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = '''
+<div class="container">
+    <p id="followus"><strong>Síguenos y forma parte de nuestra comunidad</strong></p>
+    <div class="row">
+        <div class="col-xs-14 col-sm-14 col-md-14 mt-2 mt-sm-5">
+            <ul class="list-unstyled list-inline social text-center">
+                <li class="list-inline-item"><a href="https://www.facebook.com/pyecuador/"><i class="fa fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.meetup.com/es-ES/python-ecuador/"><i class="fa fa-meetup"></i></a>
+                <li class="list-inline-item"><a href="https://github.com/PythonEcuador"><i class="fa fa-git"></i></a></li>
+                <li class="list-inline-item"><a href="https://t.me/pythonecuador"><i class="fa fa-telegram"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
 
+            </ul>
+        </div></hr>
+    </div>
+    <div class="row">
+        <div class="col-xs-14 col-sm-14 col-md-14 mt-2 mt-sm-2 text-center">
+            <p id="oneLineFooter">Comunidad Python Ecuador</p>
+            <small>© {date} Todos los derechos reservados.</small>
+        </div>
+        </hr>
+    </div>
+</div>
+'''
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
 # intelligently format the setting properly.
@@ -973,8 +995,8 @@ CONTENT_FOOTER_FORMATS = {
 
 # A simple copyright tag for inclusion in RSS feeds that works just
 # like CONTENT_FOOTER and CONTENT_FOOTER_FORMATS
-RSS_COPYRIGHT = 'Contents © {date} <a href="mailto:{email}">{author}</a> {license}'
-RSS_COPYRIGHT_PLAIN = 'Contents © {date} {author} {license}'
+RSS_COPYRIGHT = 'Contenido © {date} <a href="mailto:{email}">{author}</a> {license}'
+RSS_COPYRIGHT_PLAIN = 'Contenido © {date} {author} {license}'
 RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 
 # To use comments, you can choose between different third party comment
