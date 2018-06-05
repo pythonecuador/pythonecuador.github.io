@@ -14,7 +14,7 @@ Recién estamos empezando, así que **hay mucho por hacer**.
 No todas las tareas involucran código,
 correcciones ortográficas también aportan al proyecto.
 Y si no te atreves a hacer la corrección por ti misma/o,
-puedes al menos :ref:`reportar el problema <Reportando errores (bugs)>`.
+puedes al menos :ref:`reportar el problema <reportando-errores-bugs>`.
 A continuación hemos redactado una guía para que puedas iniciar.
 
 .. contents:: Contenidos
@@ -218,7 +218,7 @@ Una vez que hayas hechos todos los cambios necesarios, súbelos a tu fork
 
 .. code:: bash
 
-   git push -u origin
+   git push -u origin arregla-issue-13
 
 Dirígete a la `página del proyecto <https://github.com/PythonEcuador/PythonEcuador.github.io>`_
 y verás un mensaje sugiriéndote hacer un pull request (PR).
@@ -226,9 +226,26 @@ En la descripción del PR describe brevemente los cambios que hiciste.
 
 Espera a que un miembro de la comunidad revise tu PR,
 si son necesarios más cambios, los puedes hacer en la misma rama
-y repetir el proceso de agregar más commits y subiendo tus cambios con ``git push``,
-tus cambios serán actualizados en el PR que ya abriste inicialmente.
-Si no hay más cambios y tu PR es aprobada, sólo debes esperar a que un miembro de la comunidad haga un merge.
+y repetir el proceso de agregar más commits.
+
+.. code:: bash
+
+   git add archivo-editado.rst
+   git commit -m "Más cambios"
+
+Una vez que ya los tengas listos, vuelve a subirlos
+
+.. code:: bash
+   
+   git push
+
+.. note::
+
+   Tus cambios serán actualizados en el PR que ya abriste inicialmente.
+   Así que no es necesario que vuelvas a abrir otro.
+
+Si no son necesarios más cambios y tu PR es aprobada,
+sólo debes esperar a que un miembro de la comunidad haga un merge.
 
 Estructura del proyecto
 #######################
@@ -273,3 +290,46 @@ Estos templates contienen el contenido base de la página (se encuentran en ``th
 Y los archivos ``.rst`` sólo contienen el texto principal.
 
 Ahora sólo necesitas editar el archivo ``.rst`` ¡y listo!
+
+Mi segundo Pull Request
+#######################
+
+¿Ya por el segundo? ¡Felicitaciones!
+Antes de enviar tu segundo pull request,
+debes hacer un par de pasos para igualar tu fork con los últimos cambios del repositorio.
+
+.. note::
+
+   Asegúrate de repetir este proceso antes de tomar una nueva tarea.
+
+Primero debemos cambiarnos nuevamente a la rama principal (``src``).
+
+
+.. code:: bash
+
+   git checkout src
+
+Asegúrate que no tengas cambios residuales de tu anterior PR
+antes de proceder con los siguientes pasos
+(puedes usar ``git status`` para comprobarlo).
+
+Necesitaremos hacerle saber a git del repo principal con el siguiente comando.
+
+.. code:: bash
+   
+   git remote add upstream https://github.com/PythonEcuador/PythonEcuador.github.io.git
+
+Ahora ya podemos bajarnos los últimos cambios del repo principal.
+
+.. code:: bash
+   
+   git pull upstream src
+
+Y los subimos a nuestro fork
+
+.. code:: bash
+
+   git push origin src
+
+Ahora si, puedes seguir los pasos indicados :ref:`arriba <realizando-cambios>`
+para continuar con tu próximo pull request.
