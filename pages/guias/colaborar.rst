@@ -365,3 +365,12 @@ Es totalmente escalable y configurable.
 
 Se hizo una pequeña votación antes de empezar con el desarrollo del sitio en
 `#2 <https://github.com/PythonEcuador/PythonEcuador.github.io/issues/2>`__.
+
+¿Por qué no usamos las rama ``master``?
+#######################################
+
+El sitio está alojado en GitHub Pages,
+por lo que se requiere que en la rama ``master``
+estén los archivos finales a ser servidos (los archivos ``html`` resultado de hacer ``nikola build``).
+Por ello el desarrollo con los archivos ``rst`` se lleva a cabo en la rama ``src``,
+y los archivos *compilados* se encuentran en ``master``.
