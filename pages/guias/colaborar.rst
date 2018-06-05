@@ -14,7 +14,7 @@ Recién estamos empezando, así que **hay mucho por hacer**.
 No todas las tareas involucran código,
 correcciones ortográficas también aportan al proyecto.
 Y si no te atreves a hacer la corrección por ti misma/o,
-puedes al menos :ref:`reportar el problema <Reportando errores (bugs)>`.
+puedes al menos :ref:`reportar el problema <reportando-errores-bugs>`.
 A continuación hemos redactado una guía para que puedas iniciar.
 
 .. contents:: Contenidos
