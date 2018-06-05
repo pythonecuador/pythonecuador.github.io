@@ -290,3 +290,46 @@ Estos templates contienen el contenido base de la página (se encuentran en ``th
 Y los archivos ``.rst`` sólo contienen el texto principal.
 
 Ahora sólo necesitas editar el archivo ``.rst`` ¡y listo!
+
+Mi segundo Pull Request
+#######################
+
+¿Ya por el segundo? ¡Felicitaciones!
+Antes de enviar tu segundo pull request,
+debes hacer un par de pasos para igualar tu fork con los últimos cambios del repositorio.
+
+.. note::
+
+   Asegúrate de repetir este proceso antes de tomar una nueva tarea.
+
+Primero debemos cambiarnos nuevamente a la rama principal (``src``).
+
+
+.. code:: bash
+
+   git checkout src
+
+Asegúrate que no tengas cambios residuales de tu anterior PR
+antes de proceder con los siguientes pasos
+(puedes usar ``git status`` para comprobarlo).
+
+Necesitaremos hacerle saber a git del repo principal con el siguiente comando.
+
+.. code:: bash
+   
+   git remote add upstream https://github.com/PythonEcuador/PythonEcuador.github.io.git
+
+Ahora ya podemos bajarnos los últimos cambios del repo principal.
+
+.. code:: bash
+   
+   git pull upstream src
+
+Y los subimos a nuestro fork
+
+.. code:: bash
+
+   git push origin src
+
+Ahora si, puedes seguir los pasos indicados :ref:`arriba <realizando-cambios>`
+para continuar con tu próximo pull request.
