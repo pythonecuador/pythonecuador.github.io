@@ -56,6 +56,14 @@ Obteniendo el proyecto
 El proyecto está bajo el sistema de control de versiones Git y alojado en GitHub,
 puedes descargar Git desde https://git-scm.com/download.
 
+Luego de instalar Git se debe configurar el usuario y el correo electrónico con
+los siguientes comandos:
+
+.. code:: bash
+
+   git config --global user.name "Juanito Perez"
+   git config --global user.email "juanito@perez.com"
+
 Debes tener una cuenta en `GitHub <https://github.com/>`_, inicia sesión,
 dirígete al `proyecto de Python Ecuador <https://github.com/PythonEcuador/PythonEcuador.github.io>`_
 y presiona el botón ``Fork`` para hacer un fork del proyecto en tu cuenta.
