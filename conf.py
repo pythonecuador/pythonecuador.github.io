@@ -954,7 +954,7 @@ CONTENT_FOOTER = '''
                 <li class="list-inline-item"><a href="https://www.meetup.com/es-ES/python-ecuador/"><i class="fa fa-meetup"></i></a>
                 <li class="list-inline-item"><a href="https://github.com/PythonEcuador"><i class="fa fa-git"></i></a></li>
                 <li class="list-inline-item"><a href="https://t.me/pythonecuador"><i class="fa fa-telegram"></i></a></li>
-                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/pyecuador"><i class="fa fa-twitter"></i></a></li>
 
             </ul>
         </div></hr>
