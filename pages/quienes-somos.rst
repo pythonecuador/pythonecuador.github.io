@@ -5,7 +5,7 @@
 .. link: 
 .. description: 
 .. type: text
-.. template: ayuda.tmpl
+.. template: pagina.tmpl
 
 ¿Quiénes somos? 
 	Somos un grupo de personas entusiastas de Python, con la filosofía común de que el conocimiento debe ser libre. No lucramos con ningún evento, y esperamos llegar a todos aquellos que desean aprender, sin importar nada más que sus ganas de aprender.
