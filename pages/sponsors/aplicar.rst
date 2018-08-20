@@ -14,18 +14,17 @@ Tipos de Sponsors
 
 Actualmente contamos con dos tipos de sponsors,
 
-De largo plazo
-~~~~~~~~~~~~~~
+Recurrente
+~~~~~~~~~~
 
 Para ser un sponsor de largo plazo debes hacer al menos 3 contribuciones recurrentes.
 Cada contribución se realiza cada mes y el monto mínimo de cada contribución debe ser de $50.
 
-¿Qué obtengo a cambio?
-''''''''''''''''''''''
+**¿Qué obtengo a cambio?**
 
 - El nombre, URL y la imagen de tu marca/empresa será usada en nuestras redes sociales
   (un post/tweet dedicado por cada 3 meses de sponsor).
-- El nombre e imagen de tu marca/empresa será puesta en nuestra `lista de sponsors actuales <index>`_.
+- El nombre e imagen de tu marca/empresa será puesta en nuestra :doc:`lista de sponsors actuales <index>`.
   la imagen tendrá una altura de 200px y llevará un enlace a la URL indicada.
 - Cuando termine tu membresía de sponsor, el nombre, imagen y enlace será removido de
   la lista de sponsors actuales y será colocada en la lista de sponsors pasados con las fechas de inicio y final.
@@ -35,10 +34,9 @@ De una sola vez
 
 Debes hacer una contribución mayor o igual a $20.
 
-¿Qué obtengo a cambio?
-''''''''''''''''''''''
+**¿Qué obtengo a cambio?**
 
-- Tu nombre o el de la marca/empresa que representas será puesta en la `lista de sponsors de una sola vez <index>`,
+- Tu nombre o el de la marca/empresa que representas será puesta en la :doc:`lista de sponsors de una sola vez <index>`,
   con la fecha de inicio de tu membresía
   y llevará un enlace a la URL indicada.
 - Tu nombre, URL y la imagen de tu marca/empresa o tu persona será usada en una publicación,
