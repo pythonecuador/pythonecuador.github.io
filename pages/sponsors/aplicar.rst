@@ -198,9 +198,11 @@ Ninguno, la comunidad es dirigida por la comunidad,
 Python Ecuador siempre será una comunidad independiente.
 Al ser sponsor sólo recibes los beneficios detallados en la aplicación.
 
+Ten en cuenta que somos una **comunidad**, no un banco o una empresa.
+
 ¿Más preguntas?
 ~~~~~~~~~~~~~~~
 
 Revisa nuestro :doc:`faq sobre donaciones <faq>`,
 y si algo aún no te queda claro o deseas más información,
-escríbenos a ecuadorpython@gmail.
+escríbenos a ecuadorpython@gmail.com.
