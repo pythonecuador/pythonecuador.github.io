@@ -4,15 +4,15 @@
 .. type: text
 .. template: pagina.tmpl
 
-La comunidad de Python Ecuador es llevada gracias al esfuerzo de muchas personas,
-que usan su tiempo libre e incluso hasta su dinero.
+La comunidad de Python Ecuador es llevada gracias al **esfuerzo de muchas personas**,
+que usan **su tiempo libre y hasta su dinero**.
 A medida que la comunidad crece, esto se nos queda corto,
-pero gracias a la generosa ayuda financiera de nuestros sponsors la comunidad puede seguir creciendo.
+pero gracias a la **generosa ayuda financiera de nuestros sponsors** la comunidad puede seguir creciendo.
 
 *¿Te interesa ser un sponsor de nuestra comunidad?* :doc:`Vea como aplicar <aplicar>`.
 
-Sponsors actuales
------------------
+Sponsors recurrentes
+--------------------
 
 Lista de sponsors que nos ayudan de manera recurrente.
 
@@ -24,10 +24,10 @@ Lista de sponsors que nos ayudan de manera recurrente.
 
    Tu marca
 
-Donaciones de una sola vez
---------------------------
+Sponsors no recurrentes
+-----------------------
 
-Estos son sponsors que han hecho una donación de una sola vez.
+Lista de sponsors que han hecho una donación.
 
 - :doc:`Tu empresa <aplicar>`
 - :doc:`Tu nombre <aplicar>`
@@ -35,11 +35,11 @@ Estos son sponsors que han hecho una donación de una sola vez.
 Sponsors pasados
 ----------------
 
-Estos son sponsors que nos han apoyado en el pasado.
+Estos son sponsors recurrentes que nos han apoyado en el pasado.
 
 Mención especial
 ----------------
 
-La siguiente lista no es de sponsors que necesariamente hayan ayudado financieramente,
+La siguiente lista no es de sponsors que necesariamente hayan ayudado económicamente,
 sino de comunidades o personas que han puesto un esfuerzo extraordinario en la comunidad,
 y que sin ellas Python Ecuador no fuese posible.
