@@ -8,7 +8,8 @@
 
 .. note::
 
-   Esta *sección está en beta*,
+   Esta *sección está en beta*
+   (pero si estamos receptando aplicaciones),
    si tienes alguna sugerencia de como mejorar el proceso de aplicación háznoslo saber ;)
 
 .. contents:: Contenidos
@@ -139,6 +140,7 @@ Restricciones
 - La imagen enviada no debe violar ninguna licencia o derecho de autor.
 - La información de contacto es de una persona real,
   pertenece al remitente y es un representante legal de la empresa/marca o está autorizada para realizar este trámite.
+- Nos reservamos el derecho de rechazar tu aplicación si la empresa/persona ha violado nuestro :doc:`código de conducta <coc>`.
 
 FAQ
 ---
@@ -185,14 +187,14 @@ al menos que sea de extrema urgencia, debes enviarnos un email con la razón.
 Luego de que expire tu membresía puedes volver a enviar nuevos datos en el email de aplicación.
 
 ¿Qué pasa si aplico como sponsor recurrente y no hago las contribuciones pactadas?
-----------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Serás removido de la lista de sponsors recurrentes,
 si hiciste tres o más contribuciones serás agregado a la lista de sponsors pasados,
 y si hiciste menos de tres contribuciones serás agregado a la lista de sponsors no recurrentes.
 
 ¿Qué derechos/poder tengo sobre la comunidad de Python Ecuador al ser sponsor?
-------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ninguno, la comunidad es dirigida por la comunidad,
 Python Ecuador siempre será una comunidad independiente.
