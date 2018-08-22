@@ -39,7 +39,7 @@ La comunidad tendrá acceso a una hoja de cálculo de solo lectura donde se podr
 y una carpeta en Google Drive de sólo lectura con pruebas de esas transacciones.
 
 Si sabes que un miembro está haciendo mal uso del dinero o crees que no lo estamos administrando de manera correcta,
-haznoslo saber.
+háznoslo saber.
 
 ¿Python Ecuador será de X empresa?
 ----------------------------------
@@ -72,7 +72,8 @@ en una hoja de cálculo pública (pero no tendrás los beneficios de un sponsor)
 No tengo dinero ¿De qué otra forma puedo ayudar?
 ------------------------------------------------
 
-¡Gracias por el interés en ayudar! Siempre estamos buscando más personas que se sumen a la organizacón.
+¡Gracias por el interés en ayudar!
+Siempre estamos buscando más personas que se sumen a la organización de eventos.
 Puedes revisar :doc:`quiero-ayudar` para ver todas las formas de ayudar.
 
 ¿Más preguntas?
