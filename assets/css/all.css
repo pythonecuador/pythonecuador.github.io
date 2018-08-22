@@ -776,15 +776,15 @@ article.post-micro {
   color:#ffffff;
 }
 
-#footer ul.social li a:hover{
+#footer ul.social li a:hover {
   color:#eeeeee;
 }
 
-#followus{
+#followus {
   text-align: center;
 }
 
-#footer .fa{
+#footer .fa {
  padding: 10px;
  font-size: 30px;
  width: 45px;
@@ -793,24 +793,24 @@ article.post-micro {
  border-radius: 70%;
 }
 
-#footer .fa-facebook{
+#footer .fa-facebook {
  background: #3B5998;
  color: white;
 }
 
-#footer .fa-twitter{
+#footer .fa-twitter {
   background:#55ACEE;
   color: white;
 }
 
-#footer .fa-telegram{
+#footer .fa-telegram {
   background: #00BFFF;
 }
 
-#footer .fa-meetup{
+#footer .fa-meetup {
   background: #B40431;
 }
 
-#footer .fa-git{
+#footer .fa-github {
   background: #000000;
 }

@@ -6,15 +6,15 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://pythonecuador.github.io/galleries/rss.xml</loc>
-  <lastmod>2018-06-28T19:57:00Z</lastmod>
+  <loc>https://pythonecuador.org/galleries/rss.xml</loc>
+  <lastmod>2018-08-22T02:47:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://pythonecuador.github.io/rss.xml</loc>
-  <lastmod>2018-05-29T07:01:00Z</lastmod>
+  <loc>https://pythonecuador.org/rss.xml</loc>
+  <lastmod>2018-08-22T02:47:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://pythonecuador.github.io/sitemap.xml</loc>
-  <lastmod>2018-06-28T19:57:00Z</lastmod>
+  <loc>https://pythonecuador.org/sitemap.xml</loc>
+  <lastmod>2018-08-22T02:47:00Z</lastmod>
  </sitemap>
 </sitemapindex>
