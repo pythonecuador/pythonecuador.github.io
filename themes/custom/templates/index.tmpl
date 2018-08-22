@@ -2,10 +2,28 @@
 ## Nuesta página principal
 <%inherit file="pagina-base.tmpl"/>
 
-<%block name="contenido">
-  <h1>Python Ecuador</h1>
-  <h2>Página inicial</h2>
-  <p>
-    Edítame en <code>themes/custom/templates/index.tmpl</code>.
-  </p>
+<%block name="encabezado_extra">
+  <link rel="stylesheet" href="/assets/css/index.css" type="text/css" media="all" />
+</%block>
+
+<%block name="content">
+  <div class="site-wrapper">
+    <div class="cover-container">
+      <img src="/images/logos/python-ecuador.png" class="cover-image"/>
+      <div class="lead">
+        <h1 class="lead-title">
+          Comunidad de Python del Ecuador
+        </h1>
+        <p class="lead-content">
+          Difundiendo Python y descentralizando el conocimiento.
+          Organizando eventos libres y gratuitos en todo el país.
+        </p>
+        <p class="lead-footer">
+          <a href="/quienes-somos/" class="btn btn-lg btn-default">
+            Más sobre nosotros
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
 </%block>
