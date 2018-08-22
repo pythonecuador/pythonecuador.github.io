@@ -1,0 +1,80 @@
+/* Colores principales */
+body {
+  --blue: #4584b6;
+  --yellow: #ffde57; 
+  --dark-yellow: #eaca48;
+  --shadow-blue: rgba(6,36,60,.5);
+}
+
+/* Limpiar barra de navegación */
+.navbar {
+  border: 0px;
+}
+.navbar-brand {
+  display: none;
+}
+
+/* Limpiar footer */
+#footer {
+  border-top: 0px;
+}
+
+/* Botón principal */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: var(--blue);
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: var(--yellow);
+  border: 1px solid var(--yellow);
+  box-shadow: 0 1px 3px var(--shadow-blue);
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.btn-default:hover {
+  background-color: var(--dark-yellow);
+}
+
+
+/* Base */
+html,
+body {
+  background-color: var(--blue);
+}
+.site-wrapper {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px var(--shadow-blue);
+}
+.lead-content,
+#footer {
+  color: #f2f2f2;
+}
+
+/* Banner principal */
+.lead {
+  margin: auto;
+  position: relative;
+}
+
+.lead-content {
+  width: 50%;
+  margin: auto;
+}
+
+.lead-title {
+  margin-bottom: 50px;
+}
+
+/* imagen de fondo */
+.cover-image {
+  position: absolute;
+  max-height: 300px;
+  display: block;
+  opacity: 0.9;
+  z-index: -1;
+  margin: auto;
+  right: 0;
+  left: 0;
+}
