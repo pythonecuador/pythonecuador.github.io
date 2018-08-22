@@ -1,5 +1,5 @@
 clean:
-	rm -rf cache output 
+	rm -rf cache output .doit.db .doit.db.*
 
 serve:
 	nikola auto
