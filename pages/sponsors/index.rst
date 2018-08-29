@@ -31,12 +31,11 @@ Sponsors no recurrentes
 
 Lista de sponsors que han hecho una donación.
 
-- Nombre: Leonardo Gómez
-- URL: https://twitter.com/gomezgleonardob
-- Fecha de inicio: 01/09/2018
-- Monto: $20
-
---------------------------------------------
++----------------------------------------------------------+------------+-----------+
+| Nombre                                                   | Fecha      | Monto     |
++==========================================================+============+===========+
+| `Leonardo Gómez <https://twitter.com/gomezgleonardob>`_  | 01/09/2018 |    $20    |
++----------------------------------------------------------+------------+-----------+
 
 Sponsors pasados
 ----------------
