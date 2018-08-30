@@ -1,9 +1,9 @@
 .. title: Colaborar
 .. slug: colaborar
-.. tags: 
-.. category: 
-.. link: 
-.. description: 
+.. tags:
+.. category:
+.. link:
+.. description:
 .. type: text
 .. template: pagina.tmpl
 
@@ -81,7 +81,7 @@ Donde ``{tu-usuario}`` es tu usuario de GitHub.
 Entra al directorio que contiene el código fuente con
 
 .. code:: bash
-   
+
    cd PythonEcuador.github.io
 
 .. note::
@@ -91,7 +91,7 @@ Entra al directorio que contiene el código fuente con
    Si tienes dudas ejecuta:
 
    .. code:: bash
-      
+
       git checkout src
 
 Ejecutando el proyecto
@@ -130,7 +130,7 @@ Ahora ya podemos instalar Nikola y otras dependencias:
 Finalmente, para ejecutar el sitio con Nikola
 
 .. code:: bash
-   
+
    nikola build
    nikola serve
 
@@ -177,6 +177,8 @@ para clasificarlos por complejidad y/o tipo.
     Indica que el issue está en progreso (Work in Progress)
 `wontfix`_
     Indica que el trabajo no va a continuar en un issue o pull request
+`sponsor`_
+    Indica que se debe agregar un nuevo sponsor mediante pull request
 
 .. _Good First Issue: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue
 .. _Bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
@@ -189,6 +191,7 @@ para clasificarlos por complejidad y/o tipo.
 .. _ready: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/ready
 .. _wip: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/wip
 .. _wontfix: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/wontfix
+.. _sponsor: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/sponsor
 
 También puedes ayudar `revisando pull requests <https://github.com/PythonEcuador/PythonEcuador.github.io/pulls>`_.
 
@@ -244,7 +247,7 @@ y repetir el proceso de agregar más commits.
 Una vez que ya los tengas listos, vuelve a subirlos
 
 .. code:: bash
-   
+
    git push
 
 .. note::
@@ -334,13 +337,13 @@ antes de proceder con los siguientes pasos
 Necesitaremos hacerle saber a git del repo principal con el siguiente comando.
 
 .. code:: bash
-   
+
    git remote add upstream https://github.com/PythonEcuador/PythonEcuador.github.io.git
 
 Ahora ya podemos bajarnos los últimos cambios del repo principal.
 
 .. code:: bash
-   
+
    git pull upstream src
 
 Y los subimos a nuestro fork
