@@ -99,7 +99,7 @@ Ejemplos
 
    Información del contacto
 
-   - Nombre: Juan Perez 
+   - Nombre: Juan Perez
    - Medio de contacto: 0900000000, juan.perez@email.com
 
    Información adicional
@@ -126,7 +126,7 @@ Ejemplos
 
    Información del contacto
 
-   - Nombre: Juan Perez 
+   - Nombre: Juan Perez
    - Medio de contacto: 0900000000, juan.perez@email.com
 
    Información adicional
@@ -169,7 +169,7 @@ si el monto es muy grande o cuando empecemos a recibir más sponsors,
 podrás realizar una transferencia bancaria en la cuenta de un miembro de confianza,
 luego trabajaremos en crear una cuenta bancaria dedicada.
 
-¿Puedo tener mi dieron de vuelta?
+¿Puedo tener mi dinero de vuelta?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si necesitas un reembolso del 100% de tu dinero,
