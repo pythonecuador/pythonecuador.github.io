@@ -29,10 +29,10 @@ Lista de sponsors que nos ayudan de manera recurrente.
 Sponsors no recurrentes
 -----------------------
 
-Lista de sponsors que han hecho una donación.
+Lista de sponsors que han hecho una donación:
 
-- :doc:`Tu empresa <aplicar>`
-- :doc:`Tu nombre <aplicar>`
+- `EÓN CORP <http://eonidi.com>`__ (01/09/2018, $20)
+- `Leonardo Gómez <https://twitter.com/gomezgleonardob>`__ (01/09/2018, $20)
 
 Sponsors pasados
 ----------------
