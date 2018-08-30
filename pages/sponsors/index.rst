@@ -29,7 +29,7 @@ Lista de sponsors que nos ayudan de manera recurrente.
 Sponsors no recurrentes
 -----------------------
 
-Lista de sponsors que han hecho una donación.
+Lista de sponsors que han hecho una donación:
 
 - `Leonardo Gómez <https://twitter.com/gomezgleonardob>`__ (01/09/2018, $20)
 
