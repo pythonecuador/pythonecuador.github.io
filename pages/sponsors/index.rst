@@ -31,8 +31,8 @@ Sponsors no recurrentes
 
 Lista de sponsors que han hecho una donación:
 
-- `Leonardo Gómez <https://twitter.com/gomezgleonardob>`__ (01/09/2018, $20)
 - `EÓN CORP <http://eonidi.com>`__ (01/09/2018, $20)
+- `Leonardo Gómez <https://twitter.com/gomezgleonardob>`__ (01/09/2018, $20)
 
 Sponsors pasados
 ----------------
