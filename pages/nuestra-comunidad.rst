@@ -45,6 +45,10 @@ con una pequeña descripción:
   donde podrás colaborar en varios de nuestros proyectos.
   El código fuente de esta página está disponible ahí 😉. 
 
+- `YouTube <https://www.youtube.com/channel/UCWD277jrcbLjB-w0qBE5bDQ>`__
+
+  ¿Te perdiste un meetup? Puede que esté en nuestro canal de YouTube.
+
 - `Web <https://pythonecuador.org>`__
 
   ¡La estás visitando ahora mismo!
