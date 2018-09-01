@@ -141,7 +141,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/comunidades/", "La comunidad"),
+        ("/nuestra-comunidad/", "Comunidad"),
         ("/eventos/", "Eventos"),
         ("/reglas/", "Reglas"),
         ("/quiero-ayudar/", "Quiero ayudar"),
