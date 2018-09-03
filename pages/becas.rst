@@ -32,7 +32,6 @@ y con la siguiente información:
   y las cantidades aproximadas sobre los gastos.
   Trata de buscar las opciones más económicas (pero seguras).
 - ¿Qué cantidad de dinero te gustaría que sea cubierta?
-- ¿Por qué deberíamos darte la beca?
 - ¿Por qué quieres asistir a este evento?
 - ¿Has asistido antes a uno de nuestros eventos?
 - ¿Has aplicado antes a una beca de nuestra comunidad?
@@ -49,6 +48,8 @@ Ejemplos
    - Sobre ti:
      Soy estudiante de química en X universidad,
      vivo en Quito y programar es mi hobby.
+     No cuento con un trabajo aún. Mi familia no cuenta con el dinero para
+     cubrir los gastos del viaje.
    - ¿Para qué evento necesitas la beca?
      Python en la vida real, evento a relizarse en Cuenca el 10 de Enero del 2018
    - ¿Qué tipo de ayuda necesitas?
@@ -69,9 +70,6 @@ Ejemplos
      - Pasaje de Cuenca a Quito: $25
    - ¿Qué cantidad de dinero te gustaría que sea cubierta?
      $25
-   - ¿Por qué deberíamos darte la beca?
-     Soy estudiante, no cuento con un trabajo aún. Mi familia no cuenta con el dinero para
-     cubrir los gastos.
    - ¿Por qué quieres asistir a este evento?
      Siempre me ha llamado la atención Python,
      pero nunca he tenido la oportunidad de ver como es usado en el área profesional.
