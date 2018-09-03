@@ -4,7 +4,8 @@
 .. type: text
 .. template: pagina.tmpl
 
-Queremos que todas las personas de todos los rincones puedan participar en nuestros eventos.
+Queremos que todas las personas puedan participar en nuestros eventos.
+La distancia ni tu situación económica debe ser un obstáculo para aprender.
 Esta sección es posible gracias a `nuestros sponsors <link://filename/pages/sponsors/index.rst>`__.
 
 .. contents:: Contenidos
@@ -22,22 +23,21 @@ Envíanos un email a ecuadorpython@gmail.com con el asunto ``Aplicación para be
 y con la siguiente información:
 
 - Nombre
-- Medio de contacto: número telefónico o email
-- Sobre ti: Cuéntanos sobre ti, qué te apasiona
+- Medio de contacto: número telefónico o email.
+- Sobre ti: Cuéntanos sobre ti, qué te apasiona.
 - ¿Para qué evento necesitas la beca?
-- ¿Qué tipo de ayuda necesitas?: Transporte y/o hospedaje (u otro)
+- ¿Qué tipo de ayuda necesitas?: Transporte y/o hospedaje (u otro).
 - Cuéntanos tu plan:
-  Danos los detalles de tu viaje hacie la meetup.
-  Danos las cantidades más aproximadas posibles sobre los gastos
-  y trata de buscar las opciones más económicas (pero seguras).
+  Danos los detalles generales de tu viaje
+  y las cantidades aproximadas sobre los gastos.
+  Trata de buscar las opciones más económicas (pero seguras).
 - ¿Qué cantidad de dinero te gustaría que sea cubierta?
-- ¿Por qué necesitas la beca?
-- ¿Has asistido antes a uno de nuestros eventos? ¿Cuál/es?
-
-  - ¿Qué te pareció?
-  - ¿Qué fue lo que más te gustó?
-  - ¿Qué fue lo que menos te gustó?
-- ¿Cuál sería tu compromiso con la comunidad si te otorgamos la beca?
+- ¿Por qué deberíamos darte la beca?
+- ¿Por qué quieres asistir a este evento?
+- ¿Has asistido antes a uno de nuestros eventos?
+- ¿Has aplicado antes a una beca de nuestra comunidad?
+- ¿Cuál sería tu compromiso con la comunidad si te otorgamos la beca?:
+  Pueden ser a corto y/o largo plazo.
 
 Ejemplos
 ~~~~~~~~
@@ -69,20 +69,23 @@ Ejemplos
      - Pasaje de Cuenca a Quito: $25
    - ¿Qué cantidad de dinero te gustaría que sea cubierta?
      $25
-   - ¿Por qué necesitas la beca?
+   - ¿Por qué deberíamos darte la beca?
      Soy estudiante, no cuento con un trabajo aún. Mi familia no cuenta con el dinero para
      cubrir los gastos.
-   - ¿Has asistido antes a uno de nuestros eventos? ¿Cuál/es?
-     Asistí a un PyPizza en Quito
-     - ¿Qué te pareció?
-       Buenísimo! Me divertí mucho
-     - ¿Qué fue lo que más te gustó?
-       Aprendí a usar git
-     - ¿Qué fue lo que menos te gustó?
-       Todo estuvo excelente!
+   - ¿Por qué quieres asistir a este evento?
+     Siempre me ha llamado la atención Python,
+     pero nunca he tenido la oportunidad de ver como es usado en el área profesional.
+   - ¿Has asistido antes a uno de nuestros eventos?
+     Si, asistí a un PyPizza en Quito, y aprendí muchas cosas nuevas,
+     y conocí a muchas personas interesantes.
+   - ¿Has aplicado antes a una beca de nuestra comunidad?
+     No.
    - ¿Cuál sería tu compromiso con la comunidad si te otorgamos la beca?
-     Seguir difundiendo la comunidad y Python,
-     Además trataría de ayudar en la organización de eventos en Quito.
+     Llegar temprano al meetup para poder ayudar con la organización antes y al final
+     del evento.
+
+     Además, seguir difundiendo la comunidad y Python,
+     trataría de ayudar en la organización de eventos en Quito.
      Hacer saber a más personas que pueden acceder a becas.
 
 Proceso
@@ -96,7 +99,10 @@ Proceso
 
 Envíanos el email con los datos indicados,
 dependiendo del tiempo y de cuando nos envíes el email,
-trataremos de darte una respuesta 5 días antes del evento para el cual necesitas la beca.
+trataremos de darte una respuesta tres antes del evento para el cual necesitas la beca.
+
+Al menos dos miembros de la comunidad evaluarán tu aplicación,
+te prometemos que el proceso será objetivo.
 
 Si la respuesta es positiva (¡yay!), tendrás que seguir el plan acordado.
 Te enviaremos información sobre la persona responsable de darte el dinero para cubrir los gastos.
@@ -111,8 +117,20 @@ y la persona responsable se encargará de reembolsarte el dinero
 en el lugar del evento u otro lugar de encuentro según se haya acordado
 (siempre debes presentar un comprobante de los gastos).
 
-Si la respuesta no es positiva, no te desiluciones,
+Si la respuesta no es positiva, no te desilusiones,
 siempre puedes volver a postular.
+
+Restricciones y condiciones
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Debes enviar la aplicación al menos 3 días antes del evento.
+- Debes asistir a la duración completa del evento.
+- El dinero será entregado siempre presentando los comprobantes de cada gasto.
+- Las becas no son transferibles.
+- La información de contacto es de una persona real.
+- La comunidad no se responsabiliza por cualquier inconveniente
+  presentado, nuestra única responsabilidad es hacerte llegar el dinero.
+- Nos reservamos el derecho de rechazar tu aplicación si has violado nuestro :doc:`código de conducta <coc>`.
 
 FAQ
 ---
@@ -120,5 +138,29 @@ FAQ
 ¿Puedo aplicar más de una vez?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+¡Si! No importa si ya te hemos ayudado antes,
+pero ten en cuenta que siempre daremos más prioridad a personas que no han recibido una beca antes.
+
 ¿Qué responsabilidad tiene la comunidad de Python Ecuador?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Nuestra única responsabilidad es la de darte el dinero presentando debidamente los comprobantes de los gastos.
+Y que la pases muy bien en el evento :).
+
+Sólo necesito una pequeña cantidad de dinero ¿Puedo aplicar?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+¡Claro que si! Si sólo necesitas dinero para un taxi de vuelta a tu casa,
+eres más que bienvenido a aplicar.
+
+¿Cómo puedo aumentar mis posibilidades de aplicar?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Siendo miembro activo en la `comunidad <link://filename/pages/nuestra-comunidad.rst>`__.
+- Ofreciéndote a dar una charla en el meetup que vas a asistir (si es posible).
+- Ofreciéndote a ayudar con la organización del evento.
+- Ofreciéndote a seguir difundiendo la comunidad.
+- Sé honesto en tu aplicación.
+- Ten un plan claro sobre como vas a ocupar el dinero.
+- Busca la manera más económica (¡pero sin descuidar tu seguridad!).
+- Trata de buscar alojamiento y/o transporte en un miembro de la comunidad.
