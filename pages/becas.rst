@@ -8,6 +8,12 @@ Queremos que todas las personas puedan participar en nuestros eventos.
 La distancia ni tu situación económica debe ser un obstáculo para aprender.
 Esta sección es posible gracias a `nuestros sponsors <link://filename/pages/sponsors/index.rst>`__.
 
+.. note::
+
+   Esta *sección está en beta*
+   (pero si estamos receptando aplicaciones),
+   si tienes alguna sugerencia de como mejorar el proceso de aplicación háznoslo saber ;)
+
 .. contents:: Contenidos
    :depth: 2
 
