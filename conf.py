@@ -25,7 +25,7 @@ BLOG_TITLE = "Python Ecuador"  # (translatable)
 # in a prominent link. Don't forget the protocol (http/https)!
 deploy_site = os.environ.get('NIKOLA_DEPLOY')
 if deploy_site:
-    SITE_URL = f'https://{deploy_site}'
+    SITE_URL = 'https://{0}'.format(deploy_site)
 else:
     SITE_URL = 'http://localhost:8000/'
 # This is the URL where Nikola's output will be deployed.
