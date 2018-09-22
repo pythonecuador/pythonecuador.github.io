@@ -16,15 +16,14 @@ pero gracias a la **generosa ayuda financiera de nuestros sponsors** la comunida
 Sponsors recurrentes
 --------------------
 
-Lista de sponsors que nos ayudan de manera recurrente.
+Lista de sponsors que nos ayudan de manera recurrente:
 
-.. figure:: /images/sponsors/sponsor.png
-   :alt: Ejemplo de sponsor
-   :align: center
-   :height: 200
-   :target: aplicar
+.. figure:: /images/sponsors/jetbrains.png
+   :alt: JetBrains
+   :width: 200
+   :target: https://www.jetbrains.com/
 
-   Tu marca
+   `JetBrains <https://www.jetbrains.com/>`__, licencias en cada evento
 
 Sponsors no recurrentes
 -----------------------
@@ -43,5 +42,12 @@ Mención especial
 ----------------
 
 La siguiente lista no es de sponsors que necesariamente hayan ayudado económicamente,
-sino de comunidades o personas que han puesto un esfuerzo extraordinario en la comunidad,
-y que sin ellas Python Ecuador no fuese posible.
+sino de comunidades o personas que han puesto un esfuerzo extraordinario en la comunidad.
+
+.. figure:: /images/sponsors/argentinaenpython.png
+   :alt: Argentina en Python
+   :width: 100
+   :target: https://argentinaenpython.com/
+
+   `Argentina en Python <https://argentinaenpython.com/>`__. Nos ayudaron a reactivar
+   la comunidad de Python en Ecuador, organizando y difundiendo eventos.
