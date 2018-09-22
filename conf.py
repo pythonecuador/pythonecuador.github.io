@@ -953,7 +953,7 @@ LICENSE = "GNU v3.0"
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 CONTENT_FOOTER = '''
-<div class="container">
+<div class="content">
     <p id="followus">
         <strong>Síguenos y forma parte de nuestra comunidad</strong>
     </p>
