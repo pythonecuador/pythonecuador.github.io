@@ -197,7 +197,8 @@ También puedes ayudar `revisando pull requests <https://github.com/PythonEcuado
 
 .. note::
 
-  Siempre asegúrate que alguien más ya no esté haciendo la tarea, así no gastamos esfuerzos.
+  - Siempre asegúrate que alguien más ya no esté haciendo la tarea, así no gastamos esfuerzos.
+  - Si el issue no ha sido resuelto en un tiempo prudente siéntete libre de tomarlo.
 
 
 Realizando cambios
