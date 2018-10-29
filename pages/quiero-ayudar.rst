@@ -10,6 +10,7 @@
 La comunidad es llevada a cabo gracias al esfuerzo de voluntarios.
 Cualquiera puede ayudar con el desarrollo de la comunidad,
 fomentar el uso y conocimiento del lenguaje Python en el país y el mundo.
+¡Gracias por el interés en ayudar a la comunidad!
 
 Personas con conocimientos técnicos y no técnicos pueden aportar desde sus diferentes habilidades.
 De manera general las formas de apoyar a la comunidad son:
