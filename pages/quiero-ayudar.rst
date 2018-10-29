@@ -7,42 +7,24 @@
 .. type: text
 .. template: pagina.tmpl
 
-Colaborar con el desarrollo de la comunidad de Python Ecuador fomenta el uso y conocimiento
-del lenguaje Python en el país.
+La comunidad es llevada a cabo gracias al esfuerzo de voluntarios.
+Cualquiera puede ayudar con el desarrollo de la comunidad,
+fomentar el uso y conocimiento del lenguaje Python en el país y el mundo.
 
-Esto permite que personas con conocimientos técnicos y no técnicos aporten
-desde sus diferentes habilidades.
-
+Personas con conocimientos técnicos y no técnicos pueden aportar desde sus diferentes habilidades.
 De manera general las formas de apoyar a la comunidad son:
 
-* Difundiendo entre tus amigos los eventos y actividades que se realizan periódicamente
-
-* Participando en los diferentes acontecimientos que se publican en redes sociales oficiales
-
-* Ayudando en la organización de eventos
-
-* Reportando fallos en la pagina web y proyectos
-
-* Haciendo sugerencias de mejoras
-
+* Asistiendo y difundiendo los `eventos y actividades <link://filename/pages/eventos/index.rst>`__ de la comunidad
 * Ayudando a nuevas personas a integrarse a la comunidad
-
-* Participando en los grupos con tus comentarios en las redes sociales
-
-* Apoya con refrigerios en los eventos
+* Cuidando que se respete `nuestro código de conducta <link://filename/pages/coc.rst>`__
+* Ayudando en la organización de eventos
+* Reportando errores o sugerencias en `los proyectos de la comunidad <https://github.com/PythonEcuador>`__
+* Participando en `nuestras redes <link://filename/pages/nuestra-comunidad.rst>`__
+* Impresión de material de difusión
+* `Haciendo una donación <link://filename/pages/sponsors/aplicar.rst>`__
 
 Si posees conocimientos técnicos:
 
-* Haga un fork de cualquiera de los proyectos de la comunidad y
-  envíenos sus pull requests en los diferentes issues que poseemos
-  en `GitHub PythonEcuador <https://github.com/PythonEcuador>`_,
-  le recomendamos visitar la siguiente `guía de colaboración <https://pythonecuador.org/guias/colaborar/>`_.
-
-* Propón y dicta charlas/talleres que se puedan realizar para fomentar el conocimiento
-  de Python en la comunidad
-
-* Realiza documentación sobre algún tema que conozcas
-
-* Diseña afiches, banners, logos del proyecto o eventos
-
-* Ayuda con materiales de comunicación impresos
+* Contribuyendo en el desarrollo de nuestros proyectos alojados en `GitHub <https://github.com/PythonEcuador>`__
+* Proponiendo y dictando charlas/talleres para fomentar el conocimiento de Python en la comunidad
+* Creando material de difusión como: afiches, banners, logos, etc.
