@@ -145,6 +145,7 @@ NAVIGATION_LINKS = {
         ("/eventos/", "Eventos"),
         ("/reglas/", "Reglas"),
         ("/quiero-ayudar/", "Quiero ayudar"),
+        ("/guias/", "Guías"),
         ("/becas/", "Becas"),
         ("/sponsors/", "Sponsors"),
         ("/quienes-somos/", "¿Quiénes somos?"),
