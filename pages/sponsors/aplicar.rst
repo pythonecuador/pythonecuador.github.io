@@ -24,7 +24,7 @@ Recurrentes
 ~~~~~~~~~~~
 
 Para ser un sponsor de largo plazo debes hacer al menos 3 contribuciones recurrentes.
-Cada contribución se realiza cada mes y el monto mínimo de cada contribución debe ser de $50.
+Cada contribución se realiza cada mes y el monto mínimo de cada contribución debe ser de $20.
 
 **¿Qué obtengo a cambio?**
 
