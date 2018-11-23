@@ -4,7 +4,7 @@ Module = config_role
 
 [Nikola]
 Compiler = rest
-PluginCategory = CompilerExtension
+PluginCategory = RestExtension
 
 [Documentation]
 Author = Santos Gallegos
