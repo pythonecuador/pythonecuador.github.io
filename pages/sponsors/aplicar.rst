@@ -208,4 +208,3 @@ Ten en cuenta que somos una **comunidad**, no un banco o una empresa.
 Revisa nuestro :doc:`faq sobre donaciones <faq>`,
 y si algo aún no te queda claro o deseas más información,
 escríbenos a :config:`BLOG_EMAIL`.
-escríbenos a ecuadorpython@gmail.com.
