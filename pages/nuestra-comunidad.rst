@@ -54,7 +54,7 @@ con una pequeña descripción:
   ¡La estás visitando ahora mismo!
   Encuentra información sobre la comunidad.
 
-- `Email (ecuadorpython@gmail.com) <ecuadorpython@gmail.com>`__
+- Email (:config:`BLOG_EMAIL`)
 
   Para una conversación más formal,
   escríbenos a nuestro correo electrónico.
