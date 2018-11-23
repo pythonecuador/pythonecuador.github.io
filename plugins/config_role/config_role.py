@@ -1,5 +1,5 @@
 """
-Add the `config` role, it reads a value from the conf.py file.
+Add the ``config`` role, it reads a value from the `conf.py` file.
 
 Usage:
 
