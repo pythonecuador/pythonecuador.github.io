@@ -1,0 +1,135 @@
+# - La fecha debe estar en el formato dd/mm/yyyy
+# - La cantidad está dada en dólates,
+#   si el tipo de ingreso no es dinero (licencias),
+#   la cantidad es 0.
+#   Si el tipo es un egreso, la cantidad es negativa.
+# - Responsables debe ser al menos una persona
+#   La información de contacto de cada responsable debe estar
+#   en data/ingresos-egresos/responsables.yml
+# - Descripción debe incluir link al evento si es posible.
+
+ingresos:
+  - fecha: 12/01/2018
+    cantidad: 30
+    responsables:
+      - Santos Gallegos
+    descripcion: >
+      Certificados del taller de Docker.
+      https://www.meetup.com/es/python-ecuador/events/246196158/
+
+  - fecha: 28/08/2018
+    cantidad: 20
+    responsables:
+      - Santos Gallegos
+    descripcion: >
+      Donación de Leonardo Gómez
+
+  - fecha: 29/08/2018
+    cantidad: 20
+    responsables:
+      - Santos Gallegos
+    descripcion: >
+      Donación de la empresa EÓN CORP
+
+  - fecha: 07/09/2018
+    cantidad: -20
+    responsables:
+      - Santos Gallegos
+    descripcion: >
+      Entrega de dinero a Lady Yaguachi (Loja)
+
+  - fecha: 07/09/2018
+    cantidad: 20
+    responsables:
+      - Lady Yaguachi
+    descripcion: >
+      Entrega de dinero de Santos Gallegos
+
+  - fecha: 07/09/2018
+    cantidad: -20
+    responsables:
+      - Santos Gallegos
+    descripcion: >
+      Entrega de dinero a Jairo Proaño (Quito)
+
+  - fecha: 07/09/2018
+    cantidad: 20
+    responsables:
+      - Jairo Proaño
+    descripcion: >
+      Entrega de dinero de Santos Gallegos
+
+  - fecha: 17/09/2018
+    cantidad: 0
+    responsables:
+      - Santos Gallegos
+    descripcion: >
+      3 licencias de JetBrains
+
+  - fecha: 12/10/2018
+    cantidad: -0
+    responsables:
+      - Santos Gallegos
+    descripcion: >
+      Licencia de JetBrains entregada a Bryam Vega,
+      sorteada en el evento https://www.meetup.com/es/python-ecuador/events/255315788/
+
+  - fecha: 13/10/2018
+    cantidad: -10
+    responsables:
+      - Santos Gallegos
+    descripcion: >
+      Beca para Ximena para el evento 
+      https://www.meetup.com/es/python-ecuador/events/254871518/
+
+  - fecha: 13/10/2018
+    cantidad: 8
+    responsables:
+      - Santos Gallegos
+    descripcion: >
+      Donaciones recibidas en el evento Hacktoberfest 2018.
+      https://www.meetup.com/es/python-ecuador/events/254871518/
+
+  - fecha: 13/10/2018
+    cantidad: 11
+    responsables:
+      - Christopher Tim
+    descripcion: >
+      Venta de cervezas en el evento Hacktoberfest 2018.
+      https://www.meetup.com/es/python-ecuador/events/254871518/
+
+  - fecha: 28/10/2018
+    cantidad: -0
+    responsables:
+      - Christian Oña
+    descripcion: >
+      Licencia de JetBrains entregada sorteada en un evento en Quito.
+
+  - fecha: 17/11/2018
+    cantidad: 0
+    responsables:
+      - Santos Gallegos
+    descripcion: >
+      1 licencia de JetBrains
+
+  - fecha: 24/11/2018
+    cantidad: -0
+    responsables:
+      - Christian Oña
+    descripcion: >
+      Licencia de JetBrains entregada sorteada en un evento en Quito.
+
+  - fecha: 16/12/2018
+    cantidad: -0
+    responsables:
+      - Santos Gallegos
+    descripcion: >
+      Licencia de JetBrains entregada a Richard Palacios,
+      sorteada en el canal de telegram.
+
+  - fecha: 17/12/2018
+    cantidad: 0
+    responsables:
+      - Santos Gallegos
+    descripcion: >
+      1 licencia de JetBrains
