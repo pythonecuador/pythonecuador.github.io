@@ -1,5 +1,4 @@
-
-.. title: psf
+.. title: Registrarte como miembro de la PSF
 .. slug: psf
 .. tags:
 .. category:
@@ -8,19 +7,14 @@
 .. type: text
 .. template: pagina.tmpl
 
-
-Obteniendo Membresía de la Python Software Foundation
-#####################################################
-
 La Python Software Foundation (PSF) es la  organización sin fines de lucro dedicada al lenguaje de programación Python.
 
 Su misión  es fomentar el desarrollo de la comunidad Python para registrarnos como miembros de esta:
 
-Abrimos el navegador de preferencia y nos dirigimos a `Enlace Python Software Foundation <https://www.python.org/accounts/signup/>`_ .
+Abrimos el navegador de preferencia y nos dirigimos a `Enlace Python Software Foundation <https://www.python.org/accounts/signup/>`__.
 
 .. image:: /images/psf/signup.png
    :align: center
-..
 
 En la ventanana del navegador nos fijamos en el boton Sign Up le damos clic y vemos  que tenemos las siguientes opciones.
 
@@ -34,7 +28,6 @@ En la ventanana del navegador nos fijamos en el boton Sign Up le damos clic y ve
 
 .. image:: /images/psf/confirmation.png
    :align: center
-..
 
 **En la pestana nos indica un texto: Confirmation email send to xxxxx@xxxxx.com con el email que nos registramos**.
 
@@ -69,4 +62,3 @@ En el mensaje nos indica:
 	Please confirm that xxxxx@xxxx.com is an e-mail address for user xxxxxxx.
 
 	**Welcome to Python.org**
-
