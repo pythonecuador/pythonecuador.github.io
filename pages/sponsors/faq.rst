@@ -74,7 +74,7 @@ No tengo dinero ¿De qué otra forma puedo ayudar?
 
 ¡Gracias por el interés en ayudar!
 Siempre estamos buscando más personas que se sumen a la organización de eventos.
-Puedes revisar :doc:`quiero-ayudar` para ver todas las formas de ayudar.
+Puedes revisar `esta sección <link://filename/pages/quiero-ayudar.rst>`__ para ver todas las formas de ayudar.
 
 ¿Más preguntas?
 ---------------
