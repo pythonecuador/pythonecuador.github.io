@@ -145,7 +145,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/nuestra-comunidad/", "Comunidad"),
         ("/eventos/", "Eventos"),
-        ("/reglas/", "Reglas"),
+        ("/coc/", "Código de Conducta"),
         ("/quiero-ayudar/", "Quiero ayudar"),
         ("/guias/", "Guías"),
         ("/becas/", "Becas"),
