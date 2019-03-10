@@ -11,7 +11,8 @@
 ingresos:
   - fecha: 17/01/2019
     cantidad: 0
-    responsable: Santos Gallegos
+    responsables:
+      - Santos Gallegos
     descripcion: >
       1 licencia de JetBrains
 
@@ -25,6 +26,7 @@ ingresos:
 
   - fecha: 17/02/2019
     cantidad: 0
-    responsable: Santos Gallegos
+    responsables:
+      - Santos Gallegos
     descripcion: >
       1 licencia de JetBrains
