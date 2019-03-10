@@ -7,82 +7,86 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://pythonecuador.org/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/archive.html</loc>
-  <lastmod>2019-03-03T04:00:00Z</lastmod>
+  <lastmod>2019-03-10T03:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/becas/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/categories/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/coc/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/eventos/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/eventos/pypizza/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/galleries/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/guias/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/guias/colaborar/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://pythonecuador.org/guias/deploy/</loc>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/guias/psf/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/listings/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/listings/.keep.html</loc>
-  <lastmod>2019-03-03T04:00:00Z</lastmod>
+  <lastmod>2019-03-10T03:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/nuestra-comunidad/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/quienes-somos/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/quiero-ayudar/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/reglas/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/sponsors/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/sponsors/aplicar/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
  <url>
   <loc>https://pythonecuador.org/sponsors/faq/</loc>
-  <lastmod>2019-03-03T03:55:00Z</lastmod>
+  <lastmod>2019-03-10T03:50:00Z</lastmod>
  </url>
 </urlset>
