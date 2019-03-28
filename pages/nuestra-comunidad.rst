@@ -69,9 +69,9 @@ Otras comunidades
 
 - `Django Girls Ecuador <https://twitter.com/djangogirlsec>`__
 
-- `PyladiesEc Ecuador Twitter <https://twitter.com/PyladiesEc>`__
+- `PyladiesEc Twitter <https://twitter.com/PyladiesEc>`__
 
-- `PyladiesEc Ecuador Facebook <https://www.facebook.com/pyladiesecq/>`__
+- `PyladiesEc Facebook <https://www.facebook.com/pyladiesecq/>`__
 
 
 https://www.facebook.com/pyladiesecq/
