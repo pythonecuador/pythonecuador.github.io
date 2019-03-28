@@ -74,8 +74,6 @@ Otras comunidades
 - `PyladiesEc Facebook <https://www.facebook.com/pyladiesecq/>`__
 
 
-https://www.facebook.com/pyladiesecq/
-
 Comunidades amigas
 ------------------
 
