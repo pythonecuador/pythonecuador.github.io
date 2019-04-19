@@ -8,6 +8,7 @@ Comunidad
 #########
 
 - `Registrarte como miembro de la PSF <link://filename/pages/guias/psf.rst>`__
+- `Organizar eventos <link://filename/pages/guias/organizar-eventos.rst>`__
 
 Desarrollo del sitio
 ####################
