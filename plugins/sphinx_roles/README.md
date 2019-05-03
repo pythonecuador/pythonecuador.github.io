@@ -6,7 +6,9 @@ Currently supported:
 * **ref:** Cross references for arbitrary locations (see [the sphinx docs](http://sphinx-doc.org/markup/inline.html#role-ref)). Limited to links inside a single document.
 * **rfc:** An enhanced `:rfc:` role with support for anchors, like Sphinx's
 * **term:** Reference to a term in the glossary
-* **term:** Reference to a option defined using the option directive
+* **option:** Reference to a option defined using the option directive
+* **eq:** Reference to a equation defined in a math directive's label option.
+* **math:** A Math directive that supports a :label: option like Sphinx's
 
 The following are "semantic markup", they produce a HTML element with an extra
 CSS class for styling. The description is from the Sphinx docs.
