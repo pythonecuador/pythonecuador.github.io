@@ -9,7 +9,7 @@ Comunidad
 
 - `Registrarte como miembro de la PSF <link://filename/pages/guias/psf.rst>`__
 
-iDesarrollo del sitio
+Desarrollo del sitio
 ####################
 
 - `Colaborar en el desarrollo del sitio <link://filename/pages/guias/colaborar.rst>`__
