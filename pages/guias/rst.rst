@@ -1,5 +1,5 @@
 .. title: Mini tutorial de reStructuredText
-.. slug: rest
+.. slug: rst
 .. tags:
 .. category:
 .. link:
@@ -7,7 +7,7 @@
 .. type: text
 .. template: pagina.tmpl
 
-Esta guía es una breve introducción a los conceptos y la sintaxis de reStructuredText (reST).
+Esta guía es una breve introducción a los conceptos y la sintaxis de reStructuredText.
 
 restructuredText es  legible y simple, pero lo suficientemente potente para un uso no trivial.
 Es útil para la documentación de programas en línea (como las cadenas de documentación de Python),
