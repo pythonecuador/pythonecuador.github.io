@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/PythonEcuador/PythonEcuador.github.io.svg?branch=src)](https://travis-ci.org/PythonEcuador/PythonEcuador.github.io)
 
-Código fuente del sitio de Python Ecuador
+Código fuente del sitio de [Python Ecuador](https://pythonecuador.org/guias/colaborar/)
 
 # Colaborar
 
