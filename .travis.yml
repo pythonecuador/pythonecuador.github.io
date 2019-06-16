@@ -1,6 +1,3 @@
-# Otra distro rompe el deploy automático
-# https://travis-ci.community/t/failed-to-deploy-because-of-ruby-error/1143
-dist: trusty
 language: python
 python:
   - "3.6"
@@ -18,6 +15,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: output
   keep_history: true
-  targe_branch: master
-  on:
-    branch: src
+  target_branch: master
