@@ -956,6 +956,12 @@ CONTENT_FOOTER = '''
         <div class="text-center">
             <p>Comunidad Python Ecuador</p>
             <small>© {date} Todos los derechos reservados.</small>
+            <p>
+                <small>
+                    ¿Encontraste algun error? 
+                    <a href="https://pythonecuador.org/guias/colaborar/#reportando-errores-bugs">Ayudanos a arreglarlo</a> 
+                </small>
+            </p>
         </div>
         </hr>
     </div>
