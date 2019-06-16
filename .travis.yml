@@ -16,3 +16,5 @@ deploy:
   local_dir: output
   keep_history: true
   target_branch: master
+  on:
+    branch: src
