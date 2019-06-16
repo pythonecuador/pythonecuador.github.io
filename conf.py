@@ -958,8 +958,8 @@ CONTENT_FOOTER = '''
             <small>© {date} Todos los derechos reservados.</small>
             <p>
                 <small>
-                    ¿Encontraste algun error? 
-                    <a href="https://pythonecuador.org/guias/colaborar/#reportando-errores-bugs">Ayudanos a arreglarlo</a> 
+                    ¿Encontraste algun error?
+                    <a href="https://pythonecuador.org/guias/colaborar/#reportando-errores-bugs">Ayúdanos a arreglarlo</a>
                 </small>
             </p>
         </div>
