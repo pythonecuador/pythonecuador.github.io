@@ -1,3 +1,6 @@
+# Otra distro rompe el deploy automático
+# https://travis-ci.community/t/failed-to-deploy-because-of-ruby-error/1143
+dist: trusty
 language: python
 python:
   - "3.6"
