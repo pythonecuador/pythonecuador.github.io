@@ -239,6 +239,8 @@ Dirígete a la `página del proyecto <https://github.com/PythonEcuador/PythonEcu
 y verás un mensaje sugiriéndote hacer un pull request (PR).
 En la descripción del PR describe brevemente los cambios que hiciste.
 
+Cuando termines el pull request no olvides añadir close#n donde n sera el numero de issue que has resuelto.
+
 Espera a que un miembro de la comunidad revise tu PR,
 si son necesarios más cambios, los puedes hacer en la misma rama
 y repetir el proceso de agregar más commits.
