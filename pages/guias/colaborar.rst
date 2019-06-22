@@ -259,6 +259,10 @@ Una vez que ya los tengas listos, vuelve a subirlos
    Tus cambios serán actualizados en el PR que ya abriste inicialmente.
    Así que no es necesario que vuelvas a abrir otro.
 
+   Cuando termines el pull request no olvides añadir close#n donde n sera el numero de issue 
+   que has resuelto.
+
+
 Si no son necesarios más cambios y tu PR es aprobada,
 sólo debes esperar a que un miembro de la comunidad haga un merge.
 
