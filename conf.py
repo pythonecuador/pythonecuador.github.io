@@ -959,8 +959,11 @@ CONTENT_FOOTER = '''
             <p>
                 <small>
                     ¿Encontraste un error?
-                    <a href="https://pythonecuador.org/guias/colaborar/#reportando-errores-bugs">¡Repórtalo!</a>
+                    <a href="https://pythonecuador.org/guias/colaborar/#reportando-errores-bugs" style="color:red;">¡Repórtalo!</a>
+                    
+
                 </small>
+            
             </p>
         </div>
         </hr>
