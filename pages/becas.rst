@@ -134,7 +134,7 @@ Restricciones y condiciones
 - La información de contacto es de una persona real.
 - La comunidad no se responsabiliza por cualquier inconveniente
   presentado, nuestra única responsabilidad es hacerte llegar el dinero.
-- Nos reservamos el derecho de rechazar tu aplicación si has violado nuestro :doc:`código de conducta <coc>`.
+- Nos reservamos el derecho de rechazar tu aplicación si has violado nuestro `código de conducta <link://filename/pages/coc.rst>`__.
 
 FAQ
 ---
