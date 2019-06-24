@@ -81,22 +81,17 @@
   background: #000000;
 }
 
+
 /* Table */
+
 table {
   width: 100%;
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  border-collapse: collapse;
-  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  margin: 1em;
 }
 table th, table td {
-  padding: 0.5em 1em;
-  border-bottom: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-}
-table thead th,
-table tbody td {
-  text-align: justify;
+  padding: 1em;
+  border: 1px solid #ccc;
 }
 table thead {
   color: white;
@@ -104,10 +99,4 @@ table thead {
 }
 table thead th {
   padding: 1em;
-}
-table[data-comparing="active"] tbody th {
-  border-bottom: none;
-  font-size: 0.75em;
-  color: #767676;
-  padding-bottom: 0;
 }
