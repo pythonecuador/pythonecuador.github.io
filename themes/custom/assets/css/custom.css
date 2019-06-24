@@ -80,3 +80,23 @@
 #footer .fa-github {
   background: #000000;
 }
+
+
+/* Table */
+
+table {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 1em;
+}
+table th, table td {
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+table thead {
+  color: white;
+  background: #4584b6;
+}
+table thead th {
+  padding: 1em;
+}
