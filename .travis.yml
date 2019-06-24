@@ -1,8 +1,20 @@
 language: python
 python:
   - "3.6"
+env:
+  - NIKOLA_DEPLOY=pythonecuador.org
 install:
   - pip install -r requirements.txt
 script:
   - rstcheck -r .
   - nikola build --strict
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: output
+  keep_history: true
+  target_branch: master
+  on:
+    branch: src

@@ -23,7 +23,7 @@ BLOG_TITLE = "Python Ecuador"  # (translatable)
 # in a prominent link. Don't forget the protocol (http/https)!
 deploy_site = os.environ.get('NIKOLA_DEPLOY')
 if deploy_site:
-    SITE_URL = 'https://{}'.format(deploy_site)
+    SITE_URL = 'https://{}/'.format(deploy_site.rstrip('/'))
 else:
     SITE_URL = 'http://localhost:8000/'
 # This is the URL where Nikola's output will be deployed.
@@ -956,6 +956,12 @@ CONTENT_FOOTER = '''
         <div class="text-center">
             <p>Comunidad Python Ecuador</p>
             <small>© {date} Todos los derechos reservados.</small>
+            <p>
+                <small>
+                    ¿Encontraste un error?
+                    <a href="https://pythonecuador.org/guias/colaborar/#reportando-errores-bugs">¡Repórtalo!</a>
+                </small>
+            </p>
         </div>
         </hr>
     </div>

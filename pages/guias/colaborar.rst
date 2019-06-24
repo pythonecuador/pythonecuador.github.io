@@ -121,6 +121,9 @@ Ahora necesitamos activar el entorno virtual
    # Para sistemas Windows
    venv\Scripts\activate
 
+   # Para sistemas Windows, usando Git bash
+   venv/Scripts/activate
+
 Ahora ya podemos instalar Nikola y otras dependencias:
 
 .. code:: bash
