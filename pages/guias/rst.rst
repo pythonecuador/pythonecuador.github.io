@@ -403,11 +403,11 @@ O puedes elaborar incluso alguna donde una celda ocupe 2 filas o dos columnas, p
     +========================+============+===========+============+
     | body row 1, column 1   | column 2   | column 3  | column 4   |
     +------------------------+------------+-----------+------------+
-    | body row 2             | ...        | celda     |            |
+    | body row 2             | celda      | celda     | celda      |
     +------------------------+------------+ doble     +------------+
-    | body row 2             | ...        | fila      |            |
+    | body row 2             | celda      | fila      | celda      |
     +------------------------+------------+-----------+------------+
-    | body row 2             | ...        | ...       |            |
+    | body row 2             | celda      | celda     | celda      |
     +------------------------+------------+-----------+------------+
 
 **Resultado:**
@@ -419,9 +419,9 @@ O puedes elaborar incluso alguna donde una celda ocupe 2 filas o dos columnas, p
 +========================+============+===========+============+
 | body row 1, column 1   | column 2   | column 3  | column 4   |
 +------------------------+------------+-----------+------------+
-| body row 2             | ...        | celda     |            |
+| body row 2             | celda      | celda     | celda      |
 +------------------------+------------+ doble     +------------+
-| body row 2             | ...        | fila      |            |
+| body row 2             | celda      | fila      | celda      |
 +------------------------+------------+-----------+------------+
-| body row 2             | ...        | ...       |            |
+| body row 2             | celda      | celda     | celda      |
 +------------------------+------------+-----------+------------+
