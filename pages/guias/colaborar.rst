@@ -287,7 +287,7 @@ Si te topaste con una página con el título *¡Esta sección necesita de tu ayu
 para empezar a editarla debes localizar la página (se encuentran en el directorio ``pages/``)
 cada archivo corresponde a la URL de la página, por ejemplo si la página es ``www.python.ec/eventos``
 el archivo a editar se encontrará en ``pages/eventos.rst``.
-Los archivos están escritos en `reStructuredText <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_.
+Los archivos están escritos en `reStructuredText <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_. Tenemos un `minitutorial de reStructuredText <link://filename/pages/guias/rst.rst>`_ que puedes seguir `aquí <link://filename/pages/guias/rst.rst>`_.
 
   ¡Pero ahí no está toda la página que vi en el navegador!
 
