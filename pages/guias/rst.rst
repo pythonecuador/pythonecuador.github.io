@@ -374,7 +374,7 @@ En el caso de tablas más elaboradas, es necesario que nosotros mismos dibujemos
 +-------------+-----------+------------------+
 | Asia        | Japón     | Tokio            |
 +-------------+-----------+------------------+
-| Oceanía     | Australia | ...              |
+| Oceanía     | Australia | Canberra         |
 +-------------+-----------+------------------+
 
 La obtenemos escribiendo la siguiente sintaxys::
@@ -390,7 +390,7 @@ La obtenemos escribiendo la siguiente sintaxys::
     +-------------+-----------+-----------------+
     | Asia        | Japón     | Tokio           |
     +-------------+-----------+-----------------+
-    | Oceanía     | Australia | ...             |
+    | Oceanía     | Australia | Canberra        |
     +-------------+-----------+-----------------+
 
 
