@@ -262,8 +262,17 @@ Una vez que ya los tengas listos, vuelve a subirlos
 Si no son necesarios más cambios y tu PR es aprobada,
 sólo debes esperar a que un miembro de la comunidad haga un merge.
 
-Estructura del proyecto
-#######################
+Chequear rtografia
+##################
+
+Si no estan seguros de lo que estan escribiendo es correcto pueden usar esta herramienta
+Languagetool
+Solo deben dar click aqui `Languagetool <https://languagetool.org/>`__
+Y revsolver sus dudas 
+
+
+Estructura del proyectos
+########################
 
 files/
   Archivos generales del sitio
