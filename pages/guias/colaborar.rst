@@ -78,6 +78,12 @@ Donde ``{tu-usuario}`` es tu usuario de GitHub.
 
    git clone https://github.com/{tu-usuario}/PythonEcuador.github.io.git
 
+Por ejemplo, para el usuario ``Marlon5300``:
+
+.. code:: bash
+
+   git clone https://github.com/Marlon5300/PythonEcuador.github.io.git
+
 Entra al directorio que contiene el código fuente con
 
 .. code:: bash
