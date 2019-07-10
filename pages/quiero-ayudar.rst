@@ -22,7 +22,7 @@ De manera general las formas de apoyar a la comunidad son:
 * Reportando errores o sugerencias en `los proyectos de la comunidad <https://github.com/PythonEcuador>`__
 * Participando en `nuestras redes <link://filename/pages/nuestra-comunidad.rst>`__
 * Impresión de material de difusión
-* `Haciendo una donación o convirtiéndote en sponsor<link://filename/pages/sponsors/aplicar.rst>`__
+* `Haciendo una donación o convirtiéndote en sponsor <link://filename/pages/sponsors/aplicar.rst>`__
 
 Si posees conocimientos técnicos:
 
