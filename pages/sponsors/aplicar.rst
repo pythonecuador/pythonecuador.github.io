@@ -60,7 +60,7 @@ y con la siguiente información:
 - URL (esta URL será usada en la lista de sponsors)
 - Fecha de inicio (fecha desde la cual deseas ser sponsor)
 - Fecha de fin (sólo si eres sponsor recurrente)
-- Monto(s) (dependiendo del tipo de sponsor, puedes especificar varios montos)
+- Monto(s) (dependiendo del tipo de sponsor, puedes especificar varios montos, o puede ser :ref:`otro tipo de donación <puedo-donar-algo-que-no-sea-dinero>`) 
 
 :Información del contacto:
 
@@ -176,6 +176,14 @@ Si necesitas un reembolso del 100% de tu dinero,
 háznoslo saber hasta 3 días después de haber hecho llegar el dinero.
 Pasado ese tiempo, puedes tener un reembolso del 50%.
 Para ambos casos, debes enviarnos un email explicando las razones del reembolso.
+
+¿Puedo donar algo que no sea dinero?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+¡Si! En ciertas ocasiones esta es la mejor manera de ayudarnos.
+Ya que así nos evitamos manejar dinero (impuestos, mantener seguimiento, etc).
+
+Licencias, refrigerios, material promocional son ejemplos.
 
 ¿Puedo cambiar mi información (imagen, nombre)?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
