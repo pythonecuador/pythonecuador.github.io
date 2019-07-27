@@ -5,6 +5,6 @@ serve:
 	nikola auto
 
 deploy:
-	NIKOLA_DEPLOY=pythonecuador.org/ nikola github_deploy
+	NIKOLA_DEPLOY=python.ec github_deploy
 
 .PHONY: clean serve
