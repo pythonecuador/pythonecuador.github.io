@@ -2,7 +2,7 @@ language: python
 python:
   - "3.6"
 env:
-  - NIKOLA_DEPLOY=pythonecuador.org
+  - NIKOLA_DEPLOY=python.ec
 install:
   - pip install -r requirements.txt
 script:
