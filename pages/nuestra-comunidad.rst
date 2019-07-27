@@ -4,6 +4,22 @@
 .. type: text
 .. template: pagina.tmpl
 
+Somos una **comunidad independiente**,
+conformada por **entusiastas de Python**,
+con la filosofía común de que el **conocimiento debe ser libre**.
+
+**No lucramos con ningún evento**, y esperamos llegar a todos aquellos que desean aprender.
+
+`Leer más <link://filename/pages/quienes-somos.rst>`__.
+
+Eventos
+-------
+
+Puedes encontrar una lista de los eventos que se organizan en la comunidad `aquí <link://filename/pages/eventos.rst>`__.
+
+Redes Sociales
+--------------
+
 Nuestra comunidad está presente y activa en varias redes sociales,
 cada una es administrada por miembros de la comunidad en su tiempo libre.
 
