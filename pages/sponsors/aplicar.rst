@@ -53,7 +53,7 @@ Aplicar
 Envía un email a ecuadorpython@gmail.com con el asunto ``Aplicación como sponsor``,
 y con la siguiente información:
 
-:Información general:
+**Información general**
 
 - Tipo de sponsor (recurrente o no recurrente: :ref:`tipos de sponsors <tipos-de-sponsors>`)
 - Nombre de la organización o persona (este será usado en la lista de sponsors)
@@ -62,16 +62,16 @@ y con la siguiente información:
 - Fecha de fin (sólo si eres sponsor recurrente)
 - Monto(s) (dependiendo del tipo de sponsor, puedes especificar varios montos, o puede ser :ref:`otro tipo de donación <puedo-donar-algo-que-no-sea-dinero>`) 
 
-:Información del contacto:
+**Información del contacto**
 
 - Nombre (nombre del representante o de quien vamos a tratar)
 - Medio de contacto (opcional, número telefónico o email del representante o de quien vamos a tratar)
 
-:Información adicional:
+**Información adicional**
 
 Algo que no está cubierto o una aclaración adicional.
 
-:Adjuntos:
+**Adjuntos**
 
 - Imagen  en formato ``png`` con dimensiones de ``500x500px``
 - Opcionalmente images alternativas (describir cuándo usar cada una)
