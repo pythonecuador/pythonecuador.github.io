@@ -144,6 +144,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/nuestra-comunidad/", "Comunidad"),
+        ("/archive.html", "Posts"),
         ("/coc/", "Código de Conducta"),
         ("/quiero-ayudar/", "Quiero ayudar"),
         ("/guias/", "Guías"),
@@ -934,10 +935,12 @@ LICENSE = "GNU v3.0"
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 CONTENT_FOOTER = '''
-<div class="content">
-    <p id="followus">
-        <strong>Síguenos y forma parte de nuestra comunidad</strong>
-    </p>
+<div class="container">
+    <div class="row text-center">
+        <div class="col">
+            <strong>Síguenos y forma parte de nuestra comunidad</strong>
+        </div>
+    </div>
     <div class="row">
         <div class="col">
             <ul class="list-inline social text-center">
@@ -950,8 +953,8 @@ CONTENT_FOOTER = '''
         </div>
         </hr>
     </div>
-    <div class="row">
-        <div class="text-center">
+    <div class="row text-center">
+        <div class="col">
             <p>Comunidad Python Ecuador</p>
             <small>© {date} Todos los derechos reservados.</small>
             <p>
@@ -961,7 +964,6 @@ CONTENT_FOOTER = '''
                 </small>
             </p>
         </div>
-        </hr>
     </div>
 </div>
 '''
@@ -1237,6 +1239,10 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # before </head>
 # (translatable)
 EXTRA_HEAD_DATA = """
+<!-- Custom css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/assets/css/custom.css" type="text/css" media="all" />
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128414584-1"></script>
 <script>

@@ -1,7 +1,4 @@
 .. title: Sponsors
-.. slug: index
-.. link:
-.. type: text
 .. template: pagina.tmpl
 
 La comunidad de Python Ecuador es llevada gracias al **esfuerzo de muchas personas**,
@@ -21,6 +18,7 @@ Lista de sponsors que nos ayudan de manera recurrente:
 .. figure:: /images/sponsors/jetbrains.png
    :alt: JetBrains
    :width: 200
+   :align: center
    :target: https://www.jetbrains.com/
 
    `JetBrains <https://www.jetbrains.com/>`__, licencias en cada evento
@@ -47,6 +45,7 @@ sino de comunidades o personas que han puesto un esfuerzo extraordinario en la c
 .. figure:: /images/sponsors/argentinaenpython.png
    :alt: Argentina en Python
    :width: 100
+   :align: center
    :target: https://argentinaenpython.com/
 
    `Argentina en Python <https://argentinaenpython.com/>`__. Nos ayudaron a reactivar

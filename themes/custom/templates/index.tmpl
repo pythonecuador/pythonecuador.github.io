@@ -2,7 +2,8 @@
 ## Nuesta página principal
 <%inherit file="pagina-base.tmpl"/>
 
-<%block name="encabezado_extra">
+<%block name="extra_head">
+  ${parent.extra_head()}
   <link rel="stylesheet" href="/assets/css/index.css" type="text/css" media="all" />
 </%block>
 

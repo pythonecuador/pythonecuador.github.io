@@ -1,22 +1,17 @@
 /* Barra de navegación */
 
-.navbar {
-  background: #4584b6;
-  border-color: #2d618c; 
+.bg-dark {
+  background: #4584b6 !important;
 }
 
-.navbar .navbar-brand {
-  color: #ffffff;
+/* Header */
+
+h1 > a {
+  color: #4584b6;
 }
 
-.navbar .navbar-nav > li > a {
-  color: #f2f2f2;
-}
-
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus {
-  background: #2d618c; 
+h1 > a:hover {
+  color: #2d618c;
 }
 
 /* Footer */
@@ -44,10 +39,6 @@
 
 #footer ul.social li a:hover {
   color:#eeeeee;
-}
-
-#followus {
-  text-align: center;
 }
 
 #footer .fa {

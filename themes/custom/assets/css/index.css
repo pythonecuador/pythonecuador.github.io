@@ -6,14 +6,6 @@ body {
   --shadow-blue: rgba(6,36,60,.5);
 }
 
-/* Limpiar barra de navegación */
-.navbar {
-  border: 0px;
-}
-.navbar-brand {
-  display: none;
-}
-
 /* Limpiar footer */
 #footer {
   border-top: 0px;
@@ -38,7 +30,6 @@ body {
 
 
 /* Base */
-html,
 body {
   background-color: var(--blue);
 }
@@ -73,8 +64,14 @@ body {
   max-height: 300px;
   display: block;
   opacity: 0.9;
-  z-index: -1;
   margin: auto;
   right: 0;
   left: 0;
+}
+
+/* Make link in footer visible */
+footer a,
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
