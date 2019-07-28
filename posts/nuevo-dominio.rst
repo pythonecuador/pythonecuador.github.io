@@ -6,7 +6,8 @@
 
 En el transcurso del día Sábado 27 de Julio habrás notado que no se podía acceder al sitio de la comunidad
 (sabemos que la visitas todos los días 😉).
-Este *apagón* fue debido a que estábamos cambiando el dominio del sitio y los servidores DNS tardan en actualizarse.
+Este *apagón* fue debido a que estábamos cambiando el dominio del sitio
+(los `DNS <https://es.wikipedia.org/wiki/Servidor_de_nombres>`__ tardan en actualizarse).
 
 El año pasado lanzamos la web de la comunidad.
 El desarrollo se lleva a cabo en `GitHub <https://github.com>`__
@@ -23,9 +24,11 @@ Así que inmediatamente procedimos a hacer la compra de este
 El dominio es válido por 2 años,
 el costo de cada año es de `35 dólares <https://nic.ec/domain-registration/domain-registration-price.php>`__ (más impuestos).
 
-El antiguo dominio (``pythonecuador.org``) redireccionará el nuevo dominio (``python.ec``).
+El antiguo dominio ``pythonecuador.org`` redireccionará el nuevo dominio ``python.ec``.
 Usar el nuevo dominio es recomendable,
 ya que este será renovado cada año.
+
+En caso que tengas curiosidad, el dominio está en https://nic.ec y el DNS administrado en https://cloudflare.com.
 
 Ahora la comunidad tiene un nombre más *pitónico*.
 Si deseas ayudarnos con la renovación del dominio para los siguientes años envíanos un email a ecuadorpython@gmail.com.
