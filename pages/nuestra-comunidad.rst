@@ -15,7 +15,7 @@ con la filosofía común de que el **conocimiento debe ser libre**.
 Eventos
 -------
 
-Puedes encontrar una lista de los eventos que se organizan en la comunidad `aquí <link://filename/pages/eventos.rst>`__.
+Puedes encontrar una lista de los eventos que se organizan en la comunidad `aquí <link://filename/pages/eventos/index.rst>`__.
 
 Redes Sociales
 --------------
