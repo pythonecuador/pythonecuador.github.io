@@ -1,10 +1,8 @@
 .. title: Nuevo dominio
-.. slug: nuevo-dominio
 .. date: 2019-07-27
 .. tags: comunidad, infraestructura
 .. author: Santos Gallegos
 .. description: Nuevo dominio de la comunidad
-.. type: text
 
 En el transcurso del día Sábado 27 de Julio habrás notado que no se podía acceder al sitio de la comunidad
 (sabemos que la visitas todos los días 😉).
