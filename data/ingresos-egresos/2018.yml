@@ -1,7 +1,5 @@
 # - La fecha debe estar en el formato dd/mm/yyyy
 # - La cantidad está dada en dólates,
-#   si el tipo de ingreso no es dinero (licencias),
-#   la cantidad es 0.
 #   Si el tipo es un egreso, la cantidad es negativa.
 # - Responsables debe ser al menos una persona
 #   La información de contacto de cada responsable debe estar
@@ -59,21 +57,6 @@ ingresos:
     descripcion: >
       Entrega de dinero de Santos Gallegos
 
-  - fecha: 17/09/2018
-    cantidad: 0
-    responsables:
-      - Santos Gallegos
-    descripcion: >
-      3 licencias de JetBrains
-
-  - fecha: 12/10/2018
-    cantidad: -0
-    responsables:
-      - Santos Gallegos
-    descripcion: >
-      Licencia de JetBrains entregada a Bryam Vega,
-      sorteada en el evento https://www.meetup.com/es/python-ecuador/events/255315788/
-
   - fecha: 13/10/2018
     cantidad: -10
     responsables:
@@ -97,39 +80,3 @@ ingresos:
     descripcion: >
       Venta de cervezas en el evento Hacktoberfest 2018.
       https://www.meetup.com/es/python-ecuador/events/254871518/
-
-  - fecha: 28/10/2018
-    cantidad: -0
-    responsables:
-      - Christian Oña
-    descripcion: >
-      Licencia de JetBrains entregada sorteada en un evento en Quito.
-
-  - fecha: 17/11/2018
-    cantidad: 0
-    responsables:
-      - Santos Gallegos
-    descripcion: >
-      1 licencia de JetBrains
-
-  - fecha: 24/11/2018
-    cantidad: -0
-    responsables:
-      - Christian Oña
-    descripcion: >
-      Licencia de JetBrains entregada sorteada en un evento en Quito.
-
-  - fecha: 16/12/2018
-    cantidad: -0
-    responsables:
-      - Santos Gallegos
-    descripcion: >
-      Licencia de JetBrains entregada a Richard Palacios,
-      sorteada en el canal de telegram.
-
-  - fecha: 17/12/2018
-    cantidad: 0
-    responsables:
-      - Santos Gallegos
-    descripcion: >
-      1 licencia de JetBrains

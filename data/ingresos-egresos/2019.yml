@@ -1,6 +1,5 @@
 # - La fecha debe estar en el formato dd/mm/yyyy
 # - La cantidad está dada en dólates,
-#   si el tipo de ingreso no es dinero (licencias),
 #   la cantidad es 0.
 #   Si el tipo es un egreso, la cantidad es negativa.
 # - Responsables debe ser al menos una persona
@@ -9,24 +8,16 @@
 # - Descripción debe incluir link al evento si es posible.
 
 ingresos:
-  - fecha: 17/01/2019
-    cantidad: 0
+  - fecha: 30/03/2019
+    cantidad: 2xx
     responsables:
-      - Santos Gallegos
+      - Christopher Tim
     descripcion: >
-      1 licencia de JetBrains
+      Sobrantes del Django Girls Cuenca 2019
 
-  - fecha: 10/02/2019
-    cantidad: -0
+  - fecha: 27/07/2019
+    cantidad: -78.40
     responsables:
-      - Christian Oña
+      - Christopher Tim
     descripcion: >
-      Licencia de JetBrains entregada a Luis,
-      sorteada en un PyPizza en Quito.
-
-  - fecha: 17/02/2019
-    cantidad: 0
-    responsables:
-      - Santos Gallegos
-    descripcion: >
-      1 licencia de JetBrains
+      Compra del dominio python.ec por dos años
