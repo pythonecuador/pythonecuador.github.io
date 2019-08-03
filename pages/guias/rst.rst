@@ -68,8 +68,8 @@ Para esto se debe poner ``::`` al final del párrafo para obtener algo como esto
 
 .. code-block:: rst
 
-       Cualquier sangría o tabulación es parte del bloque preformateado.
-   Incluso 
+   Cualquier sangría o tabulación es parte del bloque preformateado.
+   Incluso
  
    los
    saltos
@@ -89,11 +89,11 @@ puedes definir el URL por separado:
 
 Rst nos da la facilidad de crear enlaces internos hacia el un documento.
 Para hacer esto podemos basarnos en el nombre de los encabezados que estén dentro de un archivo o documento,
-como por ejemplo este enlace `Párrafo`_ me posiciona al inicio de este documento:
+como por ejemplo este enlace :ref:`Párrafo <parrafo>` me posiciona al inicio de este documento:
 
 .. code-block:: rst
 
-   por ejemplo este enlace `Párrafo`_ me posiciona al inicio de este documento
+   por ejemplo este enlace :ref:`Párrafo <parrafo>` me posiciona al inicio de este documento:
 
 Listas
 ------
