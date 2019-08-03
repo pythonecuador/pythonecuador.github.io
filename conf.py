@@ -144,13 +144,12 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/nuestra-comunidad/", "Comunidad"),
-        ("/eventos/", "Eventos"),
+        ("/archive.html", "Posts"),
         ("/coc/", "Código de Conducta"),
         ("/quiero-ayudar/", "Quiero ayudar"),
         ("/guias/", "Guías"),
         ("/becas/", "Becas"),
         ("/sponsors/", "Sponsors"),
-        ("/quienes-somos/", "¿Quiénes somos?"),
     ),
 }
 
@@ -258,7 +257,7 @@ TIMEZONE = "America/Guayaquil"
 # Date format used to display post dates. (translatable)
 # Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time
 # You can also use 'full', 'long', 'medium', or 'short'
-# DATE_FORMAT = 'YYYY-MM-dd HH:mm'
+DATE_FORMAT = 'YYYY-MM-dd'
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # Used by moment.js: https://momentjs.com/docs/#/displaying/format/
@@ -527,12 +526,16 @@ HIDDEN_CATEGORIES = []
 # Set descriptions for author pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the author list or index page’s title.
-# AUTHOR_PAGES_DESCRIPTIONS = {
-#    DEFAULT_LANG: {
-#        "Juanjo Conti": "Python coder and writer.",
-#        "Roberto Alsina": "Nikola father."
-#    },
-# }
+AUTHOR_PAGES_DESCRIPTIONS = {
+    DEFAULT_LANG: {
+        "Santos Gallegos": (
+            """
+            Python developer, Neovim, free & open source software 🐍.
+            <a href="https://stsewd.dev">https://stsewd.dev</a>
+            """
+        )
+    },
+}
 
 
 # If you do not want to display an author publicly, you can mark it as hidden.
@@ -936,10 +939,12 @@ LICENSE = "GNU v3.0"
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 CONTENT_FOOTER = '''
-<div class="content">
-    <p id="followus">
-        <strong>Síguenos y forma parte de nuestra comunidad</strong>
-    </p>
+<div class="container">
+    <div class="row text-center">
+        <div class="col">
+            <strong>Síguenos y forma parte de nuestra comunidad</strong>
+        </div>
+    </div>
     <div class="row">
         <div class="col">
             <ul class="list-inline social text-center">
@@ -952,8 +957,8 @@ CONTENT_FOOTER = '''
         </div>
         </hr>
     </div>
-    <div class="row">
-        <div class="text-center">
+    <div class="row text-center">
+        <div class="col">
             <p>Comunidad Python Ecuador</p>
             <small>© {date} Todos los derechos reservados.</small>
             <p>
@@ -963,7 +968,6 @@ CONTENT_FOOTER = '''
                 </small>
             </p>
         </div>
-        </hr>
     </div>
 </div>
 '''
@@ -1003,12 +1007,12 @@ RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 # systems.  The following comment systems are supported by Nikola:
 #   disqus, facebook, intensedebate, isso, muut, commento
 # You can leave this option blank to disable comments.
-COMMENT_SYSTEM = ""
+COMMENT_SYSTEM = "disqus"
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = ""
+COMMENT_SYSTEM_ID = "pythonecuador"
 
 # Create index.html for page folders?
 # WARNING: if a page would conflict with the index file (usually
@@ -1144,10 +1148,10 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # """
 
 # Show link to source for the posts?
-# SHOW_SOURCELINK = True
+SHOW_SOURCELINK = False
 # Copy the source files for your pages?
 # Setting it to False implies SHOW_SOURCELINK = False
-# COPY_SOURCES = True
+COPY_SOURCES = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10
@@ -1239,6 +1243,10 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # before </head>
 # (translatable)
 EXTRA_HEAD_DATA = """
+<!-- Custom css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/assets/css/custom.css" type="text/css" media="all" />
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128414584-1"></script>
 <script>
