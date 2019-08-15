@@ -9,7 +9,7 @@
 
 |
 
-Gracias a Gabriela Guaman (miembra de nuestra comunidad) y `Thoughtworks <https://www.thoughtworks.com/>`__,
+Gracias a `Thoughtworks <https://www.thoughtworks.com/>`__,
 tenemos **dos entradas** disponibles para la conferencia `XConf <https://www.thoughtworks.com/xconf-america-latina-2019>`__,
 la cual se realizará en **Quito el Sábado, 14 de septiembre 2019** en Ciepal desde las 08:00 am.
 
@@ -34,7 +34,7 @@ Las personas ganadoras serán dadas a conocer el día **Lunes, 2 de Septiembre**
 Debes **confirmar tu asistencia lo más pronto posible** o la entrada será dada a otra persona
 
 Si cuentas con los recursos para comprar la entrada,
-puedes obtener un **%15 de descuento** usando el código: ``COMUNIDADXCONF``.
+puedes obtener un **15% de descuento** usando el código: ``COMUNIDADXCONF``.
 
 .. note::
    
