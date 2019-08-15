@@ -30,7 +30,7 @@ Cada contribución se realiza cada mes y el monto mínimo de cada contribución 
 
 - El nombre, URL y la imagen de tu marca/empresa será usada en nuestras redes sociales
   (un post/tweet dedicado por cada 3 meses de sponsor).
-- El nombre e imagen de tu marca/empresa será puesta en nuestra :doc:`lista de sponsors recurrentes <index>`.
+- El nombre e imagen de tu marca/empresa será puesta en nuestra `lista de sponsors recurrentes <link://filename/pages/sponsors/index.rst>`__.
   La imagen tendrá una altura de ``200px`` y llevará un enlace a la URL indicada.
 - Cuando termine tu membresía de sponsor, el nombre, imagen y enlace será removido de
   la lista de sponsors actuales y será colocada en la lista de sponsors pasados con las fechas de inicio y final.
@@ -42,7 +42,7 @@ Debes hacer una contribución mayor o igual a $20.
 
 **¿Qué obtengo a cambio?**
 
-- Tu nombre o el de la marca/empresa que representas será puesta en la :doc:`lista de sponsors <index>`,
+- Tu nombre o el de la marca/empresa que representas será puesta en la `lista de sponsors <link://filename/pages/sponsors/index.rst>`__,
   con la fecha de inicio de tu membresía y llevará un enlace a la URL indicada.
 - Tu nombre, URL y la imagen de tu marca/empresa o tu persona será usada en una publicación,
   (una publicación/tweet en conjunto con otros sponsors).
@@ -60,7 +60,7 @@ y con la siguiente información:
 - URL (esta URL será usada en la lista de sponsors)
 - Fecha de inicio (fecha desde la cual deseas ser sponsor)
 - Fecha de fin (sólo si eres sponsor recurrente)
-- Monto(s) (dependiendo del tipo de sponsor, puedes especificar varios montos, o puede ser :ref:`otro tipo de donación <puedo-donar-algo-que-no-sea-dinero>`) 
+- Monto(s) (dependiendo del tipo de sponsor, puedes especificar varios montos, o puede ser :ref:`otro tipo de donación <puedo-donar-algo-que-no-sea-dinero>`)
 
 **Información del contacto**
 
@@ -140,7 +140,7 @@ Restricciones
 - La imagen enviada no debe violar ninguna licencia o derecho de autor.
 - La información de contacto es de una persona real,
   pertenece al remitente y es un representante legal de la empresa/marca o está autorizada para realizar este trámite.
-- Nos reservamos el derecho de rechazar tu aplicación si la empresa/persona ha violado nuestro :doc:`código de conducta <coc>`.
+- Nos reservamos el derecho de rechazar tu aplicación si la empresa/persona ha violado nuestro `código de conducta <link://filename/pages/coc.rst>`__.
 
 FAQ
 ---
@@ -213,6 +213,6 @@ Ten en cuenta que somos una **comunidad**, no un banco o una empresa.
 ¿Más preguntas?
 ~~~~~~~~~~~~~~~
 
-Revisa nuestro :doc:`faq sobre donaciones <faq>`,
+Revisa nuestro `faq sobre donaciones <link://filename/pages/sponsors/faq.rst>`__,
 y si algo aún no te queda claro o deseas más información,
 escríbenos a ecuadorpython@gmail.com.
