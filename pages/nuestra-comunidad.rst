@@ -25,21 +25,21 @@ cada una es administrada por miembros de la comunidad en su tiempo libre.
 
 .. warning::
 
-   En cada red/comunidad debes seguir nuestro :doc:`coc`.
+   En cada red/comunidad debes seguir nuestro `Código de conducta <link://filename/pages/coc.rst>`__.
    Evita ser expulsado, siempre sé amable y respetuoso con los demás.
 
 Aquí podrás encontrar una lista de nuestras redes/comunidades oficiales
 con una pequeña descripción:
 
 - `Grupo de Telegram (@pythonecuador) <https://t.me/pythonecuador/>`__
-  
+
   Nuestro chat más activo actualmente,
   donde podrás estar en contacto con Pythonistas de todo el país,
   resolver tus dudas, aprender y compartir contenido de interés
   y relacionado a Python.
 
 - `Meetup <https://www.meetup.com/es-ES/python-ecuador/>`__
-  
+
   Nuestra principal plataforma para la organización de eventos.
   Recibe notificaciones de los eventos más cercanos a tu ubicación.
 
@@ -48,7 +48,7 @@ con una pequeña descripción:
   Recibe notificaciones de nuestros últimos eventos.
 
 - `Facebook (@pyecuador) <https://www.facebook.com/pyecuador/>`__
-  
+
   Contenido relacionado a la comunidad y Python.
 
 - `Twitter (@pyecuador) <https://twitter.com/pyecuador>`__
@@ -59,7 +59,7 @@ con una pequeña descripción:
 
   Nuestra organización de GitHub,
   donde podrás colaborar en varios de nuestros proyectos.
-  El código fuente de esta página está disponible ahí 😉. 
+  El código fuente de esta página está disponible ahí 😉.
 
 - `YouTube <https://www.youtube.com/channel/UCWD277jrcbLjB-w0qBE5bDQ>`__
 
