@@ -1,5 +1,5 @@
 .. title: Sorteo - Entradas a XConf
-.. date: 2019-08-14
+.. date: 2019-08-16
 .. tags: sorteo, xconf
 .. author: Santos Gallegos
 .. description: Sorteo de 2 entradas a XConf
@@ -43,5 +43,6 @@ puedes obtener un **15% de descuento** usando el código: ``COMUNIDADXCONF``.
    deben ser cubiertos por las personas ganadoras.
 
 Para estar al tanto de más sorteos, eventos y noticias sobre la comunidad,
+únete a nuestro grupo de `telegram <https://t.me/pythonecuador>` y
 síguenos en `Twitter <https://twitter.com/pyecuador>`__, `Facebook <https://www.facebook.com/pyecuador/>`__
 y `más <link://filename/pages/nuestra-comunidad.rst>`__.
