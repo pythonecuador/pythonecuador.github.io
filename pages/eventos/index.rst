@@ -10,4 +10,4 @@
 Estos son los tipos de eventos que se realizan en la comunidad de Python Ecuador:
 
 - `Charlas y Talleres (Meetups) <https://www.meetup.com/python-ecuador>`_
-- :doc:`pypizza`
+- `pypizza <link://filename/pages/eventos/pypizza.rst>`__
