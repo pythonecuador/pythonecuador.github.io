@@ -172,7 +172,7 @@ para clasificarlos por complejidad y/o tipo.
   Cambio pendiente de discusión
 `bug`_
   Algo no funciona correctamente
-  `Enhancement`_
+`Enhancement`_
   Nueva característica o funcionalidad
 `design`_
   Cambios relacionados al UI/UX del sitio
