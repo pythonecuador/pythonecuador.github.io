@@ -38,8 +38,8 @@ puedes obtener un **15% de descuento** usando el código: ``COMUNIDADXCONF``.
 
 .. note::
    
-   El sorteo sólo incluye las entradas,
-   transporte, hospedaje u otro tipo de gastos
+   El sorteo sólo incluye las entradas.
+   Transporte, hospedaje u otro tipo de gastos
    deben ser cubiertos por las personas ganadoras.
 
 Para estar al tanto de más sorteos, eventos y noticias sobre la comunidad,
