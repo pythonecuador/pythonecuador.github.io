@@ -21,6 +21,3 @@ ENV/
 
 #IDES
 .vscode
-
-#my venv pyzza
-pyzza/
