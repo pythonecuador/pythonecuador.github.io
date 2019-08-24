@@ -166,31 +166,31 @@ para buscar tareas por hacer.
 Los issues contienen etiquetas (`labels <https://github.com/PythonEcuador/PythonEcuador.github.io/labels>`_)
 para clasificarlos por complejidad y/o tipo.
 
-`good First Issue`_
-  Tareas de complejidad fácil que te ayudarán a familiarizarte con el proyecto.
-`design decision`_
-  Cambio pendiente de discusión
 `bug`_
   Algo no funciona correctamente
-`Enhancement`_
+`desing desicion`_
+  Cambio pendiente de discusión
+`enhancement`_
   Nueva característica o funcionalidad
-`design`_
-  Cambios relacionados al UI/UX del sitio
+`good first issue`_
+  Tareas de complejidad fácil que te ayudarán a familiarizarte con el proyecto.
 `help wanted`_
   Indica que uno de los administradores busca ayuda en un issue o pull request
 `ready`_
   Indica que el issue esta listo
+`sponsor`_
+  Indica que se debe agregar un nuevo sponsor mediante pull request
 `wip`_
     Indica que el issue está en progreso (Work in Progress)
 `wontfix`_
     Indica que el trabajo no va a continuar en un issue o pull request
-`sponsor`_
-    Indica que se debe agregar un nuevo sponsor mediante pull request
 
-.. _Good First Issue: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue
-.. _Bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
-.. _Enhancement: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement
-.. _Design: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design
+
+.. _desing desicion: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design%20decision
+.. _good first issue: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue
+.. _bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
+.. _enhancement: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement
+.. _design: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design
 .. _duplicate: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/duplicate
 .. _help wanted: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/help%20wanted
 .. _invalid: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/invalid
