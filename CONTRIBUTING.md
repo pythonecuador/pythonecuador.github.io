@@ -1,1 +1,1 @@
-Puedes ver nuestra guía en <https://pythonecuador.org/guias/colaborar/>.
+Puedes ver nuestra guía en <https://python.ec/guias/colaborar/>.
