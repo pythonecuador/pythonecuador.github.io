@@ -75,3 +75,9 @@ footer a:hover {
   color: #fff;
   text-decoration: underline;
 }
+
+.white-link,
+.white-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
