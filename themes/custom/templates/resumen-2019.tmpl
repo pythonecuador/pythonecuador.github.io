@@ -1,0 +1,367 @@
+## -*- coding: utf-8 -*-
+<%inherit file="pagina-base.tmpl"/>
+
+<%!
+    def time(text):
+        import datetime
+        seconds = int(text)/1000
+        time = datetime.date.fromtimestamp(seconds)
+        return time.strftime("%d/%m/%Y")
+%>
+
+<%block name="extra_head">
+  ${parent.extra_head()}
+
+  <!-- Required for timeline -->
+  <link rel="stylesheet" href="/assets/css/timeline.css" type="text/css" media="all" />
+
+  <!-- Required for carousel -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</%block>
+
+<%block name="content">
+
+<!-- Snippet from https://bootsnipp.com/snippets/xrKXW -->
+<div class="container mt-5 mb-5">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+
+      <header class="text-center">
+        <h1><strong>Python Ecuador 2019</strong></h1>
+        <h3>Resumen en números</h3>
+      </header>
+
+      <div class="pt-5">
+        <p class="text-center">
+          <strong>
+            ¡Gracias a toda la comunidad por todos estos logros!
+          </strong>
+        </p>
+
+        <p class="text-center">
+          <strong>
+          <a href="/quiero-ayudar/">¡Tú también puedes ayudarnos a seguir creciendo!</a>
+          </strong>
+        </p>
+      </div>
+
+      <div class="row text-center">
+        <img class="col-md-8 offset-md-2" src="/images/logos/python-ecuador.png">
+      </div>
+
+      <div>
+        <h3><a id="nuevo-dominio" href="#nuevo-dominio">Nuevo Dominio</a></h3>
+        <ul class="timeline">
+          <li>
+            <a href="https://python.ec">https://python.ec</a>
+            <p>
+              Antes teníamos el dominio pythonecuador.org.
+              Pero <a href="/posts/nuevo-dominio/">gracias a los fondos de la comunidad</a> pudimos comprar un dominio más acorde a la comunidad.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pt-3">
+        <h3><a id="meetups" href="#meetups">Meetups</a></h3>
+
+        <p>
+          <ul>
+            <li>
+              <strong>20 meetups</strong> 
+            </li>
+            <li>
+              <strong>328 asistentes</strong>
+            </li>
+            <li>
+              <strong>2 ciudades</strong>
+            </li>
+          </ul>
+          
+          <!-- Carousel -->
+          <div id="carousel-meetup" class="carousel slide " data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#carousel-meetup" data-slide-to="0" class="active"></li>
+              % for i in range(1, 5):
+                <li data-target="#carousel-meetup" data-slide-to="${i}"></li>
+              % endfor
+            </ul>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="/images/events/2019/meetups/0.jpg">
+              </div>
+              % for i in range(1, 5):
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/images/events/2019/meetups/${i}.jpg">
+              </div>
+              % endfor
+            </div>
+
+            <a class="carousel-control-prev" href="#carousel-meetup" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-meetup" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          <!-- End carousel -->
+        </p>
+
+        <ul class="timeline">
+          % for event in post.data('events'):
+          <li>
+            <a href="${event['event_url']}">${event['name']}</a>
+            <p>
+              <ul>
+                <li>
+                  Ciudad: ${event['venue']['city']}</p>
+                </li>
+                <li>
+                  Fecha: ${event['time'] | time}
+                </li>
+                <li>
+                  Número aprox de asistentes: ${event['yes_rsvp_count']}
+                </li>
+              </ul>
+            </p>
+          </li>
+          % endfor
+        </ul>
+      </div>
+
+      <div class="pt-3">
+        <h3><a id="django-girls" href="#django-girls">Django girls</a></h3>
+        <p>
+          Con el fin de aumentar la diversidad en la comunidad,
+          organizamos un <a href="https://djangogirls.org/">Django Girls</a> este año.
+
+          <!-- Carousel -->
+          <div id="carousel-djangogirls" class="carousel slide " data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#carousel-djangogirls" data-slide-to="0" class="active"></li>
+              % for i in range(1, 6):
+                <li data-target="#carousel-djangogirls" data-slide-to="${i}"></li>
+              % endfor
+            </ul>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="/images/events/2019/django-girls/0.jpg">
+              </div>
+              % for i in range(1, 6):
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/images/events/2019/django-girls/${i}.jpg">
+              </div>
+              % endfor
+            </div>
+
+            <a class="carousel-control-prev" href="#carousel-djangogirls" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-djangogirls" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          <!-- End carousel -->
+        </p>
+        <ul class="timeline">
+          <li>
+            <a href="https://web.archive.org/web/20191226180132/https://djangogirls.org/cuenca/">Django Girls Cuenca</a>
+            <p>
+              <ul>
+                <li>
+                  Ciudad: Cuenca</p>
+                </li>
+                <li>
+                  Fecha: 30/03/2019
+                </li>
+                <li>
+                  Número aprox de guías y asistentes: 50
+                </li>
+                <li>
+                  Becas (transporte y hospedaje): 3 ($115)
+                </li>
+              </ul>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pt-3">
+        <h3><a id="flisol" href="#flisol">FLISoL</a></h3>
+        <p>
+          <!-- Carousel -->
+          <div id="carousel-flisol" class="carousel slide " data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#carousel-flisol" data-slide-to="0" class="active"></li>
+              % for i in range(1, 4):
+                <li data-target="#carousel-flisol" data-slide-to="${i}"></li>
+              % endfor
+            </ul>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="/images/events/2019/flisol/0.jpg">
+              </div>
+              % for i in range(1, 4):
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/images/events/2019/flisol/${i}.jpg">
+              </div>
+              % endfor
+            </div>
+
+            <a class="carousel-control-prev" href="#carousel-flisol" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-flisol" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          <!-- End carousel -->
+        </p>
+        <ul class="timeline">
+          <li>
+            <a href="https://flisol.info/FLISOL2019/Ecuador/Guayaquil">FLISoL Guayaquil</a>
+            <p>
+              <ul>
+                <li>
+                  Ciudad: Guayaquil</p>
+                </li>
+                <li>
+                  Fecha: 18/05/2019
+                </li>
+              </ul>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pt-3">
+        <h3><a id="sorteos" href="#sorteos">Sorteos</a></h3>
+        <ul class="timeline">
+          <li>
+            <a href="/guias/licencias/">Licencias de JetBrains</a>
+            <p>
+              Licencias sorteadas: 8
+            </p>
+          </li>
+          <li>
+            <a href="/posts/sorteo-xconf/">Entradas a XConf</a>
+            <p>
+              Entradas sorteadas: 2
+            </p>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="pt-3">
+        <h3><a id="blog" href="#blog">Blog</a></h3>
+        <p>
+          Este año empezamos a escribir entradas en nuestro <a href="/archive.html">blog</a> con el fin de
+          mantener informada a la comunidad de los acontecimientos de la comunidad.
+        </p>
+        <ul class="timeline">
+          <li>
+            <p>
+              <a href="/2019/">Número de posts: 2</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pt-3">
+        <h3><a id="comunidad" href="#comunidad">Comunidad</a></h3>
+        <p>
+          <a href="/nuestra-comunidad/">Nuestras redes</a> más activas en 2019.
+        </p>
+        <ul class="timeline">
+          <li>
+            <a href="https://www.facebook.com/pyecuador">Facebook: +1100 likes</a>
+          </li>
+          <li>
+            <a href="https://www.meetup.com/es/python-ecuador/">Meetup: +920 miembros</a>
+          </li>
+          <li>
+            <a href="https://t.me/pythonecuador/">Telegram: +390 miembros</a>
+          </li>
+          <li>
+            <a href="https://twitter/pyecuador">Twitter: +360 seguidores</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pt-3">
+        <h3><a id="nuevas-comunidades" href="#nuevas-comunidades">Nuevas Comunidades</a></h3>
+        <p>
+          <div>
+            <img class="d-block w-100" src="/images/events/2019/pyladies.jpg">
+          </div>
+        </p>
+        <ul class="timeline">
+          <li>
+            <a href="https://www.facebook.com/pyladiesecq/">PyLadies</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/funpython_ec">FunPython</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pt-3">
+        <h3><a id="contribuidores" href="#contribuidores">Contribuidores</a></h3>
+        <ul class="timeline">
+          <li>
+            <a href="https://github.com/pythonecuador">Web de la comunidad (pythonecuador/pythonecuador.github.io)</a>
+            <p>
+              <ul>
+                <li>
+                  <a href="https://github.com/PythonEcuador/PythonEcuador.github.io/graphs/contributors?from=2019-01-01&to=2019-12-31&type=c">
+                    12 contribuidores
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/pulls?utf8=%E2%9C%93&q=is%3Amerged+is%3Apr+repo%3Apythonecuador%2Fpythonecuador.github.io+created%3A%3E%3D2019-01-01+">
+                    32 Pull Requests mergeados
+                  </a>
+                </li>
+              </ul>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pt-5">
+        <p class="text-center">
+          <strong>
+            ¡Gracias a toda la comunidad por todos estos logros!
+          </strong>
+        </p>
+
+        <p class="text-center">
+          <strong>
+          <a href="/quiero-ayudar/">¡Tú también puedes ayudarnos a seguir creciendo!</a>
+          </strong>
+        </p>
+      </div>
+
+      <div>
+        <p>
+          <small>
+          <strong>*</strong> La información mostrada fue obtenida de varios medios,
+          y puede que no represente la información real
+          (especialmente en el número de asistentes).
+          Esperamos llevar una cuenta más precisa el siguiente año.
+          Si deseas más información o tienes dudas sobre algún dato, escríbenos a <a href="mailto:ecuadorpython@gmail.com">ecuadorpython@gmail.com</a>.
+          </small>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End snippet -->
+
+
+</%block>
