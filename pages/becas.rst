@@ -32,6 +32,8 @@ y con la siguiente información:
 - Medio de contacto: número telefónico o email.
 - Sobre ti: Cuéntanos sobre ti, qué te apasiona.
 - ¿Para qué evento necesitas la beca?
+- ¿Dónde y cuándo será el evento?
+- Enlace al evento
 - ¿Qué tipo de ayuda necesitas?: Transporte y/o hospedaje (u otro).
 - Cuéntanos tu plan:
   Danos los detalles generales de tu viaje
@@ -57,7 +59,11 @@ Ejemplos
      No cuento con un trabajo aún. Mi familia no cuenta con el dinero para
      cubrir los gastos del viaje.
    - ¿Para qué evento necesitas la beca?
-     Python en la vida real, evento a relizarse en Cuenca el 10 de Enero del 2018
+     Python en la vida real
+   - ¿Dónde y cuándo será el evento?
+     - El evento será en Cuenca el 10 de Enero del 2018
+   - Enlace al evento:
+     https://flisol.info/FLISOL2019/Ecuador/Cuenca
    - ¿Qué tipo de ayuda necesitas?
      Transporte
    - Cuéntanos tu plan:
