@@ -1,195 +1,241 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-  <style>
-  html, body {
-    height: 100%;
-    margin: 0;
-  }
-  body {
-    background: black;
-    color: grey;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  canvas {
-    width:500px;
-    height:100px;
-    border:1px solid #555444;
-
-  }
-
-#top {
-    position: fixed;
-    height: 15%;
-    top: 0;
-    text-align: center;
-}
-#mid {
-    position: fixed;
-    top: 15%: fixed;
-}
-#bottom {
-    position: fixed;
-    height: 15%;
-    bottom: 0;
-    text-align: center;
-}
-  </style>
-</head>
-<body>
-  <div id="top">
-    <font size="5">
-      ¡Esta página no existe! :O
-    </font>
-    <br>
-    Ponte cómodo y juega Snake mientras la creamos :)
-  </div>
-  <div id="mid" style="width:600px;height:400px;border:2px solid #000000;">
-  <canvas width="600" height="400" id="game"></canvas>
-  <script>
-  var canvas = document.getElementById('game');
-  var context = canvas.getContext('2d');
-  var grid = 16;
-  var count = 0;
-
-  var snake = {
-    x: 160,
-    y: 160,
-
-    // snake velocity. moves one grid length every frame in either the x or y direction
-    dx: grid,
-    dy: 0,
-
-    // keep track of all grids the snake body occupies
-    cells: [],
-
-    // length of the snake. grows when eating an apple
-    maxCells: 4
-  };
-  var apple = {
-    x: 320,
-    y: 320
-  };
-  // get random whole numbers in a specific range
-  // @see https://stackoverflow.com/a/1527820/2124254
-  function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
-  }
-  // game loop
-  function loop() {
-    requestAnimationFrame(loop);
-    // slow game loop to 15 fps instead of 60 (60/15 = 4)
-    if (++count < 4) {
-      return;
-    }
-    count = 0;
-    context.clearRect(0,0,canvas.width,canvas.height);
-    // move snake by it's velocity
-    snake.x += snake.dx;
-    snake.y += snake.dy;
-    // wrap snake position horizontally on edge of screen
-    if (snake.x < 0) {
-      snake.x = canvas.width - grid;
-    }
-    else if (snake.x >= canvas.width) {
-      snake.x = 0;
-    }
-
-    // wrap snake position vertically on edge of screen
-    if (snake.y < 0) {
-      snake.y = canvas.height - grid;
-    }
-    else if (snake.y >= canvas.height) {
-      snake.y = 0;
-    }
-    // keep track of where snake has been. front of the array is always the head
-    snake.cells.unshift({x: snake.x, y: snake.y});
-    // remove cells as we move away from them
-    if (snake.cells.length > snake.maxCells) {
-      snake.cells.pop();
-    }
-    // draw apple
-    context.fillStyle = 'red';
-    context.fillRect(apple.x, apple.y, grid-1, grid-1);
-    // draw snake one cell at a time
-    context.fillStyle = 'green';
-    snake.cells.forEach(function(cell, index) {
-
-      // drawing 1 px smaller than the grid creates a grid effect in the snake body so you can see how long it is
-      context.fillRect(cell.x, cell.y, grid-1, grid-1);
-      // snake ate apple
-      if (cell.x === apple.x && cell.y === apple.y) {
-        snake.maxCells++;
-        // canvas is 400x400 which is 25x25 grids
-        apple.x = getRandomInt(0, 25) * grid;
-        apple.y = getRandomInt(0, 25) * grid;
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="pretty_url" content="False" />
+    <meta name="url_type" content="full_path" />
+    <title>404 - Página no encontrada!</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
       }
-      // check collision with all cells after this one (modified bubble sort)
-      for (var i = index + 1; i < snake.cells.length; i++) {
 
-        // snake occupies same space as a body part. reset game
-        if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
-          snake.x = 160;
-          snake.y = 160;
-          snake.cells = [];
-          snake.maxCells = 4;
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        background: #4584b6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-y: hidden;
+        color: #fff;
+      }
+      canvas {
+        border: 3px solid white;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h1 {
+        text-align: center;
+      }
+      small {
+        position: absolute;
+        left: 10px;
+        bottom: 15px;
+      }
+      a {
+        color: #fff;
+      }
+      p {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>404 - Página no encontrada</h1>
+      <canvas width="400" height="400" id="game"></canvas>
+      <p>
+        No encuentras lo que buscas ¿Crees que es un error?
+        <a
+          href="https://github.com/PythonEcuador/PythonEcuador.github.io/issues"
+          >Repórtalo</a
+        >
+      </p>
+      <small
+        ><a
+          href="https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4"
+          >Basic Snake HTML Game</a
+        ></small
+      >
+    </div>
+    <script>
+      var canvas = document.getElementById("game");
+      var context = canvas.getContext("2d");
+
+      var grid = 16;
+      var snake = {
+        x: 160,
+        y: 160,
+        dx: grid,
+        dy: 0,
+        cells: [],
+        maxCells: 4,
+      };
+      var count = 0;
+      var apple = {
+        x: 320,
+        y: 320,
+      };
+
+      var img1 = new Image();
+      img1.src = "http://python.ec/images/logos/python-ecuador.png";
+      img1.width = "1px";
+      img1.height = "1px";
+      pattern1 = context.createPattern(img1, "no-repeat");
+
+      function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+      }
+
+      // game loop
+      function loop() {
+        requestAnimationFrame(loop);
+
+        // slow game loop to 15 fps instead of 60 - 60/15 = 4
+        if (++count < 4) {
+          return;
+        }
+
+        count = 0;
+        context.clearRect(0, 0, canvas.width, canvas.height);
+
+        snake.x += snake.dx;
+        snake.y += snake.dy;
+
+        // wrap snake position on edge of screen
+        if (snake.x < 0) {
+          snake.x = canvas.width - grid;
+        } else if (snake.x >= canvas.width) {
+          snake.x = 0;
+        }
+
+        if (snake.y < 0) {
+          snake.y = canvas.height - grid;
+        } else if (snake.y >= canvas.height) {
+          snake.y = 0;
+        }
+
+        // keep track of where snake has been. front of the array is always the head
+        snake.cells.unshift({ x: snake.x, y: snake.y });
+
+        // remove cells as we move away from them
+        if (snake.cells.length > snake.maxCells) {
+          snake.cells.pop();
+        }
+
+        // draw apple
+        context.fillStyle = "#b64839"; // red
+        context.fillRect(apple.x, apple.y, grid - 1, grid - 1);
+
+        // draw snake
+        context.fillStyle = "#ffde57"; // yellow
+        snake.cells.forEach(function (cell, index) {
+          context.fillRect(cell.x, cell.y, grid - 1, grid - 1);
+
+          // snake ate apple
+          if (cell.x === apple.x && cell.y === apple.y) {
+            snake.maxCells++;
+
+            apple.x = getRandomInt(0, 25) * grid;
+            apple.y = getRandomInt(0, 25) * grid;
+          }
+
+          // check collision with all cells after this one (modified bubble sort)
+          for (var i = index + 1; i < snake.cells.length; i++) {
+            // collision. reset game
+            if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
+              snake.x = 160;
+              snake.y = 160;
+              snake.cells = [];
+              snake.maxCells = 4;
+              snake.dx = grid;
+              snake.dy = 0;
+
+              apple.x = getRandomInt(0, 25) * grid;
+              apple.y = getRandomInt(0, 25) * grid;
+            }
+          }
+        });
+      }
+
+      var allowedTime = 200;
+      var startX = 0;
+      var startY = 0;
+
+      document.addEventListener(
+        "touchstart",
+        function (e) {
+          var touch = e.changedTouches[0];
+          startX = touch.pageX;
+          startY = touch.pageY;
+          startTime = new Date().getTime();
+          // e.preventDefault();
+        },
+        false
+      );
+
+      document.addEventListener(
+        "touchmove",
+        function (e) {
+          // e.preventDefault();
+        },
+        false
+      );
+
+      document.addEventListener(
+        "touchend",
+        function (e) {
+          var touch = e.changedTouches[0];
+          distX = touch.pageX - startX;
+          distY = touch.pageY - startY;
+
+          if (Math.abs(distX) > Math.abs(distY)) {
+            if (distX > 0 && snake.dx === 0) {
+              snake.dx = grid;
+              snake.dy = 0;
+            } else if (distX < 0 && snake.dx === 0) {
+              snake.dx = -grid;
+              snake.dy = 0;
+            }
+          } else {
+            if (distY > 0 && snake.dy === 0) {
+              snake.dy = grid;
+              snake.dx = 0;
+            } else if (distY < 0 && snake.dy === 0) {
+              snake.dy = -grid;
+              snake.dx = 0;
+            }
+          }
+          // e.preventDefault();
+        },
+        false
+      );
+
+      document.addEventListener("keydown", function (e) {
+        // prevent snake from backtracking on itself
+        if (e.which === 37 && snake.dx === 0) {
+          snake.dx = -grid;
+          snake.dy = 0;
+        } else if (e.which === 38 && snake.dy === 0) {
+          snake.dy = -grid;
+          snake.dx = 0;
+        } else if (e.which === 39 && snake.dx === 0) {
           snake.dx = grid;
           snake.dy = 0;
-          apple.x = getRandomInt(0, 25) * grid;
-          apple.y = getRandomInt(0, 25) * grid;
+        } else if (e.which === 40 && snake.dy === 0) {
+          snake.dy = grid;
+          snake.dx = 0;
         }
-      }
-    });
-  }
-  // listen to keyboard events to move the snake
-  document.addEventListener('keydown', function(e) {
-    // prevent snake from backtracking on itself by checking that it's
-    // not already moving on the same axis (pressing left while moving
-    // left won't do anything, and pressing right while moving left
-    // shouldn't let you collide with your own body)
+      });
 
-    // left arrow key
-    if (e.which === 37 && snake.dx === 0) {
-      snake.dx = -grid;
-      snake.dy = 0;
-    }
-    // up arrow key
-    else if (e.which === 38 && snake.dy === 0) {
-      snake.dy = -grid;
-      snake.dx = 0;
-    }
-    // right arrow key
-    else if (e.which === 39 && snake.dx === 0) {
-      snake.dx = grid;
-      snake.dy = 0;
-    }
-    // down arrow key
-    else if (e.which === 40 && snake.dy === 0) {
-      snake.dy = grid;
-      snake.dx = 0;
-    }
-  });
-  // start the game
-  requestAnimationFrame(loop);
-  </script>
-  </div>
-  <div id="bottom">
-    Era broma... ¡Mueve el trasero a
-    <a href="https://github.com/PythonEcuador/PythonEcuador.github.io">
-      GitHub
-    </a>
-    y creala tu mismo! >:(
-    <br>
-    <font size="1">
-      Explícito es mejor que implícito.
-      <a href="https://www.python.org/dev/peps/pep-0020/">
-        <3
-      </a>
-    </font>
-  </div>
-</body>
+      requestAnimationFrame(loop);
+    </script>
+  </body>
 </html>
