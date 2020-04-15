@@ -60,3 +60,5 @@ La licencia la puedes enviar como adjunto en un email con un texto como::
 
     Por favor te pedimos que la actives lo más pronto posible.
     ¡Te esperamos en más eventos de la comunidad!
+
+    Conoce más sobre la comunidad en https://python.ec/
