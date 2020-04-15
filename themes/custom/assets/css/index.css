@@ -81,3 +81,18 @@ footer a:hover {
   color: #fff;
   text-decoration: underline;
 }
+
+.yellow-highlight {
+  text-shadow: none;
+  box-shadow: 0 1px 3px var(--shadow-blue);
+  font-weight: bold;
+  padding: 5px;
+  color: var(--blue);
+  background-color: var(--yellow);
+}
+
+.yellow-highlight:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
