@@ -30,9 +30,3 @@ Si aún no se existe una comunidad activa en tu ciudad,
 Cualquier persona con ganas de **aprender y compartir** con los demás.
 **No importa si jamás has escrito una línea de código**, todos estuvimos en tu lugar alguna vez y,
 por eso, estamos dispuestos a ayudarte si es que tu quieres aprender.
-
-¿Cuales son nuestros principios?
---------------------------------
-
-Tenemos una **colección de principios** que influyen en el diseño del **Python**,
-y en nuestras vidas. Revisa: El `Zen de Python <link://filename/pages/zen.rst>`__.

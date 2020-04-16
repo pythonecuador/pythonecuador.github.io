@@ -1,36 +1,30 @@
-.. title: Zen de Python
+.. title: El Zen de Python
 .. slug: zen
 .. type: text
 .. template: pagina.tmpl
 
-Nuestra guía de principios, por Tim Peters:
+El Zen de Python, por Tim Peters (:PEP:`20`).
 
 .. code:: python
 
-    import this
+   import this
 
-1. Bello es mejor que feo.
-2. Explícito es mejor que implícito.
-3. Simple es mejor que complejo.
-4. Complejo es mejor que complicado.
-5. Plano es mejor que anidado.
-6. Disperso es mejor que denso.
-7. La legibilidad cuenta.
-8. Los casos especiales no son tan especiales como para quebrantar las reglas.
-9. Aunque lo práctico gana a la pureza.
-10. Los errores nunca deberían dejarse pasar silenciosamente.
-11. A menos que hayan sido silenciados explícitamente.
-12. Frente a la ambigüedad, rechaza la tentación de adivinar.
-13. Debería haber una - y preferiblemente sólo una - manera obvia de hacerlo.
-14. Aunque esa manera puede no ser obvia al principio a menos que usted sea holandés (Guido van Rossum).
-15. Ahora es mejor que nunca.
-16. Aunque nunca es a menudo mejor que ya mismo.
-17. Si la implementación es difícil de explicar, es una mala idea.
-18. Si la implementación es fácil de explicar, puede que sea una buena idea.
-19. Los 'namespaces' son una gran idea ¡Hagamos más de esas cosas!.
-
-|pep20|
-
-.. |pep20| raw:: html
-
-   <a href="https://www.python.org/dev/peps/pep-0020/" target="_blank">PEP 20</a>
+#. Bello es mejor que feo.
+#. Explícito es mejor que implícito.
+#. Simple es mejor que complejo.
+#. Complejo es mejor que complicado.
+#. Plano es mejor que anidado.
+#. Disperso es mejor que denso.
+#. La legibilidad cuenta.
+#. Los casos especiales no son tan especiales como para quebrantar las reglas.
+#. Aunque lo práctico gana a la pureza.
+#. Los errores nunca deberían dejarse pasar silenciosamente.
+#. A menos que hayan sido silenciados explícitamente.
+#. Frente a la ambigüedad, rechaza la tentación de adivinar.
+#. Debería haber una —y preferiblemente sólo una— manera obvia de hacerlo.
+#. Aunque esa manera puede no ser obvia al principio a menos que usted sea holandés (Guido van Rossum).
+#. Ahora es mejor que nunca.
+#. Aunque nunca es a menudo mejor que ya mismo.
+#. Si la implementación es difícil de explicar, es una mala idea.
+#. Si la implementación es fácil de explicar, puede que sea una buena idea.
+#. Los "namespaces" son una gran idea ¡Hagamos más de esas cosas!.
