@@ -85,7 +85,7 @@ footer a:hover {
 .yellow-highlight {
   text-shadow: none;
   font-weight: bold;
-  padding: 5px;
+  padding: 4px;
   color: var(--blue);
   background-color: var(--yellow);
 }
