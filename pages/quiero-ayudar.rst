@@ -26,6 +26,7 @@ De manera general las formas de apoyar a la comunidad son:
 
 Si posees conocimientos técnicos:
 
-* Contribuyendo en el desarrollo de nuestros proyectos alojados en `GitHub <https://github.com/PythonEcuador>`__, puedes comenzar con esta `guía <link://filename/pages/guias/colaborar.rst>`__.
+* Contribuyendo en el desarrollo de nuestros proyectos alojados en `GitHub <https://github.com/PythonEcuador>`__,
+  puedes comenzar con esta `guía <link://filename/pages/guias/colaborar.rst>`__.
 * Proponiendo y dictando charlas/talleres para fomentar el conocimiento de Python en la comunidad
 * Creando material de difusión como: afiches, banners, logos, etc.
