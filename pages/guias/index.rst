@@ -7,6 +7,7 @@ Guías escritas por la comunidad para la comunidad.
 Comunidad
 #########
 
+- `EL Zen de Python <link://filename/pages/zen.rst>`__.
 - `Registrarte como miembro de la PSF <link://filename/pages/guias/psf.rst>`__
 
 Desarrollo del sitio
