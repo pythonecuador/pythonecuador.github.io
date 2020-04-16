@@ -145,7 +145,7 @@
           startX = touch.pageX;
           startY = touch.pageY;
           startTime = new Date().getTime();
-          // e.preventDefault();
+          e.preventDefault();
         },
         false
       );
@@ -153,7 +153,7 @@
       document.addEventListener(
         "touchmove",
         function (e) {
-          // e.preventDefault();
+          e.preventDefault();
         },
         false
       );
@@ -182,7 +182,7 @@
               snake.dx = 0;
             }
           }
-          // e.preventDefault();
+          e.preventDefault();
         },
         false
       );
