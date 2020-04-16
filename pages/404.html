@@ -4,25 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="pretty_url" content="False" />
     <meta name="url_type" content="full_path" />
-    <title>404 - Página no encontrada!</title>
-    <style>
-      html,
-      body {
-        height: 100%;
-        margin: 0;
-      }
+    <meta name="template" content="pagina.tmpl" />
+    <title>404 - ¡Página no encontrada!</title>
+  </head>
 
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        background: #4584b6;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow-y: hidden;
-        color: #fff;
-      }
+  <body>
+    <style>
       canvas {
         border: 3px solid white;
         margin-top: 50px;
@@ -34,37 +21,19 @@
       h1 {
         text-align: center;
       }
-      small {
-        position: absolute;
-        left: 10px;
-        bottom: 15px;
-      }
-      a {
-        color: #fff;
-      }
-      p {
-        margin: 10px;
-      }
     </style>
-  </head>
-  <body>
-    <div>
-      <h1>404 - Página no encontrada</h1>
+
+    <div class="text-center">
       <canvas width="400" height="400" id="game"></canvas>
       <p>
-        ¿No encuentras lo que buscas? ¿Crees que es un error?
-        <a
-          href="https://python.ec/guias/colaborar/#reportando-errores-bugs"
-          >Repórtalo</a
-        >
+        <small>
+          <a href="https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4">
+            Basic Snake HTML Game
+          </a>
+        </small>
       </p>
-      <small
-        ><a
-          href="https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4"
-          >Basic Snake HTML Game</a
-        ></small
-      >
     </div>
+
     <script>
       var canvas = document.getElementById("game");
       var context = canvas.getContext("2d");
