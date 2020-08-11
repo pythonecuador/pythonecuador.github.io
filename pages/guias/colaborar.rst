@@ -170,7 +170,9 @@ para clasificarlos por complejidad y/o tipo.
   Tareas de complejidad fácil que te ayudarán a familiarizarte con el proyecto.
 `bug`_, `enhancement`_
   Si ya resolviste suficientes tareas fáciles y quieres pasar al siguiente nivel.
-`design`_ `design decision`_
+`decision needed`_
+  Indica que hace falta tomar una decisión para resolver el problema.
+`design`_
   Si lo tuyo es el diseño gráfico o web.
 `help wanted`_
   Indica que uno de los administradores busca ayuda en un issue o pull request
@@ -187,7 +189,7 @@ para clasificarlos por complejidad y/o tipo.
 .. _bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
 .. _enhancement: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement
 .. _design: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design
-.. _design decision: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design%20decision
+.. _decision needed: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/decision%20needed
 .. _help wanted: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/help%20wanted
 .. _ready: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/ready
 .. _wip: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/wip
