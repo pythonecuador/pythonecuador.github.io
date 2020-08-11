@@ -183,14 +183,12 @@ para clasificarlos por complejidad y/o tipo.
 `sponsor`_
     Indica que se debe agregar un nuevo sponsor mediante pull request
 
-.. _Good First Issue: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue
-.. _Bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
-.. _Enhancement: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement
-.. _Design: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design
-.. _duplicate: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/duplicate
+.. _good first issue: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue
+.. _bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
+.. _enhancement: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement
+.. _design: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design
+.. _design decision: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design%20decision
 .. _help wanted: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/help%20wanted
-.. _invalid: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/invalid
-.. _question: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/question
 .. _ready: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/ready
 .. _wip: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/wip
 .. _wontfix: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/wontfix
