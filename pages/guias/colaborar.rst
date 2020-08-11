@@ -166,20 +166,16 @@ para buscar tareas por hacer.
 Los issues contienen etiquetas (`labels <https://github.com/PythonEcuador/PythonEcuador.github.io/labels>`_)
 para clasificarlos por complejidad y/o tipo.
 
-`Good First Issue`_
+`good first issue`_
   Tareas de complejidad fácil que te ayudarán a familiarizarte con el proyecto.
-`Bug`_, `Enhancement`_
+`bug`_, `enhancement`_
   Si ya resolviste suficientes tareas fáciles y quieres pasar al siguiente nivel.
-`Design`_
+`decision needed`_
+  Indica que hace falta tomar una decisión para resolver el problema.
+`design`_
   Si lo tuyo es el diseño gráfico o web.
-`duplicate`_
-  Indica issues similares o pull requests
 `help wanted`_
   Indica que uno de los administradores busca ayuda en un issue o pull request
-`invalid`_
-  Indica  que el issue o pull request no es relevante
-`question`_
-  Indica que issues similares o pull request necesitan más información
 `ready`_
   Indica que el issue esta listo
 `wip`_
@@ -189,14 +185,12 @@ para clasificarlos por complejidad y/o tipo.
 `sponsor`_
     Indica que se debe agregar un nuevo sponsor mediante pull request
 
-.. _Good First Issue: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue
-.. _Bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
-.. _Enhancement: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement
-.. _Design: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design
-.. _duplicate: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/duplicate
+.. _good first issue: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue
+.. _bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
+.. _enhancement: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement
+.. _design: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design
+.. _decision needed: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/decision%20needed
 .. _help wanted: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/help%20wanted
-.. _invalid: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/invalid
-.. _question: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/question
 .. _ready: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/ready
 .. _wip: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/wip
 .. _wontfix: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/wontfix
