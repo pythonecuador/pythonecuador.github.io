@@ -166,20 +166,14 @@ para buscar tareas por hacer.
 Los issues contienen etiquetas (`labels <https://github.com/PythonEcuador/PythonEcuador.github.io/labels>`_)
 para clasificarlos por complejidad y/o tipo.
 
-`Good First Issue`_
+`good first issue`_
   Tareas de complejidad fácil que te ayudarán a familiarizarte con el proyecto.
-`Bug`_, `Enhancement`_
+`bug`_, `enhancement`_
   Si ya resolviste suficientes tareas fáciles y quieres pasar al siguiente nivel.
-`Design`_
+`design`_ `design decision`_
   Si lo tuyo es el diseño gráfico o web.
-`duplicate`_
-  Indica issues similares o pull requests
 `help wanted`_
   Indica que uno de los administradores busca ayuda en un issue o pull request
-`invalid`_
-  Indica  que el issue o pull request no es relevante
-`question`_
-  Indica que issues similares o pull request necesitan más información
 `ready`_
   Indica que el issue esta listo
 `wip`_
