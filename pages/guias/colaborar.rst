@@ -38,7 +38,7 @@ Para verificar que tienes Python 3 en tu sistema ejecuta el siguiente comando en
    $ python --version
    Python 3.6.5
 
-Si el comando anterior no funcionó en el caso de Windows puedes intentar:
+Si el comando anterior no funcionó en Windows puedes intentar:
 
 .. code:: console
 
