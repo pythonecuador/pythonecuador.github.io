@@ -128,7 +128,9 @@ Ahora necesitamos activar el entorno virtual
    venv\Scripts\activate
 
    # Para sistemas Windows, usando Git bash
-   venv/Scripts/activate
+   venv/Scripts/activate 
+   # Si el comando anterior no funciona puedes probar:
+   source venv/Scripts/activate
 
 Ahora ya podemos instalar Nikola y otras dependencias:
 
