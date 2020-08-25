@@ -150,7 +150,7 @@ Reportando errores (bugs)
 
 GitHub usa ``issues`` para dar seguimiento a tareas y reportar bugs.
 Si encuentras un error o tienes una idea para mejorar el sitio,
-`crea un nuevo issue <https://github.com/PythonEcuador/PythonEcuador.github.io/issues/new>`_
+`crea un nuevo issue <https://github.com/PythonEcuador/PythonEcuador.github.io/issues/new/choose>`_
 describiendo el bug/mejora.
 
 .. note::
