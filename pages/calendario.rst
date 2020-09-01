@@ -37,4 +37,4 @@
 
 
 
-¡Unete a nuestras sesiones!, ¡Comparte tus conocimientos!, ¡Arende en comunidad!|
+¡Únete a nuestras sesiones! ¡Comparte tus conocimientos! ¡Aprende en comunidad!|
