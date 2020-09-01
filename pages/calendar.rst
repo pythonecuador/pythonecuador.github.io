@@ -31,7 +31,7 @@
    </style>
 
    <div class="text-center calendar-responsive">
-      <iframe src="https://calendar.google.com/calendar/embed?src=i4526uvo812srmfgmg9a423g94%40group.calendar.google.com&ctz=Etc%2FGMT"
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FGuayaquil&amp;src=aTQ1MjZ1dm84MTJzcm1mZ21nOWE0MjNnOTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23795548"
          style="border: 0"
          width="800"
          height="600"
