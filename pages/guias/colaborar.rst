@@ -246,7 +246,7 @@ Una vez que hayas hechos todos los cambios necesarios, súbelos a tu fork
 
 Dirígete a la `página del proyecto <https://github.com/PythonEcuador/PythonEcuador.github.io>`_
 y verás un mensaje sugiriéndote hacer un pull request (PR).
-En la descripción del PR describe brevemente los cambios que hiciste.
+En la descripción del PR describe brevemente los cambios que hiciste, no olvidar poner ``Close #n``, donde ``n`` es el número del issue que estás resolviendo.
 
 Espera a que un miembro de la comunidad revise tu PR,
 si son necesarios más cambios, los puedes hacer en la misma rama
