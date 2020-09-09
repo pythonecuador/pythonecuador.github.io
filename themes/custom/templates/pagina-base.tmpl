@@ -1,16 +1,16 @@
 ## -*- coding: utf-8 -*-
 ## Template usado para nuestras paginas
-<%inherit file="base.tmpl"/>
+<% extends "base.tmpl" %>
 
-<%block name="content">
+<% block content %>
   ## Insertar el contido de nuestros archivos
   <div class="container pt mb">
     <div class="row justify-content-md-center">
       <div class="col-sm-8">
-        <%block name="contenido">
+        <%block contenido %>
           ## Contenido
-        </%block>
+        </% endblock %>
       </div>
     </div>
   </div>
-</%block>
+<% endblock %>

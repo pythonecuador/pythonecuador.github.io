@@ -1,13 +1,13 @@
 ## -*- coding: utf-8 -*-
 ## Nuesta página principal
-<%inherit file="pagina-base.tmpl"/>
+<% extends "pagina-base.tmpl" %>
 
-<%block name="extra_head">
+<%block extra_head %>
   ${parent.extra_head()}
   <link rel="stylesheet" href="/assets/css/index.css" type="text/css" media="all" />
-</%block>
+<% endblock %>
 
-<%block name="content">
+<%block content %>
   <div class="site-wrapper">
     <div class="cover-container">
       <img src="/images/logos/python-ecuador.png" class="cover-image"/>
@@ -30,4 +30,4 @@
       </div>
     </div>
   </div>
-</%block>
+<% endblock %>

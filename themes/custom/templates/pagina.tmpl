@@ -1,12 +1,12 @@
 ## -*- coding: utf-8 -*-
 ## Template usado para nuestras paginas
-<%inherit file="pagina-base.tmpl"/>
+<% extends "pagina-base.tmpl" %>
 
-<%block name="contenido">
+<% block contenido %>
   <h1>
     <a href="${post.permalink()}">${post.title()|h}</a>
   </h1>
 
   ## Insertar el contenido de nuestros archivos
   ${post.text()}
-</%block>
+<% endblock %>

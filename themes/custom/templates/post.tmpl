@@ -6,9 +6,9 @@
 <%namespace name="comments" file="comments_helper.tmpl"/>
 <%namespace name="math" file="math_helper.tmpl"/>
 <%namespace name="ui" file="ui_helper.tmpl"/>
-<%inherit file="pagina-base.tmpl"/>
+<% extends "pagina-base.tmpl" %>
 
-<%block name="extra_head">
+<% block "extra_head" %>
     ${parent.extra_head()}
     % if post.meta('keywords'):
     <meta name="keywords" content="${smartjoin(', ', post.meta('keywords'))|h}">
@@ -27,9 +27,9 @@
     ${helper.twitter_card_information(post)}
     ${helper.meta_translations(post)}
     ${math.math_styles_ifpost(post)}
-</%block>
+<% endblock %>
 
-<%block name="contenido">
+<% block "contenido" %>
 <article class="post-${post.meta('type')} h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
     ${pheader.html_post_header()}
     <div class="e-content entry-content" itemprop="articleBody text">
@@ -50,10 +50,10 @@
     ${math.math_scripts_ifpost(post)}
 </article>
 ${comments.comment_link_script()}
-</%block>
+<% endblock %>
 
-<%block name="sourcelink">
-% if show_sourcelink:
+<% block "sourcelink" %>
+{%- if show_sourcelink -%}
     ${ui.show_sourcelink(post.source_link())}
-% endif
-</%block>
+{% endif %}
+<%endblock%>
