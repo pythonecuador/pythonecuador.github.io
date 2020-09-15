@@ -4,7 +4,12 @@
 `¡Únete a nuestras sesiones! <sesiones_>`__
 ¡Comparte tus conocimientos! ¡Aprende en comunidad!
 
+.. note::
+   El enlace a las sesiones se publican en `nuestro canal de telegram <telegram_>`__.
+
 .. _sesiones: https://calendar.google.com/calendar/r?cid=i4526uvo812srmfgmg9a423g94@group.calendar.google.com
+
+.. _telegram: https://t.me/pythonecuador
 
 .. raw:: html
 
