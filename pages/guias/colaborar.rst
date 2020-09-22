@@ -60,6 +60,7 @@ asegúrate que Python esté en tu ``PATH`` o instala la versión adecuada.
 Obteniendo el proyecto
 ######################
 
+
 El proyecto está bajo el sistema de control de versiones Git y alojado en GitHub,
 puedes descargar Git desde https://git-scm.com/download.
 
@@ -74,6 +75,9 @@ los siguientes comandos:
 Debes tener una cuenta en `GitHub <https://github.com/>`_, inicia sesión,
 dirígete al `proyecto de Python Ecuador <https://github.com/PythonEcuador/PythonEcuador.github.io>`_
 y presiona el botón ``Fork`` para hacer un fork del proyecto en tu cuenta.
+
+.. tip::
+   ¡No te olvides de dar una estrellita al `repositorio <https://github.com/PythonEcuador/PythonEcuador.github.io>`__!
 
 .. image:: /images/guias/colaborar/fork.png
    :align: center
