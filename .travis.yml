@@ -4,7 +4,7 @@ python:
 env:
   - NIKOLA_DEPLOY=python.ec
 install:
-  - pip install -r requirements.txt
+  - pip install nox
 script:
   - nox
 
