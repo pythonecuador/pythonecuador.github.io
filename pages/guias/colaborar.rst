@@ -60,7 +60,6 @@ asegúrate que Python esté en tu ``PATH`` o instala la versión adecuada.
 Obteniendo el proyecto
 ######################
 
-
 El proyecto está bajo el sistema de control de versiones Git y alojado en GitHub,
 puedes descargar Git desde https://git-scm.com/download.
 
