@@ -1,5 +1,1 @@
-# Base
 nikola[extras]==8.0.2
-
-# Testing
-rstcheck
