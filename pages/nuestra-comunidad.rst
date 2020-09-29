@@ -55,6 +55,10 @@ con una pequeña descripción:
 
   Contenido relacionado a la comunidad y Python.
 
+- `Instagram (@pythonecuador) <https://www.instagram.com/pythonecuador/>`__
+
+  Contenido relacionado a la comunidad y Python.
+
 - `GitHub (@pythonecuador) <https://github.com/pythonecuador>`__
 
   Nuestra organización de GitHub,
