@@ -61,7 +61,13 @@ Obteniendo el proyecto
 ######################
 
 El proyecto está bajo el sistema de control de versiones Git y alojado en GitHub,
-puedes descargar Git desde https://git-scm.com/download.
+puedes descargar Git desde https://git-scm.com/download. Para verificar que tienes Git en tu sistema ejecuta el siguiente comando en una terminal
+(ventana de comandos):
+
+.. code:: bash
+
+    $ git --version
+    git version 2.17.1
 
 Luego de instalar Git se debe configurar el usuario y el correo electrónico con
 los siguientes comandos:
