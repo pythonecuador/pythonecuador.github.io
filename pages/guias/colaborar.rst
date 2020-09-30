@@ -234,6 +234,12 @@ Puedes ver los cambios en tu navegador mientras editas los archivos con el sigui
 
    nikola auto
 
+Para visualizar los archivos modificados y el estado del area de trabajo usa el siguiente comando.
+
+.. code:: bash
+
+   git status
+
 Trata de hacer un commit por cada bloque de cambios relacionados que hagas
 
 .. code:: bash
