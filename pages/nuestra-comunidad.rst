@@ -87,11 +87,13 @@ con una pequeña descripción:
 Otras comunidades
 -----------------
 
-- `Django Girls Ecuador <https://twitter.com/djangogirlsec>`__
+- `Django Girls Ecuador - Twitter <https://twitter.com/djangogirlsec>`__
 
-- `PyladiesEc Twitter <https://twitter.com/PyladiesEc>`__
+- `Django Girls Ecuador - Facebook <https://www.facebook.com/djangogirlsenec>`__
 
-- `PyladiesEc Facebook <https://www.facebook.com/pyladiesecq/>`__
+- `PyladiesEc - Twitter <https://twitter.com/PyladiesEc>`__
+
+- `PyladiesEc - Facebook <https://www.facebook.com/pyladiesecq/>`__
 
 
 Comunidades amigas
