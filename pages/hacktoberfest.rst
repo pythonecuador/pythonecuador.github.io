@@ -1,6 +1,6 @@
 .. title: Hacktoberfest Ecuador
-.. link: 
-.. description: 
+.. link:
+.. description:
 .. type: text
 .. template: pagina.tmpl
 
@@ -55,3 +55,78 @@ Código de Conducta
 Los eventos de Hacktoberfest son **amigables, abiertos, e inclusivos**.
 Por favor **leer** nuestro `código de conducta <https://do.co/hacktoberconduct>`__ antes de asistir al evento.
 Happy hacking!
+
+Proyectos
+---------
+
+Varios maintainers han propuesto sus proyectos,
+en cada sesión podrás contar con la ayuda de algún maintainer de acuerdo a su disponibilidad.
+Te aconsejamos elegir el proyecto que más te llame la atención, que uses, o que quieras aprender de.
+
+.. note::
+
+   Recuerda que puedes colaborar a cualquier proyecto open source de tu preferencia.
+   Con los proyectos listados tendrás la oportunidad de que alguien te ayude en el proceso.
+
+Python Ecuador
+~~~~~~~~~~~~~~
+
+Web de la comunidad de Python Ecuador.
+Proyecto para todo tipo de contribuidores, especialmente para los que están iniciando en el mundo del open source.
+
+https://github.com/PythonEcuador/PythonEcuador.github.io/
+
+Maintainers: `@seburath <https://github.com/seburath>`__
+
+Javascript
+~~~~~~~~~~
+
+- `javascriptecuador <https://github.com/javascriptecuador/javascriptecuador.github.com>`__:
+  Web de la comunidad de JavaScript Ecuador.
+  Proyecto para niveles básico e intermedio,
+  la idea es que más personas interesadas en el lenguaje de JavaScript se unan a la comunidad open source.
+
+  Maintainers:
+
+  - `@israteneda <https://github.com/israteneda>`__
+  - `@miguel_rios_r <https://twitter.com/miguel_rios_r>`__
+
+- `Pettnaut <https://github.com/pettnaut>`__:
+  es un proyecto en estado inicial que trata de conectar a las personas que quieren adoptar mascotas,
+  con las que mascotas que son rescatadas.
+  También ayudará a encontrar mascotas perdidas gracias a la comunidad.
+
+  Maintainers: `@renatojobal <https://github.com/renatojobal>`__
+
+Vim/Neovim
+~~~~~~~~~~
+
+- `fzf-checkout.vim <https://github.com/stsewd/fzf-checkout.vim>`__:
+  ¡Administra tus ramas y tags con fzf desde vim/neovim!
+  Proyecto para personas familiarizadas con lo básico de Vim/vimscript.
+
+  Maintainers: `@stsewd <https://github.com/stsewd>`__
+
+- `nvim-treesitter <https://github.com/nvim-treesitter/nvim-treesitter>`__:
+  Integración de treesitter para Neovim.
+  Proyecto para personas familiarizadas con Neovim, también hay tareas que requieren Lua.
+
+  Maintainers: `@stsewd <https://github.com/stsewd>`__
+
+- `sphinx.nvim <https://github.com/stsewd/sphinx.nvim>`__:
+  Integraciones de Sphinx para Neovim.
+  Proyecto para personas familiarizadas con Neovim y Python.
+
+  Maintainers: `@stsewd <https://github.com/stsewd>`__
+
+- `gx-extended.vim <https://github.com/stsewd/gx-extended.vim>`__:
+  Extiende el comando gx para que funciones con más que sólo URLs.
+  Proyecto para personas familiarizadas con vim/vimscript.
+
+  Maintainers: `@stsewd <https://github.com/stsewd>`__
+
+Otros
+~~~~~
+
+¿No está tu proyecto favorito?
+¡`Inscríbete como maintainer <https://forms.gle/dt9sgwkbYnfST9GPA>`__!
