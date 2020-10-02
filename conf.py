@@ -148,8 +148,10 @@ NAVIGATION_LINKS = {
         ("/coc/", "Código de Conducta"),
         ("/quiero-ayudar/", "Quiero ayudar"),
         ("/guias/", "Guías"),
+        ("/eventos/", "Eventos"),
         ("/becas/", "Becas"),
         ("/sponsors/", "Sponsors"),
+
     ),
 }
 
