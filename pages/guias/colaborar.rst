@@ -163,6 +163,21 @@ Finalmente, para ejecutar el sitio con Nikola
 
 Si abres tu navegador e ingresas a http://127.0.0.1:8000/ podrás ver el sitio.
 
+Ejecutando pruebas con Nox
+##########################
+
+Para ejecutar las pruebas instalamos nox en el entorno virtual creado, con el siguiente comando.
+
+.. code:: bash
+
+   pip install nox
+
+Usamos el comando nox para ejecutar las pruebas configuradas en el archivo ``noxfile.py`` del proyecto.
+
+.. code:: bash
+
+   nox
+
 Reportando errores (bugs)
 -------------------------
 
