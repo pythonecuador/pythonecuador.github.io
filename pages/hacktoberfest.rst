@@ -10,7 +10,7 @@
 |
 
 Durante todo el mes de octubre estaremos teniendo sesiones donde podrás estar
-en contacto con mantainers de diferentes proyectos Open Source que te ayudarán
+en contacto con maintainers de diferentes proyectos Open Source que te ayudarán
 a contribuir a estos proyectos. **No se requiere ningún conocimiento previo**,
 ¡sólo ganas de aprender!
 
@@ -31,7 +31,28 @@ Hacktoberfest — traído gracias a DigitalOcean en conjunto con Dev & Intel
 **Mantenedores son invitadas/os a promover sus proyectos**,
 y **contribuidores tienen la oportunidad de retribuir a sus proyectos favoritos** u otros que hayan descubierto.
 **Ninguna contribución es pequeña** — arreglos de bugs y actualización de documentación;
-son ambas formas válidad de participar.
+son ambas formas válidas de participar.
+
+Plataforma
+----------
+
+La plataforma que usaremos durante el evento es `element.io <https://element.io/>`__.
+Crea tu cuenta en https://app.element.io/#/register.
+Una vez que tengas tu cuenta creada, puedes unirte a nuestra comunidad en https://app.element.io/#/group/+hacktoberec:matrix.org.
+
+En la comunidad existen varios rooms:
+
+- General: El chat principal del evento
+- Pull Requests: ¡Cada vez que termines un pull request,
+  puedes registrarla en esta sala!
+  Estaremos realizando un par de sorteos entre las personas que hayan creado un pull request.
+
+  El mensaje debe contener el **enlace al pull request y con qué lo hiciste** (café, cerveza, horchata, agua, etc).
+
+  .. code::
+
+     Link: https://github.com/PythonEcuador/PythonEcuador.github.io/pull/232
+     Hecho con: cerveza 🍺
 
 Reglas & Premios
 ----------------
