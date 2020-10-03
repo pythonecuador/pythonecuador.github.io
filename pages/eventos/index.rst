@@ -24,7 +24,7 @@ Sesiones
   `HackerEarth <https://www.hackerearth.com/practice/codemonk>`__ y analizamos la complejidad computacional de las respuestas.
 - **Bots**: Mejora y practica tus habilidades en Python mediante el uso y la creación de Bots.
 - **V/Vi/Vim/Viernes**: Aprende Vim o NeoVim, practica y si te animas puedes hasta crear tus propios plugins.
-- **¡Hasta que los Teclados Aguanten!**: Aprende a contribuir a un Proyecto de Software Libre o propón tus proyectos favoritos.
+- **¡Hasta que los Teclados Aguanten!**: Aprende a contribuir a un proyecto de Software Libre o propón tus proyectos favoritos.
 
 Charlas y Talleres (Meetups)
 ############################
