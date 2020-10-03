@@ -21,6 +21,10 @@ suscríbete `a nuestros canales <link://filename/pages/nuestra-comunidad.rst>`__
 
 Si eres maintainer, registra tus proyectos en https://forms.gle/dt9sgwkbYnfST9GPA
 
+.. tip::
+
+   No te olvides de postear en tus redes con el hashtag ``#HacktoberfestEC``
+
 .. contents:: Contenido
 
 ¿Qué es hacktoberfest?
