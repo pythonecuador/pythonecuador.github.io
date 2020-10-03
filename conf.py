@@ -151,7 +151,6 @@ NAVIGATION_LINKS = {
         ("/eventos/", "Eventos"),
         ("/becas/", "Becas"),
         ("/sponsors/", "Sponsors"),
-
     ),
 }
 
