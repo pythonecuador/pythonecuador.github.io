@@ -253,6 +253,10 @@ Trata de hacer un commit por cada bloque de cambios relacionados que hagas
    git add archivo-editado.rst
    git commit -m "Arreglada falta ortográfica"
 
+.. tip::
+
+   En caso de redactar textos largos o simplemente necesitar una revisión ortográfica puedes utilizar la herramienta `LanguageTool <https://languagetool.org/>`_.
+
 Una vez que hayas hechos todos los cambios necesarios, súbelos a tu fork
 
 .. code:: bash
