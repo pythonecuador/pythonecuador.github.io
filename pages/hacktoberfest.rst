@@ -131,7 +131,7 @@ Python
 
 - `Traducción al español de la documentación de Python <https://github.com/python/python-docs-es>`__
 
-   Maintainers: `@gomezgleonardob <https://github.com/gomezgleonardob>`__
+  Maintainers: `@gomezgleonardob <https://github.com/gomezgleonardob>`__
 
 Vim/Neovim
 ~~~~~~~~~~
