@@ -97,7 +97,10 @@ Proyecto para todo tipo de contribuidores, especialmente para los que están ini
 
 https://github.com/PythonEcuador/PythonEcuador.github.io/
 
-Maintainers: `@seburath <https://github.com/seburath>`__
+Maintainers:
+
+- `@seburath <https://github.com/seburath>`__
+- `@Danielrick88 <https://github.com/Danielrick88>`__
 
 Javascript
 ~~~~~~~~~~
@@ -118,6 +121,13 @@ Javascript
   También ayudará a encontrar mascotas perdidas gracias a la comunidad.
 
   Maintainers: `@renatojobal <https://github.com/renatojobal>`__
+
+Python
+~~~~~~
+
+- `Traducción al español de la documentación de Python <https://github.com/python/python-docs-es>`__
+
+   Maintainers: `@gomezgleonardob <https://github.com/gomezgleonardob>`__
 
 Vim/Neovim
 ~~~~~~~~~~
