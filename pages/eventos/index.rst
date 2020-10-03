@@ -35,7 +35,7 @@ en las reuniones de `charlas y talleres (meetups) <https://www.meetup.com/python
 PyPizza
 #######
 
-Evento informal que te ayuda a colaborar a un evento de Software Libre y disfrutar de una pizza en `PyPizza <link://filename/pages/eventos/pypizza.rst>`__.
+Evento informal en el que te ayudamos a colaborar a un proyecto de Software Libre y disfrutar de una pizza en `PyPizza <link://filename/pages/eventos/pypizza.rst>`__.
 
 Eventos en Vivo
 ###############
