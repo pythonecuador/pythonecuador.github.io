@@ -79,7 +79,7 @@ los siguientes comandos:
 
 Debes tener una cuenta en `GitHub <https://github.com/>`_, inicia sesión,
 dirígete al `proyecto de Python Ecuador <https://github.com/PythonEcuador/PythonEcuador.github.io>`_
-y puedes darle una estrellita al `repositorio <https://github.com/PythonEcuador/PythonEcuador.github.io>`_.
+y puedes darle una estrellita al `repositorio <https://github.com/PythonEcuador/PythonEcuador.github.io>`__.
 
 .. image:: /images/guias/colaborar/estrellita.png
    :align: center
