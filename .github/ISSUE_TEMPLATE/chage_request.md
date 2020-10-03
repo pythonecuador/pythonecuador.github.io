@@ -1,8 +1,10 @@
 ---
-name: Change request
+name: Sugerencia de cambio
 about: "¿Encontraste una sección que se puede mejorar o cambiar?"
 title: ''
-labels: 'documentation'
+labels:
+  - enhancement
+  - good first issue
 assignees: ''
 
 ---
