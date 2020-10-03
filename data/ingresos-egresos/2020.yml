@@ -1,0 +1,21 @@
+ingresos:
+  - fecha: 09/08/2020
+    cantidad: 40
+    responsables:
+      - Santos Gallegos
+    descripcion:
+      Sobrantes del Django Girls Cuenca 2020
+
+  - fecha: 09/08/2020
+    cantidad: -40
+    responsables:
+      - Santos Gallegos
+    descripcion:
+      Compra de cuenta en bitwarden
+
+  - fecha: 09/08/2020
+    cantidad: -70
+    responsables:
+      - Christopher Tim
+    descripcion:
+      Renovación por dos años del dominio python.ec

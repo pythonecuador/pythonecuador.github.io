@@ -8,6 +8,11 @@
    Esta guía es para pesonas con permisos de escritura sobre el repositorio.
    Usarla con responsabilidad.
 
+.. note::
+
+   Los deploys ahora se realizan de manera automática, cada vez que se realiza un merge
+   de un commit a la rama principal (src).
+
 En esta guía aprenderemos a desplegar el sitio a producción usando `Nikola <https://getnikola.com>`__.
 
 .. contents:: Contenidos
@@ -42,14 +47,14 @@ Para desplegar el sitio, usamos el comando ``make deploy``.
 Debes ver un mensaje de éxito en caso que todo haya salido bien.
 
 Puedes chequear la rama master_ para verificar que los archivos compilados se encuentran subidos.
-Los cambios podrán ser vistos en https://pythonecuador.org en aproximadamente 5 minutos.
+Los cambios podrán ser vistos en https://python.ec en aproximadamente 5 minutos.
 
 .. _master: https://github.com/PythonEcuador/PythonEcuador.github.io/tree/master
 
 Dominio
 #######
 
-El dominio usado actualmente es pythonecuador.org,
+El dominio usado actualmente es python.ec,
 si necesitas acceso a las configuraciones del dominio,
 pregunta en el `grupo de Telegram`_.
 
