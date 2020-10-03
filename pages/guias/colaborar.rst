@@ -368,17 +368,38 @@ Necesitaremos hacerle saber a git del repo principal con el siguiente comando.
 
    git remote add upstream https://github.com/PythonEcuador/PythonEcuador.github.io.git
 
+Podemos comprobar que se añadio el repo principal con:
+
+.. code:: bash
+
+   git remote -v
+
+|
+
+.. image:: /images/guias/colaborar/listar_remotos.png
+   :align: center
+
 Ahora ya podemos bajarnos los últimos cambios del repo principal.
 
 .. code:: bash
 
    git pull upstream src
 
+|
+
+.. image:: /images/guias/colaborar/pull_upstream.png
+   :align: center
+
 Y los subimos a nuestro fork
 
 .. code:: bash
 
    git push origin src
+
+|
+
+.. image:: /images/guias/colaborar/push_origin_src.png
+   :align: center
 
 Ahora si, puedes seguir los pasos indicados :ref:`arriba <realizando-cambios>`
 para continuar con tu próximo pull request.
