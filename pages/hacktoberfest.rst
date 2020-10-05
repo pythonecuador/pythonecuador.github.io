@@ -106,10 +106,10 @@ Maintainers:
 - `@seburath <https://github.com/seburath>`__
 - `@Danielrick88 <https://github.com/Danielrick88>`__
 
-Javascript
+JavaScript
 ~~~~~~~~~~
 
-- `javascriptecuador <https://github.com/javascriptecuador/javascriptecuador.github.com>`__:
+- `javaScript Ecuador <https://github.com/javascriptecuador/web>`__:
   Web de la comunidad de JavaScript Ecuador.
   Proyecto para niveles básico e intermedio,
   la idea es que más personas interesadas en el lenguaje de JavaScript se unan a la comunidad open source.
