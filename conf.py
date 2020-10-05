@@ -1392,7 +1392,16 @@ WARN_ABOUT_TAG_METADATA = False
 # Templates will use those filters, along with the defaults.
 # Consult your engine's documentation on filters if you need help defining
 # those.
-# TEMPLATE_FILTERS = {}
+TEMPLATE_FILTERS = {}
+
+def time_to_date(text):
+    import datetime
+
+    seconds = int(text) / 1000
+    time = datetime.date.fromtimestamp(seconds)
+    return time.strftime("%d/%m/%Y")
+    
+TEMPLATE_FILTERS["time"] = time_to_date
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.

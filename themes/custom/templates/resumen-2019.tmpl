@@ -1,16 +1,8 @@
-## -*- coding: utf-8 -*-
-<%inherit file="pagina-base.tmpl"/>
+{#  -*- coding: utf-8 -*- #}
+{% extends 'pagina-base.tmpl' %}
 
-<%!
-    def time(text):
-        import datetime
-        seconds = int(text)/1000
-        time = datetime.date.fromtimestamp(seconds)
-        return time.strftime("%d/%m/%Y")
-%>
-
-<%block name="extra_head">
-  ${parent.extra_head()}
+{% block extra_head %}
+  {{ super() }}
 
   <!-- Required for timeline -->
   <link rel="stylesheet" href="/assets/css/timeline.css" type="text/css" media="all" />
@@ -19,9 +11,9 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-</%block>
+{% endblock extra_head %}
 
-<%block name="content">
+{% block content %}
 
 <!-- Snippet from https://bootsnipp.com/snippets/xrKXW -->
 <div class="container mt-5 mb-5">
@@ -84,20 +76,20 @@
           <div id="carousel-meetup" class="carousel slide " data-ride="carousel">
             <ul class="carousel-indicators">
               <li data-target="#carousel-meetup" data-slide-to="0" class="active"></li>
-              % for i in range(1, 5):
-                <li data-target="#carousel-meetup" data-slide-to="${i}"></li>
-              % endfor
+              {% for i in range(1, 5) %}
+                <li data-target="#carousel-meetup" data-slide-to="{{ i }}"></li>
+              {% endfor %}
             </ul>
 
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="d-block w-100" src="/images/events/2019/meetups/0.jpg">
               </div>
-              % for i in range(1, 5):
+              {% for i in range(1, 5) %}
               <div class="carousel-item">
-                <img class="d-block w-100" src="/images/events/2019/meetups/${i}.jpg">
+                <img class="d-block w-100" src="/images/events/2019/meetups/{{ i }}.jpg">
               </div>
-              % endfor
+              {% endfor %}
             </div>
 
             <a class="carousel-control-prev" href="#carousel-meetup" data-slide="prev">
@@ -111,24 +103,24 @@
         </p>
 
         <ul class="timeline">
-          % for event in post.data('events'):
+          {% for event in post.data('events') %}
           <li>
-            <a href="${event['event_url']}">${event['name']}</a>
+            <a href="{{ event['event_url'] }}">{{ event['name'] }}</a>
             <p>
               <ul>
                 <li>
-                  Ciudad: ${event['venue']['city']}</p>
+                  Ciudad: {{ event['venue']['city'] }}</p>
                 </li>
                 <li>
-                  Fecha: ${event['time'] | time}
+                  Fecha: {{ event['time'] | time }}
                 </li>
                 <li>
-                  Número aprox de asistentes: ${event['yes_rsvp_count']}
+                  Número aprox de asistentes: {{ event['yes_rsvp_count'] }}
                 </li>
               </ul>
             </p>
           </li>
-          % endfor
+          {% endfor %}
         </ul>
       </div>
 
@@ -142,20 +134,20 @@
           <div id="carousel-djangogirls" class="carousel slide " data-ride="carousel">
             <ul class="carousel-indicators">
               <li data-target="#carousel-djangogirls" data-slide-to="0" class="active"></li>
-              % for i in range(1, 6):
-                <li data-target="#carousel-djangogirls" data-slide-to="${i}"></li>
-              % endfor
+              {% for i in range(1, 6) %}
+                <li data-target="#carousel-djangogirls" data-slide-to="{{ i }}"></li>
+              {% endfor %}
             </ul>
 
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="d-block w-100" src="/images/events/2019/django-girls/0.jpg">
               </div>
-              % for i in range(1, 6):
+              {% for i in range(1, 6) %}
               <div class="carousel-item">
-                <img class="d-block w-100" src="/images/events/2019/django-girls/${i}.jpg">
+                <img class="d-block w-100" src="/images/events/2019/django-girls/{{ i }}.jpg">
               </div>
-              % endfor
+              {% endfor %}
             </div>
 
             <a class="carousel-control-prev" href="#carousel-djangogirls" data-slide="prev">
@@ -197,20 +189,20 @@
           <div id="carousel-flisol" class="carousel slide " data-ride="carousel">
             <ul class="carousel-indicators">
               <li data-target="#carousel-flisol" data-slide-to="0" class="active"></li>
-              % for i in range(1, 4):
-                <li data-target="#carousel-flisol" data-slide-to="${i}"></li>
-              % endfor
+              {% for i in range(1, 4) %}
+                <li data-target="#carousel-flisol" data-slide-to="{{ i }}"></li>
+              {% endfor %}
             </ul>
 
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="d-block w-100" src="/images/events/2019/flisol/0.jpg">
               </div>
-              % for i in range(1, 4):
+              {% for i in range(1, 4) %}
               <div class="carousel-item">
-                <img class="d-block w-100" src="/images/events/2019/flisol/${i}.jpg">
+                <img class="d-block w-100" src="/images/events/2019/flisol/{{ i }}.jpg">
               </div>
-              % endfor
+              {% endfor %}
             </div>
 
             <a class="carousel-control-prev" href="#carousel-flisol" data-slide="prev">
@@ -364,4 +356,4 @@
 <!-- End snippet -->
 
 
-</%block>
+{% endblock content %}
