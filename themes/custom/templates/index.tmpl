@@ -1,18 +1,18 @@
-## -*- coding: utf-8 -*-
-## Nuesta página principal
-<%inherit file="pagina-base.tmpl"/>
+{#  -*- coding: utf-8 -*- #}
+{# Nuesta página principal #}
+{% extends 'pagina-base.tmpl' %}
 
-<%block name="extra_head">
-  ${parent.extra_head()}
+{% block extra_head %}
+  {{ super() }}
   <meta name="language" content="Spanish">
   <meta property="og:site_name" content="Python Ecuador" />
   <meta property="og:title" content="Python Ecuador" />
   <meta property="og:description" content="Comunidad de Python, Open Source y Software Libre del Ecuador." />
   <meta property="og:image" content="https://python.ec/images/logos/python-ecuador.png" />
   <link rel="stylesheet" href="/assets/css/index.css" type="text/css" media="all" />
-</%block>
+{% endblock extra_head %}
 
-<%block name="content">
+{% block content %}
   <div class="site-wrapper">
     <div class="cover-container">
       <img src="/images/logos/python-ecuador.png" class="cover-image"/>
@@ -35,4 +35,4 @@
       </div>
     </div>
   </div>
-</%block>
+{% endblock content %}
