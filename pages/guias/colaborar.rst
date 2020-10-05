@@ -163,10 +163,10 @@ Finalmente, para ejecutar el sitio con Nikola
 
 Si abres tu navegador e ingresas a http://127.0.0.1:8000/ podrás ver el sitio.
 
-Ejecutando pruebas con Nox
-##########################
+Ejecutando los tests
+####################
 
-Para ejecutar las pruebas instalamos nox en el entorno virtual creado, con el siguiente comando.
+Para ejecutar las pruebas instalamos `nox <https://nox.thea.codes/en/stable/>`_ en el entorno virtual creado, con el siguiente comando.
 
 .. code:: bash
 
