@@ -41,3 +41,8 @@ Eventos en Vivo
 ###############
 
 Charlas y conferencias impartidas por la comunidad síguenos en `eventos en vivo <link://filename/pages/live.rst>`__.
+
+Hacktoberfest
+#############
+
+Llega Octubre y es hora de participar en el `Hacktoberfest <link://filename/pages/hacktoberfest.rst>`__, donde durante todo el mes, podrás contribuir a proyectos OpenSource. ¿Nunca los haz hecho?, ¿Quieres participar? Anímate!!, esta es tu oportunidad para ser parte de un evento a escala mundial. ¡¡Happy Hacking!!.
