@@ -229,7 +229,6 @@ para clasificarlos por complejidad y/o tipo.
 `sponsor`_
     Indica que se debe agregar un nuevo sponsor mediante pull request
 
-
 .. _good first issue: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue
 .. _bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
 .. _enhancement: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement
