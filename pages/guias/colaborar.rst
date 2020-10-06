@@ -57,11 +57,14 @@ asegúrate que Python esté en tu ``PATH`` o instala la versión adecuada.
    si el resultado de los pasos anteriores tuviste éxito haciéndolo con ``python3``,
    debes usar ese comando.
 
+
+
+
 Obteniendo el proyecto
 ######################
 
 El proyecto está bajo el sistema de control de versiones Git y alojado en GitHub,
-puedes descargar Git desde https://git-scm.com/download. Para verificar que tienes Git en tu sistema ejecuta el siguiente comando en una terminal
+puedes descargar Git desde https://git-scm.com/download , o seguir nuestra `guía de instalación de Git <link://filename/pages/guias/git.rst>`__. Para verificar que tienes Git en tu sistema ejecuta el siguiente comando en una terminal
 (ventana de comandos):
 
 .. code:: bash
