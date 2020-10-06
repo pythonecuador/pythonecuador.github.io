@@ -203,6 +203,13 @@ para buscar tareas por hacer.
 Los issues contienen etiquetas (`labels <https://github.com/PythonEcuador/PythonEcuador.github.io/labels>`_)
 para clasificarlos por complejidad y/o tipo.
 
+.. image:: /images/guias/colaborar/search_issue.png
+   :align: center
+
+
+|
+
+
 `good first issue`_
   Tareas de complejidad fácil que te ayudarán a familiarizarte con el proyecto.
 `bug`_, `enhancement`_
