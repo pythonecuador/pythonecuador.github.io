@@ -203,6 +203,13 @@ para buscar tareas por hacer.
 Los issues contienen etiquetas (`labels <https://github.com/PythonEcuador/PythonEcuador.github.io/labels>`_)
 para clasificarlos por complejidad y/o tipo.
 
+.. image:: /images/guias/colaborar/search_issue.png
+   :align: center
+
+
+|
+
+
 `good first issue`_
   Tareas de complejidad fácil que te ayudarán a familiarizarte con el proyecto.
 `bug`_, `enhancement`_
@@ -221,6 +228,7 @@ para clasificarlos por complejidad y/o tipo.
     Indica que el trabajo no va a continuar en un issue o pull request
 `sponsor`_
     Indica que se debe agregar un nuevo sponsor mediante pull request
+
 
 .. _good first issue: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue
 .. _bug: https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug
