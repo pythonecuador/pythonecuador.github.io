@@ -163,7 +163,7 @@ Vim/Neovim
 Latino
 ~~~~~~
 
-Lenguaje de programación inspirado en Python y Lua sintaxis en español,
+Lenguaje de programación inspirado en Python y Lua con sintaxis en español.
 No es un psuedolenguaje, es un lenguaje de programación que esperamos crezca al nivel de los más importantes lenguajes,
 y para ello nos gustaría darlo a conocer.
 
