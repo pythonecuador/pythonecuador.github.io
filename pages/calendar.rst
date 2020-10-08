@@ -1,13 +1,16 @@
 .. title: Calendario
 .. template: pagina.tmpl
 
-`¡Únete a nuestras sesiones! <sesiones_>`__
-¡Comparte tus conocimientos! ¡Aprende en comunidad!
+`¡Únete a nuestros eventos! <eventos_>`__
+¡Comparte tus conocimientos! 
+`¡Aprende en comunidad! <comunidad_>`__
 
 .. note::
-   El enlace a las sesiones se publican en `nuestro canal de telegram <telegram_>`__.
+   Siempre que tengas preguntas puedes ir a `nuestro canal de telegram <telegram_>`__.
 
-.. _sesiones: https://calendar.google.com/calendar/r?cid=i4526uvo812srmfgmg9a423g94@group.calendar.google.com
+.. _eventos: link://filename/pages/eventos/index.rst
+
+.. _comunidad: link://filename/pages/nuestra-comunidad.rst
 
 .. _telegram: https://t.me/pythonecuador
 

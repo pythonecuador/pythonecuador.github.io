@@ -30,7 +30,7 @@ else:
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://pythonecuador.github.io/"
 BLOG_EMAIL = "ecuadorpython@gmail.com"
-BLOG_DESCRIPTION = "Comunidad Pythonista de Ecuador"  # (translatable)
+BLOG_DESCRIPTION = "Comunidad de Python, Open Source y Software Libre de Ecuador"  # (translatable)
 
 # Nikola is multilingual!
 #
