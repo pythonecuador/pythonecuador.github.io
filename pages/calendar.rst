@@ -2,12 +2,15 @@
 .. template: pagina.tmpl
 
 `¡Únete a nuestros eventos! <eventos_>`__
-¡Comparte tus conocimientos! ¡Aprende en comunidad!
+¡Comparte tus conocimientos! 
+`¡Aprende en comunidad! <comunidad_>`__
 
 .. note::
    Siempre que tengas preguntas puedes ir a `nuestro canal de telegram <telegram_>`__.
 
-.. _eventos: https://calendar.google.com/calendar/r?cid=i4526uvo812srmfgmg9a423g94@group.calendar.google.com
+.. _eventos: link://filename/pages/eventos/index.rst
+
+.. _comunidad: link://filename/pages/nuestra-comunidad.rst
 
 .. _telegram: https://t.me/pythonecuador
 
