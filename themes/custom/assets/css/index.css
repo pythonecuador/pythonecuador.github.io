@@ -64,7 +64,9 @@ body {
   max-height: 300px;
   display: block;
   opacity: 0.9;
-  margin: auto;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
   right: 0;
   left: 0;
 }
