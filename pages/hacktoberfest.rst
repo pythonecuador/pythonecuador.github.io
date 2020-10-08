@@ -160,6 +160,20 @@ Vim/Neovim
 
   Maintainers: `@stsewd <https://github.com/stsewd>`__
 
+Latino
+~~~~~~
+
+Lenguaje de programación inspirado en Python y Lua con sintaxis en español.
+No es un psuedolenguaje, es un lenguaje de programación que esperamos crezca al nivel de los más importantes lenguajes,
+y para ello nos gustaría darlo a conocer.
+
+https://www.lenguajelatino.org/
+
+Maintainers:
+
+- `@MelvinG24 <https://github.com/MelvinG24>`__
+- Jorge Luis González
+
 Otros
 ~~~~~
 
