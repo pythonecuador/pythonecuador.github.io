@@ -5,6 +5,7 @@
 
 Instalar Git en Ubuntu/Debian
 -----------------------------
+
 Antes de instalar es recomendable ejecutar las actualizaciones de paquetes del sistema operativo, por ende abrimos una terminal y ejecutamos lo siguiente:
 
 Para actualizar los repositorios.
@@ -41,6 +42,7 @@ Comprobamos que se haya instalado correctamente con:
 
 Instalar Git en Fedora
 ----------------------
+
 Instalar mediante DNF (o Yum en versiones mas antiguas de Fedora)
 
 .. code:: console
