@@ -36,7 +36,7 @@ Comprobamos que se haya instalado correctamente con:
 
 .. code:: console
 
-   $ sudo git --version
+   $ git --version
    git version 2.25.1
 
 Instalar Git en Fedora
@@ -53,9 +53,5 @@ Comprobamos que se haya instalado correctamente con:
 
 .. code:: console
 
-   $ sudo git --version
+   $ git --version
    git version 2.25.1
-
-
-
-
