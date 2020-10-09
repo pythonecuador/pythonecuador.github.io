@@ -57,9 +57,6 @@ asegúrate que Python esté en tu ``PATH`` o instala la versión adecuada.
    si el resultado de los pasos anteriores tuviste éxito haciéndolo con ``python3``,
    debes usar ese comando.
 
-
-
-
 Obteniendo el proyecto
 ######################
 
