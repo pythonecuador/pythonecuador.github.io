@@ -28,7 +28,7 @@ El antiguo dominio ``pythonecuador.org`` redireccionará el nuevo dominio ``pyth
 Usar el nuevo dominio es recomendable,
 ya que este será renovado cada año.
 
-En caso que tengas curiosidad, el dominio está en https://nic.ec y el DNS administrado en https://cloudflare.com.
+En caso que tengas curiosidad, el dominio está en https://nic.ec y el DNS administrado en https://www.cloudflare.com.
 
 Ahora la comunidad tiene un nombre más *pitónico*.
 Si deseas ayudarnos con la renovación del dominio para los siguientes años envíanos un email a ecuadorpython@gmail.com.

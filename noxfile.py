@@ -5,6 +5,7 @@ import nox
 def tests(session):
     session.install('-r', 'requirements.txt')
     session.run('nikola', 'build', '--strict')
+    session.run('nikola', 'check', '--check-links', '--check-files')
 
 
 @nox.session
