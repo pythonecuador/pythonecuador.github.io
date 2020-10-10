@@ -17,4 +17,4 @@ def lint_rst(session):
 @nox.session
 def lint_yaml(session):
     session.install('yamllint')
-    session.run('yamllint', 'data')
+    session.run('yamllint', '-s', 'data')
