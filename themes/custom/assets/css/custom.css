@@ -6,7 +6,7 @@
 
 /* Tabla de contenidos local */
 
-@media screen and (min-width: 108em) and (max-width: 200em){
+@media screen and (min-width: 108em) and (max-width: 200em) {
     .contents.topic {
       height: 100%;
       width: 19%;
@@ -16,7 +16,7 @@
       left: 10%;
       overflow-x: hidden;
       padding-top: 20px;
-}
+  }
 }
 
 /* Header */
