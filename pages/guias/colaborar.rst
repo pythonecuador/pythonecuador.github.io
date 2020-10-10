@@ -148,13 +148,22 @@ Ahora necesitamos activar el entorno virtual
    venv\Scripts\activate
 
    # Para sistemas Windows, usando Git bash
-   venv/Scripts/activate 
+   venv/Scripts/activate
+   
    # Si el comando anterior no funciona puedes probar:
    source venv/Scripts/activate
 
 Ahora ya podemos instalar Nikola y otras dependencias:
 
 .. code:: bash
+
+   pip install -U pip setutools wheel
+
+Si usas Windows el comando debe empezar con:
+
+.. code:: bash
+
+   py -m pip
 
    pip install -r requirements.txt
 
