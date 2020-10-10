@@ -6,9 +6,8 @@
 
 /* Tabla de contenidos local */
 
-@media screen and (min-width: 100em) and (max-width: 200em){
-    .contents,
-    .topic {
+@media screen and (min-width: 108em) and (max-width: 200em){
+    .contents.topic {
       height: 100%;
       width: 19%;
       position: fixed;
