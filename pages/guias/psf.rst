@@ -42,7 +42,7 @@ Abierto el email nos dirigimos a la bandeja de entrada y verificamos el email de
 
    	   You're receiving this e-mail because user xxxxxx at python.org has given yours as an e-mail address to connect  their account.
 
-   	   To confirm this is correct, go to http://www.python.org/accounts/confirm-email/your-email
+   	   To confirm this is correct, go to https://www.python.org/accounts/confirm-email/your-email/
  
    	   Thank you from python.org!.
 ..

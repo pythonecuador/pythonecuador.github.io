@@ -21,7 +21,7 @@ Sesiones
 - **Lunes de Newbies**: Un espacio donde aprenderás a crear tu primer Pull Request, como funciona Git, un espacio divertido si eres un novato.
 - **Linux/Automatización/Docker**: Aprenderás lo básico de Linux, automatizar sus procesos, crear espacios para desarrollo mediante Docker
 - **Ejercicios de Programación**: Ejercicios para mejorar y practicar tu lógica en plataformas en linea como 
-  `HackerEarth <https://www.hackerearth.com/practice/codemonk>`__ y analizamos la complejidad computacional de las respuestas.
+  `HackerEarth <https://www.hackerearth.com/practice/codemonk/>`__ y analizamos la complejidad computacional de las respuestas.
 - **Bots**: Mejora y practica tus habilidades en Python mediante el uso y la creación de Bots.
 - **V/Vi/Vim/Viernes**: Aprende Vim o NeoVim, practica y si te animas puedes hasta crear tus propios plugins.
 - **¡Hasta que los Teclados Aguanten!**: Aprende a contribuir a un proyecto de Software Libre o propón tus proyectos favoritos.
