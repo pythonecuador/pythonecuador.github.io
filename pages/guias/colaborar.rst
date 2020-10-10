@@ -157,14 +157,7 @@ Ahora ya podemos instalar Nikola y otras dependencias:
 
 .. code:: bash
 
-   pip install -U pip setutools wheel
-
-Si usas Windows el comando debe empezar con:
-
-.. code:: bash
-
-   py -m pip
-
+   pip install -U pip setuptools wheel
    pip install -r requirements.txt
 
 Finalmente, para ejecutar el sitio con Nikola
