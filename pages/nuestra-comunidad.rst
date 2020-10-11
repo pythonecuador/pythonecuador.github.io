@@ -43,10 +43,6 @@ con una pequeña descripción:
   Nuestra principal plataforma para la organización de eventos.
   Recibe notificaciones de los eventos más cercanos a tu ubicación.
 
-- `Canal de Telegram (@pythonecuadoreventos) <https://t.me/pythonecuadoreventos>`__
-
-  Recibe notificaciones de nuestros últimos eventos.
-
 - `Facebook (@pyecuador) <https://www.facebook.com/pyecuador/>`__
 
   Contenido relacionado a la comunidad y Python.
@@ -69,7 +65,7 @@ con una pequeña descripción:
 
   ¿Te perdiste un meetup? Puede que esté en nuestro canal de YouTube.
 
-- `Web <https://pythonecuador.org>`__
+- `Web <https://python.ec>`__
 
   ¡La estás visitando ahora mismo!
   Encuentra información sobre la comunidad.
@@ -93,7 +89,7 @@ Otras comunidades
 
 - `PyladiesEc - Twitter <https://twitter.com/PyladiesEc>`__
 
-- `PyladiesEc - Facebook <https://www.facebook.com/pyladiesecq/>`__
+- `PyladiesEc - Facebook <https://www.facebook.com/pyladiesec/>`__
 
 
 Comunidades amigas
