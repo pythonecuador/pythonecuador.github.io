@@ -365,7 +365,7 @@ Ahora sólo necesitas editar el archivo ``.rst`` ¡y listo!
 Crear una nueva página
 ######################
 
-Crea un archvivo ``.rst`` dentro del directorio ``pages/`` guíate de las otras páginas para escribir los metadatos al principio del archivo, utiliza guiones medios, o puedes simplemente copiar y pegar una página ya existente, edítala ¡y listo!
+Crea un archvivo ``.rst`` dentro del directorio ``pages/`` utiliza guiones medios para separar las palabras, guíate de las otras páginas para escribir los metadatos al principio del archivo o puedes simplemente copiar y pegar una página ya existente, edítala ¡y listo!
 
 Creando una nueva sección
 #########################
