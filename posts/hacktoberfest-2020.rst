@@ -165,17 +165,16 @@ El comentario más popular del Hacktoberfest en redes:
    :width: 450
    :target: https://twitter.com/Daniel2v3/status/1315502674717151232
 
-   (`@Daniel2v3 <https://github.com/Daniel2v3>`__ no recibió premio, pero hubiera sido bueno dárselo (para el siguiente año XD))
+   `@Daniel2v3 <https://github.com/Daniel2v3>`__ no recibió premio, pero hubiera sido bueno dárselo (para el siguiente año XD)
 
 |
 
-¡Queremos saber como te fue!
+¡Queremos saber cómo te fue!
 ****************************
 
-Cuéntanos tu experiencia, 
-dinos cómo hacer un mejor HacktoberfestEc el 2021 ¡Háblanos! :'(
+Cuéntanos tu experiencia ¿Pudiste completar tus 4 PRs?
+Dinos cómo hacer un mejor HacktoberfestEc 2021, déja tu comentario.
 
 .. image:: /images/posts/hacktoberfest-2020/speak.gif
    :align: center
    :width: 450
- 
