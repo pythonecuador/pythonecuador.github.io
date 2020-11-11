@@ -7,31 +7,72 @@
 LEVEL UP: ¡130 Pull Requests!
 -----------------------------
 
-2 comunidades, 9 mantainers, 10 repositorios durante 25 dias de cafe y cerveza,
-dieron como resultado el evento de contribucion 
+27 personas, 2 comunidades, 9 mantainers, 
+10 repositorios durante 25 dias de cafe y cerveza,
+dieron como resultado el evento de contribución 
 al Open Source mas grande del que tengamos registro en Ecuador.
 
 .. image:: /images/posts/hacktoberfest-2020/epic_handshake.png
    :align: center
+   :width: 450
 
 |
 
-Los repositorios en los que trabajamos, 
-estan listados en `la convocatoria. <https://python.ec/hacktoberfest/>`__ 
-
-El único proyecto que no está listado es `Lira <https://github.com/pythonecuador/lira>`__
-el nuevo bebe de Python Ecuador, que nació durante el Hacktoberfest. :)
+Puedes ver el post de `la convocatoria aquí, <https://python.ec/hacktoberfest/>`__ 
+el único proyecto que no está listado es `Lira <https://github.com/pythonecuador/lira>`__
+el nuevo bebe de Python Ecuador, que nació durante todo este descontrol. :)
 
      +-------------------------------------------+
      |Un pequeño paso para el Open Source,       |
      |un gran paso para la comunidad Ecuatoriana.|
      +-------------------------------------------+
 
-En tan solo los 10 primeros dias llegamos a 28 PRs y con esa viada,
-no ibamos a parar.
+En tan solo los 10 primeros dias llegamos a 28 PRs, 
+rompiendo completamente el record de años anteriores.
 
 .. image:: /images/posts/hacktoberfest-2020/mr_robot_approves.png
    :align: center
+   :width: 450
+
+|
+
+Y si bien fuimos perdiendo genete a lo largo del mes... 
+¡Pudimos mantener y hasta mejorar el ritmo! 
+Como resultado esta fue la distribucion de los 130 PRs a lo largo del mes.
+
+.. image:: /images/posts/hacktoberfest-2020/prs.jpg
+   :align: center
+   :width: 450
+
+|
+
+Puedes ver los detalles de la actividad de cada proyecto aquí:
+
+.. _web: https://github.com/javascriptecuador/web/graphs/contributors?from=2020-10-01&to=2020-10-31&type=c
+.. _webprs: https://github.com/pulls?page=2&q=is%3Amerged+is%3Apr+repo%3Ajavascriptecuador%2Fweb+created%3A2020-10-01..2020-10-31
+
+.. _lira: https://github.com/PythonEcuador/lira/graphs/contributors?from=2020-10-01&to=2020-10-31&type=c
+.. _liraprs: https://github.com/pulls?page=1&q=is%3Amerged+is%3Apr+repo%3Apythonecuador%2Flira+created%3A2020-10-01..2020-10-31
+
+.. _pettnaut: https://github.com/pettnaut/frontend-code/graphs/contributors?from=2020-10-01&to=2020-10-31&type=c
+.. _pettnautprs: https://github.com/pulls?q=is%3Amerged+is%3Apr+repo%3Apettnaut%2Ffrontend-code+created%3A2020-10-01..2020-10-31
+
+.. _pyec: https://github.com/PythonEcuador/PythonEcuador.github.io/graphs/contributors?from=2020-10-01&to=2020-10-31&type=c
+.. _pyecprs: https://github.com/pulls?page=1&q=is%3Amerged+is%3Apr+repo%3Apythonecuador%2Fpythonecuador.github.io+created%3A2020-10-01..2020-10-31
+
+
+- Web (JavaScript Ecuador) `[Actividad] <web_>`_ `[PRs] <webprs_>`_
+- Lira `[Actividad] <lira_>`_ `[PRs] <liraprs_>`_
+- Pettnaut `[Actividad] <pettnaut_>`_ `[PRs] <pettnautprs_>`_
+- PytohnEcuador.github.io `[Actividad] <pyec_>`_ `[PRs] <pyecprs_>`_
+
+Solo llevamos el recuento de consumo de café y cerveza la primera semana,
+pero estos porcentajes son estadisticamente significativos, 
+así que podemos extrapolarlos a todo el mes.
+
+.. image:: /images/posts/hacktoberfest-2020/teams.jpg
+   :align: center
+   :width: 450
 
 |
 
@@ -39,12 +80,10 @@ Arrancamos oficialmente el 3 de Octubre,
 pero en Python Ecuador estábamos en esto desde mucho antes y 
 vamos a seguir indefinidamente, desarrollando Lira, asi que, si quieres ser parte 
 ¡únete a `nuestro grupo de telegram! <https://t.me/pythonecuador>`__ 
-en `nuestro calendario <https://python.ec/calendar/>`__ puedes ver los horarios, 
-nos reunimos casi todos los días y siempre hay espacio para uno mas.
+en `nuestro calendario <https://python.ec/calendar/>`__ puedes ver los horarios.
 
-Felicidades a `@SantinoSuntaxi <https://github.com/SantinoSuntaxi>`__ 
-que ganó la licencia de JetBrains que se sorteo entre los pull requests aprobados,
-vamos a sortear otra en los días que vienen.
+Nos reunimos casi todos los días y siempre hay espacio para uno mas
+y tal ves le pongamos un nombre fancy a Diciembre aunque sigamos haciendo lo mismo.
 
 Salón de la fama
 ----------------
@@ -113,6 +152,30 @@ Salón de la fama
 ¡Muchas gracias a tod@s los participantes! <3
 *********************************************
 
-Para estar al tanto de más sorteos, eventos y noticias sobre la comunidad, 
-síguenos en `Twitter <https://twitter.com/pyecuador>`__, `Facebook <https://www.facebook.com/pyecuador/>`__
-y `más <link://filename/pages/nuestra-comunidad.rst>`__.
+|
+
+Felicidades a `@SantinoSuntaxi <https://github.com/SantinoSuntaxi>`__ 
+que ganó la licencia de JetBrains que se sorteó entre los pull requests aprobados,
+vamos a sortear otra en los días que vienen.
+
+El comentario mas popular del Hacktoberfest en redes:
+
+.. figure:: /images/posts/hacktoberfest-2020/daniel.png
+   :align: center
+   :width: 450
+   :target: https://twitter.com/Daniel2v3/status/1315502674717151232
+
+   (`@Daniel2v3 <https://github.com/Daniel2v3>`__ no recibio premio, pero hubiera sido bueno darselo (Para el siguiente año XD ))
+
+|
+
+¡Queremos saber como te fue!
+****************************
+
+Cuentanos tu experiencia, 
+dinos como hacer un mejor HacktoberfestEc el 2021 ¡Hablanos! :'(
+
+.. image:: /images/posts/hacktoberfest-2020/speak.gif
+   :align: center
+   :width: 450
+ 
