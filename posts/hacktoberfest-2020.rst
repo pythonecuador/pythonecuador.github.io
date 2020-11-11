@@ -8,7 +8,7 @@ LEVEL UP: ¡130 Pull Requests!
 -----------------------------
 
 27 personas, 2 comunidades, 9 mantainers, 
-10 repositorios durante 25 dias de cafe y cerveza,
+10 repositorios durante 25 días de café y cerveza,
 dieron como resultado el evento de contribución 
 al Open Source mas grande del que tengamos registro en Ecuador.
 
