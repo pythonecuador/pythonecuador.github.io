@@ -148,7 +148,7 @@ Salón de la fama
      -
 
 ¡Muchas gracias a tod@s los participantes! <3
-*********************************************
+---------------------------------------------
 
 Felicidades a `@SantinoSuntaxi <https://github.com/SantinoSuntaxi>`__
 que ganó la licencia de JetBrains que se sorteó entre los pull requests aprobados,
@@ -164,7 +164,7 @@ El comentario más popular del Hacktoberfest en redes:
 |
 
 ¡Queremos saber cómo te fue!
-****************************
+----------------------------
 
 Cuéntanos tu experiencia ¿Pudiste completar tus 4 PRs?
 ¿Tienes ideas para un mejor HacktoberfestEc 2021? **¡Déjanos tu comentario!**
