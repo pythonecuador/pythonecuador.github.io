@@ -534,6 +534,11 @@ AUTHOR_PAGES_DESCRIPTIONS = {
             Python developer, Neovim, free & open source software 🐍.
             <a href="https://stsewd.dev">https://stsewd.dev</a>
             """
+        ),
+        "Seburath": (
+            """
+            <a href="https://seburath.github.io">https://seburath.github.io</a>
+            """
         )
     },
 }
