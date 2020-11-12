@@ -7,8 +7,8 @@
 LEVEL UP: ¡130 Pull Requests!
 -----------------------------
 
-27 personas, 2 comunidades, 9 maintainers, 
-10 repositorios durante 25 días de café y cerveza,
+**27 personas, 2 comunidades, 9 maintainers, 
+10 repositorios durante 25 días de café y cerveza**,
 dieron como resultado el evento de contribución 
 al Open Source más grande del que tengamos registro en Ecuador.
 
@@ -20,14 +20,12 @@ al Open Source más grande del que tengamos registro en Ecuador.
 
 Puedes ver el post de `la convocatoria aquí <https://python.ec/hacktoberfest/>`__, 
 el único proyecto que no está listado es `Lira <https://github.com/pythonecuador/lira>`__,
-el nuevo bebé de Python Ecuador, que nació durante todo este descontrol :).
+el nuevo bebé de Python Ecuador, que nació durante todo este descontrol.
 
-     +-------------------------------------------+
-     |Un pequeño paso para el Open Source,       |
-     |un gran paso para la comunidad Ecuatoriana.|
-     +-------------------------------------------+
+     "Un pequeño paso para el Open Source,
+     un gran paso para la comunidad Ecuatoriana."
 
-En tan solo los 10 primeros días llegamos a 28 PRs, 
+**En tan solo los 10 primeros días llegamos a 28 PRs**, 
 rompiendo completamente el récord de años anteriores.
 
 .. image:: /images/posts/hacktoberfest-2020/mr_robot_approves.png
@@ -77,8 +75,8 @@ así que podemos extrapolarlos a todo el mes.
 |
 
 Arrancamos oficialmente el 3 de octubre, 
-pero en Python Ecuador estábamos en esto desde mucho antes y 
-vamos a seguir indefinidamente, desarrollando Lira, así que, si quieres ser parte 
+pero **en Python Ecuador estábamos en esto desde mucho antes y 
+vamos a seguir indefinidamente**, desarrollando Lira, así que, si quieres ser parte 
 ¡únete a `nuestro grupo de telegram! <https://t.me/pythonecuador>`__ 
 en `nuestro calendario <https://python.ec/calendar/>`__ puedes ver los horarios.
 
@@ -165,7 +163,7 @@ El comentario más popular del Hacktoberfest en redes:
    :width: 450
    :target: https://twitter.com/Daniel2v3/status/1315502674717151232
 
-   `@Daniel2v3 <https://github.com/Daniel2v3>`__ no recibió premio, pero hubiera sido bueno dárselo (para el siguiente año XD)
+   `@Daniel2v3 <https://github.com/Daniel2v3>`__ **no recibió premio**, pero hubiera sido bueno dárselo (para el siguiente año **XD**)
 
 |
 
@@ -173,7 +171,7 @@ El comentario más popular del Hacktoberfest en redes:
 ****************************
 
 Cuéntanos tu experiencia ¿Pudiste completar tus 4 PRs?
-Dinos cómo hacer un mejor HacktoberfestEc 2021, déja tu comentario.
+¿Tienes ideas para un mejor HacktoberfestEc 2021? **¡Déjanos tu comentario!**
 
 .. image:: /images/posts/hacktoberfest-2020/speak.gif
    :align: center
