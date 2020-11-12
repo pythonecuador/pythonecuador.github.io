@@ -2,7 +2,7 @@
 .. date: 2020-11-11
 .. tags: hacktoberfestec, hacktoberfest
 .. author: Seburath
-.. description: Hacktoberfest Ecuador 2020, 130 pull requests
+.. description: Hacktoberfest Ecuador 2020, un resumen.
 
 LEVEL UP: ¡130 Pull Requests!
 -----------------------------
