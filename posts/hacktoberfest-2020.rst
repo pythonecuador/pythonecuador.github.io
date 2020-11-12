@@ -59,10 +59,10 @@ Puedes ver los detalles de la actividad de cada proyecto aquí:
 .. _pyecprs: https://github.com/pulls?page=1&q=is%3Amerged+is%3Apr+repo%3Apythonecuador%2Fpythonecuador.github.io+created%3A2020-10-01..2020-10-31
 
 
-- Web de JavaScript Ecuador `[Actividad] <web_>`_ `[PRs] <webprs_>`_
-- Lira `[Actividad] <lira_>`_ `[PRs] <liraprs_>`_
-- Pettnaut `[Actividad] <pettnaut_>`_ `[PRs] <pettnautprs_>`_
-- Web de Python Ecuador `[Actividad] <pyec_>`_ `[PRs] <pyecprs_>`_
+- Web de JavaScript Ecuador `[Actividad] <web_>`__ `[PRs] <webprs_>`__
+- Lira `[Actividad] <lira_>`__ `[PRs] <liraprs_>`__
+- Pettnaut `[Actividad] <pettnaut_>`__ `[PRs] <pettnautprs_>`__
+- Web de Python Ecuador `[Actividad] <pyec_>`__ `[PRs] <pyecprs_>`__
 
 Solo llevamos el recuento de consumo de café y cerveza la primera semana,
 pero estos porcentajes son estadísticamente significativos, 
