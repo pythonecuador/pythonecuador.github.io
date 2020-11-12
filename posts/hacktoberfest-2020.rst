@@ -7,9 +7,9 @@
 LEVEL UP: ¡130 Pull Requests!
 -----------------------------
 
-**27 personas, 2 comunidades, 9 maintainers, 
+**27 personas, 2 comunidades, 9 maintainers,
 10 repositorios durante 25 días de café y cerveza**,
-dieron como resultado el evento de contribución 
+dieron como resultado el evento de contribución
 al Open Source más grande del que tengamos registro en Ecuador.
 
 .. image:: /images/posts/hacktoberfest-2020/epic_handshake.png
@@ -18,14 +18,14 @@ al Open Source más grande del que tengamos registro en Ecuador.
 
 |
 
-Puedes ver el post de `la convocatoria aquí <https://python.ec/hacktoberfest/>`__, 
+Puedes ver el post de `la convocatoria aquí <https://python.ec/hacktoberfest/>`__,
 el único proyecto que no está listado es `Lira <https://github.com/pythonecuador/lira>`__,
 el nuevo bebé de Python Ecuador, que nació durante todo este descontrol.
 
      "Un pequeño paso para el Open Source,
      un gran paso para la comunidad Ecuatoriana."
 
-**En tan solo los 10 primeros días llegamos a 28 PRs**, 
+**En tan solo los 10 primeros días llegamos a 28 PRs**,
 rompiendo completamente el récord de años anteriores.
 
 .. image:: /images/posts/hacktoberfest-2020/mr_robot_approves.png
@@ -34,8 +34,8 @@ rompiendo completamente el récord de años anteriores.
 
 |
 
-Y si bien fuimos perdiendo gente a lo largo del mes... 
-¡Pudimos mantener y hasta mejorar el ritmo! 
+Y si bien fuimos perdiendo gente a lo largo del mes...
+¡Pudimos mantener y hasta mejorar el ritmo!
 Como resultado esta fue la distribución de los 130 PRs a lo largo del mes.
 
 .. image:: /images/posts/hacktoberfest-2020/prs.jpg
@@ -65,7 +65,7 @@ Puedes ver los detalles de la actividad de cada proyecto aquí:
 - Web de Python Ecuador `[Actividad] <pyec_>`__ `[PRs] <pyecprs_>`__
 
 Solo llevamos el recuento de consumo de café y cerveza la primera semana,
-pero estos porcentajes son estadísticamente significativos, 
+pero estos porcentajes son estadísticamente significativos,
 así que podemos extrapolarlos a todo el mes.
 
 .. image:: /images/posts/hacktoberfest-2020/teams.jpg
@@ -74,10 +74,10 @@ así que podemos extrapolarlos a todo el mes.
 
 |
 
-Arrancamos oficialmente el 3 de octubre, 
-pero **en Python Ecuador estábamos en esto desde mucho antes y 
-vamos a seguir indefinidamente**, desarrollando Lira, así que, si quieres ser parte 
-¡únete a `nuestro grupo de telegram! <https://t.me/pythonecuador>`__ 
+Arrancamos oficialmente el 3 de octubre,
+pero **en Python Ecuador estábamos en esto desde mucho antes y
+vamos a seguir indefinidamente**, desarrollando Lira, así que, si quieres ser parte
+¡únete a `nuestro grupo de telegram! <https://t.me/pythonecuador>`__
 en `nuestro calendario <https://python.ec/calendar/>`__ puedes ver los horarios.
 
 Nos reunimos casi todos los días y siempre hay espacio para uno más
@@ -118,39 +118,39 @@ Salón de la fama
    :widths: 25 25 25 25
    :header-rows: 0
 
-   * - |cesardlinx| `@cesardlinx <https://github.com/cesardlinx>`__ 
-     - |skcode7| `@skcode7 <https://github.com/skcode7>`__ 
-     - |jordanrjcode| `@jordanrjcode <https://github.com/jordanrjcode>`__ 
-     - |israteneda| `@rpalaciosg <https://github.com/israteneda>`__ 
-   * - |rpalaciosg| `@rpalaciosg <https://github.com/rpalaciosg>`__ 
-     - |EduardoAyora| `@EduardoAyora <https://github.com/EduardoAyora>`__ 
-     - |miguel-rios-r| `@miguel-rios-r <https://github.com/miguel-rios-r>`__ 
-     - |albamaister| `@albamaister <https://github.com/albamaister>`__ 
-   * - |klee214| `@klee214 <https://github.com/klee214>`__ 
-     - |renatojobal| `@renatojobal <https://github.com/renatojobal>`__ 
-     - |lenmorld| `@lenmorld <https://github.com/lenmorld>`__ 
-     - |ayush-git228| `@ayush-git228 <https://github.com/ayush-git228>`__ 
-   * - |InternetRamen| `@InternetRamen <https://github.com/InternetRamen>`__ 
-     - |gabygm| `@gabygm <https://github.com/gabygm>`__ 
-     - |stsewd| `@stsewd <https://github.com/stsewd>`__ 
-     - |josselineperdomo| `@josselineperdomo <https://github.com/josselineperdomo>`__ 
-   * - |Danielrick88| `@Danielrick88 <https://github.com/Danielrick88>`__ 
-     - |csampedroc| `@csampedroc <https://github.com/csampedroc>`__ 
-     - |VadinV| `@VadinV <https://github.com/VadinV>`__ 
-     - |SantinoSuntaxi| `@SantinoSuntaxi <https://github.com/SantinoSuntaxi>`__ 
-   * - |wasabi666| `@wasabi666 <https://github.com/wasabi666>`__ 
-     - |enri-nun| `@enri-nun <https://github.com/enri-nun>`__ 
-     - |y-martinez| `@y-martinez <https://github.com/y-martinez>`__ 
-     - |andresbermeoq| `@andresbermeoq <https://github.com/andresbermeoq>`__ 
-   * - |sebaF96| `@sebaF96 <https://github.com/sebaF96>`__ 
-     - |sumitgupta7132| `@sumitgupta7132 <https://github.com/sumitgupta7132>`__ 
-     - |Seburath| `@Seburath <https://github.com/Seburath>`__ 
-     -  
+   * - |cesardlinx| `@cesardlinx <https://github.com/cesardlinx>`__
+     - |skcode7| `@skcode7 <https://github.com/skcode7>`__
+     - |jordanrjcode| `@jordanrjcode <https://github.com/jordanrjcode>`__
+     - |israteneda| `@rpalaciosg <https://github.com/israteneda>`__
+   * - |rpalaciosg| `@rpalaciosg <https://github.com/rpalaciosg>`__
+     - |EduardoAyora| `@EduardoAyora <https://github.com/EduardoAyora>`__
+     - |miguel-rios-r| `@miguel-rios-r <https://github.com/miguel-rios-r>`__
+     - |albamaister| `@albamaister <https://github.com/albamaister>`__
+   * - |klee214| `@klee214 <https://github.com/klee214>`__
+     - |renatojobal| `@renatojobal <https://github.com/renatojobal>`__
+     - |lenmorld| `@lenmorld <https://github.com/lenmorld>`__
+     - |ayush-git228| `@ayush-git228 <https://github.com/ayush-git228>`__
+   * - |InternetRamen| `@InternetRamen <https://github.com/InternetRamen>`__
+     - |gabygm| `@gabygm <https://github.com/gabygm>`__
+     - |stsewd| `@stsewd <https://github.com/stsewd>`__
+     - |josselineperdomo| `@josselineperdomo <https://github.com/josselineperdomo>`__
+   * - |Danielrick88| `@Danielrick88 <https://github.com/Danielrick88>`__
+     - |csampedroc| `@csampedroc <https://github.com/csampedroc>`__
+     - |VadinV| `@VadinV <https://github.com/VadinV>`__
+     - |SantinoSuntaxi| `@SantinoSuntaxi <https://github.com/SantinoSuntaxi>`__
+   * - |wasabi666| `@wasabi666 <https://github.com/wasabi666>`__
+     - |enri-nun| `@enri-nun <https://github.com/enri-nun>`__
+     - |y-martinez| `@y-martinez <https://github.com/y-martinez>`__
+     - |andresbermeoq| `@andresbermeoq <https://github.com/andresbermeoq>`__
+   * - |sebaF96| `@sebaF96 <https://github.com/sebaF96>`__
+     - |sumitgupta7132| `@sumitgupta7132 <https://github.com/sumitgupta7132>`__
+     - |Seburath| `@Seburath <https://github.com/Seburath>`__
+     -
 
 ¡Muchas gracias a tod@s los participantes! <3
 *********************************************
 
-Felicidades a `@SantinoSuntaxi <https://github.com/SantinoSuntaxi>`__ 
+Felicidades a `@SantinoSuntaxi <https://github.com/SantinoSuntaxi>`__
 que ganó la licencia de JetBrains que se sorteó entre los pull requests aprobados,
 vamos a sortear otra en los días que vienen.
 
