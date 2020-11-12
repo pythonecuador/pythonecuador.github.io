@@ -150,8 +150,6 @@ Salón de la fama
 ¡Muchas gracias a tod@s los participantes! <3
 *********************************************
 
-|
-
 Felicidades a `@SantinoSuntaxi <https://github.com/SantinoSuntaxi>`__ 
 que ganó la licencia de JetBrains que se sorteó entre los pull requests aprobados,
 vamos a sortear otra en los días que vienen.
