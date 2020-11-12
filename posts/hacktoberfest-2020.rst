@@ -161,8 +161,6 @@ El comentario más popular del Hacktoberfest en redes:
    :width: 450
    :target: https://twitter.com/Daniel2v3/status/1315502674717151232
 
-   `@Daniel2v3 <https://github.com/Daniel2v3>`__ **no recibió premio**, pero hubiera sido bueno dárselo (para el siguiente año **XD**)
-
 |
 
 ¡Queremos saber cómo te fue!
