@@ -121,7 +121,7 @@ Salón de la fama
    * - |cesardlinx| `@cesardlinx <https://github.com/cesardlinx>`__
      - |skcode7| `@skcode7 <https://github.com/skcode7>`__
      - |jordanrjcode| `@jordanrjcode <https://github.com/jordanrjcode>`__
-     - |israteneda| `@rpalaciosg <https://github.com/israteneda>`__
+     - |israteneda| `@israteneda <https://github.com/israteneda>`__
    * - |rpalaciosg| `@rpalaciosg <https://github.com/rpalaciosg>`__
      - |EduardoAyora| `@EduardoAyora <https://github.com/EduardoAyora>`__
      - |miguel-rios-r| `@miguel-rios-r <https://github.com/miguel-rios-r>`__
