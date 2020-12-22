@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python Ecuador (Publicaciones sobre comunidad)</title><link>https://python.ec/</link><description></description><atom:link href="https://python.ec/categories/comunidad.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:ecuadorpython@gmail.com"&gt;Python Ecuador&lt;/a&gt; GNU v3.0</copyright><lastBuildDate>Tue, 22 Dec 2020 01:20:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Nuevo dominio</title><link>https://python.ec/posts/nuevo-dominio/</link><dc:creator>Santos Gallegos</dc:creator><description>&lt;div&gt;&lt;p&gt;En el transcurso del día Sábado 27 de Julio habrás notado que no se podía acceder al sitio de la comunidad
+(sabemos que la visitas todos los días 😉).
+Este &lt;em&gt;apagón&lt;/em&gt; fue debido a que estábamos cambiando el dominio del sitio
+(los &lt;a class="reference external" href="https://es.wikipedia.org/wiki/Servidor_de_nombres"&gt;DNS&lt;/a&gt; tardan en actualizarse).&lt;/p&gt;
+&lt;p&gt;El año pasado lanzamos la web de la comunidad.
+El desarrollo se lleva a cabo en &lt;a class="reference external" href="https://github.com"&gt;GitHub&lt;/a&gt;
+y está alojada en &lt;a class="reference external" href="https://pages.github.com/"&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;GitHub Pages nos da el dominio &lt;code class="docutils literal"&gt;pythonecuador.github.io&lt;/code&gt; por defecto.
+En aquel entonces el dominio &lt;code class="docutils literal"&gt;python.ec&lt;/code&gt; estaba ocupado por una compañía de serigrafía
+(si, la compañía se llamaba Python y era de Ecuador).
+Así que decidimos revivir el dominio &lt;code class="docutils literal"&gt;pythonecuador.org&lt;/code&gt; que había sido usado hace un tiempo atrás.&lt;/p&gt;
+&lt;p&gt;Este año el dominio &lt;code class="docutils literal"&gt;python.ec&lt;/code&gt; fue desocupado.
+Así que inmediatamente procedimos a hacer la compra de este
+(usando fondos de la comunidad).
+El dominio es válido por 2 años,
+el costo de cada año es de &lt;a class="reference external" href="https://nic.ec/domain-registration/domain-registration-price.php"&gt;35 dólares&lt;/a&gt; (más impuestos).&lt;/p&gt;
+&lt;p&gt;El antiguo dominio &lt;code class="docutils literal"&gt;pythonecuador.org&lt;/code&gt; redireccionará el nuevo dominio &lt;code class="docutils literal"&gt;python.ec&lt;/code&gt;.
+Usar el nuevo dominio es recomendable,
+ya que este será renovado cada año.&lt;/p&gt;
+&lt;p&gt;En caso que tengas curiosidad, el dominio está en &lt;a class="reference external" href="https://nic.ec"&gt;https://nic.ec&lt;/a&gt; y el DNS administrado en &lt;a class="reference external" href="https://www.cloudflare.com"&gt;https://www.cloudflare.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ahora la comunidad tiene un nombre más &lt;em&gt;pitónico&lt;/em&gt;.
+Si deseas ayudarnos con la renovación del dominio para los siguientes años envíanos un email a &lt;a class="reference external" href="mailto:ecuadorpython@gmail.com"&gt;ecuadorpython@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Nota&lt;/p&gt;
+&lt;p&gt;Estamos trabajando para llevar un registro público y más ordenado de los fondos de la comunidad.
+Pero si necesitas más información sobre el manejo del dinero, escríbenos a &lt;a class="reference external" href="mailto:ecuadorpython@gmail.com"&gt;ecuadorpython@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>comunidad</category><category>infraestructura</category><guid>https://python.ec/posts/nuevo-dominio/</guid><pubDate>Sat, 27 Jul 2019 05:00:00 GMT</pubDate></item></channel></rss>

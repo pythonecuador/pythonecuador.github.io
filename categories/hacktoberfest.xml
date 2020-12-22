@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python Ecuador (Publicaciones sobre hacktoberfest)</title><link>https://python.ec/</link><description></description><atom:link href="https://python.ec/categories/hacktoberfest.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:ecuadorpython@gmail.com"&gt;Python Ecuador&lt;/a&gt; GNU v3.0</copyright><lastBuildDate>Tue, 22 Dec 2020 01:20:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Hacktoberfest 2020</title><link>https://python.ec/posts/hacktoberfest-2020/</link><dc:creator>Seburath</dc:creator><description>&lt;div&gt;&lt;div class="section" id="level-up-130-pull-requests"&gt;
+&lt;h2&gt;LEVEL UP: ¡130 Pull Requests!&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;27 personas, 2 comunidades, 9 maintainers,
+10 repositorios durante 25 días de café y cerveza&lt;/strong&gt;,
+dieron como resultado el evento de contribución
+al Open Source más grande del que tengamos registro en Ecuador.&lt;/p&gt;
+&lt;img alt="/images/posts/hacktoberfest-2020/epic_handshake.png" class="align-center" src="https://python.ec/images/posts/hacktoberfest-2020/epic_handshake.png" style="width: 450px;"&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Puedes ver el post de &lt;a class="reference external" href="https://python.ec/hacktoberfest/"&gt;la convocatoria aquí&lt;/a&gt;,
+el único proyecto que no está listado es &lt;a class="reference external" href="https://github.com/pythonecuador/lira"&gt;Lira&lt;/a&gt;,
+el nuevo bebé de Python Ecuador, que nació durante todo este descontrol.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Un pequeño paso para el Open Source,
+un gran paso para la comunidad Ecuatoriana."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;En tan solo los 10 primeros días llegamos a 28 PRs&lt;/strong&gt;,
+rompiendo completamente el récord de años anteriores.&lt;/p&gt;
+&lt;img alt="/images/posts/hacktoberfest-2020/mr_robot_approves.png" class="align-center" src="https://python.ec/images/posts/hacktoberfest-2020/mr_robot_approves.png" style="width: 450px;"&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Y si bien fuimos perdiendo gente a lo largo del mes...
+¡Pudimos mantener y hasta mejorar el ritmo!
+Como resultado esta fue la distribución de los 130 PRs a lo largo del mes.&lt;/p&gt;
+&lt;img alt="/images/posts/hacktoberfest-2020/prs.jpg" class="align-center" src="https://python.ec/images/posts/hacktoberfest-2020/prs.jpg" style="width: 450px;"&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Puedes ver los detalles de la actividad de cada proyecto aquí:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Web de JavaScript Ecuador &lt;a class="reference external" href="https://github.com/javascriptecuador/web/graphs/contributors?from=2020-10-01&amp;amp;to=2020-10-31&amp;amp;type=c"&gt;[Actividad]&lt;/a&gt; &lt;a class="reference external" href="https://github.com/pulls?page=2&amp;amp;q=is%3Amerged+is%3Apr+repo%3Ajavascriptecuador%2Fweb+created%3A2020-10-01..2020-10-31"&gt;[PRs]&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lira &lt;a class="reference external" href="https://github.com/PythonEcuador/lira/graphs/contributors?from=2020-10-01&amp;amp;to=2020-10-31&amp;amp;type=c"&gt;[Actividad]&lt;/a&gt; &lt;a class="reference external" href="https://github.com/pulls?page=1&amp;amp;q=is%3Amerged+is%3Apr+repo%3Apythonecuador%2Flira+created%3A2020-10-01..2020-10-31"&gt;[PRs]&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pettnaut &lt;a class="reference external" href="https://github.com/pettnaut/frontend-code/graphs/contributors?from=2020-10-01&amp;amp;to=2020-10-31&amp;amp;type=c"&gt;[Actividad]&lt;/a&gt; &lt;a class="reference external" href="https://github.com/pulls?q=is%3Amerged+is%3Apr+repo%3Apettnaut%2Ffrontend-code+created%3A2020-10-01..2020-10-31"&gt;[PRs]&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Web de Python Ecuador &lt;a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/graphs/contributors?from=2020-10-01&amp;amp;to=2020-10-31&amp;amp;type=c"&gt;[Actividad]&lt;/a&gt; &lt;a class="reference external" href="https://github.com/pulls?page=1&amp;amp;q=is%3Amerged+is%3Apr+repo%3Apythonecuador%2Fpythonecuador.github.io+created%3A2020-10-01..2020-10-31"&gt;[PRs]&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Solo llevamos el recuento de consumo de café y cerveza la primera semana,
+pero estos porcentajes son estadísticamente significativos,
+así que podemos extrapolarlos a todo el mes.&lt;/p&gt;
+&lt;img alt="/images/posts/hacktoberfest-2020/teams.jpg" class="align-center" src="https://python.ec/images/posts/hacktoberfest-2020/teams.jpg" style="width: 450px;"&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Arrancamos oficialmente el 3 de octubre,
+pero &lt;strong&gt;en Python Ecuador estábamos en esto desde mucho antes y
+vamos a seguir indefinidamente&lt;/strong&gt;, desarrollando Lira, así que, si quieres ser parte
+¡únete a &lt;a class="reference external" href="https://t.me/pythonecuador"&gt;nuestro grupo de telegram!&lt;/a&gt;
+en &lt;a class="reference external" href="https://python.ec/calendar/"&gt;nuestro calendario&lt;/a&gt; puedes ver los horarios.&lt;/p&gt;
+&lt;p&gt;Nos reunimos casi todos los días y siempre hay espacio para uno más
+y tal vez le pongamos un nombre fancy a diciembre aunque sigamos haciendo lo mismo.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="salon-de-la-fama"&gt;
+&lt;h2&gt;Salón de la fama&lt;/h2&gt;
+&lt;table class="colwidths-given"&gt;
+&lt;colgroup&gt;
+&lt;col style="width: 25%"&gt;
+&lt;col style="width: 25%"&gt;
+&lt;col style="width: 25%"&gt;
+&lt;col style="width: 25%"&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;&lt;img alt="cesardlinx" src="https://avatars3.githubusercontent.com/u/25573926?s=400&amp;amp;u=a76a896747d580c36e9e70c7b465fddefe58f0ff&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/cesardlinx"&gt;@cesardlinx&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="skcode7" src="https://avatars2.githubusercontent.com/u/55223838?s=400&amp;amp;u=50a21a6445f8e8adcf25d178c8436702e6cd2526&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/skcode7"&gt;@skcode7&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="jordanrjcode" src="https://avatars0.githubusercontent.com/u/62086742?s=400&amp;amp;u=2d60aae03416ce1d7c2097b71d1b0e208a8fbeea&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/jordanrjcode"&gt;@jordanrjcode&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="israteneda" src="https://avatars2.githubusercontent.com/u/20668624?s=400&amp;amp;u=36866c8cb3a25b9a20e798d0d032c2ff8da4159a&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/israteneda"&gt;@israteneda&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;&lt;img alt="rpalaciosg" src="https://avatars0.githubusercontent.com/u/11642622?s=400&amp;amp;u=23592a526c873270b05f51b2d732fa90571f9647&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/rpalaciosg"&gt;@rpalaciosg&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="EduardoAyora" src="https://avatars3.githubusercontent.com/u/49033198?s=400&amp;amp;u=69fe0cc135c663bda9e1523b8e2cf43e2059888f&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/EduardoAyora"&gt;@EduardoAyora&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="miguel-rios-r" src="https://avatars1.githubusercontent.com/u/25510181?s=400&amp;amp;u=ebdb434d88c98a53384f2ecc6f46caa5a126aba8&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/miguel-rios-r"&gt;@miguel-rios-r&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="albamaister" src="https://avatars2.githubusercontent.com/u/20263594?s=400&amp;amp;u=45d0c724d6d8bf922e16f2948124b981e02ddbc8&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/albamaister"&gt;@albamaister&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;&lt;img alt="klee214" src="https://avatars2.githubusercontent.com/u/54453166?s=400&amp;amp;u=b07a320e0f976d2c91a4d7a5b4e12e4ec1510f2e&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/klee214"&gt;@klee214&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="renatojobal" src="https://avatars0.githubusercontent.com/u/35740463?s=400&amp;amp;u=24e013cf80e0559d5f2f2fac4739c527aae6ef2a&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/renatojobal"&gt;@renatojobal&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="lenmorld" src="https://avatars0.githubusercontent.com/u/14609656?s=400&amp;amp;u=e43b13c52ba35f3a323f71be4e3829f12a8bf5a8&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/lenmorld"&gt;@lenmorld&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="ayush-git228" src="https://avatars1.githubusercontent.com/u/66081505?s=400&amp;amp;u=6961b6470a9f85aeede4df58ef9e98184b98baff&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/ayush-git228"&gt;@ayush-git228&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;&lt;img alt="InternetRamen" src="https://avatars2.githubusercontent.com/u/66806100?s=400&amp;amp;u=152e152bb6c083abdbed6b47f48376dc78543314&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/InternetRamen"&gt;@InternetRamen&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="gabygm" src="https://avatars1.githubusercontent.com/u/31496947?s=400&amp;amp;u=7a72a61ec4c60d0c36b15a8dd99645c02d449f36&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/gabygm"&gt;@gabygm&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="stsewd" src="https://avatars0.githubusercontent.com/u/4975310?s=400&amp;amp;u=7f034d36be991cfb50520166f6d11a6044b7aa10&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/stsewd"&gt;@stsewd&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="josselineperdomo" src="https://avatars1.githubusercontent.com/u/9274112?s=400&amp;amp;u=0adff7046d6d059133c78d397a6841e9222dbbfd&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/josselineperdomo"&gt;@josselineperdomo&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;&lt;img alt="Danielrick88" src="https://avatars0.githubusercontent.com/u/70044225?s=400&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/Danielrick88"&gt;@Danielrick88&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="csampedroc" src="https://avatars3.githubusercontent.com/u/31772973?s=400&amp;amp;u=4166c9da58338bd39b445b48b61def6d40cfadb3&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/csampedroc"&gt;@csampedroc&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="VadinV" src="https://avatars2.githubusercontent.com/u/1224421?s=400&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/VadinV"&gt;@VadinV&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="SantinoSuntaxi" src="https://avatars0.githubusercontent.com/u/36805229?s=400&amp;amp;u=2425b5589129765e01d6aedd94397ae7a6ccadb0&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/SantinoSuntaxi"&gt;@SantinoSuntaxi&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;&lt;img alt="wasabi666" src="https://avatars3.githubusercontent.com/u/45923387?s=400&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/wasabi666"&gt;@wasabi666&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="enri-nun" src="https://avatars1.githubusercontent.com/u/32477494?s=400&amp;amp;u=4470983a4ea0304691d30fd7cfa3bf365b168fcf&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/enri-nun"&gt;@enri-nun&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="y-martinez" src="https://avatars1.githubusercontent.com/u/6761059?s=400&amp;amp;u=ffc7e86ac8109ad315594d176fc3eae8ccefe7ef&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/y-martinez"&gt;@y-martinez&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="andresbermeoq" src="https://avatars3.githubusercontent.com/u/24640851?s=400&amp;amp;u=0915c2cf4102ea440f9f00045262bbec570b6910&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/andresbermeoq"&gt;@andresbermeoq&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p&gt;&lt;img alt="sebaF96" src="https://avatars3.githubusercontent.com/u/48932423?s=400&amp;amp;u=bdf54df8bf593719918ed18af17e1b320cbde01a&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/sebaF96"&gt;@sebaF96&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="sumitgupta7132" src="https://avatars2.githubusercontent.com/u/61278456?s=400&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/sumitgupta7132"&gt;@sumitgupta7132&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&lt;img alt="Seburath" src="https://avatars3.githubusercontent.com/u/22159934?s=460&amp;amp;u=7dc7f6caf11e905f57e91037ee89cf8101cf5cb0&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/Seburath"&gt;@Seburath&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="section" id="muchas-gracias-a-tod-s-los-participantes-3"&gt;
+&lt;h2&gt;¡Muchas gracias a tod@s los participantes! &amp;lt;3&lt;/h2&gt;
+&lt;p&gt;Felicidades a &lt;a class="reference external" href="https://github.com/SantinoSuntaxi"&gt;@SantinoSuntaxi&lt;/a&gt;
+que ganó la licencia de JetBrains que se sorteó entre los pull requests aprobados,
+vamos a sortear otra en los días que vienen.&lt;/p&gt;
+&lt;p&gt;El comentario más popular del Hacktoberfest en redes:&lt;/p&gt;
+&lt;div class="figure align-center"&gt;
+&lt;a class="reference external image-reference" href="https://twitter.com/Daniel2v3/status/1315502674717151232"&gt;&lt;img alt="/images/posts/hacktoberfest-2020/daniel.png" src="https://python.ec/images/posts/hacktoberfest-2020/daniel.png" style="width: 450px;"&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="queremos-saber-como-te-fue"&gt;
+&lt;h2&gt;¡Queremos saber cómo te fue!&lt;/h2&gt;
+&lt;p&gt;Cuéntanos tu experiencia ¿Pudiste completar tus 4 PRs?
+¿Tienes ideas para un mejor HacktoberfestEc 2021? &lt;strong&gt;¡Déjanos tu comentario!&lt;/strong&gt;&lt;/p&gt;
+&lt;img alt="/images/posts/hacktoberfest-2020/speak.gif" class="align-center" src="https://python.ec/images/posts/hacktoberfest-2020/speak.gif" style="width: 450px;"&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>hacktoberfest</category><category>hacktoberfestec</category><guid>https://python.ec/posts/hacktoberfest-2020/</guid><pubDate>Wed, 11 Nov 2020 05:00:00 GMT</pubDate></item></channel></rss>

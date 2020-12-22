@@ -1,0 +1,4 @@
+Sitemap: https://python.ec/sitemapindex.xml
+
+User-Agent: *
+Host: python.ec

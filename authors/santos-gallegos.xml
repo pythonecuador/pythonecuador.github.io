@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python Ecuador (Publicaciones de Santos Gallegos)</title><link>https://python.ec/</link><description>
+            Python developer, Neovim, free &amp; open source software 🐍.
+            &lt;a href="https://stsewd.dev"&gt;https://stsewd.dev&lt;/a&gt;
+            </description><atom:link href="https://python.ec/authors/santos-gallegos.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:ecuadorpython@gmail.com"&gt;Python Ecuador&lt;/a&gt; GNU v3.0</copyright><lastBuildDate>Tue, 22 Dec 2020 01:20:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Sorteo - Entradas a XConf</title><link>https://python.ec/posts/sorteo-xconf/</link><dc:creator>Santos Gallegos</dc:creator><description>&lt;div&gt;&lt;img alt="/images/posts/xconf/xconf.jpg" class="align-center" src="https://python.ec/images/posts/xconf/xconf.jpg"&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Gracias a &lt;a class="reference external" href="https://www.thoughtworks.com/"&gt;Thoughtworks&lt;/a&gt;,
+tenemos &lt;strong&gt;dos entradas&lt;/strong&gt; disponibles para la conferencia &lt;a class="reference external" href="https://www.thoughtworks.com/xconf-america-latina-2019"&gt;XConf&lt;/a&gt;,
+la cual se realizará en &lt;strong&gt;Quito el Sábado, 14 de septiembre 2019&lt;/strong&gt; en Ciepal desde las 08:00 am.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;XConf es una conferencia de tecnología para personas apasionadas que están
+interesadas profundamente en el desarrollo de software y en conocer cómo puede
+la tecnología cambiar el mundo y la sociedad. En esta ocasión es el 3er año que
+ThoughtWorks XConf tendrá sede en Quito - Ecuador.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Para participar en el sorteo debes llenar &lt;a class="reference external" href="https://forms.gle/damjijn6HhX9FYUq7"&gt;este formulario&lt;/a&gt;.
+El formulario estará abierto &lt;strong&gt;hasta el 30 de Agosto&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;La dos personas ganadoras serán seleccionadas entre varios miembros de la comunidad,
+procurando ser &lt;strong&gt;objetivos y diversos&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;La selección será en base a las respuestas.
+Para tener más posibilidades de ganar,
+&lt;strong&gt;responde con honestidad todas las preguntas&lt;/strong&gt;,
+cuéntanos lo que te apasiona.&lt;/p&gt;
+&lt;p&gt;Las personas ganadoras serán dadas a conocer el día &lt;strong&gt;Lunes, 2 de Septiembre&lt;/strong&gt;.
+Debes &lt;strong&gt;confirmar tu asistencia lo más pronto posible&lt;/strong&gt; o la entrada será dada a otra persona&lt;/p&gt;
+&lt;p&gt;Si cuentas con los recursos para comprar la entrada,
+puedes obtener un &lt;strong&gt;15% de descuento&lt;/strong&gt; usando el código: &lt;code class="docutils literal"&gt;COMUNIDADXCONF&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Nota&lt;/p&gt;
+&lt;p&gt;El sorteo sólo incluye las entradas.
+Transporte, hospedaje u otro tipo de gastos
+deben ser cubiertos por las personas ganadoras.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Para estar al tanto de más sorteos, eventos y noticias sobre la comunidad,
+únete a nuestro grupo de &lt;a class="reference external" href="https://t.me/pythonecuador"&gt;telegram&lt;/a&gt; y
+síguenos en &lt;a class="reference external" href="https://twitter.com/pyecuador"&gt;Twitter&lt;/a&gt;, &lt;a class="reference external" href="https://www.facebook.com/pyecuador/"&gt;Facebook&lt;/a&gt;
+y &lt;a class="reference external" href="https://python.ec/nuestra-comunidad"&gt;más&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>sorteo</category><category>xconf</category><guid>https://python.ec/posts/sorteo-xconf/</guid><pubDate>Fri, 16 Aug 2019 05:00:00 GMT</pubDate></item><item><title>Nuevo dominio</title><link>https://python.ec/posts/nuevo-dominio/</link><dc:creator>Santos Gallegos</dc:creator><description>&lt;div&gt;&lt;p&gt;En el transcurso del día Sábado 27 de Julio habrás notado que no se podía acceder al sitio de la comunidad
+(sabemos que la visitas todos los días 😉).
+Este &lt;em&gt;apagón&lt;/em&gt; fue debido a que estábamos cambiando el dominio del sitio
+(los &lt;a class="reference external" href="https://es.wikipedia.org/wiki/Servidor_de_nombres"&gt;DNS&lt;/a&gt; tardan en actualizarse).&lt;/p&gt;
+&lt;p&gt;El año pasado lanzamos la web de la comunidad.
+El desarrollo se lleva a cabo en &lt;a class="reference external" href="https://github.com"&gt;GitHub&lt;/a&gt;
+y está alojada en &lt;a class="reference external" href="https://pages.github.com/"&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;GitHub Pages nos da el dominio &lt;code class="docutils literal"&gt;pythonecuador.github.io&lt;/code&gt; por defecto.
+En aquel entonces el dominio &lt;code class="docutils literal"&gt;python.ec&lt;/code&gt; estaba ocupado por una compañía de serigrafía
+(si, la compañía se llamaba Python y era de Ecuador).
+Así que decidimos revivir el dominio &lt;code class="docutils literal"&gt;pythonecuador.org&lt;/code&gt; que había sido usado hace un tiempo atrás.&lt;/p&gt;
+&lt;p&gt;Este año el dominio &lt;code class="docutils literal"&gt;python.ec&lt;/code&gt; fue desocupado.
+Así que inmediatamente procedimos a hacer la compra de este
+(usando fondos de la comunidad).
+El dominio es válido por 2 años,
+el costo de cada año es de &lt;a class="reference external" href="https://nic.ec/domain-registration/domain-registration-price.php"&gt;35 dólares&lt;/a&gt; (más impuestos).&lt;/p&gt;
+&lt;p&gt;El antiguo dominio &lt;code class="docutils literal"&gt;pythonecuador.org&lt;/code&gt; redireccionará el nuevo dominio &lt;code class="docutils literal"&gt;python.ec&lt;/code&gt;.
+Usar el nuevo dominio es recomendable,
+ya que este será renovado cada año.&lt;/p&gt;
+&lt;p&gt;En caso que tengas curiosidad, el dominio está en &lt;a class="reference external" href="https://nic.ec"&gt;https://nic.ec&lt;/a&gt; y el DNS administrado en &lt;a class="reference external" href="https://www.cloudflare.com"&gt;https://www.cloudflare.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ahora la comunidad tiene un nombre más &lt;em&gt;pitónico&lt;/em&gt;.
+Si deseas ayudarnos con la renovación del dominio para los siguientes años envíanos un email a &lt;a class="reference external" href="mailto:ecuadorpython@gmail.com"&gt;ecuadorpython@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Nota&lt;/p&gt;
+&lt;p&gt;Estamos trabajando para llevar un registro público y más ordenado de los fondos de la comunidad.
+Pero si necesitas más información sobre el manejo del dinero, escríbenos a &lt;a class="reference external" href="mailto:ecuadorpython@gmail.com"&gt;ecuadorpython@gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>comunidad</category><category>infraestructura</category><guid>https://python.ec/posts/nuevo-dominio/</guid><pubDate>Sat, 27 Jul 2019 05:00:00 GMT</pubDate></item></channel></rss>

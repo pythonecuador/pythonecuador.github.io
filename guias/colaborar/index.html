@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html prefix="
+og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Colaborar | Python Ecuador</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta name="theme-color" content="#5670d4">
+<meta name="generator" content="Nikola (getnikola.com)">
+<link rel="alternate" type="application/rss+xml" title="RSS" hreflang="es" href="../../rss.xml">
+<link rel="canonical" href="https://python.ec/guias/colaborar/">
+<link rel="icon" href="../../favicon.ico" sizes="16x16">
+<link rel="icon" href="../../icon_128x128.ico" sizes="128x128">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><!-- Custom css --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../assets/css/custom.css" type="text/css" media="all">
+<!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-128414584-1"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128414584-1');
+</script>
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-expand-md static-top mb-4
+navbar-dark bg-dark
+"><div class="container">
+<!-- This keeps the margins nice -->
+        <a class="navbar-brand" href="../../">
+
+            <span id="blog-title">Python Ecuador</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="navbar-nav mr-auto">
+<li class="nav-item">
+<a href="../../nuestra-comunidad/" class="nav-link">Comunidad</a>
+                </li>
+<li class="nav-item">
+<a href="../../archive.html" class="nav-link">Posts</a>
+                </li>
+<li class="nav-item">
+<a href="../../coc/" class="nav-link">Código de Conducta</a>
+                </li>
+<li class="nav-item">
+<a href="../../quiero-ayudar/" class="nav-link">Quiero ayudar</a>
+                </li>
+<li class="nav-item">
+<a href="../" class="nav-link">Guías</a>
+                </li>
+<li class="nav-item">
+<a href="../../eventos/" class="nav-link">Eventos</a>
+                </li>
+<li class="nav-item">
+<a href="../../becas/" class="nav-link">Becas</a>
+                </li>
+<li class="nav-item">
+<a href="../../sponsors/" class="nav-link">Sponsors</a>
+
+                
+            </li>
+</ul>
+<ul class="navbar-nav navbar-right"></ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        
+  <div class="container pt mb">
+    <div class="row justify-content-md-center">
+      <div class="col-sm-8">
+  <h1>
+    <a href=".">Colaborar</a>
+  </h1>
+
+  <div>
+<p>Recién estamos empezando, así que <strong>hay mucho por hacer</strong>.</p>
+<blockquote>
+<p>No sé programar o no tengo idea por dónde empezar</p>
+</blockquote>
+<p>No todas las tareas involucran código,
+correcciones ortográficas también aportan al proyecto.
+Y si no te atreves a hacer la corrección por ti misma/o,
+puedes al menos <a class="reference external" href="#reportando-errores-bugs">reportar el problema</a>.
+A continuación hemos redactado una guía para que puedas iniciar.</p>
+<div class="contents topic" id="contenidos">
+<p class="topic-title">Contenidos</p>
+<ul class="simple">
+<li>
+<p><a class="reference internal" href="#ejecutar-el-proyecto-localmente" id="id1">Ejecutar el proyecto localmente</a></p>
+<ul>
+<li><p><a class="reference internal" href="#python" id="id2">Python</a></p></li>
+<li><p><a class="reference internal" href="#obteniendo-el-proyecto" id="id3">Obteniendo el proyecto</a></p></li>
+<li><p><a class="reference internal" href="#ejecutando-el-proyecto" id="id4">Ejecutando el proyecto</a></p></li>
+<li><p><a class="reference internal" href="#ejecutando-los-tests" id="id5">Ejecutando los tests</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#reportando-errores-bugs" id="id6">Reportando errores (bugs)</a></p></li>
+<li><p><a class="reference internal" href="#buscando-tareas" id="id7">Buscando tareas</a></p></li>
+<li>
+<p><a class="reference internal" href="#realizando-cambios" id="id8">Realizando cambios</a></p>
+<ul>
+<li><p><a class="reference internal" href="#estructura-del-proyecto" id="id9">Estructura del proyecto</a></p></li>
+<li><p><a class="reference internal" href="#editar-una-pagina-incompleta" id="id10">Editar una página incompleta</a></p></li>
+<li><p><a class="reference internal" href="#crear-una-nueva-pagina" id="id11">Crear una nueva página</a></p></li>
+<li><p><a class="reference internal" href="#creando-una-nueva-seccion" id="id12">Creando una nueva sección</a></p></li>
+<li><p><a class="reference internal" href="#mi-segundo-pull-request" id="id13">Mi segundo Pull Request</a></p></li>
+</ul>
+</li>
+<li>
+<p><a class="reference internal" href="#faq" id="id14">FAQ</a></p>
+<ul>
+<li><p><a class="reference internal" href="#que-es-un-sitio-estatico" id="id15">¿Qué es un sitio estático?</a></p></li>
+<li><p><a class="reference internal" href="#por-que-no-se-hizo-un-sitio-dinamico-usando-un-framework-como-django" id="id16">¿Por qué no se hizo un sitio dinámico usando un framework como Django?</a></p></li>
+<li><p><a class="reference internal" href="#por-que-se-uso-nikola" id="id17">¿Por qué se usó Nikola?</a></p></li>
+<li><p><a class="reference internal" href="#por-que-no-usamos-las-rama-master" id="id18">¿Por qué no usamos las rama <code class="docutils literal">master</code>?</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>Si tienes dudas y/o problemas mientras sigues los pasos,
+no dudes en preguntar en <a class="reference external" href="https://t.me/pythonecuador">nuestro canal de Telegram</a>.</p>
+<div class="section" id="ejecutar-el-proyecto-localmente">
+<h2><a class="toc-backref" href="#id1">Ejecutar el proyecto localmente</a></h2>
+<div class="section" id="python">
+<h3><a class="toc-backref" href="#id2">Python</a></h3>
+<p>Este proyecto usa Python 3, puedes descargarlo desde <a class="reference external" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>.
+Para verificar que tienes Python 3 en tu sistema ejecuta el siguiente comando en una terminal
+(ventana de comandos):</p>
+<pre class="code console"><a name="rest_code_b72bbb0bb8124b4bbbe0d6af6ca64ad8-1"></a><span class="gp">$</span> python --version
+<a name="rest_code_b72bbb0bb8124b4bbbe0d6af6ca64ad8-2"></a><span class="go">Python 3.6.5</span>
+</pre>
+<p>Si el comando anterior no funcionó en Windows puedes intentar:</p>
+<pre class="code console"><a name="rest_code_4f7a9f2540e444b08b888fbae058c090-1"></a><span class="gp">&gt;</span> py --version
+<a name="rest_code_4f7a9f2540e444b08b888fbae058c090-2"></a><span class="go">Python 3.6.5</span>
+</pre>
+<p>Si la salida del comando es diferente, no te preocupes, sólo debes asegurarte que el primer número sea un <code class="docutils literal">3</code>.
+En caso que la salida haya sido algo como <code class="docutils literal">2.7.14</code>, intenta con el comando <code class="docutils literal">python3 <span class="pre">--version</span></code>.</p>
+<p>En caso que ambos comandos te den un error o no sea la versión adecuada,
+asegúrate que Python esté en tu <code class="docutils literal">PATH</code> o instala la versión adecuada.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>En los pasos siguientes usaremos el comando <code class="docutils literal">python</code>,
+si el resultado de los pasos anteriores tuviste éxito haciéndolo con <code class="docutils literal">python3</code>,
+debes usar ese comando.</p>
+</div>
+</div>
+<div class="section" id="obteniendo-el-proyecto">
+<h3><a class="toc-backref" href="#id3">Obteniendo el proyecto</a></h3>
+<p>El proyecto está bajo el sistema de control de versiones Git y alojado en GitHub,
+puedes descargar Git desde <a class="reference external" href="https://git-scm.com/download">https://git-scm.com/download</a> , o seguir nuestra <a class="reference external" href="../git">guía de instalación de Git</a>. Para verificar que tienes Git en tu sistema ejecuta el siguiente comando en una terminal
+(ventana de comandos):</p>
+<pre class="code bash"><a name="rest_code_6667c17f52cb4ecead2b71fd4dceede6-1"></a>$ git --version
+<a name="rest_code_6667c17f52cb4ecead2b71fd4dceede6-2"></a>git version <span class="m">2</span>.17.1
+</pre>
+<p>Luego de instalar Git se debe configurar el usuario y el correo electrónico con
+los siguientes comandos:</p>
+<pre class="code bash"><a name="rest_code_f5eb496889cb48b6ae1fd8f886714290-1"></a>git config --global user.name <span class="s2">"Juanito Perez"</span>
+<a name="rest_code_f5eb496889cb48b6ae1fd8f886714290-2"></a>git config --global user.email <span class="s2">"juanito@perez.com"</span>
+</pre>
+<p>Debes tener una cuenta en <a class="reference external" href="https://github.com/">GitHub</a>, inicia sesión,
+dirígete al <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io">proyecto de Python Ecuador</a>
+y puedes darle una estrellita al <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io">repositorio</a>.</p>
+<img alt="/images/guias/colaborar/estrellita.png" class="align-center" src="../../images/guias/colaborar/estrellita.png"><div class="line-block">
+<div class="line"><br></div>
+</div>
+<p>Y luego presionar el botón <code class="docutils literal">Fork</code> para hacer un fork del proyecto en tu cuenta.</p>
+<img alt="/images/guias/colaborar/fork.png" class="align-center" src="../../images/guias/colaborar/fork.png"><p>Ejecuta el siguiente comando en una terminal para obtener el código.
+Donde <code class="docutils literal"><span class="pre">{tu-usuario}</span></code> es tu usuario de GitHub.</p>
+<pre class="code bash"><a name="rest_code_02934a41f1f2421a940b32f3c4b4d4f5-1"></a>git clone https://github.com/<span class="o">{</span>tu-usuario<span class="o">}</span>/PythonEcuador.github.io.git
+</pre>
+<p>Por ejemplo, para el usuario <code class="docutils literal">Marlon5300</code>:</p>
+<pre class="code bash"><a name="rest_code_85f48137a07f48f6954659bdaff613b0-1"></a>git clone https://github.com/Marlon5300/PythonEcuador.github.io.git
+</pre>
+<p>Entra al directorio que contiene el código fuente con</p>
+<pre class="code bash"><a name="rest_code_cf49f8a7b03f498e93c0042a2f6fe5a3-1"></a><span class="nb">cd</span> PythonEcuador.github.io
+</pre>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>El desarrollo se lleva a cabo sobre la rama <code class="docutils literal">src</code>.
+Por defecto tu repositorio debe estar en esta rama.
+Si tienes dudas ejecuta:</p>
+<pre class="code bash"><a name="rest_code_14ca8c05d43042c084bb99f929194f06-1"></a>git checkout src
+</pre>
+</div>
+</div>
+<div class="section" id="ejecutando-el-proyecto">
+<h3><a class="toc-backref" href="#id4">Ejecutando el proyecto</a></h3>
+<p>El sitio está construido usando <a class="reference external" href="https://getnikola.com">Nikola</a>
+(no es necesario que sepas usarlo para empezar a colaborar en el proyecto).</p>
+<p>Crea un entorno virtual para instalar las dependencias de Python
+(este paso debes hacerlo sólo una vez):</p>
+<pre class="code bash"><a name="rest_code_921ff085695a4dadb4bb389654a653fa-1"></a>python -m venv venv
+</pre>
+<p>Con ese comando acabamos de crear un entorno virtual llamado <code class="docutils literal">venv</code>.
+Puedes leer más sobre los entornos virtuales de Python en <a class="reference external" href="https://docs.python.org/3/library/venv.html">https://docs.python.org/3/library/venv.html</a>.</p>
+<p>Ahora necesitamos activar el entorno virtual
+(este paso debes hacerlo cada vez que abras una nuevo terminal):</p>
+<pre class="code bash"><a name="rest_code_ecbabb2b67ad4330b80fa4012d5f99f5-1"></a><span class="c1"># Para sistemas Linux y Mac</span>
+<a name="rest_code_ecbabb2b67ad4330b80fa4012d5f99f5-2"></a><span class="nb">source</span> venv/bin/activate
+<a name="rest_code_ecbabb2b67ad4330b80fa4012d5f99f5-3"></a>
+<a name="rest_code_ecbabb2b67ad4330b80fa4012d5f99f5-4"></a><span class="c1"># Para sistemas Windows</span>
+<a name="rest_code_ecbabb2b67ad4330b80fa4012d5f99f5-5"></a>venv<span class="se">\S</span>cripts<span class="se">\a</span>ctivate
+<a name="rest_code_ecbabb2b67ad4330b80fa4012d5f99f5-6"></a>
+<a name="rest_code_ecbabb2b67ad4330b80fa4012d5f99f5-7"></a><span class="c1"># Para sistemas Windows, usando Git bash</span>
+<a name="rest_code_ecbabb2b67ad4330b80fa4012d5f99f5-8"></a>venv/Scripts/activate
+<a name="rest_code_ecbabb2b67ad4330b80fa4012d5f99f5-9"></a>
+<a name="rest_code_ecbabb2b67ad4330b80fa4012d5f99f5-10"></a><span class="c1"># Si el comando anterior no funciona puedes probar:</span>
+<a name="rest_code_ecbabb2b67ad4330b80fa4012d5f99f5-11"></a><span class="nb">source</span> venv/Scripts/activate
+</pre>
+<p>Ahora ya podemos instalar Nikola y otras dependencias:</p>
+<pre class="code bash"><a name="rest_code_9ce2f516227a497195500ab352b3fc87-1"></a>pip install -U pip setuptools wheel
+<a name="rest_code_9ce2f516227a497195500ab352b3fc87-2"></a>pip install -r requirements.txt
+</pre>
+<p>Finalmente, para ejecutar el sitio con Nikola</p>
+<pre class="code bash"><a name="rest_code_fcb8fb25d3194cc7b03d870fc9678938-1"></a>nikola build
+<a name="rest_code_fcb8fb25d3194cc7b03d870fc9678938-2"></a>nikola serve
+</pre>
+<p>Si abres tu navegador e ingresas a <a class="reference external" href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a> podrás ver el sitio.</p>
+</div>
+<div class="section" id="ejecutando-los-tests">
+<h3><a class="toc-backref" href="#id5">Ejecutando los tests</a></h3>
+<p>Para ejecutar las pruebas instalamos <a class="reference external" href="https://nox.thea.codes/en/stable/">nox</a> en el entorno virtual creado, con el siguiente comando.</p>
+<pre class="code bash"><a name="rest_code_3675326d079d42039b6a3a95eaa22781-1"></a>pip install nox
+</pre>
+<p>Usamos el comando nox para ejecutar las pruebas configuradas en el archivo <code class="docutils literal">noxfile.py</code> del proyecto.</p>
+<pre class="code bash"><a name="rest_code_101bb3f32fae41279113c7d2bb09d04b-1"></a>nox
+</pre>
+</div>
+</div>
+<div class="section" id="reportando-errores-bugs">
+<h2><a class="toc-backref" href="#id6">Reportando errores (bugs)</a></h2>
+<p>GitHub usa <code class="docutils literal">issues</code> para dar seguimiento a tareas y reportar bugs.
+Si encuentras un error o tienes una idea para mejorar el sitio,
+<a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/issues/new/choose">crea un nuevo issue</a>
+describiendo el bug/mejora.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Asegúrate que el bug no haya sido reportado antes o que ya exista una idea similar.
+Busca en los <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/issues">issues ya creados</a>.</p>
+</div>
+</div>
+<div class="section" id="buscando-tareas">
+<h2><a class="toc-backref" href="#id7">Buscando tareas</a></h2>
+<p>Puedes mirar en los <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/issues">issues abiertos</a>
+para buscar tareas por hacer.
+Los issues contienen etiquetas (<a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels">labels</a>)
+para clasificarlos por complejidad y/o tipo.</p>
+<img alt="/images/guias/colaborar/search_issue.png" class="align-center" src="../../images/guias/colaborar/search_issue.png"><div class="line-block">
+<div class="line"><br></div>
+</div>
+<dl class="simple">
+<dt><a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/good%20first%20issue">good first issue</a></dt>
+<dd>
+<p>Tareas de complejidad fácil que te ayudarán a familiarizarte con el proyecto.</p>
+</dd>
+<dt>
+<a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/bug">bug</a>, <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/enhancement">enhancement</a>
+</dt>
+<dd>
+<p>Si ya resolviste suficientes tareas fáciles y quieres pasar al siguiente nivel.</p>
+</dd>
+<dt><a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/decision%20needed">decision needed</a></dt>
+<dd>
+<p>Indica que hace falta tomar una decisión para resolver el problema.</p>
+</dd>
+<dt><a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/design">design</a></dt>
+<dd>
+<p>Si lo tuyo es el diseño gráfico o web.</p>
+</dd>
+<dt><a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/help%20wanted">help wanted</a></dt>
+<dd>
+<p>Indica que uno de los administradores busca ayuda en un issue o pull request</p>
+</dd>
+<dt><a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/ready">ready</a></dt>
+<dd>
+<p>Indica que el issue esta listo</p>
+</dd>
+<dt><a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/wip">wip</a></dt>
+<dd>
+<p>Indica que el issue está en progreso (Work in Progress)</p>
+</dd>
+<dt><a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/wontfix">wontfix</a></dt>
+<dd>
+<p>Indica que el trabajo no va a continuar en un issue o pull request</p>
+</dd>
+<dt><a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/labels/sponsor">sponsor</a></dt>
+<dd>
+<p>Indica que se debe agregar un nuevo sponsor mediante pull request</p>
+</dd>
+</dl>
+<p>También puedes ayudar <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/pulls">revisando pull requests</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<ul class="simple">
+<li><p>Siempre asegúrate que alguien más ya no esté haciendo la tarea, así no gastamos esfuerzos.</p></li>
+<li><p>Si el issue no ha sido resuelto en un tiempo prudente siéntete libre de tomarlo.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="realizando-cambios">
+<h2><a class="toc-backref" href="#id8">Realizando cambios</a></h2>
+<p>Una vez que tengas un issue con cual trabajar.
+Crea una nueva rama con un nombre relacionado al issue que estás resolviendo.
+<cite>arregla-issue-13</cite> es el nombre de la rama usada en este ejemplo.</p>
+<pre class="code bash"><a name="rest_code_17847cfde717457e9ba90abf42d1b3f1-1"></a>git checkout -b arregla-issue-13
+</pre>
+<p>Haz los cambios que sean pertinentes para resolver el issue.
+Puedes ver los cambios en tu navegador mientras editas los archivos con el siguiente comando</p>
+<pre class="code bash"><a name="rest_code_8a15f7ba76e840a7bfaf68452d7e66d7-1"></a>nikola auto
+</pre>
+<p>Para visualizar los archivos modificados y el estado del area de trabajo usa el siguiente comando.</p>
+<pre class="code bash"><a name="rest_code_89eee665e3b84c0c81a9d81dc795a234-1"></a>git status
+</pre>
+<p>Trata de hacer un commit por cada bloque de cambios relacionados que hagas</p>
+<pre class="code bash"><a name="rest_code_a66486fb3cd14f4688998163838f3fe8-1"></a>git add archivo-editado.rst
+<a name="rest_code_a66486fb3cd14f4688998163838f3fe8-2"></a>git commit -m <span class="s2">"Arreglada falta ortográfica"</span>
+</pre>
+<div class="admonition tip">
+<p class="admonition-title">Consejo</p>
+<p>En caso de redactar textos largos o simplemente necesitar una revisión ortográfica puedes utilizar la herramienta <a class="reference external" href="https://languagetool.org/">LanguageTool</a>.</p>
+</div>
+<p>Una vez que hayas hechos todos los cambios necesarios, súbelos a tu fork</p>
+<pre class="code bash"><a name="rest_code_00a0d5cde5fb4734a1e0a4fb2515f541-1"></a>git push -u origin arregla-issue-13
+</pre>
+<p>Dirígete a la <a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io">página del proyecto</a>
+y verás un mensaje sugiriéndote hacer un pull request (PR).
+En la descripción del PR describe brevemente los cambios que hiciste, no olvidar poner <code class="docutils literal">Close #n</code>, donde <code class="docutils literal">n</code> es el número del issue que estás resolviendo.</p>
+<p>Espera a que un miembro de la comunidad revise tu PR,
+si son necesarios más cambios, los puedes hacer en la misma rama
+y repetir el proceso de agregar más commits.</p>
+<pre class="code bash"><a name="rest_code_bc9d942eb8e04f8bba79de16989a7c74-1"></a>git add archivo-editado.rst
+<a name="rest_code_bc9d942eb8e04f8bba79de16989a7c74-2"></a>git commit -m <span class="s2">"Más cambios"</span>
+</pre>
+<p>Una vez que ya los tengas listos, vuelve a subirlos</p>
+<pre class="code bash"><a name="rest_code_7b940fe4b2dc4d139570b6c17bd0f9f4-1"></a>git push
+</pre>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Tus cambios serán actualizados en el PR que ya abriste inicialmente.
+Así que no es necesario que vuelvas a abrir otro.</p>
+</div>
+<p>Si no son necesarios más cambios y tu PR es aprobada,
+sólo debes esperar a que un miembro de la comunidad haga un merge.</p>
+<div class="section" id="estructura-del-proyecto">
+<h3><a class="toc-backref" href="#id9">Estructura del proyecto</a></h3>
+<dl class="simple">
+<dt>files/</dt>
+<dd>
+<p>Archivos generales del sitio</p>
+</dd>
+<dt>pages/</dt>
+<dd>
+<p>Aquí están todas las páginas del sitio</p>
+</dd>
+<dt>posts/</dt>
+<dd>
+<p>Posts del sitio</p>
+</dd>
+<dt>themes/custom/</dt>
+<dd>
+<p>Tema personalizado del sitio</p>
+</dd>
+<dt>themes/custom/assets/</dt>
+<dd>
+<p>JavaScript, CSS, etc</p>
+</dd>
+<dt>themes/custom/templates/</dt>
+<dd>
+<p>Aquí están los templates; son archivos parecidos a html reutilizables</p>
+</dd>
+<dt>conf.py</dt>
+<dd>
+<p>En este archivo están las configuraciones del sitio</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="editar-una-pagina-incompleta">
+<h3><a class="toc-backref" href="#id10">Editar una página incompleta</a></h3>
+<p>Si te topaste con una página con el título <em>¡Esta sección necesita de tu ayuda!</em>,
+para empezar a editarla debes localizar la página (se encuentran en el directorio <code class="docutils literal">pages/</code>)
+cada archivo corresponde a la URL de la página, por ejemplo si la página es <code class="docutils literal">www.python.ec/eventos</code>
+el archivo a editar se encontrará en <code class="docutils literal">pages/eventos.rst</code>.
+Los archivos están escritos en <a class="reference external" href="http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html">reStructuredText</a>. Tenemos un <a class="reference external" href="../rst">minitutorial de reStructuredText</a> que puedes seguir <a class="reference external" href="../rst">aquí</a>.</p>
+<blockquote>
+<p>¡Pero ahí no está toda la página que vi en el navegador!</p>
+</blockquote>
+<p>Ya vamos a esa parte.</p>
+<p>Como podrás notar, al principio del archivo, se encuentran metadatos. Como:</p>
+<ul class="simple">
+<li><p><code class="docutils literal">title</code>: El título de la página</p></li>
+<li><p><code class="docutils literal">slug</code>: El path del URL</p></li>
+<li><p><code class="docutils literal">template</code>: El template a ser usado para la página</p></li>
+</ul>
+<p>Existen otros, pero esos son los más relevantes, sobre todo el de template.
+Por defecto estará en <code class="docutils literal">ayuda.tmpl</code>, tu primer paso será cambiarlo por <code class="docutils literal">pagina.tmpl</code>.
+Estos templates contienen el contenido base de la página (se encuentran en <code class="docutils literal">themes/custom/templates/</code>).
+Y los archivos <code class="docutils literal">.rst</code> sólo contienen el texto principal.</p>
+<p>Ahora sólo necesitas editar el archivo <code class="docutils literal">.rst</code> ¡y listo!</p>
+</div>
+<div class="section" id="crear-una-nueva-pagina">
+<h3><a class="toc-backref" href="#id11">Crear una nueva página</a></h3>
+<p>Crea un archvivo <code class="docutils literal">.rst</code> dentro del directorio <code class="docutils literal">pages/</code> utiliza guiones medios para separar las palabras, guíate de las otras páginas para escribir los metadatos al principio del archivo o puedes simplemente copiar y pegar una página ya existente, edítala ¡y listo!</p>
+</div>
+<div class="section" id="creando-una-nueva-seccion">
+<h3><a class="toc-backref" href="#id12">Creando una nueva sección</a></h3>
+<p>Pronto</p>
+</div>
+<div class="section" id="mi-segundo-pull-request">
+<h3><a class="toc-backref" href="#id13">Mi segundo Pull Request</a></h3>
+<p>¿Ya por el segundo? ¡Felicitaciones!
+Antes de enviar tu segundo pull request,
+debes hacer un par de pasos para igualar tu fork con los últimos cambios del repositorio.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Asegúrate de repetir este proceso antes de tomar una nueva tarea.</p>
+</div>
+<p>Primero debemos cambiarnos nuevamente a la rama principal (<code class="docutils literal">src</code>).</p>
+<pre class="code bash"><a name="rest_code_258ff2dda95e43e6ba0e46033dd14aed-1"></a>git checkout src
+</pre>
+<p>Asegúrate que no tengas cambios residuales de tu anterior PR
+antes de proceder con los siguientes pasos
+(puedes usar <code class="docutils literal">git status</code> para comprobarlo).</p>
+<p>Necesitaremos hacerle saber a git del repo principal con el siguiente comando.</p>
+<pre class="code bash"><a name="rest_code_14c8c7ea5b6645a9a11a5079f0647eea-1"></a>git remote add upstream https://github.com/PythonEcuador/PythonEcuador.github.io.git
+</pre>
+<p>Podemos comprobar que se añadio el repo principal con:</p>
+<pre class="code bash"><a name="rest_code_3fb17238fc374c5a84c07e5a256b7a71-1"></a>git remote -v
+</pre>
+<div class="line-block">
+<div class="line"><br></div>
+</div>
+<img alt="/images/guias/colaborar/listar_remotos.png" class="align-center" src="../../images/guias/colaborar/listar_remotos.png"><p>Ahora ya podemos bajarnos los últimos cambios del repo principal.</p>
+<pre class="code bash"><a name="rest_code_7434df29ea204732b95da8fd8de20532-1"></a>git pull upstream src
+</pre>
+<div class="line-block">
+<div class="line"><br></div>
+</div>
+<img alt="/images/guias/colaborar/pull_upstream.png" class="align-center" src="../../images/guias/colaborar/pull_upstream.png"><p>Y los subimos a nuestro fork</p>
+<pre class="code bash"><a name="rest_code_820259129e794690a6c3ccecfc984a7d-1"></a>git push origin src
+</pre>
+<div class="line-block">
+<div class="line"><br></div>
+</div>
+<img alt="/images/guias/colaborar/push_origin_src.png" class="align-center" src="../../images/guias/colaborar/push_origin_src.png"><p>Ahora si, puedes seguir los pasos indicados <a class="reference external" href="#realizando-cambios">arriba</a>
+para continuar con tu próximo pull request.</p>
+</div>
+</div>
+<div class="section" id="faq">
+<h2><a class="toc-backref" href="#id14">FAQ</a></h2>
+<div class="section" id="que-es-un-sitio-estatico">
+<h3><a class="toc-backref" href="#id15">¿Qué es un sitio estático?</a></h3>
+<p>Es un sitio con contenido que nunca cambia,
+a diferencia de un sitio dinámico dónde el contenido cambia con interacciones de los usuarios.</p>
+</div>
+<div class="section" id="por-que-no-se-hizo-un-sitio-dinamico-usando-un-framework-como-django">
+<h3><a class="toc-backref" href="#id16">¿Por qué no se hizo un sitio dinámico usando un framework como Django?</a></h3>
+<p>Un sitio estático no requiere de un servidor ni de mucho esfuerzo para desplegar.
+Puede ser alojado en GitHub Pages sin ningún costo.
+Es totalmente escalable y configurable.</p>
+</div>
+<div class="section" id="por-que-se-uso-nikola">
+<h3><a class="toc-backref" href="#id17">¿Por qué se usó Nikola?</a></h3>
+<p>Se hizo una pequeña votación antes de empezar con el desarrollo del sitio en
+<a class="reference external" href="https://github.com/PythonEcuador/PythonEcuador.github.io/issues/2">#2</a>.</p>
+</div>
+<div class="section" id="por-que-no-usamos-las-rama-master">
+<h3><a class="toc-backref" href="#id18">¿Por qué no usamos las rama <code class="docutils literal">master</code>?</a></h3>
+<p>El sitio está alojado en GitHub Pages,
+por lo que se requiere que en la rama <code class="docutils literal">master</code>
+estén los archivos finales a ser servidos (los archivos <code class="docutils literal">html</code> resultado de hacer <code class="docutils literal">nikola build</code>).
+Por ello el desarrollo con los archivos <code class="docutils literal">rst</code> se lleva a cabo en la rama <code class="docutils literal">src</code>,
+y los archivos <em>compilados</em> se encuentran en <code class="docutils literal">master</code>.</p>
+</div>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+        <!--End of body content-->
+
+        <footer id="footer"><div class="container">
+    <div class="row text-center">
+        <div class="col">
+            <strong>Síguenos y forma parte de nuestra comunidad</strong>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <ul class="list-inline social text-center">
+<li class="list-inline-item"><a href="https://www.facebook.com/pyecuador/"><i class="fa fa-facebook"></i></a></li>
+                <li class="list-inline-item">
+<a href="https://www.meetup.com/es-ES/python-ecuador/"><i class="fa fa-meetup"></i></a>
+                </li>
+<li class="list-inline-item"><a href="https://github.com/PythonEcuador"><i class="fa fa-github"></i></a></li>
+                <li class="list-inline-item"><a href="https://t.me/pythonecuador"><i class="fa fa-telegram"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/pyecuador"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+</div>
+        
+    </div>
+    <div class="row text-center">
+        <div class="col">
+            <p>Comunidad Python Ecuador</p>
+            <small>© 2020 Todos los derechos reservados.</small>
+            <p>
+                <small>
+                    ¿Encontraste un error?
+                    <a href="https://python.ec/guias/colaborar/#reportando-errores-bugs">¡Repórtalo!</a>
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+
+            
+        </footer>
+</div>
+</div>
+
+        <script src="../../assets/js/all-nocdn.js"></script><script>
+    baguetteBox.run('div#content', {
+        ignoreClass: 'islink',
+        captions: function(element) {
+            return element.getElementsByTagName('img')[0].alt;
+    }});
+    </script>
+</body>
+</html>

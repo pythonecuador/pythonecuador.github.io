@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python Ecuador (Publicaciones sobre sorteo)</title><link>https://python.ec/</link><description></description><atom:link href="https://python.ec/categories/sorteo.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2020 &lt;a href="mailto:ecuadorpython@gmail.com"&gt;Python Ecuador&lt;/a&gt; GNU v3.0</copyright><lastBuildDate>Tue, 22 Dec 2020 01:20:20 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Sorteo - Entradas a XConf</title><link>https://python.ec/posts/sorteo-xconf/</link><dc:creator>Santos Gallegos</dc:creator><description>&lt;div&gt;&lt;img alt="/images/posts/xconf/xconf.jpg" class="align-center" src="https://python.ec/images/posts/xconf/xconf.jpg"&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Gracias a &lt;a class="reference external" href="https://www.thoughtworks.com/"&gt;Thoughtworks&lt;/a&gt;,
+tenemos &lt;strong&gt;dos entradas&lt;/strong&gt; disponibles para la conferencia &lt;a class="reference external" href="https://www.thoughtworks.com/xconf-america-latina-2019"&gt;XConf&lt;/a&gt;,
+la cual se realizará en &lt;strong&gt;Quito el Sábado, 14 de septiembre 2019&lt;/strong&gt; en Ciepal desde las 08:00 am.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;XConf es una conferencia de tecnología para personas apasionadas que están
+interesadas profundamente en el desarrollo de software y en conocer cómo puede
+la tecnología cambiar el mundo y la sociedad. En esta ocasión es el 3er año que
+ThoughtWorks XConf tendrá sede en Quito - Ecuador.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Para participar en el sorteo debes llenar &lt;a class="reference external" href="https://forms.gle/damjijn6HhX9FYUq7"&gt;este formulario&lt;/a&gt;.
+El formulario estará abierto &lt;strong&gt;hasta el 30 de Agosto&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;La dos personas ganadoras serán seleccionadas entre varios miembros de la comunidad,
+procurando ser &lt;strong&gt;objetivos y diversos&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;La selección será en base a las respuestas.
+Para tener más posibilidades de ganar,
+&lt;strong&gt;responde con honestidad todas las preguntas&lt;/strong&gt;,
+cuéntanos lo que te apasiona.&lt;/p&gt;
+&lt;p&gt;Las personas ganadoras serán dadas a conocer el día &lt;strong&gt;Lunes, 2 de Septiembre&lt;/strong&gt;.
+Debes &lt;strong&gt;confirmar tu asistencia lo más pronto posible&lt;/strong&gt; o la entrada será dada a otra persona&lt;/p&gt;
+&lt;p&gt;Si cuentas con los recursos para comprar la entrada,
+puedes obtener un &lt;strong&gt;15% de descuento&lt;/strong&gt; usando el código: &lt;code class="docutils literal"&gt;COMUNIDADXCONF&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Nota&lt;/p&gt;
+&lt;p&gt;El sorteo sólo incluye las entradas.
+Transporte, hospedaje u otro tipo de gastos
+deben ser cubiertos por las personas ganadoras.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Para estar al tanto de más sorteos, eventos y noticias sobre la comunidad,
+únete a nuestro grupo de &lt;a class="reference external" href="https://t.me/pythonecuador"&gt;telegram&lt;/a&gt; y
+síguenos en &lt;a class="reference external" href="https://twitter.com/pyecuador"&gt;Twitter&lt;/a&gt;, &lt;a class="reference external" href="https://www.facebook.com/pyecuador/"&gt;Facebook&lt;/a&gt;
+y &lt;a class="reference external" href="https://python.ec/nuestra-comunidad"&gt;más&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>sorteo</category><category>xconf</category><guid>https://python.ec/posts/sorteo-xconf/</guid><pubDate>Fri, 16 Aug 2019 05:00:00 GMT</pubDate></item></channel></rss>
