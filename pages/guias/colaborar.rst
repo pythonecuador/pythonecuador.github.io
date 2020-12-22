@@ -2,8 +2,6 @@
 .. slug: colaborar
 .. tags:
 .. category:
-.. link:
-.. description:
 .. type: text
 .. template: pagina.tmpl
 
@@ -112,13 +110,13 @@ Entra al directorio que contiene el código fuente con
 
 .. note::
 
-   El desarrollo se lleva a cabo sobre la rama ``src``.
+   El desarrollo se lleva a cabo sobre la rama ``main``.
    Por defecto tu repositorio debe estar en esta rama.
    Si tienes dudas ejecuta:
 
    .. code:: bash
 
-      git checkout src
+      git checkout main
 
 Ejecutando el proyecto
 ######################
@@ -149,7 +147,7 @@ Ahora necesitamos activar el entorno virtual
 
    # Para sistemas Windows, usando Git bash
    venv/Scripts/activate
-   
+
    # Si el comando anterior no funciona puedes probar:
    source venv/Scripts/activate
 
@@ -383,12 +381,12 @@ debes hacer un par de pasos para igualar tu fork con los últimos cambios del re
 
    Asegúrate de repetir este proceso antes de tomar una nueva tarea.
 
-Primero debemos cambiarnos nuevamente a la rama principal (``src``).
+Primero debemos cambiarnos nuevamente a la rama principal (``main``).
 
 
 .. code:: bash
 
-   git checkout src
+   git checkout main
 
 Asegúrate que no tengas cambios residuales de tu anterior PR
 antes de proceder con los siguientes pasos
@@ -415,7 +413,7 @@ Ahora ya podemos bajarnos los últimos cambios del repo principal.
 
 .. code:: bash
 
-   git pull upstream src
+   git pull upstream main
 
 |
 
@@ -426,7 +424,7 @@ Y los subimos a nuestro fork
 
 .. code:: bash
 
-   git push origin src
+   git push origin main
 
 |
 
@@ -457,12 +455,3 @@ Es totalmente escalable y configurable.
 
 Se hizo una pequeña votación antes de empezar con el desarrollo del sitio en
 `#2 <https://github.com/PythonEcuador/PythonEcuador.github.io/issues/2>`__.
-
-¿Por qué no usamos las rama ``master``?
-#######################################
-
-El sitio está alojado en GitHub Pages,
-por lo que se requiere que en la rama ``master``
-estén los archivos finales a ser servidos (los archivos ``html`` resultado de hacer ``nikola build``).
-Por ello el desarrollo con los archivos ``rst`` se lleva a cabo en la rama ``src``,
-y los archivos *compilados* se encuentran en ``master``.

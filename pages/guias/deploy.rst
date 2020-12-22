@@ -11,7 +11,7 @@
 .. note::
 
    Los deploys ahora se realizan de manera automática, cada vez que se realiza un merge
-   de un commit a la rama principal (src).
+   de un commit a la rama principal (main).
 
 En esta guía aprenderemos a desplegar el sitio a producción usando `Nikola <https://getnikola.com>`__.
 
@@ -38,9 +38,9 @@ Desplegar
 
 Tenemos un archivo make para facilitar el deploy, úsalo. Asegúrate que:
 
-#. Estés en la rama adecuada (``git checkout src``)
+#. Estés en la rama adecuada (``git checkout main``)
 #. No tengas cambios locales (``git status`` debe estar limpio)
-#. Tengas los últimos cambios del repositorio (``git pull origin src``)
+#. Tengas los últimos cambios del repositorio (``git pull origin main``)
 #. El sitio está funcional
 
 Para desplegar el sitio, usamos el comando ``make deploy``.
