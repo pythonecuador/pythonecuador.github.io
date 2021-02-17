@@ -15,13 +15,23 @@ Sponsors recurrentes
 
 Lista de sponsors que nos ayudan de manera recurrente:
 
+.. class:: sponsor
+
+.. figure:: /images/sponsors/veronica.png
+   :alt: Verónica API
+   :height: 200px
+   :target: https://veronica.ec/
+
+   `Verónica API <https://veronica.ec/>`__ | 2 años de renovación de nuestro dominio.
+
+.. class:: sponsor
+
 .. figure:: /images/sponsors/jetbrains.png
    :alt: JetBrains
-   :width: 200
-   :align: center
+   :height: 200px
    :target: https://www.jetbrains.com/
 
-   `JetBrains <https://www.jetbrains.com/>`__, licencias en cada evento
+   `JetBrains <https://www.jetbrains.com/>`__ | licencias en cada evento.
 
 Sponsors no recurrentes
 -----------------------
