@@ -4,7 +4,8 @@ ingresos:
     responsables:
       - Santos Gallegos
     descripcion:
-      Donación de sponsor Verónica para la renovación por dos años del dominio python.ec
+      Donación de sponsor Verónica para la renovación por dos años del dominio
+      python.ec
   - fecha: 02/19/2021
     cantidad: -70
     responsables:
