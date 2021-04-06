@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python Ecuador (Publicaciones sobre donaciones)</title><link>https://python.ec/</link><description></description><atom:link href="https://python.ec/categories/donaciones.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2021 &lt;a href="mailto:ecuadorpython@gmail.com"&gt;Python Ecuador&lt;/a&gt; GNU v3.0</copyright><lastBuildDate>Tue, 06 Apr 2021 00:40:48 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Donaciones más transparentes con Open Collective</title><link>https://python.ec/posts/open-collective/</link><dc:creator>Santos Gallegos</dc:creator><description>&lt;div&gt;&lt;img alt="/images/posts/opencollective/opencollectivelogo.png" class="align-center" src="https://python.ec/images/posts/opencollective/opencollectivelogo.png"&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;El manejo del dinero en comunidades siempre es algo difícil,
+en especial hacerlo de manera transparente y que escale.&lt;/p&gt;
+&lt;p&gt;Estamos felíces de anunciar que hemos sido aprobados por &lt;a class="reference external" href="https://opencollective.com/"&gt;Open Collective&lt;/a&gt;
+para hacer uso de su plataforma para recibir y administrar donaciones.
+Ahora podrás aportar económicamente a la comunidad de una manera más fácil y transparente
+desde &lt;a class="reference external" href="https://opencollective.com/pythonecuador/"&gt;https://opencollective.com/pythonecuador/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hasta ahora la administración de las donaciones había sido un &lt;a class="reference external" href="https://github.com/pythonecuador/pythonecuador.github.io/tree/main/data/ingresos-egresos"&gt;proceso manual&lt;/a&gt;,
+y con el dinero exparsido en varias personas de la comunidad.
+El 100% del dinero recaudado siempre será usado para la comunidad, en especial:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Renovación del dominio y herramientas para adnistrar la comunidad (como Bitwarden)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://python.ec/eventos"&gt;Organización y difusión de eventos&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://python.ec/becas"&gt;Becas&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="admonition-title"&gt;Nota&lt;/p&gt;
+&lt;p&gt;Open Collective cobra una comisión del 5%.
+Cuando sea posible, se preferirá un pago directo hacia el servicio que desees donar,
+como la renovación del dominio.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Si tienes preguntas sobre el manejo del dinero ¡No dudes en escribirnos a &lt;a class="reference external" href="mailto:ecuadorpython@gmail.com"&gt;ecuadorpython@gmail.com&lt;/a&gt;!&lt;/p&gt;&lt;/div&gt;</description><category>comunidad</category><category>donaciones</category><guid>https://python.ec/posts/open-collective/</guid><pubDate>Mon, 05 Apr 2021 05:00:00 GMT</pubDate></item></channel></rss>
