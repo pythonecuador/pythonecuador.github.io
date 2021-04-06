@@ -12,16 +12,16 @@
 El manejo del dinero en comunidades siempre es algo difícil,
 en especial hacerlo de manera transparente y que escale.
 
-Estamos felíces de anunciar que hemos sido aprobados por `Open Collective`_
+Estamos felices de anunciar que hemos sido aprobados por `Open Collective`_
 para hacer uso de su plataforma para recibir y administrar donaciones.
 Ahora podrás aportar económicamente a la comunidad de una manera más fácil y transparente
 desde https://opencollective.com/pythonecuador/.
 
 Hasta ahora la administración de las donaciones había sido un `proceso manual`_,
-y con el dinero exparsido en varias personas de la comunidad.
+y con el dinero esparcido en varias personas de la comunidad.
 El 100% del dinero recaudado siempre será usado para la comunidad, en especial:
 
-- Renovación del dominio y herramientas para adnistrar la comunidad (como Bitwarden)
+- Renovación del dominio y herramientas para administrar la comunidad (como Bitwarden)
 - `Organización y difusión de eventos <link://filename/pages/eventos/index.rst>`__
 - `Becas <link://filename/pages/becas.rst>`__
 
