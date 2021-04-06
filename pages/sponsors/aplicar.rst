@@ -155,24 +155,22 @@ de esa manera pueden asistir a eventos de otras ciudades.
 Además parte del dinero será usado en material para promocionar los eventos, como:
 anuncios en redes sociales, materiales impresos, etc.
 
-¿Cómo compruebo que mi dinero es usado correctamente?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Tendrás acceso a una hoja de cálculo de solo lectura donde podrás ver las transacciones
-y una carpeta en Google Drive de sólo lectura con pruebas de esas transacciones.
-
 ¿Cómo puedo hacer llegar el dinero?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Por ahora puedes hacerlo en efectivo a alguno de nuestros miembros organizadores,
-si el monto es muy grande o cuando empecemos a recibir más sponsors,
-podrás realizar una transferencia bancaria en la cuenta de un miembro de confianza,
-luego trabajaremos en crear una cuenta bancaria dedicada.
+Puedes realizar tu donación a través de Open Collective en https://opencollective.com/pythonecuador.
+
+¿Cómo compruebo que mi dinero es usado correctamente?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+El dinero de las donaciones es administrado via Open Collective https://opencollective.com/pythonecuador.
+Ahí podrás encontrar el historial de todas las transacciones.
 
 ¿Puedo tener mi dinero de vuelta?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Si necesitas un reembolso del 100% de tu dinero,
+Para las donaciones que hayan usando Open Collective nos adheriremos a las políticas de la plataforma.
+Para donaciones realizadas por otro medio,
 háznoslo saber hasta 3 días después de haber hecho llegar el dinero.
 Pasado ese tiempo, puedes tener un reembolso del 50%.
 Para ambos casos, debes enviarnos un email explicando las razones del reembolso.
@@ -181,7 +179,7 @@ Para ambos casos, debes enviarnos un email explicando las razones del reembolso.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ¡Si! En ciertas ocasiones esta es la mejor manera de ayudarnos.
-Ya que así nos evitamos manejar dinero (impuestos, mantener seguimiento, etc).
+Ya que así nos evitamos manejar dinero (impuestos, comisiones, etc).
 
 Licencias, refrigerios, material promocional son ejemplos.
 
