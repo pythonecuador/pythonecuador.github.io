@@ -6,6 +6,8 @@ que usan **su tiempo libre y hasta su dinero**.
 A medida que la comunidad crece, esto se nos queda corto,
 pero gracias a la **generosa ayuda financiera de nuestros sponsors** la comunidad puede seguir creciendo.
 
+*Realiza tu donación a través de Open Collective* https://opencollective.com/pythonecuador.
+
 *¿Te interesa ser un sponsor de nuestra comunidad?* `aplicar <link://filename/pages/sponsors/aplicar.rst>`__.
 
 *¿Dudas o preguntas sobre esta sección?* `faq <link://filename/pages/sponsors/faq.rst>`__.
