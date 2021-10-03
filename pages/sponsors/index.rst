@@ -12,6 +12,9 @@ pero gracias a la **generosa ayuda financiera de nuestros sponsors** la comunida
 
 *¿Dudas o preguntas sobre esta sección?* `faq <link://filename/pages/sponsors/faq.rst>`__.
 
+.. contents:: Contenidos
+   :depth: 1
+
 Sponsors recurrentes
 --------------------
 
