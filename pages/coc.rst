@@ -7,6 +7,9 @@
 .. type: text
 .. template: pagina.tmpl
 
+.. contents:: Contenidos
+   :depth: 1
+
 Nuestro compromiso
 ------------------
 

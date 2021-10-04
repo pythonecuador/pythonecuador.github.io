@@ -12,6 +12,9 @@ con la filosofía común de que el **conocimiento debe ser libre**.
 
 `Leer más <link://filename/pages/quienes-somos.rst>`__.
 
+.. contents:: Contenidos
+   :depth: 2
+
 Eventos
 -------
 

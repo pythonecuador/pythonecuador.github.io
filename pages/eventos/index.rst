@@ -9,6 +9,8 @@
 
 Estos son los tipos de eventos que se realizan en la comunidad de Python Ecuador:
 
+.. contents:: Contenidos
+   :depth: 2
 
 Calendario de Eventos
 ---------------------
