@@ -1,4 +1,5 @@
 import os
+import subprocess
 import time
 
 # !! This is the configuration of Nikola. !! #
@@ -964,6 +965,7 @@ CONTENT_FOOTER = '''
     <div class="row text-center">
         <div class="col">
             <p>Comunidad Python Ecuador</p>
+            <p>Commit: {commit}</p>
             <small>© {date} Todos los derechos reservados.</small>
             <p>
                 <small>
@@ -989,6 +991,11 @@ CONTENT_FOOTER = '''
 #          still needs to be a dict of this format.  (it can be empty if you
 #          do not need formatting)
 # (translatable)
+def get_last_commit():
+    encoding = 'utf-8'
+    command = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True)
+    return command.stdout.decode(encoding)
+
 CONTENT_FOOTER_FORMATS = {
     DEFAULT_LANG: (
         (),
@@ -996,7 +1003,8 @@ CONTENT_FOOTER_FORMATS = {
             "email": BLOG_EMAIL,
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
-            "license": LICENSE
+            "license": LICENSE,
+            "commit": get_last_commit()
         }
     )
 }
