@@ -20,8 +20,10 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           python3 -m pip install nox
-      - name: Lint and build
-        run: nox
+      - name: Tests
+        run: python -m nox -s tests
+      - name: Lint
+        run: python -m nox -s lint_rst lint_yaml lint_python
       - name: Deploy
         if: ${{ github.ref == 'refs/heads/main' }}
         uses: peaceiris/actions-gh-pages@v3

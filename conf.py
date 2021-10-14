@@ -20,16 +20,18 @@ BLOG_AUTHOR = "Python Ecuador"  # (translatable)
 BLOG_TITLE = "Python Ecuador"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-deploy_site = os.environ.get('NIKOLA_DEPLOY')
+deploy_site = os.environ.get("NIKOLA_DEPLOY")
 if deploy_site:
-    SITE_URL = 'https://{}/'.format(deploy_site.rstrip('/'))
+    SITE_URL = "https://{}/".format(deploy_site.rstrip("/"))
 else:
-    SITE_URL = 'http://localhost:8000/'
+    SITE_URL = "http://localhost:8000/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://pythonecuador.github.io/"
 BLOG_EMAIL = "ecuadorpython@gmail.com"
-BLOG_DESCRIPTION = "Comunidad de Python, Open Source y Software Libre de Ecuador"  # (translatable)
+BLOG_DESCRIPTION = (
+    "Comunidad de Python, Open Source y Software Libre de Ecuador"  # (translatable)
+)
 
 # Nikola is multilingual!
 #
@@ -156,16 +158,14 @@ NAVIGATION_LINKS = {
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
-NAVIGATION_ALT_LINKS = {
-    DEFAULT_LANG: {}
-}
+NAVIGATION_ALT_LINKS = {DEFAULT_LANG: {}}
 
 # Name of the theme to use.
 THEME = "custom"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
-THEME_COLOR = '#5670d4'
+THEME_COLOR = "#5670d4"
 
 # Theme configuration. Fully theme-dependent. (translatable)
 # Examples below are for bootblog4.
@@ -175,18 +175,18 @@ THEME_COLOR = '#5670d4'
 THEME_CONFIG = {
     DEFAULT_LANG: {
         # Show the latest featured post in a large box, with the previewimage as its background.
-        'featured_large': False,
+        "featured_large": False,
         # Show the first (remaining) two featured posts in small boxes.
-        'featured_small': False,
+        "featured_small": False,
         # Show featured posts on mobile.
-        'featured_on_mobile': True,
+        "featured_on_mobile": True,
         # Show image in `featured_large` on mobile.
         # `featured_small` displays them only on desktop.
-        'featured_large_image_on_mobile': True,
+        "featured_large_image_on_mobile": True,
         # Strip HTML from featured post text.
-        'featured_strip_html': False,
+        "featured_strip_html": False,
         # Contents of the sidebar, If empty, the sidebar is not displayed.
-        'sidebar': ''
+        "sidebar": "",
     }
 }
 
@@ -257,7 +257,7 @@ TIMEZONE = "America/Guayaquil"
 # Date format used to display post dates. (translatable)
 # Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time
 # You can also use 'full', 'long', 'medium', or 'short'
-DATE_FORMAT = 'YYYY-MM-dd'
+DATE_FORMAT = "YYYY-MM-dd"
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # Used by moment.js: https://momentjs.com/docs/#/displaying/format/
@@ -296,18 +296,18 @@ DATE_FORMAT = 'YYYY-MM-dd'
 # 'markdown' is Markdown
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
-    "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
-    "textile": ('.textile',),
-    "txt2tags": ('.t2t',),
-    "bbcode": ('.bb',),
-    "wiki": ('.wiki',),
-    "ipynb": ('.ipynb',),
-    "html": ('.html', '.htm'),
+    "rest": (".rst", ".txt"),
+    "markdown": (".md", ".mdown", ".markdown"),
+    "textile": (".textile",),
+    "txt2tags": (".t2t",),
+    "bbcode": (".bb",),
+    "wiki": (".wiki",),
+    "ipynb": (".ipynb",),
+    "html": (".html", ".htm"),
     # PHP files are rendered the usual way (i.e. with the full templates).
     # The resulting files have .php extensions, making it possible to run
     # them without reconfiguring your server to recognize them.
-    "php": ('.php',),
+    "php": (".php",),
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
@@ -392,7 +392,7 @@ COMPILERS = {
 # If you do not want to display a tag publicly, you can mark it as hidden.
 # The tag will not be displayed on the tag list page and posts.
 # Tag pages will still be generated.
-HIDDEN_TAGS = ['mathjax']
+HIDDEN_TAGS = ["mathjax"]
 
 # Only include tags on the tag list/overview page if there are at least
 # TAGLIST_MINIMUM_POSTS number of posts or more with every tag. Every tag
@@ -538,7 +538,7 @@ AUTHOR_PAGES_DESCRIPTIONS = {
             """
             <a href="https://seburath.github.io">https://seburath.github.io</a>
             """
-        )
+        ),
     },
 }
 
@@ -546,7 +546,7 @@ AUTHOR_PAGES_DESCRIPTIONS = {
 # If you do not want to display an author publicly, you can mark it as hidden.
 # The author will not be displayed on the author list page and posts.
 # Tag pages will still be generated.
-HIDDEN_AUTHORS = ['Guest']
+HIDDEN_AUTHORS = ["Guest"]
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
@@ -555,9 +555,7 @@ HIDDEN_AUTHORS = ['Guest']
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
-FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: ''
-}
+FRONT_INDEX_HEADER = {DEFAULT_LANG: ""}
 
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
@@ -651,11 +649,11 @@ REDIRECTIONS = []
 # For more details, read the manual:
 # https://getnikola.com/handbook.html#deploying-to-github
 # You will need to configure the deployment branch on GitHub.
-GITHUB_SOURCE_BRANCH = 'main'
-GITHUB_DEPLOY_BRANCH = 'gh-pages'
+GITHUB_SOURCE_BRANCH = "main"
+GITHUB_DEPLOY_BRANCH = "gh-pages"
 
 # The name of the remote where you wish to push to, using github_deploy.
-GITHUB_REMOTE_NAME = 'origin'
+GITHUB_REMOTE_NAME = "origin"
 
 # Whether or not github_deploy should commit to the source branch automatically
 # before deploying.
@@ -820,7 +818,7 @@ GITHUB_COMMIT_SOURCE = True
 # (the thumbnail has ``.thumbnail`` added before the file extension by default,
 # but a different naming template can be configured with IMAGE_THUMBNAIL_FORMAT).
 
-IMAGE_FOLDERS = {'images': 'images'}
+IMAGE_FOLDERS = {"images": "images"}
 # IMAGE_THUMBNAIL_SIZE = 400
 # IMAGE_THUMBNAIL_FORMAT = '{name}.thumbnail{ext}'
 
@@ -943,7 +941,7 @@ LICENSE = "GNU v3.0"
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = '''
+CONTENT_FOOTER = """
 <div class="container">
     <div class="row text-center">
         <div class="col">
@@ -979,7 +977,7 @@ CONTENT_FOOTER = '''
         </div>
     </div>
 </div>
-'''
+"""
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -995,10 +993,11 @@ CONTENT_FOOTER = '''
 #          do not need formatting)
 # (translatable)
 def get_last_commit():
-    encoding = 'utf-8'
+    encoding = "utf-8"
     command = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True)
     last_hash = command.stdout.decode(encoding)
     return last_hash[0:8]
+
 
 CONTENT_FOOTER_FORMATS = {
     DEFAULT_LANG: (
@@ -1008,15 +1007,15 @@ CONTENT_FOOTER_FORMATS = {
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
             "license": LICENSE,
-            "commit": get_last_commit()
-        }
+            "commit": get_last_commit(),
+        },
     )
 }
 
 # A simple copyright tag for inclusion in RSS feeds that works just
 # like CONTENT_FOOTER and CONTENT_FOOTER_FORMATS
 RSS_COPYRIGHT = 'Contents © {date} <a href="mailto:{email}">{author}</a> {license}'
-RSS_COPYRIGHT_PLAIN = 'Contents © {date} {author} {license}'
+RSS_COPYRIGHT_PLAIN = "Contents © {date} {author} {license}"
 RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 
 # To use comments, you can choose between different third party comment
@@ -1131,7 +1130,11 @@ PRETTY_URLS = True
 #       with the MarkdownExtension class and should not be added here.
 # Defaults are markdown.extensions.(fenced_code|codehilite|extra)
 # markdown.extensions.meta is required for Markdown metadata.
-MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.codehilite', 'markdown.extensions.extra']
+MARKDOWN_EXTENSIONS = [
+    "markdown.extensions.fenced_code",
+    "markdown.extensions.codehilite",
+    "markdown.extensions.extra",
+]
 
 # Options to be passed to markdown extensions (See https://python-markdown.github.io/reference/)
 # Default is {} (no config at all)
@@ -1334,11 +1337,11 @@ EXTRA_HEAD_DATA = """
 # Images displayed come from the `previewimage` meta tag.
 # You can specify the card type by using the `card` parameter in TWITTER_CARD.
 TWITTER_CARD = {
-    'use_twitter_cards': True,  # enable Twitter Cards
+    "use_twitter_cards": True,  # enable Twitter Cards
     # Card type, you can also use 'summary_large_image',
     # see https://dev.twitter.com/cards/types
-    'card': 'summary',
-    'site': '@pyecuador',         # twitter nick for the website
+    "card": "summary",
+    "site": "@pyecuador",  # twitter nick for the website
     # 'creator': '@username',     # Username for the content creator / author.
 }
 
@@ -1403,12 +1406,14 @@ WARN_ABOUT_TAG_METADATA = False
 # those.
 TEMPLATE_FILTERS = {}
 
+
 def time_to_date(text):
     import datetime
 
     seconds = int(text) / 1000
     time = datetime.date.fromtimestamp(seconds)
     return time.strftime("%d/%m/%Y")
+
 
 TEMPLATE_FILTERS["time"] = time_to_date
 
