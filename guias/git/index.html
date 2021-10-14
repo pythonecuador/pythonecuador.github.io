@@ -23,7 +23,8 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 <!-- Menubar -->
 
 <nav class="navbar navbar-expand-md static-top mb-4
-navbar-dark bg-dark
+navbar-dark
+bg-dark
 "><div class="container">
 <!-- This keeps the margins nice -->
         <a class="navbar-brand" href="../../">
@@ -83,30 +84,30 @@ navbar-dark bg-dark
 <section id="instalar-git-en-ubuntu-debian"><h2>Instalar Git en Ubuntu/Debian</h2>
 <p>Antes de instalar es recomendable ejecutar las actualizaciones de paquetes del sistema operativo, por ende abrimos una terminal y ejecutamos lo siguiente:</p>
 <p>Para actualizar los repositorios.</p>
-<pre class="code console"><a id="rest_code_836ccef7fad94447ba7da960024a1f2d-1" name="rest_code_836ccef7fad94447ba7da960024a1f2d-1"></a><span class="gp">$ </span>sudo apt-get update
+<pre class="code console"><a id="rest_code_0c6fe0f5f7c04905a3bd178cebf65da9-1" name="rest_code_0c6fe0f5f7c04905a3bd178cebf65da9-1"></a><span class="gp">$ </span>sudo apt-get update
 </pre>
 <p>Para actualizar los paquetes en el sistema.</p>
-<pre class="code console"><a id="rest_code_d37967fdd24c496ca19e6b80ae059828-1" name="rest_code_d37967fdd24c496ca19e6b80ae059828-1"></a><span class="gp">$ </span>sudo apt-get upgrade
+<pre class="code console"><a id="rest_code_82bcc0fc424946fd90332634d748cfc6-1" name="rest_code_82bcc0fc424946fd90332634d748cfc6-1"></a><span class="gp">$ </span>sudo apt-get upgrade
 </pre>
 <p>Luego procedemos a instalar git con el comando install.</p>
-<pre class="code console"><a id="rest_code_f6ae337b74c5442fbd9068e73f9b80a8-1" name="rest_code_f6ae337b74c5442fbd9068e73f9b80a8-1"></a><span class="gp">$ </span>sudo apt-get install git
+<pre class="code console"><a id="rest_code_808b29f271ab4846a7c6853a5fbbcec5-1" name="rest_code_808b29f271ab4846a7c6853a5fbbcec5-1"></a><span class="gp">$ </span>sudo apt-get install git
 </pre>
 <p>Este comando instalará git y sus paquetes necesarios.</p>
 <img alt="/images/guias/git/git_install.png" class="align-center" src="../../images/guias/git/git_install.png"><div class="line-block">
 <div class="line"><br></div>
 </div>
 <p>Comprobamos que se haya instalado correctamente con:</p>
-<pre class="code console"><a id="rest_code_5e4ffd6411654cc794d4ff59e03024ee-1" name="rest_code_5e4ffd6411654cc794d4ff59e03024ee-1"></a><span class="gp">$ </span>git --version
-<a id="rest_code_5e4ffd6411654cc794d4ff59e03024ee-2" name="rest_code_5e4ffd6411654cc794d4ff59e03024ee-2"></a><span class="go">git version 2.25.1</span>
+<pre class="code console"><a id="rest_code_58572fb03f0640e0a4ea95230ba6039d-1" name="rest_code_58572fb03f0640e0a4ea95230ba6039d-1"></a><span class="gp">$ </span>git --version
+<a id="rest_code_58572fb03f0640e0a4ea95230ba6039d-2" name="rest_code_58572fb03f0640e0a4ea95230ba6039d-2"></a><span class="go">git version 2.25.1</span>
 </pre></section><section id="instalar-git-en-fedora"><h2>Instalar Git en Fedora</h2>
 <p>Instalar mediante DNF (o Yum en versiones mas antiguas de Fedora)</p>
-<pre class="code console"><a id="rest_code_c1f196d8488547d4bc1e3f578c05e349-1" name="rest_code_c1f196d8488547d4bc1e3f578c05e349-1"></a><span class="gp">$ </span>sudo dnf install git
-<a id="rest_code_c1f196d8488547d4bc1e3f578c05e349-2" name="rest_code_c1f196d8488547d4bc1e3f578c05e349-2"></a><span class="go">o</span>
-<a id="rest_code_c1f196d8488547d4bc1e3f578c05e349-3" name="rest_code_c1f196d8488547d4bc1e3f578c05e349-3"></a><span class="gp">$ </span>sudo yum install git
+<pre class="code console"><a id="rest_code_6b4e8979d3cd4e328b1db833dd2071d8-1" name="rest_code_6b4e8979d3cd4e328b1db833dd2071d8-1"></a><span class="gp">$ </span>sudo dnf install git
+<a id="rest_code_6b4e8979d3cd4e328b1db833dd2071d8-2" name="rest_code_6b4e8979d3cd4e328b1db833dd2071d8-2"></a><span class="go">o</span>
+<a id="rest_code_6b4e8979d3cd4e328b1db833dd2071d8-3" name="rest_code_6b4e8979d3cd4e328b1db833dd2071d8-3"></a><span class="gp">$ </span>sudo yum install git
 </pre>
 <p>Comprobamos que se haya instalado correctamente con:</p>
-<pre class="code console"><a id="rest_code_84b0dea7ee214a3fa2acaae28d9e07eb-1" name="rest_code_84b0dea7ee214a3fa2acaae28d9e07eb-1"></a><span class="gp">$ </span>git --version
-<a id="rest_code_84b0dea7ee214a3fa2acaae28d9e07eb-2" name="rest_code_84b0dea7ee214a3fa2acaae28d9e07eb-2"></a><span class="go">git version 2.25.1</span>
+<pre class="code console"><a id="rest_code_05f10fb458c4417889b5d35acc30572b-1" name="rest_code_05f10fb458c4417889b5d35acc30572b-1"></a><span class="gp">$ </span>git --version
+<a id="rest_code_05f10fb458c4417889b5d35acc30572b-2" name="rest_code_05f10fb458c4417889b5d35acc30572b-2"></a><span class="go">git version 2.25.1</span>
 </pre></section>
 </div>
       </div>
@@ -156,9 +157,7 @@ navbar-dark bg-dark
         <script src="../../assets/js/all-nocdn.js"></script><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
-        captions: function(element) {
-            return element.getElementsByTagName('img')[0].alt;
-    }});
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
     </script>
 </body>
 </html>

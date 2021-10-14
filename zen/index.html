@@ -23,7 +23,8 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 <!-- Menubar -->
 
 <nav class="navbar navbar-expand-md static-top mb-4
-navbar-dark bg-dark
+navbar-dark
+bg-dark
 "><div class="container">
 <!-- This keeps the margins nice -->
         <a class="navbar-brand" href="../">
@@ -81,7 +82,7 @@ navbar-dark bg-dark
 
   <div>
 <p>El Zen de Python, por Tim Peters (<a class="PEP reference external" href="http://www.python.org/dev/peps/pep-0020"><strong>PEP 20</strong></a>).</p>
-<pre class="code python"><a id="rest_code_aee6a7e6356f49869bc137bc9f6ae530-1" name="rest_code_aee6a7e6356f49869bc137bc9f6ae530-1"></a><span class="kn">import</span> <span class="nn">this</span>
+<pre class="code python"><a id="rest_code_9b5f11dd4b9342afb4171776043aa35b-1" name="rest_code_9b5f11dd4b9342afb4171776043aa35b-1"></a><span class="kn">import</span> <span class="nn">this</span>
 </pre>
 <ol class="arabic simple">
 <li><p>Bello es mejor que feo.</p></li>
@@ -152,9 +153,7 @@ navbar-dark bg-dark
         <script src="../assets/js/all-nocdn.js"></script><script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
-        captions: function(element) {
-            return element.getElementsByTagName('img')[0].alt;
-    }});
+        captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
     </script>
 </body>
 </html>
