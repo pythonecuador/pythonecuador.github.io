@@ -46,10 +46,10 @@ Tenemos un archivo make para facilitar el deploy, úsalo. Asegúrate que:
 Para desplegar el sitio, usamos el comando ``make deploy``.
 Debes ver un mensaje de éxito en caso que todo haya salido bien.
 
-Puedes chequear la rama master_ para verificar que los archivos compilados se encuentran subidos.
+Puedes chequear la rama main_ para verificar que los archivos compilados se encuentran subidos.
 Los cambios podrán ser vistos en https://python.ec en aproximadamente 5 minutos.
 
-.. _master: https://github.com/PythonEcuador/PythonEcuador.github.io/tree/master
+.. _main: https://github.com/PythonEcuador/PythonEcuador.github.io/tree/master
 
 Dominio
 #######
