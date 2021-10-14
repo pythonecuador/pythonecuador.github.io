@@ -997,7 +997,8 @@ CONTENT_FOOTER = '''
 def get_last_commit():
     encoding = 'utf-8'
     command = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True)
-    return command.stdout.decode(encoding)
+    last_hash = command.stdout.decode(encoding)
+    return last_hash[0:8]
 
 CONTENT_FOOTER_FORMATS = {
     DEFAULT_LANG: (
