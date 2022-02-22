@@ -41,10 +41,14 @@ con una pequeña descripción:
   resolver tus dudas, aprender y compartir contenido de interés
   y relacionado a Python.
 
-- `Meetup <https://www.meetup.com/es-ES/python-ecuador/>`__
+- `Meetup - Cuenca <https://www.meetup.com/es-ES/python-ecuador/>`__
 
   Nuestra principal plataforma para la organización de eventos.
   Recibe notificaciones de los eventos más cercanos a tu ubicación.
+
+- `Meetup - Quito <https://www.meetup.com/es/quito-python-meetup/>`__
+
+  El grupo para eventos en la capital.
 
 - `Facebook (@pyecuador) <https://www.facebook.com/pyecuador/>`__
 
