@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python Ecuador (Publicaciones sobre comunidad)</title><link>https://python.ec/</link><description></description><atom:link href="https://python.ec/categories/comunidad.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2021 &lt;a href="mailto:ecuadorpython@gmail.com"&gt;Python Ecuador&lt;/a&gt; GNU v3.0</copyright><lastBuildDate>Thu, 14 Oct 2021 03:30:01 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Donaciones más transparentes con Open Collective</title><link>https://python.ec/posts/open-collective/</link><dc:creator>Santos Gallegos</dc:creator><description>&lt;div&gt;&lt;img alt="/images/posts/opencollective/opencollectivelogo.png" class="align-center" src="https://python.ec/images/posts/opencollective/opencollectivelogo.png"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python Ecuador (Publicaciones sobre comunidad)</title><link>https://python.ec/</link><description></description><atom:link href="https://python.ec/categories/comunidad.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2022 &lt;a href="mailto:ecuadorpython@gmail.com"&gt;Python Ecuador&lt;/a&gt; GNU v3.0</copyright><lastBuildDate>Wed, 16 Mar 2022 17:57:18 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Donaciones más transparentes con Open Collective</title><link>https://python.ec/posts/open-collective/</link><dc:creator>Santos Gallegos</dc:creator><description>&lt;div&gt;&lt;img alt="/images/posts/opencollective/opencollectivelogo.png" class="align-center" src="https://python.ec/images/posts/opencollective/opencollectivelogo.png"&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;&lt;br&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -17,12 +17,12 @@ El 100% del dinero recaudado siempre será usado para la comunidad, en especial:
 &lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://python.ec/eventos"&gt;Organización y difusión de eventos&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://python.ec/becas"&gt;Becas&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="admonition note"&gt;
+&lt;aside class="admonition note"&gt;
 &lt;p class="admonition-title"&gt;Nota&lt;/p&gt;
 &lt;p&gt;Open Collective cobra una comisión del 5%.
 Cuando sea posible, se preferirá un pago directo hacia el servicio que desees donar,
 como la renovación del dominio.&lt;/p&gt;
-&lt;/div&gt;
+&lt;/aside&gt;
 &lt;p&gt;Si tienes preguntas sobre el manejo del dinero ¡No dudes en escribirnos a &lt;a class="reference external" href="mailto:ecuadorpython@gmail.com"&gt;ecuadorpython@gmail.com&lt;/a&gt;!&lt;/p&gt;&lt;/div&gt;</description><category>comunidad</category><category>donaciones</category><guid>https://python.ec/posts/open-collective/</guid><pubDate>Mon, 05 Apr 2021 05:00:00 GMT</pubDate></item><item><title>Nuevo dominio</title><link>https://python.ec/posts/nuevo-dominio/</link><dc:creator>Santos Gallegos</dc:creator><description>&lt;div&gt;&lt;p&gt;En el transcurso del día Sábado 27 de Julio habrás notado que no se podía acceder al sitio de la comunidad
 (sabemos que la visitas todos los días 😉).
 Este &lt;em&gt;apagón&lt;/em&gt; fue debido a que estábamos cambiando el dominio del sitio
@@ -45,8 +45,8 @@ ya que este será renovado cada año.&lt;/p&gt;
 &lt;p&gt;En caso que tengas curiosidad, el dominio está en &lt;a class="reference external" href="https://nic.ec"&gt;https://nic.ec&lt;/a&gt; y el DNS administrado en &lt;a class="reference external" href="https://www.cloudflare.com"&gt;https://www.cloudflare.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Ahora la comunidad tiene un nombre más &lt;em&gt;pitónico&lt;/em&gt;.
 Si deseas ayudarnos con la renovación del dominio para los siguientes años envíanos un email a &lt;a class="reference external" href="mailto:ecuadorpython@gmail.com"&gt;ecuadorpython@gmail.com&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="admonition note"&gt;
+&lt;aside class="admonition note"&gt;
 &lt;p class="admonition-title"&gt;Nota&lt;/p&gt;
 &lt;p&gt;Estamos trabajando para llevar un registro público y más ordenado de los fondos de la comunidad.
 Pero si necesitas más información sobre el manejo del dinero, escríbenos a &lt;a class="reference external" href="mailto:ecuadorpython@gmail.com"&gt;ecuadorpython@gmail.com&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>comunidad</category><category>infraestructura</category><guid>https://python.ec/posts/nuevo-dominio/</guid><pubDate>Sat, 27 Jul 2019 05:00:00 GMT</pubDate></item></channel></rss>
+&lt;/aside&gt;&lt;/div&gt;</description><category>comunidad</category><category>infraestructura</category><guid>https://python.ec/posts/nuevo-dominio/</guid><pubDate>Sat, 27 Jul 2019 05:00:00 GMT</pubDate></item></channel></rss>
