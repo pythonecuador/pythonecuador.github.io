@@ -1,0 +1,7 @@
+ingresos:
+  - fecha: 29/03/2022
+    cantidad: -40
+    responsables:
+      - Christopher Tim
+    descripcion:
+      Subscripción anual de bitwarden
