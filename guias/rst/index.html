@@ -80,8 +80,7 @@ bg-dark
     <a href=".">Mini tutorial de reStructuredText</a>
   </h1>
 
-  <div>
-<p>Esta guía es una breve introducción a los conceptos y la sintaxis de reStructuredText (reST).</p>
+  <p>Esta guía es una breve introducción a los conceptos y la sintaxis de reStructuredText (reST).</p>
 <p>reStructuredText es un lenguaje de marcado de texto, que es legible y simple de usar,
 pero lo suficientemente potente para un uso no trivial.
 Es útil para la documentación de programas en línea (como los docstrings de Python),
@@ -111,15 +110,15 @@ Lo puedes hacer online en <a class="reference external" href="https://livesphinx
 Los párrafos son simplemente trozos de texto separados por una o más líneas en blanco.
 Al igual que en Python, la sangría es significativa en reST,
 por lo que todas las líneas del mismo párrafo deben alinearse a la izquierda con el mismo nivel de sangría.</p>
-<pre class="code rst"><a id="rest_code_adede0f0d06e4bd08a651d03a5740536-1" name="rest_code_adede0f0d06e4bd08a651d03a5740536-1" href="#rest_code_adede0f0d06e4bd08a651d03a5740536-1"></a>Este es un párrafo.
-</pre>
+<div class="code"><pre class="code rst"><a id="rest_code_34a98f66cea042ee9cc43b1874f66804-1" name="rest_code_34a98f66cea042ee9cc43b1874f66804-1" href="#rest_code_34a98f66cea042ee9cc43b1874f66804-1"></a>Este es un párrafo.
+</pre></div>
 <p><strong>Resultado</strong></p>
 <p>Este es un párrafo</p>
-<pre class="code rst"><a id="rest_code_f1b415fa9a384fe1b375674340ec0946-1" name="rest_code_f1b415fa9a384fe1b375674340ec0946-1" href="#rest_code_f1b415fa9a384fe1b375674340ec0946-1"></a>Los párrafos se alinean al
-<a id="rest_code_f1b415fa9a384fe1b375674340ec0946-2" name="rest_code_f1b415fa9a384fe1b375674340ec0946-2" href="#rest_code_f1b415fa9a384fe1b375674340ec0946-2"></a>borde izquierdo y
-<a id="rest_code_f1b415fa9a384fe1b375674340ec0946-3" name="rest_code_f1b415fa9a384fe1b375674340ec0946-3" href="#rest_code_f1b415fa9a384fe1b375674340ec0946-3"></a>normalmente están separados
-<a id="rest_code_f1b415fa9a384fe1b375674340ec0946-4" name="rest_code_f1b415fa9a384fe1b375674340ec0946-4" href="#rest_code_f1b415fa9a384fe1b375674340ec0946-4"></a>por líneas en blanco.
-</pre>
+<div class="code"><pre class="code rst"><a id="rest_code_5cff43bad27c49da9a3106a9f9ce84e0-1" name="rest_code_5cff43bad27c49da9a3106a9f9ce84e0-1" href="#rest_code_5cff43bad27c49da9a3106a9f9ce84e0-1"></a>Los párrafos se alinean al
+<a id="rest_code_5cff43bad27c49da9a3106a9f9ce84e0-2" name="rest_code_5cff43bad27c49da9a3106a9f9ce84e0-2" href="#rest_code_5cff43bad27c49da9a3106a9f9ce84e0-2"></a>borde izquierdo y
+<a id="rest_code_5cff43bad27c49da9a3106a9f9ce84e0-3" name="rest_code_5cff43bad27c49da9a3106a9f9ce84e0-3" href="#rest_code_5cff43bad27c49da9a3106a9f9ce84e0-3"></a>normalmente están separados
+<a id="rest_code_5cff43bad27c49da9a3106a9f9ce84e0-4" name="rest_code_5cff43bad27c49da9a3106a9f9ce84e0-4" href="#rest_code_5cff43bad27c49da9a3106a9f9ce84e0-4"></a>por líneas en blanco.
+</pre></div>
 <p><strong>Resultado</strong></p>
 <p>Los párrafos se alinean al
 borde izquierdo y
@@ -154,30 +153,32 @@ por líneas en blanco.</p>
 </table></section><section id="bloques-de-texto"><h2><a class="toc-backref" href="#toc-entry-3" role="doc-backlink">Bloques de texto</a></h2>
 <p>Es posible mostrar bloques de texto.
 Para esto se debe poner <code class="docutils literal">::</code> al final del párrafo para obtener algo como esto:</p>
-<pre class="code rst"><a id="rest_code_c4191a9081e84626b6800b8f52023af1-1" name="rest_code_c4191a9081e84626b6800b8f52023af1-1" href="#rest_code_c4191a9081e84626b6800b8f52023af1-1"></a>Cualquier sangría o tabulación es parte del bloque preformateado.
-<a id="rest_code_c4191a9081e84626b6800b8f52023af1-2" name="rest_code_c4191a9081e84626b6800b8f52023af1-2" href="#rest_code_c4191a9081e84626b6800b8f52023af1-2"></a>Incluso
-<a id="rest_code_c4191a9081e84626b6800b8f52023af1-3" name="rest_code_c4191a9081e84626b6800b8f52023af1-3" href="#rest_code_c4191a9081e84626b6800b8f52023af1-3"></a>
-<a id="rest_code_c4191a9081e84626b6800b8f52023af1-4" name="rest_code_c4191a9081e84626b6800b8f52023af1-4" href="#rest_code_c4191a9081e84626b6800b8f52023af1-4"></a>los
-<a id="rest_code_c4191a9081e84626b6800b8f52023af1-5" name="rest_code_c4191a9081e84626b6800b8f52023af1-5" href="#rest_code_c4191a9081e84626b6800b8f52023af1-5"></a>saltos
-<a id="rest_code_c4191a9081e84626b6800b8f52023af1-6" name="rest_code_c4191a9081e84626b6800b8f52023af1-6" href="#rest_code_c4191a9081e84626b6800b8f52023af1-6"></a>de línea     y      espacios.
-</pre></section><section id="links-o-enlaces"><h2><a class="toc-backref" href="#toc-entry-4" role="doc-backlink">Links o enlaces</a></h2>
+<div class="code"><pre class="code rst"><a id="rest_code_8a90f5be83c14d01be29283e1bfe740f-1" name="rest_code_8a90f5be83c14d01be29283e1bfe740f-1" href="#rest_code_8a90f5be83c14d01be29283e1bfe740f-1"></a>Cualquier sangría o tabulación es parte del bloque preformateado.
+<a id="rest_code_8a90f5be83c14d01be29283e1bfe740f-2" name="rest_code_8a90f5be83c14d01be29283e1bfe740f-2" href="#rest_code_8a90f5be83c14d01be29283e1bfe740f-2"></a>Incluso
+<a id="rest_code_8a90f5be83c14d01be29283e1bfe740f-3" name="rest_code_8a90f5be83c14d01be29283e1bfe740f-3" href="#rest_code_8a90f5be83c14d01be29283e1bfe740f-3"></a>
+<a id="rest_code_8a90f5be83c14d01be29283e1bfe740f-4" name="rest_code_8a90f5be83c14d01be29283e1bfe740f-4" href="#rest_code_8a90f5be83c14d01be29283e1bfe740f-4"></a>los
+<a id="rest_code_8a90f5be83c14d01be29283e1bfe740f-5" name="rest_code_8a90f5be83c14d01be29283e1bfe740f-5" href="#rest_code_8a90f5be83c14d01be29283e1bfe740f-5"></a>saltos
+<a id="rest_code_8a90f5be83c14d01be29283e1bfe740f-6" name="rest_code_8a90f5be83c14d01be29283e1bfe740f-6" href="#rest_code_8a90f5be83c14d01be29283e1bfe740f-6"></a>de línea     y      espacios.
+</pre></div>
+</section><section id="links-o-enlaces"><h2><a class="toc-backref" href="#toc-entry-4" role="doc-backlink">Links o enlaces</a></h2>
 <p>Si vas a usar un link en varias partes de un documento,
 puedes definir el URL por separado:</p>
-<pre class="code rst"><a id="rest_code_b5343c1ef9604f97abf49e8d11b346fe-1" name="rest_code_b5343c1ef9604f97abf49e8d11b346fe-1" href="#rest_code_b5343c1ef9604f97abf49e8d11b346fe-1"></a>Línea donde aparece el link_ definido por separado.
-<a id="rest_code_b5343c1ef9604f97abf49e8d11b346fe-2" name="rest_code_b5343c1ef9604f97abf49e8d11b346fe-2" href="#rest_code_b5343c1ef9604f97abf49e8d11b346fe-2"></a>
-<a id="rest_code_b5343c1ef9604f97abf49e8d11b346fe-3" name="rest_code_b5343c1ef9604f97abf49e8d11b346fe-3" href="#rest_code_b5343c1ef9604f97abf49e8d11b346fe-3"></a><span class="p">..</span> <span class="nt">_link:</span> https://url-link/defino/por/separadp
-</pre>
+<div class="code"><pre class="code rst"><a id="rest_code_62ade0216ae84981b109eb6131a8565e-1" name="rest_code_62ade0216ae84981b109eb6131a8565e-1" href="#rest_code_62ade0216ae84981b109eb6131a8565e-1"></a>Línea donde aparece el link_ definido por separado.
+<a id="rest_code_62ade0216ae84981b109eb6131a8565e-2" name="rest_code_62ade0216ae84981b109eb6131a8565e-2" href="#rest_code_62ade0216ae84981b109eb6131a8565e-2"></a>
+<a id="rest_code_62ade0216ae84981b109eb6131a8565e-3" name="rest_code_62ade0216ae84981b109eb6131a8565e-3" href="#rest_code_62ade0216ae84981b109eb6131a8565e-3"></a><span class="p">..</span> <span class="nt">_link:</span> https://url-link/defino/por/separadp
+</pre></div>
 <p>Rst nos da la facilidad de crear enlaces internos hacia el un documento.
 Para hacer esto podemos basarnos en el nombre de los encabezados que estén dentro de un archivo o documento,
 como por ejemplo este enlace <a class="reference external" href="#parrafo">Párrafo</a> me posiciona al inicio de este documento:</p>
-<pre class="code rst"><a id="rest_code_fa0ca532522548ac94ab5973126cc4ef-1" name="rest_code_fa0ca532522548ac94ab5973126cc4ef-1" href="#rest_code_fa0ca532522548ac94ab5973126cc4ef-1"></a>por ejemplo este enlace <span class="na">:ref:</span><span class="nv">`Párrafo &lt;parrafo&gt;`</span> me posiciona al inicio de este documento:
-</pre></section><section id="listas"><h2><a class="toc-backref" href="#toc-entry-5" role="doc-backlink">Listas</a></h2>
+<div class="code"><pre class="code rst"><a id="rest_code_2182946e85a3450bb7b2d6896f7654c4-1" name="rest_code_2182946e85a3450bb7b2d6896f7654c4-1" href="#rest_code_2182946e85a3450bb7b2d6896f7654c4-1"></a>por ejemplo este enlace <span class="na">:ref:</span><span class="nv">`Párrafo &lt;parrafo&gt;`</span> me posiciona al inicio de este documento:
+</pre></div>
+</section><section id="listas"><h2><a class="toc-backref" href="#toc-entry-5" role="doc-backlink">Listas</a></h2>
 <section id="listas-desordenadas"><h3><a class="toc-backref" href="#toc-entry-6" role="doc-backlink">Listas desordenadas</a></h3>
-<pre class="code rst"><a id="rest_code_3e99501fd9f148adb9b09bcdb3e480b5-1" name="rest_code_3e99501fd9f148adb9b09bcdb3e480b5-1" href="#rest_code_3e99501fd9f148adb9b09bcdb3e480b5-1"></a><span class="m">-</span> Elemento 1
-<a id="rest_code_3e99501fd9f148adb9b09bcdb3e480b5-2" name="rest_code_3e99501fd9f148adb9b09bcdb3e480b5-2" href="#rest_code_3e99501fd9f148adb9b09bcdb3e480b5-2"></a><span class="m">-</span> Elemento 2
-<a id="rest_code_3e99501fd9f148adb9b09bcdb3e480b5-3" name="rest_code_3e99501fd9f148adb9b09bcdb3e480b5-3" href="#rest_code_3e99501fd9f148adb9b09bcdb3e480b5-3"></a>    <span class="m">*</span> Elemento 3
-<a id="rest_code_3e99501fd9f148adb9b09bcdb3e480b5-4" name="rest_code_3e99501fd9f148adb9b09bcdb3e480b5-4" href="#rest_code_3e99501fd9f148adb9b09bcdb3e480b5-4"></a>        <span class="m">+</span> Elemento 4
-</pre>
+<div class="code"><pre class="code rst"><a id="rest_code_542705d35c1c462daef6e28d76ea91bc-1" name="rest_code_542705d35c1c462daef6e28d76ea91bc-1" href="#rest_code_542705d35c1c462daef6e28d76ea91bc-1"></a><span class="m">-</span> Elemento 1
+<a id="rest_code_542705d35c1c462daef6e28d76ea91bc-2" name="rest_code_542705d35c1c462daef6e28d76ea91bc-2" href="#rest_code_542705d35c1c462daef6e28d76ea91bc-2"></a><span class="m">-</span> Elemento 2
+<a id="rest_code_542705d35c1c462daef6e28d76ea91bc-3" name="rest_code_542705d35c1c462daef6e28d76ea91bc-3" href="#rest_code_542705d35c1c462daef6e28d76ea91bc-3"></a>    <span class="m">*</span> Elemento 3
+<a id="rest_code_542705d35c1c462daef6e28d76ea91bc-4" name="rest_code_542705d35c1c462daef6e28d76ea91bc-4" href="#rest_code_542705d35c1c462daef6e28d76ea91bc-4"></a>        <span class="m">+</span> Elemento 4
+</pre></div>
 <p><strong>Resultado</strong></p>
 <ul class="simple">
 <li><p>Elemento 1</p></li>
@@ -193,10 +194,10 @@ como por ejemplo este enlace <a class="reference external" href="#parrafo">Párr
 </ul></dd>
 </dl></li>
 </ul></section><section id="lista-ordenada"><h3><a class="toc-backref" href="#toc-entry-7" role="doc-backlink">Lista ordenada</a></h3>
-<pre class="code rst"><a id="rest_code_89098dcd026f47de9f476ee982fc710f-1" name="rest_code_89098dcd026f47de9f476ee982fc710f-1" href="#rest_code_89098dcd026f47de9f476ee982fc710f-1"></a><span class="m">#.</span> Elemento 1
-<a id="rest_code_89098dcd026f47de9f476ee982fc710f-2" name="rest_code_89098dcd026f47de9f476ee982fc710f-2" href="#rest_code_89098dcd026f47de9f476ee982fc710f-2"></a><span class="m">#.</span> Elemento 2
-<a id="rest_code_89098dcd026f47de9f476ee982fc710f-3" name="rest_code_89098dcd026f47de9f476ee982fc710f-3" href="#rest_code_89098dcd026f47de9f476ee982fc710f-3"></a><span class="m">#.</span> Elemento 3
-</pre>
+<div class="code"><pre class="code rst"><a id="rest_code_2e129cc0b5d144039214d00bce286f92-1" name="rest_code_2e129cc0b5d144039214d00bce286f92-1" href="#rest_code_2e129cc0b5d144039214d00bce286f92-1"></a><span class="m">#.</span> Elemento 1
+<a id="rest_code_2e129cc0b5d144039214d00bce286f92-2" name="rest_code_2e129cc0b5d144039214d00bce286f92-2" href="#rest_code_2e129cc0b5d144039214d00bce286f92-2"></a><span class="m">#.</span> Elemento 2
+<a id="rest_code_2e129cc0b5d144039214d00bce286f92-3" name="rest_code_2e129cc0b5d144039214d00bce286f92-3" href="#rest_code_2e129cc0b5d144039214d00bce286f92-3"></a><span class="m">#.</span> Elemento 3
+</pre></div>
 <p><strong>Resultado</strong></p>
 <ol class="arabic simple">
 <li><p>Elemento 1</p></li>
@@ -217,25 +218,25 @@ que sigue esta convención para los títulos de encabezados.</p>
 <li><p>subrayar con <strong>``"``</strong>, para los párrafos.</p></li>
 </ul>
 <p>Aquí la sintaxis de ejemplo:</p>
-<pre class="code rst"><a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-1" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-1" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-1"></a><span class="gh">#####################</span>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-2" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-2" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-2"></a><span class="gh">Título del documento</span>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-3" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-3" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-3"></a><span class="gh">#####################</span>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-4" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-4" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-4"></a>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-5" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-5" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-5"></a><span class="gh">Título de un capítulo</span>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-6" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-6" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-6"></a><span class="gh">*********************</span>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-7" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-7" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-7"></a>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-8" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-8" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-8"></a><span class="gh">Título de una sección (Titulo 1)</span>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-9" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-9" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-9"></a><span class="gh">================================</span>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-10" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-10" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-10"></a>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-11" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-11" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-11"></a><span class="gh">Título de una subsección (Titulo 2)</span>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-12" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-12" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-12"></a><span class="gh">-----------------------------------</span>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-13" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-13" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-13"></a>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-14" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-14" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-14"></a><span class="gh">Título de una sub-subsección (Titulo 3)</span>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-15" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-15" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-15"></a><span class="gh">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-16" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-16" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-16"></a>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-17" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-17" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-17"></a><span class="gh">Soy un párrafo</span>
-<a id="rest_code_fe7bdee0431a4015b270a1c7abb12ace-18" name="rest_code_fe7bdee0431a4015b270a1c7abb12ace-18" href="#rest_code_fe7bdee0431a4015b270a1c7abb12ace-18"></a><span class="gh">""""""""""""""</span>
-</pre>
+<div class="code"><pre class="code rst"><a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-1" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-1" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-1"></a><span class="gh">#####################</span>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-2" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-2" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-2"></a><span class="gh">Título del documento</span>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-3" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-3" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-3"></a><span class="gh">#####################</span>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-4" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-4" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-4"></a>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-5" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-5" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-5"></a><span class="gh">Título de un capítulo</span>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-6" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-6" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-6"></a><span class="gh">*********************</span>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-7" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-7" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-7"></a>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-8" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-8" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-8"></a><span class="gh">Título de una sección (Titulo 1)</span>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-9" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-9" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-9"></a><span class="gh">================================</span>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-10" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-10" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-10"></a>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-11" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-11" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-11"></a><span class="gh">Título de una subsección (Titulo 2)</span>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-12" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-12" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-12"></a><span class="gh">-----------------------------------</span>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-13" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-13" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-13"></a>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-14" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-14" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-14"></a><span class="gh">Título de una sub-subsección (Titulo 3)</span>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-15" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-15" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-15"></a><span class="gh">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-16" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-16" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-16"></a>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-17" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-17" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-17"></a><span class="gh">Soy un párrafo</span>
+<a id="rest_code_3b277a431eb64e5c9e85fb818045dc68-18" name="rest_code_3b277a431eb64e5c9e85fb818045dc68-18" href="#rest_code_3b277a431eb64e5c9e85fb818045dc68-18"></a><span class="gh">""""""""""""""</span>
+</pre></div>
 <p><strong>Resultado</strong></p>
 <img alt="/images/guias/rst/rst_encabezados.png" src="../../images/guias/rst/rst_encabezados.png"></section><section id="bloques-de-codigo"><h2><a class="toc-backref" href="#toc-entry-9" role="doc-backlink">Bloques de código</a></h2>
 <p>En los bloques de código puedes agregar y mostrar código de cualquier lenguaje soportado:</p>
@@ -245,22 +246,24 @@ que sigue esta convención para los títulos de encabezados.</p>
    print('Hellow World!')
    print(help(os))</pre>
 <p><strong>Resultado</strong></p>
-<pre class="code python"><a id="rest_code_dc40ed64a9f546fea1e9b79560fa0095-1" name="rest_code_dc40ed64a9f546fea1e9b79560fa0095-1" href="#rest_code_dc40ed64a9f546fea1e9b79560fa0095-1"></a><span class="kn">import</span> <span class="nn">os</span>
-<a id="rest_code_dc40ed64a9f546fea1e9b79560fa0095-2" name="rest_code_dc40ed64a9f546fea1e9b79560fa0095-2" href="#rest_code_dc40ed64a9f546fea1e9b79560fa0095-2"></a><span class="nb">print</span><span class="p">(</span><span class="s1">'Hellow World!'</span><span class="p">)</span>
-<a id="rest_code_dc40ed64a9f546fea1e9b79560fa0095-3" name="rest_code_dc40ed64a9f546fea1e9b79560fa0095-3" href="#rest_code_dc40ed64a9f546fea1e9b79560fa0095-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">help</span><span class="p">(</span><span class="n">os</span><span class="p">))</span>
-</pre></section><section id="imagenes"><h2><a class="toc-backref" href="#toc-entry-10" role="doc-backlink">Imágenes</a></h2>
+<div class="code"><pre class="code python"><a id="rest_code_3bb038825da84425842d1abe781f3e3e-1" name="rest_code_3bb038825da84425842d1abe781f3e3e-1" href="#rest_code_3bb038825da84425842d1abe781f3e3e-1"></a><span class="kn">import</span> <span class="nn">os</span>
+<a id="rest_code_3bb038825da84425842d1abe781f3e3e-2" name="rest_code_3bb038825da84425842d1abe781f3e3e-2" href="#rest_code_3bb038825da84425842d1abe781f3e3e-2"></a><span class="nb">print</span><span class="p">(</span><span class="s1">'Hellow World!'</span><span class="p">)</span>
+<a id="rest_code_3bb038825da84425842d1abe781f3e3e-3" name="rest_code_3bb038825da84425842d1abe781f3e3e-3" href="#rest_code_3bb038825da84425842d1abe781f3e3e-3"></a><span class="nb">print</span><span class="p">(</span><span class="n">help</span><span class="p">(</span><span class="n">os</span><span class="p">))</span>
+</pre></div>
+</section><section id="imagenes"><h2><a class="toc-backref" href="#toc-entry-10" role="doc-backlink">Imágenes</a></h2>
 <p>Puedes añadir imágenes, usando la siguiente sintaxis:</p>
-<pre class="code rst"><a id="rest_code_e6c499a96ace41dfa211021e710c4e9d-1" name="rest_code_e6c499a96ace41dfa211021e710c4e9d-1" href="#rest_code_e6c499a96ace41dfa211021e710c4e9d-1"></a><span class="p">..</span> <span class="ow">image</span><span class="p">::</span> screenshots/archivo-imagen.png
-<a id="rest_code_e6c499a96ace41dfa211021e710c4e9d-2" name="rest_code_e6c499a96ace41dfa211021e710c4e9d-2" href="#rest_code_e6c499a96ace41dfa211021e710c4e9d-2"></a>   <span class="nc">:height:</span> 100
-<a id="rest_code_e6c499a96ace41dfa211021e710c4e9d-3" name="rest_code_e6c499a96ace41dfa211021e710c4e9d-3" href="#rest_code_e6c499a96ace41dfa211021e710c4e9d-3"></a>   <span class="nc">:width:</span> 200
-<a id="rest_code_e6c499a96ace41dfa211021e710c4e9d-4" name="rest_code_e6c499a96ace41dfa211021e710c4e9d-4" href="#rest_code_e6c499a96ace41dfa211021e710c4e9d-4"></a>   <span class="nc">:alt:</span> alternate text
-</pre></section><section id="tablas"><h2><a class="toc-backref" href="#toc-entry-11" role="doc-backlink">Tablas</a></h2>
-<pre class="code rst"><a id="rest_code_a53f3e89ae4f481589b6738ca5f417aa-1" name="rest_code_a53f3e89ae4f481589b6738ca5f417aa-1" href="#rest_code_a53f3e89ae4f481589b6738ca5f417aa-1"></a><span class="p">..</span> <span class="ow">csv-table</span><span class="p">::</span>
-<a id="rest_code_a53f3e89ae4f481589b6738ca5f417aa-2" name="rest_code_a53f3e89ae4f481589b6738ca5f417aa-2" href="#rest_code_a53f3e89ae4f481589b6738ca5f417aa-2"></a>   <span class="nc">:header:</span> "Uno", "Dos", "Tres"
-<a id="rest_code_a53f3e89ae4f481589b6738ca5f417aa-3" name="rest_code_a53f3e89ae4f481589b6738ca5f417aa-3" href="#rest_code_a53f3e89ae4f481589b6738ca5f417aa-3"></a>
-<a id="rest_code_a53f3e89ae4f481589b6738ca5f417aa-4" name="rest_code_a53f3e89ae4f481589b6738ca5f417aa-4" href="#rest_code_a53f3e89ae4f481589b6738ca5f417aa-4"></a>   "Fila uno", "Fila dos", "Fila tres"
-<a id="rest_code_a53f3e89ae4f481589b6738ca5f417aa-5" name="rest_code_a53f3e89ae4f481589b6738ca5f417aa-5" href="#rest_code_a53f3e89ae4f481589b6738ca5f417aa-5"></a>   "Fila uno", "Fila dos", "Fila tres"
-</pre>
+<div class="code"><pre class="code rst"><a id="rest_code_8c903ee9ad0c409ea258d1067c853246-1" name="rest_code_8c903ee9ad0c409ea258d1067c853246-1" href="#rest_code_8c903ee9ad0c409ea258d1067c853246-1"></a><span class="p">..</span> <span class="ow">image</span><span class="p">::</span> screenshots/archivo-imagen.png
+<a id="rest_code_8c903ee9ad0c409ea258d1067c853246-2" name="rest_code_8c903ee9ad0c409ea258d1067c853246-2" href="#rest_code_8c903ee9ad0c409ea258d1067c853246-2"></a>   <span class="nc">:height:</span> 100
+<a id="rest_code_8c903ee9ad0c409ea258d1067c853246-3" name="rest_code_8c903ee9ad0c409ea258d1067c853246-3" href="#rest_code_8c903ee9ad0c409ea258d1067c853246-3"></a>   <span class="nc">:width:</span> 200
+<a id="rest_code_8c903ee9ad0c409ea258d1067c853246-4" name="rest_code_8c903ee9ad0c409ea258d1067c853246-4" href="#rest_code_8c903ee9ad0c409ea258d1067c853246-4"></a>   <span class="nc">:alt:</span> alternate text
+</pre></div>
+</section><section id="tablas"><h2><a class="toc-backref" href="#toc-entry-11" role="doc-backlink">Tablas</a></h2>
+<div class="code"><pre class="code rst"><a id="rest_code_de0b4aa461374f71aaa346234b4b626a-1" name="rest_code_de0b4aa461374f71aaa346234b4b626a-1" href="#rest_code_de0b4aa461374f71aaa346234b4b626a-1"></a><span class="p">..</span> <span class="ow">csv-table</span><span class="p">::</span>
+<a id="rest_code_de0b4aa461374f71aaa346234b4b626a-2" name="rest_code_de0b4aa461374f71aaa346234b4b626a-2" href="#rest_code_de0b4aa461374f71aaa346234b4b626a-2"></a>   <span class="nc">:header:</span> "Uno", "Dos", "Tres"
+<a id="rest_code_de0b4aa461374f71aaa346234b4b626a-3" name="rest_code_de0b4aa461374f71aaa346234b4b626a-3" href="#rest_code_de0b4aa461374f71aaa346234b4b626a-3"></a>
+<a id="rest_code_de0b4aa461374f71aaa346234b4b626a-4" name="rest_code_de0b4aa461374f71aaa346234b4b626a-4" href="#rest_code_de0b4aa461374f71aaa346234b4b626a-4"></a>   "Fila uno", "Fila dos", "Fila tres"
+<a id="rest_code_de0b4aa461374f71aaa346234b4b626a-5" name="rest_code_de0b4aa461374f71aaa346234b4b626a-5" href="#rest_code_de0b4aa461374f71aaa346234b4b626a-5"></a>   "Fila uno", "Fila dos", "Fila tres"
+</pre></div>
 <p><strong>Resultado</strong></p>
 <table>
 <thead><tr>
@@ -282,7 +285,6 @@ que sigue esta convención para los títulos de encabezados.</p>
 </tbody>
 </table></section>
 </div>
-      </div>
     </div>
   </div>
         <!--End of body content-->
@@ -317,7 +319,7 @@ que sigue esta convención para los títulos de encabezados.</p>
             </small>
             <br><small>
                 commit:
-                <a href="https://github.com/pythonecuador/pythonecuador.github.io/commit/4c7514af">4c7514af</a>
+                <a href="https://github.com/pythonecuador/pythonecuador.github.io/commit/d7fc6e70">d7fc6e70</a>
             </small>
         </div>
     </div>

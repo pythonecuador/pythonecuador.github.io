@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python Ecuador (Publicaciones sobre hacktoberfestec)</title><link>https://python.ec/</link><description></description><atom:link href="https://python.ec/categories/hacktoberfestec.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2022 &lt;a href="mailto:ecuadorpython@gmail.com"&gt;Python Ecuador&lt;/a&gt; GNU v3.0</copyright><lastBuildDate>Wed, 16 Mar 2022 17:57:18 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Hacktoberfest 2020</title><link>https://python.ec/posts/hacktoberfest-2020/</link><dc:creator>Seburath</dc:creator><description>&lt;div&gt;&lt;section id="level-up-130-pull-requests"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python Ecuador (Publicaciones sobre hacktoberfestec)</title><link>https://python.ec/</link><description></description><atom:link href="https://python.ec/categories/hacktoberfestec.xml" rel="self" type="application/rss+xml"></atom:link><language>es</language><copyright>Contents © 2022 &lt;a href="mailto:ecuadorpython@gmail.com"&gt;Python Ecuador&lt;/a&gt; GNU v3.0</copyright><lastBuildDate>Fri, 07 Oct 2022 00:10:40 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Hacktoberfest 2020</title><link>https://python.ec/posts/hacktoberfest-2020/</link><dc:creator>Seburath</dc:creator><description>&lt;section id="level-up-130-pull-requests"&gt;
 &lt;h2&gt;LEVEL UP: ¡130 Pull Requests!&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;27 personas, 2 comunidades, 9 maintainers,
 10 repositorios durante 25 días de café y cerveza&lt;/strong&gt;,
@@ -55,10 +55,10 @@ y tal vez le pongamos un nombre fancy a diciembre aunque sigamos haciendo lo mis
 &lt;h2&gt;Salón de la fama&lt;/h2&gt;
 &lt;table&gt;
 &lt;colgroup&gt;
-&lt;col style="width: 25%"&gt;
-&lt;col style="width: 25%"&gt;
-&lt;col style="width: 25%"&gt;
-&lt;col style="width: 25%"&gt;
+&lt;col style="width: 25.0%"&gt;
+&lt;col style="width: 25.0%"&gt;
+&lt;col style="width: 25.0%"&gt;
+&lt;col style="width: 25.0%"&gt;
 &lt;/colgroup&gt;
 &lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p&gt;&lt;img alt="cesardlinx" src="https://avatars3.githubusercontent.com/u/25573926?s=400&amp;amp;u=a76a896747d580c36e9e70c7b465fddefe58f0ff&amp;amp;v=4"&gt; &lt;a class="reference external" href="https://github.com/cesardlinx"&gt;@cesardlinx&lt;/a&gt;&lt;/p&gt;&lt;/td&gt;
@@ -117,4 +117,4 @@ vamos a sortear otra en los días que vienen.&lt;/p&gt;
 &lt;p&gt;Cuéntanos tu experiencia ¿Pudiste completar tus 4 PRs?
 ¿Tienes ideas para un mejor HacktoberfestEc 2021? &lt;strong&gt;¡Déjanos tu comentario!&lt;/strong&gt;&lt;/p&gt;
 &lt;img alt="/images/posts/hacktoberfest-2020/speak.gif" class="align-center" src="https://python.ec/images/posts/hacktoberfest-2020/speak.gif" style="width: 450px;"&gt;
-&lt;/section&gt;&lt;/div&gt;</description><category>hacktoberfest</category><category>hacktoberfestec</category><guid>https://python.ec/posts/hacktoberfest-2020/</guid><pubDate>Wed, 11 Nov 2020 05:00:00 GMT</pubDate></item></channel></rss>
+&lt;/section&gt;</description><category>hacktoberfest</category><category>hacktoberfestec</category><guid>https://python.ec/posts/hacktoberfest-2020/</guid><pubDate>Wed, 11 Nov 2020 05:00:00 GMT</pubDate></item></channel></rss>
