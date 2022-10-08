@@ -31,6 +31,9 @@ Este proyecto usa Python 3, puedes descargarlo desde https://www.python.org/down
 Para verificar que tienes Python 3 en tu sistema ejecuta el siguiente comando en una terminal
 (ventana de comandos):
 
+Si la versión descargada de python es para Windows, es conveniente marcar la opción PATH,
+con la finalidad de que las variables de entorno se reconozcan en cualquier entorno.
+
 .. code:: console
 
    $ python --version
