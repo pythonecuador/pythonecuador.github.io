@@ -31,6 +31,10 @@ Este proyecto usa Python 3, puedes descargarlo desde https://www.python.org/down
 Para verificar que tienes Python 3 en tu sistema ejecuta el siguiente comando en una terminal
 (ventana de comandos):
 
+Si la versión descargada de python es para Windows, es conveniente marcar la opción PATH,
+con la finalidad de que las variables de entorno se reconozcan en cualquier terminal abierto ya que
+facilita la ejecución a futuro del comando ``pip install`` y no lo restringe al directorio de instalación.
+
 .. code:: console
 
    $ python --version
