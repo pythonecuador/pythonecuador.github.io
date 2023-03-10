@@ -41,7 +41,6 @@ logger = get_logger("sphinx_roles")
 
 
 class Plugin(RestExtension):
-
     name = "rest_sphinx_roles"
 
     def set_site(self, site):
@@ -510,7 +509,6 @@ def ref_role(typ, rawtext, text, lineno, inliner, options={}, content=[]):
     else:
 
         class RefVisitor(nodes.NodeVisitor, object):
-
             text = None
 
             def __init__(self, document, label):
@@ -570,7 +568,6 @@ def depart_abbreviation(self, node):
 
 
 def abbr_role(typ, rawtext, text, lineno, inliner, options={}, content=[]):
-
     text = utils.unescape(text)
     m = _abbr_re.search(text)
     if m is None:
