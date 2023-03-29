@@ -8,6 +8,10 @@
 # - Descripción debe incluir link al evento si es posible.
 
 ingresos:
+  - fecha: 01/01/2019
+    cantidad: 39
+    descripcion: >
+      Sobrantes del año 2018
   - fecha: 30/03/2019
     cantidad: 248.20
     responsables:

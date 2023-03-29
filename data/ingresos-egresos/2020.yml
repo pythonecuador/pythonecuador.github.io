@@ -1,4 +1,8 @@
 ingresos:
+  - fecha: 01/01/2020
+    cantidad: 208.80
+    descripcion:
+      Sobrantes del año 2019
   - fecha: 09/08/2020
     cantidad: 40
     responsables:

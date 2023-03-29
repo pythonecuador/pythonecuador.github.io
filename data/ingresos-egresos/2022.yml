@@ -1,4 +1,8 @@
 ingresos:
+  - fecha: 01/01/2022
+    cantidad: 138.80
+    descripcion:
+      Sobrantes del año 2021
   - fecha: 29/03/2022
     cantidad: -40
     responsables:

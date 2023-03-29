@@ -1,0 +1,5 @@
+ingresos:
+  - fecha: 01/01/2023
+    cantidad: 30.80
+    descripcion:
+      Sobrantes del año 2022

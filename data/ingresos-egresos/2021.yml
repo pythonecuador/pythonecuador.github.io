@@ -1,4 +1,8 @@
 ingresos:
+  - fecha: 01/01/2021
+    cantidad: 138.8
+    descripcion:
+      Sobrantes del año 2020
   - fecha: 02/19/2021
     cantidad: 70
     responsables:
