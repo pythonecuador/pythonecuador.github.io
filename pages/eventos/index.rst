@@ -15,7 +15,7 @@ Estos son los tipos de eventos que se realizan en la comunidad de Python Ecuador
 Calendario de Eventos
 ---------------------
 
-Lista y horarios en nuestro `calendario de eventos <link://filename/pages/calendar.rst>`__.
+Lista y horarios en nuestro `calendario de eventos <link://archive/calendar>`__.
 
 Sesiones
 ########
@@ -37,14 +37,14 @@ en las reuniones de `charlas y talleres (meetups) <https://www.meetup.com/python
 PyPizza
 #######
 
-Evento informal en el que te ayudamos a colaborar a un proyecto de Software Libre y disfrutar de una pizza en `PyPizza <link://filename/pages/eventos/pypizza.rst>`__.
+Evento informal en el que te ayudamos a colaborar a un proyecto de Software Libre y disfrutar de una pizza en `PyPizza <link://archive/eventos/pypizza/>`__.
 
 Eventos en Vivo
 ###############
 
-Charlas y conferencias impartidas por la comunidad síguenos en `eventos en vivo <link://filename/pages/live.rst>`__.
+Charlas y conferencias impartidas por la comunidad síguenos en `eventos en vivo <link://archive/live>`__.
 
 Hacktoberfest
 #############
 
-Llega Octubre y es hora de participar en el `Hacktoberfest <link://filename/pages/hacktoberfest.rst>`__, donde durante todo el mes podrás contribuir a proyectos Open Source. ¿Nunca los haz hecho? ¿Quieres participar? Anímate! Esta es tu oportunidad para ser parte de un evento a escala mundial. ¡Happy Hacking!
+Llega Octubre y es hora de participar en el `Hacktoberfest <link://archive/hacktoberfest>`__, donde durante todo el mes podrás contribuir a proyectos Open Source. ¿Nunca los haz hecho? ¿Quieres participar? Anímate! Esta es tu oportunidad para ser parte de un evento a escala mundial. ¡Happy Hacking!

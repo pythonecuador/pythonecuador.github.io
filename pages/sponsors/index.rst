@@ -8,9 +8,9 @@ pero gracias a la **generosa ayuda financiera de nuestros sponsors** la comunida
 
 *Realiza tu donación a través de Open Collective* https://opencollective.com/pythonecuador.
 
-*¿Te interesa ser un sponsor de nuestra comunidad?* `aplicar <link://filename/pages/sponsors/aplicar.rst>`__.
+*¿Te interesa ser un sponsor de nuestra comunidad?* `aplicar <link://archive/sponsors/aplicar>`__.
 
-*¿Dudas o preguntas sobre esta sección?* `faq <link://filename/pages/sponsors/faq.rst>`__.
+*¿Dudas o preguntas sobre esta sección?* `faq <link://archive/sponsors/faq>`__.
 
 .. contents:: Contenidos
    :depth: 1

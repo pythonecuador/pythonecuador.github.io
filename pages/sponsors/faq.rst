@@ -46,7 +46,7 @@ háznoslo saber.
 
 No, la comunidad es dirigida por la comunidad,
 Python Ecuador siempre será una comunidad independiente.
-Un sponsor sólo recibe los beneficios detallados en la página `aplicar <link://filename/pages/sponsors/aplicar.rst>`__.
+Un sponsor sólo recibe los beneficios detallados en la página `aplicar <link://archive/sponsors/aplicar>`__.
 
 ¿Por qué no piden dinero a organizaciones como la PSF?
 ------------------------------------------------------
@@ -74,7 +74,7 @@ No tengo dinero ¿De qué otra forma puedo ayudar?
 
 ¡Gracias por el interés en ayudar!
 Siempre estamos buscando más personas que se sumen a la organización de eventos.
-Puedes revisar `esta sección <link://filename/pages/quiero-ayudar.rst>`__ para ver todas las formas de ayudar.
+Puedes revisar `esta sección <link://archive/quiero-ayudar>`__ para ver todas las formas de ayudar.
 
 ¿Más preguntas?
 ---------------

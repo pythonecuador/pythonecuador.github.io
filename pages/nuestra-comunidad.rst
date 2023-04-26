@@ -10,7 +10,7 @@ con la filosofía común de que el **conocimiento debe ser libre**.
 
 **No lucramos con ningún evento**, y esperamos llegar a todos aquellos que desean aprender.
 
-`Leer más <link://filename/pages/quienes-somos.rst>`__.
+`Leer más <link://archive/quienes-somos>`__.
 
 .. contents:: Contenidos
    :depth: 2
@@ -18,7 +18,7 @@ con la filosofía común de que el **conocimiento debe ser libre**.
 Eventos
 -------
 
-Puedes encontrar una lista de los eventos que se organizan en la comunidad `aquí <link://filename/pages/eventos/index.rst>`__.
+Puedes encontrar una lista de los eventos que se organizan en la comunidad `aquí <link://archive/eventos>`__.
 
 Redes Sociales
 --------------
@@ -28,7 +28,7 @@ cada una es administrada por miembros de la comunidad en su tiempo libre.
 
 .. warning::
 
-   En cada red/comunidad debes seguir nuestro `Código de conducta <link://filename/pages/coc.rst>`__.
+   En cada red/comunidad debes seguir nuestro `Código de conducta <link://archive/coc>`__.
    Evita ser expulsado, siempre sé amable y respetuoso con los demás.
 
 Aquí podrás encontrar una lista de nuestras redes/comunidades oficiales
