@@ -6,7 +6,7 @@
 
 Queremos que todas las personas puedan participar en nuestros eventos.
 La distancia ni tu situación económica debe ser un obstáculo para aprender.
-Esta sección es posible gracias a `nuestros sponsors <link://filename/pages/sponsors/index.rst>`__.
+Esta sección es posible gracias a `nuestros sponsors <link://archive/sponsors>`__.
 
 .. note::
 
@@ -140,7 +140,7 @@ Restricciones y condiciones
 - La información de contacto es de una persona real.
 - La comunidad no se responsabiliza por cualquier inconveniente
   presentado, nuestra única responsabilidad es hacerte llegar el dinero.
-- Nos reservamos el derecho de rechazar tu aplicación si has violado nuestro `código de conducta <link://filename/pages/coc.rst>`__.
+- Nos reservamos el derecho de rechazar tu aplicación si has violado nuestro `código de conducta <link://archive/coc>`__.
 
 FAQ
 ---
@@ -166,7 +166,7 @@ eres más que bienvenido a aplicar.
 ¿Cómo puedo aumentar mis posibilidades de aplicar?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Siendo miembro activo en la `comunidad <link://filename/pages/nuestra-comunidad.rst>`__.
+- Siendo miembro activo en la `comunidad <link://archive/nuestra-comunidad>`__.
 - Ofreciéndote a dar una charla en el meetup que vas a asistir (si es posible).
 - Ofreciéndote a ayudar con la organización del evento.
 - Ofreciéndote a seguir difundiendo la comunidad.
