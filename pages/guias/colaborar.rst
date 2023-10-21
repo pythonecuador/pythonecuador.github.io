@@ -321,7 +321,15 @@ Una vez que hayas hechos todos los cambios necesarios, súbelos a tu fork
 
 Dirígete a la `página del proyecto <https://github.com/PythonEcuador/PythonEcuador.github.io>`_
 y verás un mensaje sugiriéndote hacer un pull request (PR).
+
+.. image:: /images/guias/colaborar/notice.png
+   :align: center
+
 En la descripción del PR describe brevemente los cambios que hiciste, no olvidar poner ``Close #n``, donde ``n`` es el número del issue que estás resolviendo.
+Luego haces clic en ``Create pull request``.
+
+.. image:: /images/guias/colaborar/PR.png
+   :align: center
 
 Espera a que un miembro de la comunidad revise tu PR,
 si son necesarios más cambios, los puedes hacer en la misma rama
@@ -332,7 +340,7 @@ y repetir el proceso de agregar más commits.
    git add archivo-editado.rst
    git commit -m "Más cambios"
 
-Una vez que ya los tengas listos, vuelve a subirlos
+Una vez que ya los tengas listos, vuelve a subirlos. Se agregarán al PR creado.
 
 .. code:: bash
 
