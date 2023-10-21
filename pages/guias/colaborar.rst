@@ -93,18 +93,36 @@ Y luego presionar el botón ``Fork`` para hacer un fork del proyecto en tu cuent
 .. image:: /images/guias/colaborar/fork.png
    :align: center
 
-Ejecuta el siguiente comando en una terminal para obtener el código.
+Puedes dejar los ajustes por defecto y presionar el botón ``Create fork``
+
+.. image:: /images/guias/colaborar/newfork.png
+   :align: center
+
+Para obtener el código puedes:
+
+Copiar el enlace del repositorio en el botón ``Clone`` y luego en el ícono de ``copiar``
+
+.. image:: /images/guias/colaborar/clone.png
+   :align: center
+
+En una terminal ejecuta el comando:
+
+.. code:: bash
+
+   git clone {pegar-enlace-con-ctrl+shift+v}
+
+O directamente ejecuta el siguiente comando en una terminal.
 Donde ``{tu-usuario}`` es tu usuario de GitHub.
 
 .. code:: bash
 
-   git clone https://github.com/{tu-usuario}/PythonEcuador.github.io.git
+   git clone https://github.com/{tu-usuario}/pythonecuador.github.io.git
 
 Por ejemplo, para el usuario ``Marlon5300``:
 
 .. code:: bash
 
-   git clone https://github.com/Marlon5300/PythonEcuador.github.io.git
+   git clone https://github.com/Marlon5300/pythonecuador.github.io.git
 
 Entra al directorio que contiene el código fuente con
 
@@ -171,6 +189,9 @@ Finalmente, para ejecutar el sitio con Nikola
 
 Si abres tu navegador e ingresas a http://127.0.0.1:8000/ podrás ver el sitio.
 
+.. image:: /images/guias/colaborar/site.png
+   :align: center
+
 Ejecutando los tests
 ####################
 
@@ -185,6 +206,11 @@ Usamos el comando nox para ejecutar las pruebas configuradas en el archivo ``nox
 .. code:: bash
 
    nox
+
+Deberías obtener un resultado como este, indicando los posibles errores o tests fallidos:
+
+.. image:: /images/guias/colaborar/tests.png
+   :align: center
 
 Reportando errores (bugs)
 -------------------------
@@ -295,7 +321,15 @@ Una vez que hayas hechos todos los cambios necesarios, súbelos a tu fork
 
 Dirígete a la `página del proyecto <https://github.com/PythonEcuador/PythonEcuador.github.io>`_
 y verás un mensaje sugiriéndote hacer un pull request (PR).
+
+.. image:: /images/guias/colaborar/notice.png
+   :align: center
+
 En la descripción del PR describe brevemente los cambios que hiciste, no olvidar poner ``Close #n``, donde ``n`` es el número del issue que estás resolviendo.
+Luego haces clic en ``Create pull request``.
+
+.. image:: /images/guias/colaborar/PR.png
+   :align: center
 
 Espera a que un miembro de la comunidad revise tu PR,
 si son necesarios más cambios, los puedes hacer en la misma rama
@@ -306,7 +340,7 @@ y repetir el proceso de agregar más commits.
    git add archivo-editado.rst
    git commit -m "Más cambios"
 
-Una vez que ya los tengas listos, vuelve a subirlos
+Una vez que ya los tengas listos, vuelve a subirlos. Se agregarán al PR creado.
 
 .. code:: bash
 
