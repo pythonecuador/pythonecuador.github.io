@@ -3,3 +3,9 @@ ingresos:
     cantidad: 30.80
     descripcion:
       Sobrantes del año 2022
+  - fecha: 26/09/2023
+    cantidad: -40
+    responsables:
+      - Christopher Tim
+    descripcion:
+      Subscripción anual de bitwarden
