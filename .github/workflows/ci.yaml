@@ -7,19 +7,19 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     env:
       NIKOLA_DEPLOY: python.ec
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
       - name: Install requirements
         run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install nox
+          python -m pip install --upgrade pip
+          python -m pip install nox
       - name: Tests
         run: python -m nox -s tests
       - name: Lint
