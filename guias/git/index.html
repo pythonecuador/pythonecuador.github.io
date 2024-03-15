@@ -83,31 +83,31 @@ bg-dark
   <section id="instalar-git-en-ubuntu-debian"><h2>Instalar Git en Ubuntu/Debian</h2>
 <p>Antes de instalar es recomendable ejecutar las actualizaciones de paquetes del sistema operativo, por ende abrimos una terminal y ejecutamos lo siguiente:</p>
 <p>Para actualizar los repositorios.</p>
-<div class="code"><pre class="code console"><a id="rest_code_7229e706f0d145a2bd0060555b77c5af-1" name="rest_code_7229e706f0d145a2bd0060555b77c5af-1" href="#rest_code_7229e706f0d145a2bd0060555b77c5af-1"></a><span class="gp">$ </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
+<div class="code"><pre class="code console"><a id="rest_code_1bf6c2a476c344a7b081a641a5bb3fe4-1" name="rest_code_1bf6c2a476c344a7b081a641a5bb3fe4-1" href="#rest_code_1bf6c2a476c344a7b081a641a5bb3fe4-1"></a><span class="gp">$ </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
 </pre></div>
 <p>Para actualizar los paquetes en el sistema.</p>
-<div class="code"><pre class="code console"><a id="rest_code_aaaaf4ac4cb14d2a85893e7230508f2b-1" name="rest_code_aaaaf4ac4cb14d2a85893e7230508f2b-1" href="#rest_code_aaaaf4ac4cb14d2a85893e7230508f2b-1"></a><span class="gp">$ </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>upgrade
+<div class="code"><pre class="code console"><a id="rest_code_5318fddc0cb847b5bc5fd24c480f9b7a-1" name="rest_code_5318fddc0cb847b5bc5fd24c480f9b7a-1" href="#rest_code_5318fddc0cb847b5bc5fd24c480f9b7a-1"></a><span class="gp">$ </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>upgrade
 </pre></div>
 <p>Luego procedemos a instalar git con el comando install.</p>
-<div class="code"><pre class="code console"><a id="rest_code_5d617a1323ff4edca5421db83fbb7f73-1" name="rest_code_5d617a1323ff4edca5421db83fbb7f73-1" href="#rest_code_5d617a1323ff4edca5421db83fbb7f73-1"></a><span class="gp">$ </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>git
+<div class="code"><pre class="code console"><a id="rest_code_2e71a862562947b88d1c2c4d34f2f753-1" name="rest_code_2e71a862562947b88d1c2c4d34f2f753-1" href="#rest_code_2e71a862562947b88d1c2c4d34f2f753-1"></a><span class="gp">$ </span>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>git
 </pre></div>
 <p>Este comando instalará git y sus paquetes necesarios.</p>
 <img alt="/images/guias/git/git_install.png" class="align-center" src="../../images/guias/git/git_install.png"><div class="line-block">
 <div class="line"><br></div>
 </div>
 <p>Comprobamos que se haya instalado correctamente con:</p>
-<div class="code"><pre class="code console"><a id="rest_code_274b94c2ea1b4a2cbec985e41ecf6a35-1" name="rest_code_274b94c2ea1b4a2cbec985e41ecf6a35-1" href="#rest_code_274b94c2ea1b4a2cbec985e41ecf6a35-1"></a><span class="gp">$ </span>git<span class="w"> </span>--version
-<a id="rest_code_274b94c2ea1b4a2cbec985e41ecf6a35-2" name="rest_code_274b94c2ea1b4a2cbec985e41ecf6a35-2" href="#rest_code_274b94c2ea1b4a2cbec985e41ecf6a35-2"></a><span class="go">git version 2.25.1</span>
+<div class="code"><pre class="code console"><a id="rest_code_6cf95827e8504e81ab59d0e8bc08fecf-1" name="rest_code_6cf95827e8504e81ab59d0e8bc08fecf-1" href="#rest_code_6cf95827e8504e81ab59d0e8bc08fecf-1"></a><span class="gp">$ </span>git<span class="w"> </span>--version
+<a id="rest_code_6cf95827e8504e81ab59d0e8bc08fecf-2" name="rest_code_6cf95827e8504e81ab59d0e8bc08fecf-2" href="#rest_code_6cf95827e8504e81ab59d0e8bc08fecf-2"></a><span class="go">git version 2.25.1</span>
 </pre></div>
 </section><section id="instalar-git-en-fedora"><h2>Instalar Git en Fedora</h2>
 <p>Instalar mediante DNF (o Yum en versiones mas antiguas de Fedora)</p>
-<div class="code"><pre class="code console"><a id="rest_code_f2dbaaa2e5e8408687a5017f4601ecb5-1" name="rest_code_f2dbaaa2e5e8408687a5017f4601ecb5-1" href="#rest_code_f2dbaaa2e5e8408687a5017f4601ecb5-1"></a><span class="gp">$ </span>sudo<span class="w"> </span>dnf<span class="w"> </span>install<span class="w"> </span>git
-<a id="rest_code_f2dbaaa2e5e8408687a5017f4601ecb5-2" name="rest_code_f2dbaaa2e5e8408687a5017f4601ecb5-2" href="#rest_code_f2dbaaa2e5e8408687a5017f4601ecb5-2"></a><span class="go">o</span>
-<a id="rest_code_f2dbaaa2e5e8408687a5017f4601ecb5-3" name="rest_code_f2dbaaa2e5e8408687a5017f4601ecb5-3" href="#rest_code_f2dbaaa2e5e8408687a5017f4601ecb5-3"></a><span class="gp">$ </span>sudo<span class="w"> </span>yum<span class="w"> </span>install<span class="w"> </span>git
+<div class="code"><pre class="code console"><a id="rest_code_c77f0997949b42a6b7437266533b0056-1" name="rest_code_c77f0997949b42a6b7437266533b0056-1" href="#rest_code_c77f0997949b42a6b7437266533b0056-1"></a><span class="gp">$ </span>sudo<span class="w"> </span>dnf<span class="w"> </span>install<span class="w"> </span>git
+<a id="rest_code_c77f0997949b42a6b7437266533b0056-2" name="rest_code_c77f0997949b42a6b7437266533b0056-2" href="#rest_code_c77f0997949b42a6b7437266533b0056-2"></a><span class="go">o</span>
+<a id="rest_code_c77f0997949b42a6b7437266533b0056-3" name="rest_code_c77f0997949b42a6b7437266533b0056-3" href="#rest_code_c77f0997949b42a6b7437266533b0056-3"></a><span class="gp">$ </span>sudo<span class="w"> </span>yum<span class="w"> </span>install<span class="w"> </span>git
 </pre></div>
 <p>Comprobamos que se haya instalado correctamente con:</p>
-<div class="code"><pre class="code console"><a id="rest_code_80276b6aaa9f4922945372e91699b5b4-1" name="rest_code_80276b6aaa9f4922945372e91699b5b4-1" href="#rest_code_80276b6aaa9f4922945372e91699b5b4-1"></a><span class="gp">$ </span>git<span class="w"> </span>--version
-<a id="rest_code_80276b6aaa9f4922945372e91699b5b4-2" name="rest_code_80276b6aaa9f4922945372e91699b5b4-2" href="#rest_code_80276b6aaa9f4922945372e91699b5b4-2"></a><span class="go">git version 2.25.1</span>
+<div class="code"><pre class="code console"><a id="rest_code_26ce90ac506543638479bd7421fb49df-1" name="rest_code_26ce90ac506543638479bd7421fb49df-1" href="#rest_code_26ce90ac506543638479bd7421fb49df-1"></a><span class="gp">$ </span>git<span class="w"> </span>--version
+<a id="rest_code_26ce90ac506543638479bd7421fb49df-2" name="rest_code_26ce90ac506543638479bd7421fb49df-2" href="#rest_code_26ce90ac506543638479bd7421fb49df-2"></a><span class="go">git version 2.25.1</span>
 </pre></div>
 </section>
 </div>
@@ -145,7 +145,7 @@ bg-dark
             </small>
             <br><small>
                 commit:
-                <a href="https://github.com/pythonecuador/pythonecuador.github.io/commit/70e493a1">70e493a1</a>
+                <a href="https://github.com/pythonecuador/pythonecuador.github.io/commit/761883c4">761883c4</a>
             </small>
         </div>
     </div>
