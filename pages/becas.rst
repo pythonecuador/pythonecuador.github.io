@@ -35,6 +35,7 @@ y con la siguiente información:
 - ¿Dónde y cuándo será el evento?
 - Enlace al evento
 - ¿Qué tipo de ayuda necesitas?: Transporte y/o hospedaje (u otro).
+- ¿Por qué necesitas la beca? Detalles sobre tu situación económica.
 - Cuéntanos tu plan:
   Danos los detalles generales de tu viaje
   y las cantidades aproximadas sobre los gastos.
@@ -66,6 +67,9 @@ Ejemplos
      https://flisol.info/FLISOL2019/Ecuador/Cuenca
    - ¿Qué tipo de ayuda necesitas?
      Transporte
+   - ¿Por qué necesitas la beca?
+     No cuento con un trabajo aún. Mi familia no cuenta con el dinero para
+     cubrir los gastos del viaje.
    - Cuéntanos tu plan:
      En caso de obtener la beca tengo planeado lo siguiente:
      Tomar un autobus de la cooperativa X a las 10 am del día 10 de Enero del 2018,
